@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-pickup.createTitle": "Personenfahrzeug Auto pickup anlegen",
+  "jaynaApp.mobility-passengervehicle-car-pickup.updateTitle": "Personenfahrzeug Auto pickup bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-pickup.viewTitle": "Personenfahrzeug Auto pickup anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-pickup.specificData.title": "Personenfahrzeug Auto pickup-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-pickup.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-pickup.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

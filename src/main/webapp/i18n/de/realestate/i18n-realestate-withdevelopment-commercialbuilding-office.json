@@ -1,0 +1,18 @@
+{
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.createTitle": "Bürogebäude anlegen",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.updateTitle": "Bürogebäude bearbeiten",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.viewTitle": "Bürogebäude anzeigen",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.title": "Bürogebäude-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.officeType": "Bürotyp",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.floorNumber": "Stockwerk",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.totalFloors": "Anzahl Stockwerke",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.officeSpaces": "Büroräume",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.meetingRooms": "Besprechungsräume",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.parkingSpaces": "Stellplätze",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.elevator": "Aufzug",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.airConditioning": "Klimaanlage",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.securitySystem": "Sicherheitssystem",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.accessibility": "Barrierefreiheit",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.businessHours": "Geschäftszeiten",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-office.specificData.fields.tenantType": "Mieterart"
+}

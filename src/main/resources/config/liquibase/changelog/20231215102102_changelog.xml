@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1702635671137-3">
+        <addColumn tableName="form_config">
+            <column name="application_user_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1702635671137-4">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="form_config" constraintName="FKgx6tcelty38fkbkx23g3ffug6" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1702635671137-5">
+        <dropForeignKeyConstraint baseTableName="custom_form_input" constraintName="FKjbks7wtaxyyrqgvb73idob56r"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1702635671137-6">
+        <dropColumn columnName="application_user_id" tableName="custom_form_input"/>
+    </changeSet>
+</databaseChangeLog>

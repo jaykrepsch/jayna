@@ -1,0 +1,506 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1689944167618-3">
+        <addColumn tableName="contract">
+            <column name="account_management_fee" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-4">
+        <addColumn tableName="contract">
+            <column name="acquisition_distribution_costs" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-5">
+        <addColumn tableName="contract">
+            <column name="aid_entitled" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-6">
+        <addColumn tableName="contract">
+            <column name="amount" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-7">
+        <addColumn tableName="contract">
+            <column name="annual_fee" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-8">
+        <addColumn tableName="contract">
+            <column name="bail" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-9">
+        <addColumn tableName="contract">
+            <column name="basic_charge" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-10">
+        <addColumn tableName="contract">
+            <column name="basic_price" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-11">
+        <addColumn tableName="contract">
+            <column name="bic" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-12">
+        <addColumn tableName="contract">
+            <column name="brokerprov" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-13">
+        <addColumn tableName="contract">
+            <column name="brokerprov_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-14">
+        <addColumn tableName="contract">
+            <column name="buyer" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-15">
+        <addColumn tableName="contract">
+            <column name="car_brand" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-16">
+        <addColumn tableName="contract">
+            <column name="cash_withdrawal_worldwide" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-17">
+        <addColumn tableName="contract">
+            <column name="christmas_bonus" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-18">
+        <addColumn tableName="contract">
+            <column name="church_tax" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-19">
+        <addColumn tableName="contract">
+            <column name="company_establishment" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-20">
+        <addColumn tableName="contract">
+            <column name="contract_creator" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-21">
+        <addColumn tableName="contract">
+            <column name="contract_extension_possible" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-22">
+        <addColumn tableName="contract">
+            <column name="contributions_paid_last_year" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-23">
+        <addColumn tableName="contract">
+            <column name="creditor_id_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-24">
+        <addColumn tableName="contract">
+            <column name="current_pay_points" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-25">
+        <addColumn tableName="contract">
+            <column name="customer_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-26">
+        <addColumn tableName="contract">
+            <column name="data_volume_per_month" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-27">
+        <addColumn tableName="contract">
+            <column name="date" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-28">
+        <addColumn tableName="contract">
+            <column name="debit_interest_year" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-29">
+        <addColumn tableName="contract">
+            <column name="deductible" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-30">
+        <addColumn tableName="contract">
+            <column name="discount" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-31">
+        <addColumn tableName="contract">
+            <column name="discount_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-32">
+        <addColumn tableName="contract">
+            <column name="dispolimit" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-33">
+        <addColumn tableName="contract">
+            <column name="dispolimit_valid_from" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-34">
+        <addColumn tableName="contract">
+            <column name="duration_in_months" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-35">
+        <addColumn tableName="contract">
+            <column name="dynamic" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-36">
+        <addColumn tableName="contract">
+            <column name="employee_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-37">
+        <addColumn tableName="contract">
+            <column name="energy_price_kwh" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-38">
+        <addColumn tableName="contract">
+            <column name="foreign_assignment_fees" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-39">
+        <addColumn tableName="contract">
+            <column name="gross" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-40">
+        <addColumn tableName="contract">
+            <column name="group_contract" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-41">
+        <addColumn tableName="contract">
+            <column name="hazard_group" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-42">
+        <addColumn tableName="contract">
+            <column name="holiday_money" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-43">
+        <addColumn tableName="contract">
+            <column name="iban" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-44">
+        <addColumn tableName="contract">
+            <column name="interest_on_excess" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-45">
+        <addColumn tableName="contract">
+            <column name="interest_on_excess_year_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-46">
+        <addColumn tableName="contract">
+            <column name="last_termination_date" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-47">
+        <addColumn tableName="contract">
+            <column name="loan_amount" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-48">
+        <addColumn tableName="contract">
+            <column name="loan_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-49">
+        <addColumn tableName="contract">
+            <column name="longterm_care_insurance_employee" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-50">
+        <addColumn tableName="contract">
+            <column name="longterm_care_insurance_employer" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-51">
+        <addColumn tableName="contract">
+            <column name="maintenance_interval" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-52">
+        <addColumn tableName="contract">
+            <column name="mark" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-53">
+        <addColumn tableName="contract">
+            <column name="maximum_bandwidth" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-54">
+        <addColumn tableName="contract">
+            <column name="mobile_phone_number" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-55">
+        <addColumn tableName="contract">
+            <column name="monthly_fee" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-56">
+        <addColumn tableName="contract">
+            <column name="net" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-57">
+        <addColumn tableName="contract">
+            <column name="no_tees" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-58">
+        <addColumn tableName="contract">
+            <column name="notary" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-59">
+        <addColumn tableName="contract">
+            <column name="notary_fee" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-60">
+        <addColumn tableName="contract">
+            <column name="notary_fee_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-61">
+        <addColumn tableName="contract">
+            <column name="number_of_salaries" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-62">
+        <addColumn tableName="contract">
+            <column name="occupational_disability_pension_monthly" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-63">
+        <addColumn tableName="contract">
+            <column name="online_tariff" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-64">
+        <addColumn tableName="contract">
+            <column name="period_of_notice" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-65">
+        <addColumn tableName="contract">
+            <column name="phone_flat" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-66">
+        <addColumn tableName="contract">
+            <column name="price_of_work" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-67">
+        <addColumn tableName="contract">
+            <column name="probationary_period" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-68">
+        <addColumn tableName="contract">
+            <column name="product_name" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-69">
+        <addColumn tableName="contract">
+            <column name="progression" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-70">
+        <addColumn tableName="contract">
+            <column name="property_tax" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-71">
+        <addColumn tableName="contract">
+            <column name="property_tax_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-72">
+        <addColumn tableName="contract">
+            <column name="realestate_transfer_tax" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-73">
+        <addColumn tableName="contract">
+            <column name="realestate_transfer_tax_percent" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-74">
+        <addColumn tableName="contract">
+            <column name="registration_fees" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-75">
+        <addColumn tableName="contract">
+            <column name="remaining_debt_date" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-76">
+        <addColumn tableName="contract">
+            <column name="retirement_start" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-77">
+        <addColumn tableName="contract">
+            <column name="runtime" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-78">
+        <addColumn tableName="contract">
+            <column name="salary_bonus" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-79">
+        <addColumn tableName="contract">
+            <column name="sms_flat" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-80">
+        <addColumn tableName="contract">
+            <column name="square_metre" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-81">
+        <addColumn tableName="contract">
+            <column name="standard_old_age_pension" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-82">
+        <addColumn tableName="contract">
+            <column name="standard_old_age_pension_date" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-83">
+        <addColumn tableName="contract">
+            <column name="sum_insured" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-84">
+        <addColumn tableName="contract">
+            <column name="surrender_value" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-85">
+        <addColumn tableName="contract">
+            <column name="tariff_name" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-86">
+        <addColumn tableName="contract">
+            <column name="tax_bracket" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-87">
+        <addColumn tableName="contract">
+            <column name="tax_rate" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-88">
+        <addColumn tableName="contract">
+            <column name="tee_amount" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-89">
+        <addColumn tableName="contract">
+            <column name="tee_interval" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-90">
+        <addColumn tableName="contract">
+            <column name="temporary_until" type="date"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-91">
+        <addColumn tableName="contract">
+            <column name="total_deductions" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-92">
+        <addColumn tableName="contract">
+            <column name="total_energy_price" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-93">
+        <addColumn tableName="contract">
+            <column name="total_price_sale" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-94">
+        <addColumn tableName="contract">
+            <column name="total_social_security_contributions" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-95">
+        <addColumn tableName="contract">
+            <column name="trailer_load" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-96">
+        <addColumn tableName="contract">
+            <column name="unemployment_insurance_amount" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-97">
+        <addColumn tableName="contract">
+            <column name="unemployment_insurance_employer" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-98">
+        <addColumn tableName="contract">
+            <column name="wage_tax" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-99">
+        <addColumn tableName="contract">
+            <column name="working_days_per_week" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-100">
+        <addColumn tableName="contract">
+            <column name="working_hours_per_month" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-101">
+        <addColumn tableName="contract">
+            <column name="working_hours_perweek" type="float8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-102">
+        <addColumn tableName="contract">
+            <column name="workplace" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689944167618-103">
+        <dropColumn columnName="salary" tableName="contract"/>
+    </changeSet>
+</databaseChangeLog>

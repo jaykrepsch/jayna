@@ -1,0 +1,173 @@
+{
+  "_comment": "Standard-Abschnitte für alle Immobilien-Form-Definitionen. Diese werden in spezifischen Immobilien-Definitionen referenziert.",
+  "general": {
+    "title": "jaynaApp.baseRealestate.general.title",
+    "fields": [
+      {
+        "name": "label",
+        "type": "text",
+        "rules": "required"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "entityState",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "entityState",
+        "defaultValue": "ACTIVE"
+      }
+    ]
+  },
+  "realestateData": {
+    "title": "jaynaApp.baseRealestate.realestateData.title",
+    "fields": [
+      {
+        "name": "propertyNumber",
+        "type": "text"
+      },
+      {
+        "name": "acquisitionDate",
+        "type": "date"
+      },
+      {
+        "name": "propertyType",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "propertyType"
+      },
+      {
+        "name": "address",
+        "type": "text"
+      },
+      {
+        "name": "postalCode",
+        "type": "text"
+      },
+      {
+        "name": "city",
+        "type": "text"
+      },
+      {
+        "name": "country",
+        "type": "text"
+      },
+      {
+        "name": "purchasePrice",
+        "type": "number"
+      },
+      {
+        "name": "currentValue",
+        "type": "number"
+      },
+      {
+        "name": "squareMeters",
+        "type": "number"
+      },
+      {
+        "name": "rooms",
+        "type": "number"
+      },
+      {
+        "name": "constructionYear",
+        "type": "number"
+      },
+      {
+        "name": "energyEfficiencyClass",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "energyEfficiencyClass"
+      }
+    ]
+  },
+  "ownership": {
+    "title": "jaynaApp.baseRealestate.ownership.title",
+    "fields": [
+      {
+        "name": "owner",
+        "type": "text"
+      },
+      {
+        "name": "ownershipType",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "ownershipType"
+      },
+      {
+        "name": "ownershipShare",
+        "type": "number"
+      },
+      {
+        "name": "registrationDate",
+        "type": "date"
+      }
+    ]
+  },
+  "financial": {
+    "title": "jaynaApp.baseRealestate.financial.title",
+    "fields": [
+      {
+        "name": "monthlyRent",
+        "type": "number"
+      },
+      {
+        "name": "annualRent",
+        "type": "number"
+      },
+      {
+        "name": "operatingCosts",
+        "type": "number"
+      },
+      {
+        "name": "propertyTax",
+        "type": "number"
+      },
+      {
+        "name": "insuranceCosts",
+        "type": "number"
+      },
+      {
+        "name": "maintenanceReserve",
+        "type": "number"
+      }
+    ]
+  },
+  "weiteres": {
+    "title": "jaynaApp.baseRealestate.weiteres.title",
+    "fields": [
+      {
+        "name": "comment",
+        "type": "textarea"
+      },
+      {
+        "name": "notes",
+        "type": "textarea"
+      }
+    ]
+  },
+  "relations": {
+    "title": "jaynaApp.baseRealestate.relations.title"
+  },
+  "organisation": {
+    "title": "jaynaApp.baseContract.organisation.title",
+    "fields": [
+      {
+        "name": "organisationTable",
+        "type": "organisation-table",
+        "label": "Kalender, Aufgaben & Notizen"
+      }
+    ]
+  },
+  "documents": {
+    "title": "jaynaApp.baseContract.documents.title",
+    "fields": [
+      {
+        "name": "documentsTable",
+        "type": "documents-table",
+        "label": "Verknüpfte Dokumente"
+      }
+    ]
+  }
+}

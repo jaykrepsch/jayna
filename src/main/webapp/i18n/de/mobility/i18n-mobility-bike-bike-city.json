@@ -1,0 +1,16 @@
+{
+  "jaynaApp.mobility-bike-bike-city.createTitle": "Stadtrad anlegen",
+  "jaynaApp.mobility-bike-bike-city.updateTitle": "Stadtrad bearbeiten",
+  "jaynaApp.mobility-bike-bike-city.viewTitle": "Stadtrad anzeigen",
+  "jaynaApp.mobility-bike-bike-city.specificData.title": "Stadtrad-spezifische Daten",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.bikeType": "Fahrrad-Typ",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.frameSize": "Rahmengröße",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.wheelSize": "Laufradgröße",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.frameMaterial": "Rahmenmaterial",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.suspension": "Federung",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.gears": "Gänge",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.brakeType": "Bremsentyp",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.lights": "Beleuchtung",
+  "jaynaApp.mobility-bike-bike-city.specificData.fields.basket": "Korb"
+}

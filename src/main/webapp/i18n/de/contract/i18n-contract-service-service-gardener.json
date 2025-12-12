@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-gardener.createTitle": "Gärtner anlegen",
+  "jaynaApp.contract-service-service-gardener.updateTitle": "Gärtner bearbeiten",
+  "jaynaApp.contract-service-service-gardener.viewTitle": "Gärtner anzeigen",
+  "jaynaApp.contract-service-service-gardener.specificData.title": "Gärtner-spezifische Daten",
+  "jaynaApp.contract-service-service-gardener.specificData.fields.specificField1": "Stundensatz",
+  "jaynaApp.contract-service-service-gardener.specificData.fields.specificField2": "Pflegeumfang"
+}

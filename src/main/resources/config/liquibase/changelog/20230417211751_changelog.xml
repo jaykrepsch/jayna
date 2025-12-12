@@ -1,0 +1,30 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1681766277104-3">
+        <dropForeignKeyConstraint baseTableName="commercial_residential_property" constraintName="FK37vsluvwsc1o26phy427f1bmv"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-4">
+        <dropForeignKeyConstraint baseTableName="loan_credit" constraintName="FK3mw33di9loiqgsnfggkqk62bp"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-5">
+        <dropForeignKeyConstraint baseTableName="loan_credit" constraintName="FKfjxbmpfb7gnqgpiump8y4a9qo"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-6">
+        <dropForeignKeyConstraint baseTableName="commercial_residential_property" constraintName="FKqehiapaagukhud3f3o2x94xna"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-7">
+        <dropForeignKeyConstraint baseTableName="employment_contract" constraintName="fk_employment_contract__application_user_id"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-8">
+        <dropForeignKeyConstraint baseTableName="employment_contract" constraintName="fk_employment_contract__group_type_id"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-9">
+        <dropTable tableName="commercial_residential_property"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-10">
+        <dropTable tableName="employment_contract"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681766277104-11">
+        <dropTable tableName="loan_credit"/>
+    </changeSet>
+</databaseChangeLog>

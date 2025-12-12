@@ -1,0 +1,15 @@
+{
+  "jaynaApp.contract-loan-support-studentloans.createTitle": "Studentendarlehen erstellen",
+  "jaynaApp.contract-loan-support-studentloans.updateTitle": "Studentendarlehen bearbeiten",
+  "jaynaApp.contract-loan-support-studentloans.viewTitle": "Studentendarlehen anzeigen",
+  "jaynaApp.contract-loan-support-studentloans.specificData.title": "Studentendarlehen-spezifische Daten",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.loanAmount": "Darlehensbetrag",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.interestRate": "Zinssatz (%)",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.studyProgram": "Studiengang",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.university": "Universität/Hochschule",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.semester": "Semester",
+  "jaynaApp.contract-loan-support-studentloans.specificData.fields.repaymentStart": "Rückzahlungsbeginn",
+  "jaynaApp.contract.sub-category.loan-support": "Darlehen",
+  "jaynaApp.contract.sub-category-group.support": "Förderung",
+  "jaynaApp.contract.group-type.student-loans": "Studentendarlehen"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.createTitle": "Bankaccount anlegen",
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.updateTitle": "Bankaccount bearbeiten",
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.viewTitle": "Bankaccount anzeigen",
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.specificData.title": "Bankaccount-spezifische Daten",
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-bankaccount-fixedtermaccount-fixedtermaccount.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

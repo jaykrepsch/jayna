@@ -1,0 +1,16 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.createTitle": "Naked Bike anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.updateTitle": "Naked Bike bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.viewTitle": "Naked Bike anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.title": "Naked Bike-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.motorcycleType": "Motorrad-Typ",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.transmission": "Getriebe",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.seatHeight": "Sitzhöhe (cm)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.tankCapacity": "Tankkapazität (Liter)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.abs": "ABS",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.tractionControl": "Traction Control",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.ridingModes": "Fahrmodi",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.heatedGrips": "Heizgriffe",
+  "jaynaApp.mobility-passengervehicle-motorcycle-naked.specificData.fields.cruiseControl": "Tempomat"
+}

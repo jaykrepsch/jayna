@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-fulltime.createTitle": "Arbeitsvertrag Angestellter Vollzeit erstellen",
+  "jaynaApp.contract-employment-employee-fullTime.updateTitle": "Arbeitsvertrag Angestellter Vollzeit bearbeiten",
+  "jaynaApp.contract-employment-employee-fullTime.viewTitle": "Arbeitsvertrag Angestellter Vollzeit anzeigen",
+  "jaynaApp.contract-employment-employee-fullTime.specificData.title": "Vollzeit Daten",
+  "jaynaApp.contract-employment-employee-fullTime.specificData.fields.specificField1": "Arbeitsbereich",
+  "jaynaApp.contract-employment-employee-fullTime.specificData.fields.specificField2": "Stunden pro Woche"
+}

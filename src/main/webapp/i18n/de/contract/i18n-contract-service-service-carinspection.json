@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-carinspection.createTitle": "Fahrzeuginspektion anlegen",
+  "jaynaApp.contract-service-service-carinspection.updateTitle": "Fahrzeuginspektion bearbeiten",
+  "jaynaApp.contract-service-service-carinspection.viewTitle": "Fahrzeuginspektion anzeigen",
+  "jaynaApp.contract-service-service-carinspection.specificData.title": "Fahrzeuginspektion-spezifische Daten",
+  "jaynaApp.contract-service-service-carinspection.specificData.fields.specificField1": "Inspektionsart",
+  "jaynaApp.contract-service-service-carinspection.specificData.fields.specificField2": "Frequenz"
+}

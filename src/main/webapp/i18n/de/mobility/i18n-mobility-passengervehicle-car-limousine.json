@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-limousine.createTitle": "Personenfahrzeug Auto limousine anlegen",
+  "jaynaApp.mobility-passengervehicle-car-limousine.updateTitle": "Personenfahrzeug Auto limousine bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-limousine.viewTitle": "Personenfahrzeug Auto limousine anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-limousine.specificData.title": "Personenfahrzeug Auto limousine-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-limousine.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-limousine.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

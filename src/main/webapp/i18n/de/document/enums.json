@@ -1,0 +1,10 @@
+{
+  "jaynaApp": {
+    "documentStatus": {
+      "DRAFT": "Entwurf",
+      "APPROVED": "Freigegeben",
+      "ARCHIVED": "Archiviert",
+      "EXPIRED": "Abgelaufen"
+    }
+  }
+}

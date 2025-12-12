@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity CommercialResidentialProperty.
+    -->
+    <changeSet id="20230325143212-1" author="jhipster">
+        <createTable tableName="commercial_residential_property">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_houses" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="construction_year" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="design_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="design_type_class" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="built_up_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="sealt_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="undeveloped_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_units" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_floors" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_power_outlets" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_network_sockets" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_light_switches" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_antennas" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_shutter_switches" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_radiators" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_parkings" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_garages" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_carports" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_windows" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="window_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_elevators" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="corridor_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="no_basement_rooms" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="monument_protected" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="heating_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="roof_pitch" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="roof_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="gable_alignment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="roof_area" type="double">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+</databaseChangeLog>

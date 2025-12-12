@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-realestateagent.createTitle": "Immobilienmakler anlegen",
+  "jaynaApp.contract-service-service-realestateagent.updateTitle": "Immobilienmakler bearbeiten",
+  "jaynaApp.contract-service-service-realestateagent.viewTitle": "Immobilienmakler anzeigen",
+  "jaynaApp.contract-service-service-realestateagent.specificData.title": "Immobilienmakler-spezifische Daten",
+  "jaynaApp.contract-service-service-realestateagent.specificData.fields.specificField1": "Provision",
+  "jaynaApp.contract-service-service-realestateagent.specificData.fields.specificField2": "Vermittlungsgebiet"
+}

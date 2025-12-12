@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20230710101720",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contract_realestate",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ContractRealestate",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "contract",
+      "otherEntityRelationshipName": "contractRealestates",
+      "relationshipName": "contract",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "realEstate",
+      "otherEntityRelationshipName": "contractRealestates",
+      "relationshipName": "realestate",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

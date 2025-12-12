@@ -1,0 +1,13 @@
+{
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.createTitle": "Dreirad-Quad anlegen",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.updateTitle": "Dreirad-Quad bearbeiten",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.viewTitle": "Dreirad-Quad anzeigen",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.specificData.title": "Dreirad-Quad-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.specificData.fields.specificField1": "Antriebsart",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.specificData.fields.specificField2": "Zuladung (kg)",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.general.fields.label": "Bezeichnung",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.general.fields.description": "Beschreibung",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.general.fields.entityState": "Status",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.weiteres.fields.comment": "Kommentar",
+  "jaynaApp.mobility-passengervehicle-quad-quadtricycle.weiteres.fields.notes": "Notizen"
+}

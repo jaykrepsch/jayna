@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20221105084543",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "sub_category_group",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "translationKey",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SubCategoryGroup",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "groupType",
+      "otherEntityRelationshipName": "subCategoryGroup",
+      "relationshipName": "groupType",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "subCategory",
+      "otherEntityRelationshipName": "subCategoryGroup",
+      "relationshipName": "subCategory",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": true
+}

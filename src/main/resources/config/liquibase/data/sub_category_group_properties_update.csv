@@ -1,0 +1,9 @@
+id;name;sub_category_id;translation_key
+32;Gewerbehaus;16;jaynaApp.properties.sub-category-group.commercial-building
+33;Halle;16;jaynaApp.properties.sub-category-group.hall
+34;Wohnhaus;16;jaynaApp.properties.sub-category-group.residential-building
+35;Wohn + Gewerbehaus;16;jaynaApp.properties.sub-category-group.commercial-residential-building
+36;Parkfläche;16;jaynaApp.properties.sub-category-group.parking-space
+37;Bewirtschaftung;16;jaynaApp.properties.sub-category-group.farmland
+38;Garten;16;jaynaApp.properties.sub-category-group.garden
+39;Grund;17;jaynaApp.properties.sub-category-group.ground

@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1683732067059-2">
+      <dropTable tableName="entity_relationship" />
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1683732067059-3">
+        <createTable tableName="contract_realestate">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contract_realestatePK"/>
+            </column>
+            <column name="contract_id" type="BIGINT"/>
+            <column name="real_estate_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1683732067059-4">
+        <addForeignKeyConstraint baseColumnNames="real_estate_id" baseTableName="contract_realestate" constraintName="FK8oi297c8muyi8xbexlpfact53" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1683732067059-5">
+        <addForeignKeyConstraint baseColumnNames="contract_id" baseTableName="contract_realestate" constraintName="FKnsp8csqidh4o06kklxv0p485j" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contract" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

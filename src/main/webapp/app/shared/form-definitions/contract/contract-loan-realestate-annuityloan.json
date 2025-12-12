@@ -1,0 +1,243 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus BaseContract, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.baseContract.base-title",
+  "sections": [
+    {
+      "title": "jaynaApp.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "label": "jaynaApp.baseContract.general.fields.label",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "textarea",
+          "label": "jaynaApp.baseContract.general.fields.description"
+        },
+        {
+          "name": "entityState",
+          "type": "select",
+          "label": "jaynaApp.baseContract.general.fields.entityState",
+          "options": [
+            {
+              "value": "ACTIVE",
+              "label": "Aktiv"
+            },
+            {
+              "value": "INACTIVE",
+              "label": "Inaktiv"
+            },
+            {
+              "value": "PENDING",
+              "label": "Ausstehend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.contractData.title",
+      "fields": [
+        {
+          "name": "contractNumber",
+          "type": "text",
+          "label": "jaynaApp.baseContract.contractData.fields.contractNumber",
+          "required": true
+        },
+        {
+          "name": "startDate",
+          "type": "date",
+          "label": "jaynaApp.baseContract.contractData.fields.startDate",
+          "required": true
+        },
+        {
+          "name": "endDate",
+          "type": "date",
+          "label": "jaynaApp.baseContract.contractData.fields.endDate"
+        },
+        {
+          "name": "contractType",
+          "type": "select",
+          "label": "jaynaApp.baseContract.contractData.fields.contractType",
+          "options": [
+            {
+              "value": "ANNUITY",
+              "label": "Annuitätendarlehen"
+            },
+            {
+              "value": "BULLET",
+              "label": "Bullet-Darlehen"
+            },
+            {
+              "value": "AMORTIZATION",
+              "label": "Tilgungsdarlehen"
+            }
+          ]
+        },
+        {
+          "name": "provider",
+          "type": "text",
+          "label": "jaynaApp.baseContract.contractData.fields.provider",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.payment.title",
+      "fields": [
+        {
+          "name": "amount",
+          "type": "number",
+          "label": "jaynaApp.baseContract.payment.fields.amount",
+          "required": true,
+          "validation": {
+            "min": 0
+          }
+        },
+        {
+          "name": "currency",
+          "type": "select",
+          "label": "jaynaApp.baseContract.payment.fields.currency",
+          "options": [
+            {
+              "value": "EUR",
+              "label": "Euro"
+            },
+            {
+              "value": "USD",
+              "label": "US-Dollar"
+            },
+            {
+              "value": "CHF",
+              "label": "Schweizer Franken"
+            }
+          ]
+        },
+        {
+          "name": "frequency",
+          "type": "select",
+          "label": "jaynaApp.baseContract.payment.fields.frequency",
+          "options": [
+            {
+              "value": "MONTHLY",
+              "label": "Monatlich"
+            },
+            {
+              "value": "QUARTERLY",
+              "label": "Vierteljährlich"
+            },
+            {
+              "value": "YEARLY",
+              "label": "Jährlich"
+            }
+          ]
+        },
+        {
+          "name": "paymentMethod",
+          "type": "select",
+          "label": "jaynaApp.baseContract.payment.fields.paymentMethod",
+          "options": [
+            {
+              "value": "BANK_TRANSFER",
+              "label": "Banküberweisung"
+            },
+            {
+              "value": "DIRECT_DEBIT",
+              "label": "Lastschrift"
+            },
+            {
+              "value": "CASH",
+              "label": "Bargeld"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea",
+          "label": "jaynaApp.baseContract.weiteres.fields.comment"
+        },
+        {
+          "name": "notes",
+          "type": "textarea",
+          "label": "jaynaApp.baseContract.weiteres.fields.notes"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "contactContracts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "contractRealestates",
+      "relationConfig": {
+        "id": "contract-realestate",
+        "sourceEntity": "contract",
+        "targetEntity": "realestate",
+        "relationType": "COVERS",
+        "displayName": "Vertrag - Immobilie",
+        "description": "Verknüpfung zwischen Verträgen und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "contractFinanceAccounts",
+      "relationConfig": {
+        "id": "contract-financeaccount",
+        "sourceEntity": "contract",
+        "targetEntity": "financeaccount",
+        "relationType": "PAYMENT_ACCOUNT",
+        "displayName": "Vertrag - Finanzkonto",
+        "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "contractMobilities",
+      "relationConfig": {
+        "id": "contract-mobility",
+        "sourceEntity": "contract",
+        "targetEntity": "mobility",
+        "relationType": "INSURES",
+        "displayName": "Vertrag - Mobilität",
+        "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "contractContracts",
+      "relationConfig": {
+        "id": "contract-contract",
+        "sourceEntity": "contract",
+        "targetEntity": "contract",
+        "relationType": "RELATED_TO",
+        "displayName": "Vertrag - Vertrag",
+        "description": "Verknüpfung zwischen Verträgen",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContract.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseContract.documentRelations.title"
+}

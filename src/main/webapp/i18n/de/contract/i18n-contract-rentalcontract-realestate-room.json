@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-realestate-room.createTitle": "Zimmervermietung anlegen",
+  "jaynaApp.contract-rentalcontract-realestate-room.updateTitle": "Zimmervermietung bearbeiten",
+  "jaynaApp.contract-rentalcontract-realestate-room.viewTitle": "Zimmervermietung anzeigen",
+  "jaynaApp.contract-rentalcontract-realestate-room.specificData.title": "Zimmervermietung-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-realestate-room.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-realestate-room.specificData.fields.specificField2": "Nebenkosten"
+}

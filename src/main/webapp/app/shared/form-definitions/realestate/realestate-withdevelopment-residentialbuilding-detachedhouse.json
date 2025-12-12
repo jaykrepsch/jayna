@@ -1,0 +1,290 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseRealestate, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseRealestate.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.realestateData.title",
+      "fields": [
+        {
+          "name": "propertyNumber",
+          "type": "text"
+        },
+        {
+          "name": "acquisitionDate",
+          "type": "date"
+        },
+        {
+          "name": "propertyType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "propertyType",
+          "defaultValue": "RESIDENTIAL_BUILDING"
+        },
+        {
+          "name": "address",
+          "type": "text"
+        },
+        {
+          "name": "postalCode",
+          "type": "text"
+        },
+        {
+          "name": "city",
+          "type": "text"
+        },
+        {
+          "name": "country",
+          "type": "text"
+        },
+        {
+          "name": "purchasePrice",
+          "type": "number"
+        },
+        {
+          "name": "currentValue",
+          "type": "number"
+        },
+        {
+          "name": "squareMeters",
+          "type": "number"
+        },
+        {
+          "name": "rooms",
+          "type": "number"
+        },
+        {
+          "name": "constructionYear",
+          "type": "number"
+        },
+        {
+          "name": "energyEfficiencyClass",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "energyEfficiencyClass"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.title",
+      "i18nSource": "realestate-withdevelopment-residentialbuilding-detachedhouse",
+      "fields": [
+        {
+          "name": "houseType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "houseType",
+          "defaultValue": "DETACHED_HOUSE"
+        },
+        {
+          "name": "plotSize",
+          "type": "number"
+        },
+        {
+          "name": "gardenSize",
+          "type": "number"
+        },
+        {
+          "name": "basement",
+          "type": "checkbox"
+        },
+        {
+          "name": "attic",
+          "type": "checkbox"
+        },
+        {
+          "name": "garage",
+          "type": "checkbox"
+        },
+        {
+          "name": "parkingSpaces",
+          "type": "number"
+        },
+        {
+          "name": "heatingType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "heatingType"
+        },
+        {
+          "name": "renovationYear",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.ownership.title",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "text"
+        },
+        {
+          "name": "ownershipType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "ownershipType"
+        },
+        {
+          "name": "ownershipShare",
+          "type": "number"
+        },
+        {
+          "name": "registrationDate",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.financial.title",
+      "fields": [
+        {
+          "name": "monthlyRent",
+          "type": "number"
+        },
+        {
+          "name": "annualRent",
+          "type": "number"
+        },
+        {
+          "name": "operatingCosts",
+          "type": "number"
+        },
+        {
+          "name": "propertyTax",
+          "type": "number"
+        },
+        {
+          "name": "insuranceCosts",
+          "type": "number"
+        },
+        {
+          "name": "maintenanceReserve",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "realestateContacts",
+      "relationConfig": {
+        "id": "contact-realestate",
+        "sourceEntity": "contact",
+        "targetEntity": "realestate",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Immobilie",
+        "description": "Verknüpfung zwischen Kontakten und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "realestateContracts",
+      "relationConfig": {
+        "id": "contract-realestate",
+        "sourceEntity": "contract",
+        "targetEntity": "realestate",
+        "relationType": "COVERS",
+        "displayName": "Vertrag - Immobilie",
+        "description": "Verknüpfung zwischen Verträgen und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "realestateFinanceaccounts",
+      "relationConfig": {
+        "id": "realestate-financeaccount",
+        "sourceEntity": "realestate",
+        "targetEntity": "financeaccount",
+        "relationType": "FINANCED_BY",
+        "displayName": "Immobilie - Finanzkonto",
+        "description": "Verknüpfung zwischen Immobilien und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "realestateMobilities",
+      "relationConfig": {
+        "id": "realestate-mobility",
+        "sourceEntity": "realestate",
+        "targetEntity": "mobility",
+        "relationType": "STORES",
+        "displayName": "Immobilie - Mobilität",
+        "description": "Verknüpfung zwischen Immobilien und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "realestateRealestates",
+      "relationConfig": {
+        "id": "realestate-realestate",
+        "sourceEntity": "realestate",
+        "targetEntity": "realestate",
+        "relationType": "RELATED_TO",
+        "displayName": "Immobilie - Immobilie",
+        "description": "Verknüpfung zwischen Immobilien",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseRealestate.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseRealestate.documentRelations.title"
+}

@@ -1,0 +1,16 @@
+{
+  "jaynaApp.mobility-bike-bike-mtb.createTitle": "MTB anlegen",
+  "jaynaApp.mobility-bike-bike-mtb.updateTitle": "MTB bearbeiten",
+  "jaynaApp.mobility-bike-bike-mtb.viewTitle": "MTB anzeigen",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.title": "MTB-spezifische Daten",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.bikeType": "Fahrrad-Typ",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.frameSize": "Rahmengröße",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.wheelSize": "Laufradgröße",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.frameMaterial": "Rahmenmaterial",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.suspension": "Federung",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.gears": "Gänge",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.brakeType": "Bremsentyp",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.lights": "Beleuchtung",
+  "jaynaApp.mobility-bike-bike-mtb.specificData.fields.basket": "Korb"
+}

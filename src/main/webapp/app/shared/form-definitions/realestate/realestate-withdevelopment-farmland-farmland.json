@@ -1,0 +1,284 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseRealestate, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.realestate-withdevelopment-farmland-farmland.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseRealestate.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.realestateData.title",
+      "fields": [
+        {
+          "name": "propertyNumber",
+          "type": "text"
+        },
+        {
+          "name": "acquisitionDate",
+          "type": "date"
+        },
+        {
+          "name": "propertyType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "propertyType",
+          "defaultValue": "FARMLAND"
+        },
+        {
+          "name": "address",
+          "type": "text"
+        },
+        {
+          "name": "postalCode",
+          "type": "text"
+        },
+        {
+          "name": "city",
+          "type": "text"
+        },
+        {
+          "name": "country",
+          "type": "text"
+        },
+        {
+          "name": "purchasePrice",
+          "type": "number"
+        },
+        {
+          "name": "currentValue",
+          "type": "number"
+        },
+        {
+          "name": "squareMeters",
+          "type": "number"
+        },
+        {
+          "name": "constructionYear",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.title",
+      "i18nSource": "realestate-withdevelopment-farmland-farmland",
+      "fields": [
+        {
+          "name": "plotType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "plotType",
+          "defaultValue": "FARMLAND"
+        },
+        {
+          "name": "plotSize",
+          "type": "number"
+        },
+        {
+          "name": "soilQuality",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "soilQuality"
+        },
+        {
+          "name": "irrigation",
+          "type": "checkbox"
+        },
+        {
+          "name": "accessRoad",
+          "type": "text"
+        },
+        {
+          "name": "drainage",
+          "type": "checkbox"
+        },
+        {
+          "name": "fencing",
+          "type": "checkbox"
+        },
+        {
+          "name": "agriculturalUse",
+          "type": "text"
+        },
+        {
+          "name": "leaseholder",
+          "type": "text"
+        },
+        {
+          "name": "leaseAmount",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.ownership.title",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "text"
+        },
+        {
+          "name": "ownershipType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "ownershipType"
+        },
+        {
+          "name": "ownershipShare",
+          "type": "number"
+        },
+        {
+          "name": "registrationDate",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.financial.title",
+      "fields": [
+        {
+          "name": "monthlyRent",
+          "type": "number"
+        },
+        {
+          "name": "annualRent",
+          "type": "number"
+        },
+        {
+          "name": "operatingCosts",
+          "type": "number"
+        },
+        {
+          "name": "propertyTax",
+          "type": "number"
+        },
+        {
+          "name": "insuranceCosts",
+          "type": "number"
+        },
+        {
+          "name": "maintenanceReserve",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseRealestate.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "realestateContacts",
+      "relationConfig": {
+        "id": "contact-realestate",
+        "sourceEntity": "contact",
+        "targetEntity": "realestate",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Immobilie",
+        "description": "Verknüpfung zwischen Kontakten und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "realestateContracts",
+      "relationConfig": {
+        "id": "contract-realestate",
+        "sourceEntity": "contract",
+        "targetEntity": "realestate",
+        "relationType": "COVERS",
+        "displayName": "Vertrag - Immobilie",
+        "description": "Verknüpfung zwischen Verträgen und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "realestateFinanceaccounts",
+      "relationConfig": {
+        "id": "realestate-financeaccount",
+        "sourceEntity": "realestate",
+        "targetEntity": "financeaccount",
+        "relationType": "FINANCED_BY",
+        "displayName": "Immobilie - Finanzkonto",
+        "description": "Verknüpfung zwischen Immobilien und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "realestateMobilities",
+      "relationConfig": {
+        "id": "realestate-mobility",
+        "sourceEntity": "realestate",
+        "targetEntity": "mobility",
+        "relationType": "STORES",
+        "displayName": "Immobilie - Mobilität",
+        "description": "Verknüpfung zwischen Immobilien und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "realestateRealestates",
+      "relationConfig": {
+        "id": "realestate-realestate",
+        "sourceEntity": "realestate",
+        "targetEntity": "realestate",
+        "relationType": "RELATED_TO",
+        "displayName": "Immobilie - Immobilie",
+        "description": "Verknüpfung zwischen Immobilien",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseRealestate.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseRealestate.documentRelations.title"
+}

@@ -1,0 +1,15 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.createTitle": "Zweifamilienhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.updateTitle": "Zweifamilienhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.viewTitle": "Zweifamilienhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.title": "Zweifamilienhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.houseType": "Haustyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.plotSize": "Grundstücksgröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.gardenSize": "Gartengröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.basement": "Keller",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.attic": "Dachboden",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.garage": "Garage",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.parkingSpaces": "Stellplätze",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.heatingType": "Heizungstyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-twofamilyhouse.specificData.fields.renovationYear": "Renovierungsjahr"
+}

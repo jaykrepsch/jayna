@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1690195758773-3">
+        <createTable tableName="mobility">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="mobilityPK"/>
+            </column>
+            <column name="approval_date" type="date"/>
+            <column name="axis_1_ms" type="INTEGER"/>
+            <column name="axis_1_tech" type="INTEGER"/>
+            <column name="axis_2_ms" type="INTEGER"/>
+            <column name="axis_2_tech" type="INTEGER"/>
+            <column name="axis_3_ms" type="INTEGER"/>
+            <column name="axis_3_tech" type="INTEGER"/>
+            <column name="brand" type="VARCHAR(255)"/>
+            <column name="car_license_plates" type="VARCHAR(255)"/>
+            <column name="check_digit_vehicle_id_number" type="VARCHAR(255)"/>
+            <column name="circuit" type="VARCHAR(255)"/>
+            <column name="co_2_g_km" type="INTEGER"/>
+            <column name="code_to_p_3" type="VARCHAR(255)"/>
+            <column name="code_to_r" type="VARCHAR(255)"/>
+            <column name="color" type="VARCHAR(255)"/>
+            <column name="date_first_registration" type="date"/>
+            <column name="date_to_k" type="date"/>
+            <column name="designation_national_emission_class" type="VARCHAR(255)"/>
+            <column name="designation_vehicle_class_bodywork" type="VARCHAR(255)"/>
+            <column name="displacement" type="INTEGER"/>
+            <column name="draft" type="INTEGER"/>
+            <column name="drive_type" type="VARCHAR(255)"/>
+            <column name="driving_noise_db" type="INTEGER"/>
+            <column name="ec_type_approval_number_abe" type="VARCHAR(255)"/>
+            <column name="empty_mass" type="INTEGER"/>
+            <column name="engine_make_type" type="VARCHAR(255)"/>
+            <column name="engine_manufacturers" type="VARCHAR(255)"/>
+            <column name="engine_number" type="VARCHAR(255)"/>
+            <column name="features_of_the_type_approval" type="VARCHAR(255)"/>
+            <column name="final_emissions_test" type="date"/>
+            <column name="frame_height" type="INTEGER"/>
+            <column name="frame_material" type="VARCHAR(255)"/>
+            <column name="frame_no" type="VARCHAR(255)"/>
+            <column name="frame_typ" type="VARCHAR(255)"/>
+            <column name="height_mm" type="INTEGER"/>
+            <column name="horsepower" type="INTEGER"/>
+            <column name="id_card_issued_date" type="date"/>
+            <column name="last_general_inspection" type="date"/>
+            <column name="length_mm" type="INTEGER"/>
+            <column name="main_building_material" type="VARCHAR(255)"/>
+            <column name="manufacturer" type="VARCHAR(255)"/>
+            <column name="manufacturer_abbreviation" type="VARCHAR(255)"/>
+            <column name="manufacturing_numbercode_to_2" type="VARCHAR(255)"/>
+            <column name="maximum_permissible_axle_load_member_state_kg" type="INTEGER"/>
+            <column name="maximum_permissible_mass_kg_registration_state" type="INTEGER"/>
+            <column name="maximum_speed_kmh" type="INTEGER"/>
+            <column name="mileage" type="INTEGER"/>
+            <column name="mileage_date" type="date"/>
+            <column name="next_emissions_test" type="date"/>
+            <column name="next_general_inspection" type="date"/>
+            <column name="no_axes" type="INTEGER"/>
+            <column name="no_revolutions" type="INTEGER"/>
+            <column name="no_seats" type="INTEGER"/>
+            <column name="no_standing_places" type="INTEGER"/>
+            <column name="nominal_number_min" type="INTEGER"/>
+            <column name="nominal_power_kw_kg" type="INTEGER"/>
+            <column name="number_doors" type="INTEGER"/>
+            <column name="number_drive_axles" type="INTEGER"/>
+            <column name="on_axis_1" type="INTEGER"/>
+            <column name="on_axis_2" type="INTEGER"/>
+            <column name="on_axis_3" type="INTEGER"/>
+            <column name="original_yard_number_ii_yard_number" type="VARCHAR(255)"/>
+            <column name="other_endorsements" type="VARCHAR(255)"/>
+            <column name="owner" type="VARCHAR(255)"/>
+            <column name="period_validity" type="VARCHAR(255)"/>
+            <column name="pollutant_class_relevant_eg" type="VARCHAR(255)"/>
+            <column name="power_weight_ratio_kw_kg" type="INTEGER"/>
+            <column name="previous_license_plate" type="VARCHAR(255)"/>
+            <column name="registration_certificate_number_part_ii" type="VARCHAR(255)"/>
+            <column name="remarks_and_exceptions" type="VARCHAR(255)"/>
+            <column name="stationary_noise_db" type="INTEGER"/>
+            <column name="status" type="VARCHAR(255)"/>
+            <column name="technically_permissible_max_axle_load" type="INTEGER"/>
+            <column name="technically_permissible_maximum_mass_in_kg" type="INTEGER"/>
+            <column name="technically_permissible_trailer_load_braked_kg" type="INTEGER"/>
+            <column name="technically_permissible_trailer_load_unbraked_kg" type="INTEGER"/>
+            <column name="trade_name" type="VARCHAR(255)"/>
+            <column name="type" type="VARCHAR(255)"/>
+            <column name="type_fuel_energy_source" type="VARCHAR(255)"/>
+            <column name="type_key_number_d_2" type="VARCHAR(255)"/>
+            <column name="type_of_construction" type="VARCHAR(255)"/>
+            <column name="tyres" type="VARCHAR(255)"/>
+            <column name="jhi_user" type="VARCHAR(255)"/>
+            <column name="vehicle_class" type="VARCHAR(255)"/>
+            <column name="vehicle_colour" type="VARCHAR(255)"/>
+            <column name="vehicle_id_number" type="VARCHAR(255)"/>
+            <column name="vertical_load_kg" type="INTEGER"/>
+            <column name="volume_tank_tankers_ccm" type="INTEGER"/>
+            <column name="wheel_size" type="INTEGER"/>
+            <column name="width_mm" type="INTEGER"/>
+            <column name="z_drive_number" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690195758773-4">
+        <addColumn tableName="contact">
+            <column name="description" type="varchar(2000)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690195758773-5">
+        <addColumn tableName="contract">
+            <column name="description" type="varchar(2000)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690195758773-6">
+        <addColumn tableName="finance_account">
+            <column name="description" type="varchar(2000)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690195758773-7">
+        <addColumn tableName="real_estate">
+            <column name="description" type="varchar(2000)"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

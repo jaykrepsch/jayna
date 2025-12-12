@@ -1,0 +1,24 @@
+id;name;sub_category_group_id;form_component_name;update_component_name;translation_key;abbreviation
+118;Gewerbeeinheit;32;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.commercial-unit;GEWE
+119;Gewerbehaus;32;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.commercial-building;GEWH
+120;Halle;33;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.hall;HALL
+121;Doppelhaushälfte;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.semit-detached-house;DHH
+122;Einfamilienhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.detached-house;EFH
+123;Ferienhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.vacation-house;FEH
+124;Mehrfamilienhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.apartment-building;MFH
+125;Pflegeeinrichtung;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.care-facility;PFE
+126;Reihenendhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.terraced-end-house;REH
+127;Reihenmittelhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.terraced-mid-house;RMH
+128;Zweifamilienhaus;34;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.two-family-house;ZFH
+129;Wohnungen & Gewerbe;35;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.apartments-commercial-mix;PGM
+130;Carport;36;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.carport;CARP
+131;Garage;36;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.garage;GARA
+132;Parkhaus;36;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.parking-house;PARH
+133;Parkplatz;36;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.parking-space;PARP
+134;Ackerland;37;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.farmland;ACKE
+135;Forst;37;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.forest;FORS
+136;Frucht;37;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.fruit;FRUCH
+137;Weide;37;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.pasture;WEID
+138;Schrebergarten;38;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.allotment-garden;STGA
+139;Bebauungsgrundstück;39;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.building-plot;BBGS
+140;Wiese;39;PropertyCreate;PropertyUpdate;jaynaApp.properties.group-type.meadow;WIES

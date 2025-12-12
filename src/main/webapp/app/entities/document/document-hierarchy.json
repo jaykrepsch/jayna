@@ -1,0 +1,167 @@
+{
+  "mainCategories": [
+    { "id": "identity-personal-status", "translationKey": "jaynaApp.document.main.identity-personal-status" },
+    { "id": "work-education", "translationKey": "jaynaApp.document.main.work-education" },
+    { "id": "finances-insurance", "translationKey": "jaynaApp.document.main.finances-insurance" },
+    { "id": "housing-property", "translationKey": "jaynaApp.document.main.housing-property" },
+    { "id": "health", "translationKey": "jaynaApp.document.main.health" },
+    { "id": "communication-everyday", "translationKey": "jaynaApp.document.main.communication-everyday" },
+    { "id": "law-administration", "translationKey": "jaynaApp.document.main.law-administration" },
+    { "id": "energy-utilities", "translationKey": "jaynaApp.document.main.energy-utilities" }
+  ],
+  "groupingMap": {
+    "identity-personal-status": [
+      { "id": "ids", "translationKey": "jaynaApp.document.group.ids" },
+      { "id": "civil-status-certificates", "translationKey": "jaynaApp.document.group.civil-status-certificates" },
+      { "id": "directives", "translationKey": "jaynaApp.document.group.directives" }
+    ],
+    "work-education": [
+      { "id": "work-documents", "translationKey": "jaynaApp.document.group.work-documents" },
+      { "id": "education", "translationKey": "jaynaApp.document.group.education" },
+      { "id": "application", "translationKey": "jaynaApp.document.group.application" }
+    ],
+    "finances-insurance": [
+      { "id": "banking", "translationKey": "jaynaApp.document.group.banking" },
+      { "id": "accounting", "translationKey": "jaynaApp.document.group.accounting" },
+      { "id": "insurances", "translationKey": "jaynaApp.document.group.insurances" }
+    ],
+    "housing-property": [
+      { "id": "rental-docs", "translationKey": "jaynaApp.document.group.rental-docs" },
+      { "id": "real-estate", "translationKey": "jaynaApp.document.group.real-estate" },
+      { "id": "vehicles", "translationKey": "jaynaApp.document.group.vehicles" }
+    ],
+    "health": [
+      { "id": "medical-documents", "translationKey": "jaynaApp.document.group.medical-documents" },
+      { "id": "care-support", "translationKey": "jaynaApp.document.group.care-support" }
+    ],
+    "communication-everyday": [
+      { "id": "correspondence", "translationKey": "jaynaApp.document.group.correspondence" },
+      { "id": "protocols", "translationKey": "jaynaApp.document.group.protocols" },
+      { "id": "digital-communication", "translationKey": "jaynaApp.document.group.digital-communication" }
+    ],
+    "law-administration": [
+      { "id": "court-documents", "translationKey": "jaynaApp.document.group.court-documents" },
+      { "id": "contracts-terms", "translationKey": "jaynaApp.document.group.contracts-terms" }
+    ],
+    "energy-utilities": [
+      { "id": "invoices", "translationKey": "jaynaApp.document.group.invoices" }
+    ]
+  },
+  "typeMap": {
+    "ids": [
+      { "id": "identity-card", "translationKey": "jaynaApp.document.type.identity-card" },
+      { "id": "passport", "translationKey": "jaynaApp.document.type.passport" },
+      { "id": "drivers-license", "translationKey": "jaynaApp.document.type.drivers-license" },
+      { "id": "disability-id", "translationKey": "jaynaApp.document.type.disability-id" },
+      { "id": "residence-permit", "translationKey": "jaynaApp.document.type.residence-permit" }
+    ],
+    "civil-status-certificates": [
+      { "id": "birth-certificate", "translationKey": "jaynaApp.document.type.birth-certificate" },
+      { "id": "marriage-certificate", "translationKey": "jaynaApp.document.type.marriage-certificate" },
+      { "id": "divorce-decree", "translationKey": "jaynaApp.document.type.divorce-decree" }
+    ],
+    "directives": [
+      { "id": "will", "translationKey": "jaynaApp.document.type.will" },
+      { "id": "patient-directive", "translationKey": "jaynaApp.document.type.patient-directive" },
+      { "id": "power-of-attorney", "translationKey": "jaynaApp.document.type.power-of-attorney" }
+    ],
+    "work-documents": [
+      { "id": "employment-contract", "translationKey": "jaynaApp.document.type.employment-contract" },
+      { "id": "termination", "translationKey": "jaynaApp.document.type.termination" },
+      { "id": "warning", "translationKey": "jaynaApp.document.type.warning" },
+      { "id": "payslip", "translationKey": "jaynaApp.document.type.payslip" },
+      { "id": "income-tax-certificate", "translationKey": "jaynaApp.document.type.income-tax-certificate" }
+    ],
+    "education": [
+      { "id": "certificate", "translationKey": "jaynaApp.document.type.certificate" },
+      { "id": "intermediate-certificate", "translationKey": "jaynaApp.document.type.intermediate-certificate" },
+      { "id": "final-certificate", "translationKey": "jaynaApp.document.type.final-certificate" },
+      { "id": "study-certificate", "translationKey": "jaynaApp.document.type.study-certificate" },
+      { "id": "university-degree", "translationKey": "jaynaApp.document.type.university-degree" }
+    ],
+    "application": [
+      { "id": "cv", "translationKey": "jaynaApp.document.type.cv" },
+      { "id": "cover-letter", "translationKey": "jaynaApp.document.type.cover-letter" },
+      { "id": "references", "translationKey": "jaynaApp.document.type.references" }
+    ],
+    "banking": [
+      { "id": "account-statement", "translationKey": "jaynaApp.document.type.account-statement" },
+      { "id": "loan-contract", "translationKey": "jaynaApp.document.type.loan-contract" },
+      { "id": "credit-card-statement", "translationKey": "jaynaApp.document.type.credit-card-statement" }
+    ],
+    "accounting": [
+      { "id": "invoice", "translationKey": "jaynaApp.document.type.invoice" },
+      { "id": "receipt", "translationKey": "jaynaApp.document.type.receipt" },
+      { "id": "quotation", "translationKey": "jaynaApp.document.type.quotation" },
+      { "id": "dunning-letter", "translationKey": "jaynaApp.document.type.dunning-letter" },
+      { "id": "payment-proof", "translationKey": "jaynaApp.document.type.payment-proof" }
+    ],
+    "insurances": [
+      { "id": "insurance-policy", "translationKey": "jaynaApp.document.type.insurance-policy" },
+      { "id": "claim-report", "translationKey": "jaynaApp.document.type.claim-report" },
+      { "id": "benefit-statement", "translationKey": "jaynaApp.document.type.benefit-statement" }
+    ],
+    "rental-docs": [
+      { "id": "rental-contract", "translationKey": "jaynaApp.document.type.rental-contract" },
+      { "id": "utility-bill", "translationKey": "jaynaApp.document.type.utility-bill" },
+      { "id": "handover-report", "translationKey": "jaynaApp.document.type.handover-report" }
+    ],
+    "real-estate": [
+      { "id": "building-plan", "translationKey": "jaynaApp.document.type.building-plan" },
+      { "id": "building-permit", "translationKey": "jaynaApp.document.type.building-permit" },
+      { "id": "purchase-contract-house", "translationKey": "jaynaApp.document.type.purchase-contract-house" }
+    ],
+    "vehicles": [
+      { "id": "vehicle-title", "translationKey": "jaynaApp.document.type.vehicle-title" },
+      { "id": "vehicle-registration", "translationKey": "jaynaApp.document.type.vehicle-registration" },
+      { "id": "tuv-certificate", "translationKey": "jaynaApp.document.type.tuv-certificate" },
+      { "id": "maintenance-record", "translationKey": "jaynaApp.document.type.maintenance-record" },
+      { "id": "workshop-invoice", "translationKey": "jaynaApp.document.type.workshop-invoice" }
+    ],
+    "medical-documents": [
+      { "id": "vaccination-card", "translationKey": "jaynaApp.document.type.vaccination-card" },
+      { "id": "medical-report", "translationKey": "jaynaApp.document.type.medical-report" },
+      { "id": "lab-result", "translationKey": "jaynaApp.document.type.lab-result" },
+      { "id": "prescription", "translationKey": "jaynaApp.document.type.prescription" },
+      { "id": "xray-images", "translationKey": "jaynaApp.document.type.xray-images" }
+    ],
+    "care-support": [
+      { "id": "care-level-notice", "translationKey": "jaynaApp.document.type.care-level-notice" },
+      { "id": "guardianship-certificate", "translationKey": "jaynaApp.document.type.guardianship-certificate" }
+    ],
+    "correspondence": [
+      { "id": "invitation", "translationKey": "jaynaApp.document.type.invitation" },
+      { "id": "greeting-card", "translationKey": "jaynaApp.document.type.greeting-card" },
+      { "id": "thank-you-letter", "translationKey": "jaynaApp.document.type.thank-you-letter" },
+      { "id": "general-correspondence", "translationKey": "jaynaApp.document.type.general-correspondence" }
+    ],
+    "protocols": [
+      { "id": "meeting-minutes", "translationKey": "jaynaApp.document.type.meeting-minutes" },
+      { "id": "club-minutes", "translationKey": "jaynaApp.document.type.club-minutes" }
+    ],
+    "digital-communication": [
+      { "id": "email-printout", "translationKey": "jaynaApp.document.type.email-printout" },
+      { "id": "chat-log", "translationKey": "jaynaApp.document.type.chat-log" },
+      { "id": "social-media-post", "translationKey": "jaynaApp.document.type.social-media-post" }
+    ],
+    "court-documents": [
+      { "id": "judgment", "translationKey": "jaynaApp.document.type.judgment" },
+      { "id": "summons", "translationKey": "jaynaApp.document.type.summons" },
+      { "id": "penalty-order", "translationKey": "jaynaApp.document.type.penalty-order" },
+      { "id": "enforcement-order", "translationKey": "jaynaApp.document.type.enforcement-order" }
+    ],
+    "contracts-terms": [
+      { "id": "terms-and-conditions", "translationKey": "jaynaApp.document.type.terms-and-conditions" },
+      { "id": "contract-terms", "translationKey": "jaynaApp.document.type.contract-terms" },
+      { "id": "privacy-notice", "translationKey": "jaynaApp.document.type.privacy-notice" }
+    ],
+    "invoices": [
+      { "id": "electricity-bill", "translationKey": "jaynaApp.document.type.electricity-bill" },
+      { "id": "water-bill", "translationKey": "jaynaApp.document.type.water-bill" },
+      { "id": "gas-bill", "translationKey": "jaynaApp.document.type.gas-bill" },
+      { "id": "internet-phone-bill", "translationKey": "jaynaApp.document.type.internet-phone-bill" }
+    ]
+  }
+}
+
+

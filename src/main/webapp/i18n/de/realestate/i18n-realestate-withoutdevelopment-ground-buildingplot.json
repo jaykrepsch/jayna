@@ -1,0 +1,19 @@
+{
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.createTitle": "Bauland anlegen",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.updateTitle": "Bauland bearbeiten",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.viewTitle": "Bauland anzeigen",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.title": "Bauland-spezifische Daten",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.plotType": "Grundstückstyp",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.plotSize": "Grundstücksgröße (m²)",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.buildableArea": "Bebaubare Fläche (m²)",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.zoningType": "Bebauungsart",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.buildingHeight": "Gebäudehöhe (m)",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.floorAreaRatio": "Geschossflächenzahl",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.accessRoad": "Zufahrtsstraße",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.utilities": "Versorgungsanschlüsse",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.waterConnection": "Wasseranschluss",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.electricityConnection": "Stromanschluss",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.sewageConnection": "Kanalanschluss",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.soilQuality": "Bodenqualität",
+  "jaynaApp.realestate-withoutdevelopment-ground-buildingplot.specificData.fields.developmentCosts": "Erschließungskosten (€)"
+}

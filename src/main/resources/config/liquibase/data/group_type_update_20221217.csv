@@ -1,0 +1,10 @@
+id;name;sub_category_group_id;form_component_name
+20;Bafög;31;LoanCreditContractCreate
+31;Annuitätendarlehen;4;LoanCreditContractCreate
+32;Modernisierung;4;LoanCreditContractCreate
+33;Tilgungsdarlehen;4;LoanCreditContractCreate
+34;Laufzeitzinsdarlehen;4;LoanCreditContractCreate
+35;Partiarische Darlehen;4;LoanCreditContractCreate
+36;Abrufdarlehen;4;LoanCreditContractCreate
+37;Rollierende Geldmarktdarlehen;4;LoanCreditContractCreate
+38;Endfällige Darlehen;4;LoanCreditContractCreate

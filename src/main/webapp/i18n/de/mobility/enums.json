@@ -1,0 +1,143 @@
+{
+  "vehicleType": {
+    "CAR": "Auto",
+    "MOTORCYCLE": "Motorrad",
+    "TRUCK": "LKW",
+    "VAN": "Transporter",
+    "BOAT": "Boot",
+    "PLANE": "Flugzeug",
+    "BIKE": "Fahrrad",
+    "TRACTOR": "Traktor",
+    "CARAVAN": "Wohnwagen",
+    "CAMPER": "Wohnmobil"
+  },
+  "fuelType": {
+    "PETROL": "Benzin",
+    "DIESEL": "Diesel",
+    "ELECTRIC": "Elektro",
+    "HYBRID": "Hybrid",
+    "HYDROGEN": "Wasserstoff",
+    "LPG": "Autogas",
+    "CNG": "Erdgas",
+    "BIOFUEL": "Biokraftstoff",
+    "NONE": "Kein Kraftstoff"
+  },
+  "entityState": {
+    "ACTIVE": "Aktiv",
+    "INACTIVE": "Inaktiv",
+    "SUSPENDED": "Gesperrt",
+    "CLOSED": "Geschlossen",
+    "PENDING": "Ausstehend"
+  },
+  "carType": {
+    "STANDARD": "Standard",
+    "LUXURY": "Luxus",
+    "SPORTS": "Sport",
+    "FAMILY": "Familie",
+    "COMPACT": "Kompakt",
+    "SUV": "SUV",
+    "CONVERTIBLE": "Cabrio",
+    "COUPE": "Coupé"
+  },
+  "transmission": {
+    "MANUAL": "Schaltgetriebe",
+    "AUTOMATIC": "Automatik",
+    "CVT": "Stufenloses Getriebe",
+    "SEMI_AUTOMATIC": "Halbautomatik",
+    "DUAL_CLUTCH": "Doppelkupplung"
+  },
+  "motorcycleType": {
+    "NAKED": "Naked Bike",
+    "SPORT": "Sportbike",
+    "CRUISER": "Cruiser",
+    "TOURING": "Touring",
+    "ADVENTURE": "Adventure",
+    "SCOOTER": "Roller",
+    "CHOPPER": "Chopper",
+    "STREETFIGHTER": "Streetfighter",
+    "SUPERMOTO": "Supermoto",
+    "TRIAL": "Trial",
+    "ENDURO": "Enduro",
+    "MOTOCROSS": "Motocross"
+  },
+  "bikeType": {
+    "MTB": "Mountainbike",
+    "CITY": "Stadtrad",
+    "TREKKING": "Trekkingrad",
+    "RACING": "Rennrad",
+    "CROSS": "Crossrad",
+    "GRAVEL": "Gravelbike",
+    "LIFESTYLE": "Lifestyle-Rad",
+    "CARGO": "Lastenrad",
+    "FOLDING": "Klapprad",
+    "SPEED": "Schnellrad",
+    "SUV": "SUV-Rad",
+    "TRICYCLE": "Dreirad",
+    "XXL": "XXL-Rad"
+  },
+  "wheelSize": {
+    "INCH_20": "20 Zoll",
+    "INCH_24": "24 Zoll",
+    "INCH_26": "26 Zoll",
+    "INCH_27_5": "27,5 Zoll",
+    "INCH_28": "28 Zoll",
+    "INCH_29": "29 Zoll",
+    "INCH_32": "32 Zoll"
+  },
+  "frameMaterial": {
+    "STEEL": "Stahl",
+    "ALUMINUM": "Aluminium",
+    "CARBON": "Carbon",
+    "TITANIUM": "Titan",
+    "BAMBOO": "Bambus"
+  },
+  "suspension": {
+    "NONE": "Keine",
+    "FRONT": "Vorderrad",
+    "REAR": "Hinterrad",
+    "FULL": "Vollfederung"
+  },
+  "brakeType": {
+    "RIM": "Felgenbremse",
+    "DISC_MECHANICAL": "Scheibenbremse mechanisch",
+    "DISC_HYDRAULIC": "Scheibenbremse hydraulisch",
+    "COASTER": "Rücktrittbremse",
+    "DRUM": "Trommelbremse"
+  },
+  "boatType": {
+    "MOTORBOAT": "Motorboot",
+    "SAILINGBOAT": "Segelboot",
+    "SAILINGYACHT": "Segelyacht",
+    "MOTORGLIDER": "Motorsegler",
+    "RIB": "Schlauchboot",
+    "CATAMARAN": "Katamaran",
+    "TRIMARAN": "Trimaran",
+    "HOUSEBOAT": "Hausboot",
+    "FISHINGBOAT": "Fischerboot",
+    "SPEEDBOAT": "Schnellboot"
+  },
+  "caravanType": {
+    "FAMILY": "Familie",
+    "LUXURY": "Luxus",
+    "SPORT": "Sport",
+    "TENT": "Zelt",
+    "TWO_PERSONS": "Zwei Personen",
+    "COMPACT": "Kompakt",
+    "EXPANDABLE": "Ausziehbar",
+    "FIFTH_WHEEL": "Fünfte Rad",
+    "POP_UP": "Pop-up",
+    "TEARDROP": "Träne"
+  },
+  "tractorType": {
+    "STANDARD": "Standard",
+    "COMPACT": "Kompakt",
+    "UTILITY": "Nutzfahrzeug",
+    "ROW_CROP": "Reihenkultur",
+    "ORCHARD": "Obstgarten",
+    "HIGH_CROP": "Hochkultur",
+    "LOW_PROFILE": "Niedrigprofil",
+    "ARTICULATED": "Gelenk",
+    "CRAWLER": "Raupen",
+    "GARDEN": "Garten"
+  }
+}

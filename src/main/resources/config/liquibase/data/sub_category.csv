@@ -1,0 +1,16 @@
+id;name;category_id
+1;Arbeitsvertrag;1
+2;Bankkonto;1
+3;Kreditkarte;1
+4;Darlehen;1
+5;Dienstleistung;1
+6;Energie;1
+7;Kaufvertrag;1
+8;Kredit;1
+9;Leasing;1
+10;Leihvertrag;1
+11;Medien;1
+12;Mietvertrag;1
+13;Versicherung;1
+14;Hausverwaltung;1
+15;Mietverwaltung;1

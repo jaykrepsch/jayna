@@ -1,0 +1,17 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.createTitle": "PayPal-Konto anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.updateTitle": "PayPal-Konto bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.viewTitle": "PayPal-Konto anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.title": "PayPal-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.paymentSystemType": "Bezahlsystem-Typ",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.emailAddress": "E-Mail-Adresse",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.phoneNumber": "Telefonnummer",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.accountStatus": "Kontostatus",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.verificationStatus": "Verifizierungsstatus",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.businessAccount": "Geschäftskonto",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.premierAccount": "Premier-Konto",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.paypalCredit": "PayPal Credit",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.paypalHere": "PayPal Here",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.paypalOneTouch": "PayPal One Touch",
+  "jaynaApp.financeaccount-systems-paymentsystems-paypal.specificData.fields.paypalMe": "PayPal.Me Link"
+}

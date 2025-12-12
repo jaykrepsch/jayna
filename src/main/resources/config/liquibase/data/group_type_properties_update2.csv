@@ -1,0 +1,13 @@
+id;name;entity_name
+118;Gewerbeeinheit;commercial-residential-property
+119;Gewerbehaus;commercial-residential-property
+120;Halle;commercial-residential-property
+121;Doppelhaushälfte;commercial-residential-property
+122;Einfamilienhaus;commercial-residential-property
+123;Ferienhaus;commercial-residential-property
+124;Mehrfamilienhaus;commercial-residential-property
+125;Pflegeeinrichtung;commercial-residential-property
+126;Reihenendhaus;commercial-residential-property
+127;Reihenmittelhaus;commercial-residential-property
+128;Zweifamilienhaus;commercial-residential-property
+129;Wohnungen & Gewerbe;commercial-residential-property

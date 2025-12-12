@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20241130-1" author="jhipster">
+        <createTable tableName="document">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="title" type="varchar(255)"/>
+            <column name="description" type="varchar(2000)"/>
+            <column name="file_name" type="varchar(255)"/>
+            <column name="file_path" type="varchar(500)"/>
+            <column name="file_type" type="varchar(50)"/>
+            <column name="file_size" type="bigint"/>
+            <column name="upload_date" type="timestamp"/>
+            <column name="last_modified" type="timestamp"/>
+            <column name="version" type="varchar(50)"/>
+            <column name="status" type="varchar(20)"/>
+            <column name="tags" type="varchar(500)"/>
+            <column name="keywords" type="varchar(2000)"/>
+            <column name="content_hash" type="varchar(255)"/>
+            <column name="mime_type" type="varchar(100)"/>
+            <column name="is_public" type="boolean"/>
+            <column name="expiry_date" type="timestamp"/>
+            <column name="document_number" type="varchar(100)"/>
+            <column name="customer_number" type="varchar(100)"/>
+            <column name="partner" type="varchar(255)"/>
+            <column name="contract_number" type="varchar(100)"/>
+            <column name="real_estate_number" type="varchar(100)"/>
+            <column name="finance_account_number" type="varchar(100)"/>
+            <column name="mobility_number" type="varchar(100)"/>
+            <column name="label" type="varchar(255)"/>
+            <column name="entity_state" type="varchar(20)"/>
+            <column name="comment" type="varchar(2000)"/>
+            <column name="created_date" type="timestamp"/>
+            <column name="last_modified_date" type="timestamp"/>
+            <column name="created_by" type="varchar(50)"/>
+            <column name="last_modified_by" type="varchar(50)"/>
+            <column name="application_user_id" type="bigint"/>
+            <column name="group_type_id" type="bigint"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20241130-2" author="jhipster">
+        <addForeignKeyConstraint baseTableName="document" baseColumnNames="application_user_id" constraintName="fk_document_application_user_id" referencedTableName="application_user" referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="20241130-3" author="jhipster">
+        <addForeignKeyConstraint baseTableName="document" baseColumnNames="group_type_id" constraintName="fk_document_group_type_id" referencedTableName="group_type" referencedColumnNames="id"/>
+    </changeSet>
+
+    <changeSet id="20241130-4" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_application_user_id">
+            <column name="application_user_id"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-5" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_group_type_id">
+            <column name="group_type_id"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-6" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_title">
+            <column name="title"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-7" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_file_name">
+            <column name="file_name"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-8" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_upload_date">
+            <column name="upload_date"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-9" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_status">
+            <column name="status"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-10" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_document_number">
+            <column name="document_number"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-11" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_customer_number">
+            <column name="customer_number"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-12" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_contract_number">
+            <column name="contract_number"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-13" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_real_estate_number">
+            <column name="real_estate_number"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-14" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_finance_account_number">
+            <column name="finance_account_number"/>
+        </createIndex>
+    </changeSet>
+
+    <changeSet id="20241130-15" author="jhipster">
+        <createIndex tableName="document" indexName="idx_document_mobility_number">
+            <column name="mobility_number"/>
+        </createIndex>
+    </changeSet>
+
+</databaseChangeLog>

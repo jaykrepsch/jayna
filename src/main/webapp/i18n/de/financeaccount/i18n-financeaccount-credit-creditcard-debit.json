@@ -1,0 +1,18 @@
+{
+  "jaynaApp.financeaccount-credit-creditcard-debit.createTitle": "Debit Card anlegen",
+  "jaynaApp.financeaccount-credit-creditcard-debit.updateTitle": "Debit Card bearbeiten",
+  "jaynaApp.financeaccount-credit-creditcard-debit.viewTitle": "Debit Card anzeigen",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.title": "Debit Card-spezifische Daten",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.creditCardType": "Kreditkarten-Typ",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.cardNumber": "Kartennummer",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.expiryDate": "Ablaufdatum",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.cvv": "CVV",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.cardHolder": "Karteninhaber",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.cardNetwork": "Kartennetzwerk",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.contactless": "Kontaktlos",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.chipCard": "Chip-Karte",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.onlineShopping": "Online-Shopping",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.dailyLimit": "Tageslimit",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.monthlyLimit": "Monatslimit",
+  "jaynaApp.financeaccount-credit-creditcard-debit.specificData.fields.overdraftProtection": "Dispo-Schutz"
+}

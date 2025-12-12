@@ -1,0 +1,28 @@
+id;name;created_date;translation_key;category_id;created_by;creation_type
+1;Arbeitsvertrag;2023-06-13 00:00:00;jaynaApp.contract.sub-category.employment-contract;1;system;STATIC
+2;Bankkonto;2023-06-13 00:00:00;jaynaApp.contract.sub-category.bank-account;1;system;STATIC
+3;Kreditkarte;2023-06-13 00:00:00;jaynaApp.contract.sub-category.credit-card;1;system;STATIC
+4;Darlehen;2023-06-13 00:00:00;jaynaApp.contract.sub-category.loan;1;system;STATIC
+5;Dienstleistung;2023-06-13 00:00:00;jaynaApp.contract.sub-category.service;1;system;STATIC
+6;Energie;2023-06-13 00:00:00;jaynaApp.contract.sub-category.energy;1;system;STATIC
+7;Kaufvertrag;2023-06-13 00:00:00;jaynaApp.contract.sub-category.purchase-contract;1;system;STATIC
+8;Kredit;2023-06-13 00:00:00;jaynaApp.contract.sub-category.credit;1;system;STATIC
+9;Leasing;2023-06-13 00:00:00;jaynaApp.contract.sub-category.leasing;1;system;STATIC
+10;Leihvertrag;2023-06-13 00:00:00;jaynaApp.contract.sub-category.loan-agreement;1;system;STATIC
+11;Medien;2023-06-13 00:00:00;jaynaApp.contract.sub-category.media;1;system;STATIC
+12;Mietvertrag;2023-06-13 00:00:00;jaynaApp.contract.sub-category.rental-contract;1;system;STATIC
+13;Versicherung;2023-06-13 00:00:00;jaynaApp.contract.sub-category.insurance;1;system;STATIC
+14;Hausverwaltung;2023-06-13 00:00:00;jaynaApp.contract.sub-category.property-management;1;system;STATIC
+15;Mietverwaltung;2023-06-13 00:00:00;jaynaApp.contract.sub-category.rental-management;1;system;STATIC
+16;mit Bebauung;2023-06-13 00:00:00;jaynaApp.realestate.sub-category.with-development;2;system;STATIC
+17;ohne Bebauung;2023-06-13 00:00:00;jaynaApp.realestate.sub-category.without-development;2;system;STATIC
+18;Bank;2023-06-13 00:00:00;jaynaApp.financeaccount.sub-category.bank;4;system;STATIC
+19;Kredit;2023-06-13 00:00:00;jaynaApp.financeaccount.sub-category.credit;4;system;STATIC
+20;Systeme;2023-06-13 00:00:00;jaynaApp.financeaccount.sub-category.systems;4;system;STATIC
+21;Kontakte;2023-06-13 00:00:00;jaynaApp.contact.sub-category.contact;3;system;STATIC
+22;Boot;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.boat;5;system;STATIC
+23;Fahrrad;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.bike;5;system;STATIC
+24;Landwirtschaft;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.agriculture;5;system;STATIC
+25;Nutzfahrzeug;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.commercial-vehicle;5;system;STATIC
+26;Personenfahrzeug;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.passenger-vehicle;5;system;STATIC
+27;Scooter;2023-06-13 00:00:00;jaynaApp.mobility.sub-category.scooter;5;system;STATIC

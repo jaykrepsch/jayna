@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-minivan.createTitle": "Personenfahrzeug Auto minivan anlegen",
+  "jaynaApp.mobility-passengervehicle-car-minivan.updateTitle": "Personenfahrzeug Auto minivan bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-minivan.viewTitle": "Personenfahrzeug Auto minivan anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-minivan.specificData.title": "Personenfahrzeug Auto minivan-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-minivan.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-minivan.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

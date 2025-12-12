@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.createTitle": "Garage anlegen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.updateTitle": "Garage bearbeiten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.viewTitle": "Garage anzeigen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.specificData.title": "Garage-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.specificData.fields.specificField1": "Größe",
+  "jaynaApp.realestate-withdevelopment-parkingspace-garage.specificData.fields.specificField2": "Art"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.createTitle": "Parkplatzmiete anlegen",
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.updateTitle": "Parkplatzmiete bearbeiten",
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.viewTitle": "Parkplatzmiete anzeigen",
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.specificData.title": "Parkplatzmiete-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-putdownspace-parking.specificData.fields.specificField2": "Standort"
+}

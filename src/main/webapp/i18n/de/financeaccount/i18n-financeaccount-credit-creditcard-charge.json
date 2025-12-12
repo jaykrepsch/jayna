@@ -1,0 +1,17 @@
+{
+  "jaynaApp.financeaccount-credit-creditcard-charge.createTitle": "Charge Card anlegen",
+  "jaynaApp.financeaccount-credit-creditcard-charge.updateTitle": "Charge Card bearbeiten",
+  "jaynaApp.financeaccount-credit-creditcard-charge.viewTitle": "Charge Card anzeigen",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.title": "Charge Card-spezifische Daten",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.creditCardType": "Kreditkarten-Typ",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.cardNumber": "Kartennummer",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.expiryDate": "Ablaufdatum",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.cvv": "CVV",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.cardHolder": "Karteninhaber",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.cardNetwork": "Kartennetzwerk",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.contactless": "Kontaktlos",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.chipCard": "Chip-Karte",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.onlineShopping": "Online-Shopping",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.travelInsurance": "Reiseversicherung",
+  "jaynaApp.financeaccount-credit-creditcard-charge.specificData.fields.purchaseProtection": "Kaufschutz"
+}

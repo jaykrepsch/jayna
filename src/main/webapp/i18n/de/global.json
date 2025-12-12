@@ -1,0 +1,740 @@
+{
+  "global": {
+    "title": "Jayna",
+    "nav": {
+      "CustomGroupTypeList": "Benutzerdefinierte Gruppen"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "link": "Anmelden"
+        }
+      }
+    },
+    "item-count": "Zeige {first} bis {second} von {total} Einträgen",
+    "menu": {
+      "home": "Startseite",
+      "choose": "Bitte wählen",
+      "account": {
+        "login": "Anmelden",
+        "register": "Registrieren",
+        "settings": "Einstellungen",
+        "password": "Passwort ändern",
+        "logout": "Abmelden"
+      }
+    },
+    "label": {
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "form": {
+      "createFormTitle": "{entity} anlegen"
+    },
+    "weiteres": {
+      "title": "Weiteres"
+    }
+  },
+  "error": {
+    "modal": {
+      "title": "Fehler",
+      "content": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "button": {
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "continue": "Weiter"
+  },
+  "entity": {
+    "action": {
+      "back": "Zurück",
+      "edit": "Bearbeiten"
+    },
+    "detail": {
+      "createdDate": "Erstellt am {dateTime}",
+      "lastModifiedDate": "Zuletzt geändert am {dateTime}",
+      "lastModifiedBy": "Geändert von {user}"
+    }
+  },
+
+  "login": {
+    "form": {
+      "username": {
+        "label": "Benutzername"
+      },
+      "password": "Passwort",
+      "rememberme": "Angemeldet bleiben",
+      "button": "Anmelden"
+    },
+    "password": {
+      "forgot": "Passwort vergessen?"
+    },
+    "messages": {
+      "error": {
+        "authentication": {
+          "header": "Anmeldung fehlgeschlagen",
+          "message": "Ungültige Anmeldedaten."
+        }
+      }
+    }
+  },
+  "test": {
+    "translation": "Test-Übersetzung funktioniert!"
+  },
+  "entityState": {
+    "ACTIVE": "Aktiv",
+    "ARCHIVE": "Archiviert"
+  },
+  "jaynaApp": {
+    "baseOverview": {
+      "category": "Kategorie"
+    },
+    "form-builder": {
+      "titles": {
+        "delete-relationship": "Verknüpfung löschen",
+        "add-relationship": "Verknüpfung hinzufügen"
+      },
+      "messages": {
+        "no-relationships": "Keine Verknüpfungen vorhanden",
+        "no-entities-available": "Keine Entitäten verfügbar",
+        "delete-relationship": "Sind Sie sicher, dass Sie diese Verknüpfung löschen möchten?"
+      }
+    },
+    "contract-employment-employee-terminationcontract": {
+      "createTitle": {
+        "relations-title": "Verknüpfungen"
+      }
+    },
+    "baseContract": {
+      "general": {
+        "title": "Allgemein",
+        "fields": {
+          "label": "Bezeichnung",
+          "description": "Beschreibung",
+          "entityState": "Status"
+        }
+      },
+      "contractData": {
+        "title": "Vertragsdaten",
+        "fields": {
+          "contractNumber": "Vertragsnummer",
+          "startDate": "Startdatum",
+          "endDate": "Enddatum",
+          "contractType": "Vertragstyp",
+          "provider": "Anbieter",
+          "contractor": "Vertragspartner",
+          "contractOwner": "Vertragseigentümer",
+          "contractUser": "Vertragsbenutzer",
+          "applicationDate": "Antragsdatum",
+          "confirmationDate": "Bestätigungsdatum"
+        }
+      },
+      "payment": {
+        "title": "Zahlungsdaten",
+        "fields": {
+          "amount": "Betrag",
+          "payer": "Zahlender",
+          "paymentPattern": "Zahlungsmuster",
+          "paymentType": "Zahlungsart"
+        }
+      },
+      "weiteres": {
+        "title": "Weiteres",
+        "fields": {
+          "comment": "Bemerkungen",
+          "notes": "Notizen"
+        }
+      },
+      "relations": {
+        "title": "Verknüpfungen"
+      }
+    },
+    "tiles": {
+      "my-space": {
+        "text": "Mein Bereich",
+        "edit-config": "Konfiguration bearbeiten",
+        "no-configs": "Keine Konfigurationen gefunden"
+      },
+      "table": {
+        "header": "Tabelle",
+        "subCategoryGroup": "Gruppierung",
+        "groupType": "Sparte",
+        "hasFormConfig": "Formular-Konfiguration"
+      }
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "devicesStar": "Geräte*",
+      "itemsStar": "Gegenstände*",
+      "clothesStar": "Klamotten*",
+      "softwareStar": "Software*",
+      "sportsStar": "Sport*",
+      "travelStar": "Reisen*",
+      "animalsStar": "Tiere*",
+      "damagesStar": "Schäden*",
+      "calendarStar": "Kalender*",
+      "tasksStar": "Aufgaben*",
+      "notesStar": "Notizen*",
+      "contractStatusStar": "Vertragsstatus*",
+      "dataQualityStar": "Datenqualität*",
+      "documentInboxStar": "Dokumenten-Inbox*"
+    },
+    "contract": {
+      "title": "Vertrag",
+      "subCategory": "Art",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Sparte",
+      "sub-category": {
+        "employment-contract": "Arbeitsvertrag",
+        "bank-account": "Bankkonto",
+        "credit-card": "Kreditkarte",
+        "loan": "Darlehen",
+        "service": "Dienstleistung",
+        "energy": "Energie",
+        "purchase-contract": "Kaufvertrag",
+        "credit": "Kredit",
+        "leasing": "Leasing",
+        "loan-agreement": "Leihvertrag",
+        "media": "Medien",
+        "rental-contract": "Mietvertrag",
+        "insurance": "Versicherung",
+        "property-management": "Hausverwaltung",
+        "rental-management": "Mietverwaltung"
+      },
+      "sub-category-group": {
+        "employee": "Angestellter",
+        "public-service": "Öffentlicher Dienst",
+        "official": "Beamter",
+        "support": "Förderung",
+        "realestate": "Immobilien",
+        "service": "Service",
+        "maintenance": "Wartung",
+        "electric": "Elektrik",
+        "photovoltaic": "Photovoltaik",
+        "heating": "Heizen",
+        "car": "KFZ",
+        "devices": "Geräte",
+        "objects": "Gegenstände",
+        "credit": "Kredit",
+        "television": "Fernsehen",
+        "internet": "Internet",
+        "cellular": "Mobilfunk",
+        "streaming": "Streaming",
+        "put-down-space": "Abstellplatz",
+        "reside": "Wohnen",
+        "health": "Kranken",
+        "life": "Leben",
+        "object": "Sach",
+        "business": "Gewerbe",
+        "fees": "Gebühren",
+        "checking-account": "Girokonto",
+        "savings-account": "Sparkonto",
+        "overnight-account": "Tagesgeldkonto",
+        "fixed-term-account": "Festgeldkonto",
+        "debit-card": "Debitkarte",
+        "property-management": "Hausverwaltung",
+        "rental-management": "Mietverwaltung"
+      },
+      "group-type": {
+        "car": "Auto",
+        "motorcycle": "Motorrad",
+        "caravan": "Wohnwagen",
+        "camper": "Wohnmobil",
+        "tractor": "Traktor",
+        "statutory-health-insurance": "Gesetzliche Krankenversicherung",
+        "additional-insurance-full": "Vollkasko-Zusatzversicherung",
+        "additional-insurance-outpatient": "Ambulante Zusatzversicherung",
+        "additional-insurance-stationary": "Stationäre Zusatzversicherung",
+        "additional-insurance-teeth": "Zahnzusatzversicherung",
+        "sick-pay": "Krankentagegeld",
+        "hospital-per-diem": "Krankenhaustagegeld",
+        "foreign-travel": "Auslandsreisekrankenversicherung",
+        "abroad": "Auslandskrankenversicherung",
+        "risk-life-insurance": "Risikolebensversicherung",
+        "pension-insurance": "Rentenversicherung",
+        "pension-insurance-fund": "Rentenversicherung (Fonds)",
+        "care-insurance": "Pflegeversicherung",
+        "daily-care-allowance": "Pflegetagegeld",
+        "disability-insurance": "Berufsunfähigkeitsversicherung",
+        "residential-building": "Wohngebäude",
+        "accident": "Unfallversicherung",
+        "environmental-damage": "Umwelthaftpflicht",
+        "animal-surgery": "Tierarzt",
+        "animal-owner-liability": "Tierhalterhaftpflicht",
+        "legal-protection": "Rechtsschutz",
+        "personal-liability": "Privathaftpflicht",
+        "photovoltaic": "Photovoltaik",
+        "loss-of-rent": "Mietausfall",
+        "art": "Kunst",
+        "homeowner-liability": "Haus- und Grundbesitzerhaftpflicht",
+        "household-goods": "Hausrat",
+        "glas": "Glas",
+        "fire": "Feuer",
+        "elementary": "Elementar",
+        "ebike": "E-Bike",
+        "builders-liability": "Bauherrenhaftpflicht",
+        "building": "Gebäude",
+        "manager-liability": "Managerhaftpflicht",
+        "apartment-rental-agreement": "Wohnungsmietvertrag",
+        "house-lease": "Hausmietvertrag",
+        "room": "Zimmer",
+        "holiday-apartment": "Ferienwohnung",
+        "holiday-house": "Ferienhaus",
+        "parking": "Parkplatz",
+        "garage": "Garage",
+        "music": "Musik",
+        "movies-series": "Filme & Serien",
+        "tablet": "Tablet",
+        "mobile": "Mobiltelefon",
+        "car-phone": "Autotelefon",
+        "glass-fiber": "Glasfaser",
+        "broadband": "Breitband",
+        "satellite-tv": "Satelliten-TV",
+        "cable-tv": "Kabel-TV",
+        "annuity-loan": "Annuitätendarlehen",
+        "bullet-loans": "Fälligkeitsdarlehen",
+        "call-loan": "Kündbares Darlehen",
+        "participatory-loans": "Partiarisches Darlehen",
+        "modernization": "Modernisierungsdarlehen",
+        "term-loan": "Festdarlehen",
+        "student-loans": "Studentendarlehen",
+        "kreditkarte": "Kreditkarte",
+        "debitkarte": "Debitkarte",
+        "rescheduling": "Umschuldung",
+        "free-use": "Freie Verwendung",
+        "boat": "Boot",
+        "heat-pump": "Wärmepumpe",
+        "chimney-sweeper": "Schornsteinfeger",
+        "heating": "Heizung",
+        "elevator": "Aufzug",
+        "caretaker-service": "Hausmeisterdienst",
+        "insurance-broker": "Versicherungsmakler",
+        "cleaning": "Reinigung",
+        "notary": "Notar",
+        "rental-management": "Mietverwaltung",
+        "car-inspection": "KFZ-Inspektion",
+        "real-estate-agent": "Immobilienmakler",
+        "property-management": "Hausverwaltung",
+        "gardener": "Gärtner",
+        "real-estate-tax": "Grundsteuer",
+        "mietverwaltung": "Mietverwaltung",
+        "hausverwaltung": "Hausverwaltung",
+        "help": "Aushilfe",
+        "termination-agreement": "Aufhebungsvertrag",
+        "full-time": "Vollzeit",
+        "half-time": "Teilzeit",
+        "internship": "Praktikum",
+        "mini-job": "Minijob",
+        "work-contract": "Arbeitsvertrag",
+        "amortization-loan": "Tilgungsdarlehen",
+        "rolling-market-loans": "Rollierende Geldmarktdarlehen",
+        "electricity": "Strom",
+        "gas": "Gas",
+        "district-heating": "Fernwärme",
+        "oil": "Öl",
+        "tv": "Fernseher",
+        "coffee-table": "Couchtisch",
+        "apartment": "Wohnung",
+        "house": "Haus",
+        "girokonto": "Girokonto",
+        "sparkonto": "Sparkonto",
+        "tagesgeldkonto": "Tagesgeldkonto",
+        "festgeldkonto": "Festgeldkonto",
+        "table": "Tisch",
+        "mobile": "Handy",
+        "building": "Gebäude",
+        "manager-liability": "D&O Managerhaftpflicht",
+        "legal-protection": "Rechtsschutz",
+        "annuity-loan": "Annuitätendarlehen",
+        "modernization": "Modernisierung",
+        "term-loan": "Laufzeitzinsdarlehen",
+        "participatory-loans": "Partiarische Darlehen",
+        "call-loan": "Abrufdarlehen",
+        "bullet-loans": "Endfällige Darlehen",
+        "holiday-apartment": "Ferienwohnung",
+        "holiday-house": "Ferienhaus",
+        "room": "Raum",
+        "broadband": "DSL",
+        "glass-fiber": "Glasfaser",
+        "motorcycle": "Motorrad",
+        "caravan": "Wohnwagen",
+        "camper": "Wohnmobil",
+        "tractor": "Traktor",
+        "statutory-health-insurance": "gesetzliche Krankenversicherung",
+        "abroad": "Ausland",
+        "additional-insurance-teeth": "Privat Zusatz Zahn",
+        "additional-insurance-stationary": "Privat Zusatz stationär",
+        "additional-insurance-outpatient": "Privat Zusatz ambulant",
+        "additional-insurance-full": "Privat Kranken voll",
+        "sick-pay": "Krankentagegeld",
+        "hospital-per-diem": "Krankenhaustagegeld",
+        "risk-life-insurance": "Risiko Lebensversicherung",
+        "messages": {
+          "delete": {
+            "title": "Vertrag löschen",
+            "content": "Sind Sie sicher, dass Sie diesen Vertrag löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+          }
+        },
+        "pension-insurance-fund": "Rentenversicherung Fonds",
+        "disability-insurance": "Berufsunfähigkeit",
+        "care-insurance": "Pflegeversicherung",
+        "pension-insurance": "Rentenversicherung klassisch",
+        "daily-care-allowance": "Pflegetagegeld",
+        "car-phone": "Autotelefon",
+        "tablet": "Tablet",
+        "accident": "Unfall",
+        "household-goods": "Hausrat",
+        "residential-building": "Wohngebäude",
+        "personal-liability": "Privathaftpflicht",
+        "builders-liability": "Bauherrenhaftpflicht",
+        "ebike": "E-Bike & Pedeleg",
+        "glas": "Glas",
+        "fire": "Feuer",
+        "homeowner-liability": "Haus- und Grundbesitzerhaftpflicht",
+        "art": "Kunst",
+        "loss-of-rent": "Mietausfall",
+        "photovoltaic": "Photovoltaik",
+        "animal-surgery": "Tier OP",
+        "animal-owner-liability": "Tierhalterhaftpflicht",
+        "environmental-damage": "Umweltschadenhaftpflicht",
+        "elementary": "Elementar (Wohngebäude)",
+        "movies-series": "Filme / Serien",
+        "music": "Musik",
+        "apartment-rental-agreement": "Wohnungsmietvertrag",
+        "house-lease": "Hausmietvertrag",
+        "municipal-fees": "Gemeindegebühren"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subCategory": "Art",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Sparte",
+      "sub-category": {
+        "contact": "Kontakte"
+      },
+      "sub-category.contact": "Kontakte",
+      "sub-category-group": {
+        "contact": "Kontakt"
+      },
+      "sub-category-group.contact": "Kontakt",
+      "group-type": {
+        "single-contact": "Einzelkontakt",
+        "contact-group": "Kontaktgruppe"
+      },
+      "group-type.single-contact": "Einzelkontakt",
+      "group-type.contact-group": "Kontaktgruppe",
+      "messages": {
+        "delete": {
+          "title": "Kontakt löschen",
+          "content": "Sind Sie sicher, dass Sie diesen Kontakt löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
+    "mobility": {
+      "title": "Mobilität",
+      "subCategory": "Art",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Sparte",
+      "sub-category": {
+        "boat": "Boot",
+        "bike": "Fahrrad",
+        "agriculture": "Landwirtschaft",
+        "commercial-vehicle": "Nutzfahrzeug",
+        "passenger-vehicle": "Personenfahrzeug",
+        "scooter": "Scooter"
+      },
+      "sub-category.boat": "Boot",
+      "sub-category.bike": "Fahrrad",
+      "sub-category.agriculture": "Landwirtschaft",
+      "sub-category.commercial-vehicle": "Nutzfahrzeug",
+      "sub-category.passenger-vehicle": "Personenfahrzeug",
+      "sub-category.scooter": "Scooter",
+      "sub-category-group": {
+        "trailer": "Anhänger",
+        "car": "Auto",
+        "bike": "Bike",
+        "e-bike": "E-Bike",
+        "hybrid": "Hybrid",
+        "box": "Kasten",
+        "motorized": "Motorbetrieben",
+        "motorcycle": "Motorrad",
+        "pedelec": "Pedelec",
+        "quad": "Quad",
+        "sailing": "Segeln",
+        "tractor": "Traktor",
+        "camper": "Wohnmobil",
+        "caravan": "Wohnwagen"
+      },
+      "group-type": {
+        "convertible": "Cabrio",
+        "coupe": "Coupé",
+        "cuv": "CUV",
+        "off-road-vehicle": "Geländewagen",
+        "minibus": "Kleinbus",
+        "small-transporter": "Kleintransporter",
+        "small-car": "Kleinwagen",
+        "station-wagon": "Kombi",
+        "limousine": "Limousine",
+        "minivan": "Minivan",
+        "pickup": "Pickup",
+        "roadstar": "Roadstar",
+        "suv": "SUV",
+        "transporter": "Transporter",
+        "van": "Van",
+        "motorcycle": "Motorrad",
+        "car": "Auto",
+        "caravan": "Wohnwagen",
+        "camper": "Wohnmobil",
+        "motorboat": "Motorboot",
+        "motor-glider": "Motorsegler",
+        "boxvan": "Kastenwagen",
+        "sailing-boat": "Segelboot",
+        "sailing-yacht": "Segelyacht",
+        "tractor": "Traktor",
+        "alkoven": "mit Alkoven",
+        "semi-integrated": "teilintegriert",
+        "fully-integrated": "vollintegriert",
+        "family": "Familien",
+        "luxury": "Luxus",
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "city": "City",
+        "cross": "Cross",
+        "tricycle": "Dreirad",
+        "folding-bike": "Falt",
+        "gravel": "Gravel",
+        "cargo": "Lasten",
+        "lifestyle": "Lifestyle",
+        "mtb": "Mountainbike",
+        "racing-bike": "Rennrad",
+        "speed-bike": "Speed",
+        "trekking-bike": "Trekking",
+        "e-lifestyle": "Lifestyle",
+        "e-mtb": "Mountainbike",
+        "e-racing-bike": "Rennrad",
+        "e-speed-bike": "Speed",
+        "e-suv": "SUV",
+        "e-trekking-bike": "Trekking",
+        "e-xxl": "XXL",
+        "p-city": "City",
+        "p-cross": "Cross",
+        "p-tricycle": "Dreirad",
+        "p-folding-bike": "Falt",
+        "p-gravel": "Gravel",
+        "p-cargo": "Lasten",
+        "p-lifestyle": "Lifestyle",
+        "p-mtb": "Mountainbike",
+        "p-racing-bike": "Rennrad",
+        "p-speed-bike": "Speed",
+        "p-suv": "SUV",
+        "p-trekking-bike": "Trekking",
+        "p-xxl": "XXL",
+        "quad-4x4": "4x4",
+        "quad-c": "C",
+        "quad-electro": "Elektro",
+        "quad-children": "Kinder",
+        "quad-offroad": "Offroad",
+        "quad-pocket": "Pocket",
+        "quad-race": "Renn",
+        "quad-road": "Road",
+        "quad-side-by-side": "Side by Side"
+      },
+      "messages": {
+        "delete": {
+          "title": "Fahrzeug löschen",
+          "content": "Sind Sie sicher, dass Sie dieses Fahrzeug löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
+    "realestate": {
+      "title": "Immobilie",
+      "subCategory": "Art",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Sparte",
+      "sub-category": {
+        "with-development": "mit Bebauung",
+        "without-development": "ohne Bebauung"
+      },
+      "sub-category.with-development": "mit Bebauung",
+      "sub-category.without-development": "ohne Bebauung",
+      "sub-category-group": {
+        "commercial-building": "Gewerbehaus",
+        "hall": "Halle",
+        "residential-building": "Wohnhaus",
+        "commercial-residential-building": "Wohn + Gewerbehaus",
+        "parking-space": "Parkfläche",
+        "farmland": "Bewirtschaftung",
+        "garden": "Garten",
+        "ground": "Grund"
+      },
+      "group-type": {
+        "commercial-unit": "Gewerbeeinheit",
+        "commercial-building": "Gewerbehaus",
+        "hall": "Halle",
+        "semit-detached-house": "Doppelhaushälfte",
+        "detached-house": "Einfamilienhaus",
+        "vacation-house": "Ferienhaus",
+        "apartment-building": "Mehrfamilienhaus",
+        "care-facility": "Pflegeeinrichtung",
+        "terraced-end-house": "Reihenendhaus",
+        "terraced-mid-house": "Reihenmittelhaus",
+        "two-family-house": "Zweifamilienhaus",
+        "apartments-commercial-mix": "Wohnungen & Gewerbe",
+        "carport": "Carport",
+        "garage": "Garage",
+        "parking-house": "Parkhaus",
+        "parking-space": "Parkplatz",
+        "farmland": "Ackerland",
+        "forest": "Forst",
+        "fruit": "Frucht",
+        "pasture": "Weide",
+        "allotment-garden": "Schrebergarten",
+        "building-plot": "Bebauungsgrundstück",
+        "meadow": "Wiese"
+      },
+      "messages": {
+        "delete": {
+          "title": "Immobilie löschen",
+          "content": "Sind Sie sicher, dass Sie diese Immobilie löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
+    "financeaccount": {
+      "title": "Finanzkonto",
+      "subCategory": "Art",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Sparte",
+      "sub-category": {
+        "bank": "Bank",
+        "credit": "Kredit",
+        "systems": "Systeme"
+      },
+      "sub-category.bank": "Bank",
+      "sub-category.credit": "Kredit",
+      "sub-category.systems": "Systeme",
+      "sub-category-group": {
+        "bank-account": "Bankkonto",
+        "credit-card": "Kreditkarte",
+        "payment-systems": "Bezahlsysteme"
+      },
+      "group-type": {
+        "checking": "Girokonto",
+        "savings": "Sparkonto",
+        "credit": "Kreditkonto",
+        "investment": "Anlagekonto",
+        "online-virtual": "Online Virtuell",
+        "samsung": "Samsung",
+        "paypal": "Paypal",
+        "google-pay": "Google Pay",
+        "apple-pay": "Apple Pay",
+        "skrill": "Skrill",
+        "stripe": "Stripe",
+        "klarna": "Klarna"
+      },
+      "messages": {
+        "delete": {
+          "title": "Konto löschen",
+          "content": "Sind Sie sicher, dass Sie dieses Konto löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    }
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "generalTerms": "Allgemeine Geschäftsbedingungen"
+  },
+  "button": {
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "show": "Anzeigen",
+    "view": "Anzeigen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "continue": "Weiter",
+    "back": "Zurück",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "add_relationship": "Verknüpfung hinzufügen",
+    "add_form_field": "Formularfeld hinzufügen",
+    "add_form_part": "Formularteil hinzufügen",
+    "confirm": "Bestätigen",
+    "edit": "Ändern"
+  },
+  "Verknüpfungen": "Verknüpfungen",
+  "Verknüpfung hinzufügen": "Verknüpfung hinzufügen",
+  "entity": {
+    "contract": "Vertrag",
+    "contact": "Kontakt",
+    "mobility": "Fahrzeug",
+    "realestate": "Immobilie",
+    "financeaccount": "Konto",
+    "titles": {
+      "choose-relationship": "Verknüpfung auswählen"
+    },
+    "action": {
+      "back": "Zurück",
+      "edit": "Bearbeiten",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "detail": {
+      "createdDate": "Erstellt am"
+    }
+  },
+  "error": {
+    "modal": {
+      "title": "Fehler",
+      "content": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "http": {
+      "500": "Interner Server-Fehler",
+      "403": "Zugriff verweigert",
+      "404": "Seite nicht gefunden"
+    },
+    "title": "Fehler"
+  },
+  "enums": {
+    "ACTIVE": "aktiv",
+    "INACTIVE": "inaktiv",
+    "ARCHIV": "archiv",
+    "CAR": "Auto",
+    "MOTORCYCLE": "Motorrad",
+    "TRUCK": "LKW",
+    "VAN": "Transporter",
+    "BOAT": "Boot",
+    "PLANE": "Flugzeug",
+    "HOUSE": "Haus",
+    "APARTMENT": "Wohnung",
+    "COMMERCIAL": "Gewerbe",
+    "LAND": "Grundstück",
+    "CHECKING": "Girokonto",
+    "SAVINGS": "Sparkonto",
+    "CREDIT": "Kreditkarte",
+    "INVESTMENT": "Anlagekonto",
+    "EUR": "Euro",
+    "USD": "US-Dollar",
+    "CHF": "Schweizer Franken",
+    "GBP": "Britisches Pfund",
+    "MR": "Herr",
+    "MS": "Frau",
+    "MX": "Divers",
+    "DR": "Dr.",
+    "PROF": "Prof.",
+    "MILITARY": "Militär",
+    "CIVIL": "Zivil",
+    "MALE": "männlich",
+    "FEMALE": "weiblich",
+    "DIVERSE": "divers",
+    "PRIVATE": "Privat",
+    "BUSINESS": "Geschäft",
+    "PHONE": "Telefon",
+    "EMAIL": "E-Mail",
+    "MOBILE": "Mobil"
+  }
+}

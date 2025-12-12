@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Contact.
+    -->
+    <changeSet id="20230623154944-1" author="jhipster">
+        <createTable tableName="contact">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="title" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="salutation" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="rank" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="gender" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sur_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="first_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="other_first_names" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="birth_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="marital_status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nick_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="birth_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="birth_city" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="birth_country" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nationality" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="address_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="street" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="street_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="postal_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="additional_address_field_1" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="additional_address_field_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="communication_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_country_code" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_prefix" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_number" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+</databaseChangeLog>

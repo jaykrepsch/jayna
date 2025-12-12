@@ -1,0 +1,226 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseContract, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.contract-loan-realestate-bulletloans.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseContract.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.contractData.title",
+      "fields": [
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "startDate",
+          "type": "date"
+        },
+        {
+          "name": "endDate",
+          "type": "date"
+        },
+        {
+          "name": "contractType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "contractType",
+          "defaultValue": "LOAN"
+        },
+        {
+          "name": "provider",
+          "type": "text"
+        },
+        {
+          "name": "contractor",
+          "type": "text"
+        },
+        {
+          "name": "contractOwner",
+          "type": "text"
+        },
+        {
+          "name": "contractUser",
+          "type": "text"
+        },
+        {
+          "name": "applicationDate",
+          "type": "date"
+        },
+        {
+          "name": "confirmationDate",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contract-loan-realestate-bulletloans.specificData.title",
+      "i18nSource": "contract-loan-realestate-bulletloans",
+      "fields": [
+        {
+          "name": "loanAmount",
+          "type": "number"
+        },
+        {
+          "name": "interestRate",
+          "type": "number"
+        },
+        {
+          "name": "term",
+          "type": "number"
+        },
+        {
+          "name": "loanType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "loanType"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.payment.title",
+      "fields": [
+        {
+          "name": "amount",
+          "type": "number"
+        },
+        {
+          "name": "payer",
+          "type": "text"
+        },
+        {
+          "name": "paymentPattern",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "paymentPattern"
+        },
+        {
+          "name": "paymentType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "paymentType"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "contractContacts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "contractContracts",
+      "relationConfig": {
+        "id": "contract-contract",
+        "sourceEntity": "contract",
+        "targetEntity": "contract",
+        "relationType": "RELATED_TO",
+        "displayName": "Vertrag - Vertrag",
+        "description": "Verknüpfung zwischen Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "contractRealestates",
+      "relationConfig": {
+        "id": "contract-realestate",
+        "sourceEntity": "contract",
+        "targetEntity": "realestate",
+        "relationType": "COVERS",
+        "displayName": "Vertrag - Immobilie",
+        "description": "Verknüpfung zwischen Verträgen und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "contractFinanceAccounts",
+      "relationConfig": {
+        "id": "contract-financeaccount",
+        "sourceEntity": "contract",
+        "targetEntity": "financeaccount",
+        "relationType": "PAYMENT_ACCOUNT",
+        "displayName": "Vertrag - Finanzkonto",
+        "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "contractMobilities",
+      "relationConfig": {
+        "id": "contract-mobility",
+        "sourceEntity": "contract",
+        "targetEntity": "mobility",
+        "relationType": "INSURES",
+        "displayName": "Vertrag - Mobilität",
+        "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContract.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseContract.documentRelations.title"
+}

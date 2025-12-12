@@ -1,0 +1,16 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.createTitle": "Chopper anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.updateTitle": "Chopper bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.viewTitle": "Chopper anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.title": "Chopper-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.motorcycleType": "Motorrad-Typ",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.transmission": "Getriebe",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.seatHeight": "Sitzhöhe (cm)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.tankCapacity": "Tankkapazität (Liter)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.wheelbase": "Radstand (cm)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.rakeAngle": "Nachlaufwinkel (Grad)",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.customPaint": "Custom Lackierung",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.chromeAccessories": "Chrom-Zubehör",
+  "jaynaApp.mobility-passengervehicle-motorcycle-chopper.specificData.fields.leatherSeat": "Ledersitz"
+}

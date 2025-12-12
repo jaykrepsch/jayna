@@ -1,0 +1,94 @@
+Jayna was ist noch zu tun
+---------------------------------------------------------------------------------------------------------
+
+jetzt will ich noch einen Abschnitt haben in der ansicht der Dokumente also in der dokumenten view und update zwischen den Abschnitten Verknüpfungen und Dateien der Organisation heißt genauso wie wir ihn angelegt haben in den common entitäten und in kontakte
+
+
+
+
+
+
+
+--- Übersicht Dokumente
+- die Daten der Übersicht von Dokumente geht noch nicht. Da muss man noch überlegen welche Felder sinnvoll sind
+
+---Dokumente Kastegorien 
+werden noch nicht alle angezeigt
+
+--- Button verhalten wann auf welche Seite
+verhalten der Buttons prüfen was am sinnvollsten ist wo soll man hinkommen wenn man in einer Ansicht auf abbrechen zurück speichern drückt frage ist auch die Reihenfolge der Buttons bearbeiten wirklich rechts oben oder lieber erst z
+
+--- Dokumente zähleln 
+ich hätte gerne eine zählung der Dateien in einem Dokument und diese soll dann hinter der Büroklammer in der Übersicht angezeigt werden. außerdem soll das später für eine Statistik dienen
+
+--- Übersetzungen in dorm definitions
+in den common Bearbeitung müssen die Übersetzungen fertig gemacht werden die sind meinst auf Englisch. In den Kontakten ist es bei update und View das noch alles auf Englisch ist
+
+--- Verknüpfungen und Verknüpfungen Dokumente
+müssen wir nochmal Probieren. Es gibt Verknüpfungen zwischen den Entitäten in den common Entitäten und kontakten heißt es Verknüpfungen. dann soll es noch einmal einen Abschnitt geben der Dateien heißt darin werden die Verknüpfungen zwischen den Dokumenten und Entitäten und kontakte stehen. in den Dokumenten gibt es auch einen Abschnitt der soll Verknüpfungen Dateien heißen. das ist das Gegenteil zu "Dateien" in den common Entitäten und kontakten
+
+--- Statistik (Widgets sind schon angelegt. wir brauchen jetzt noch die Seiten dazu und große Statistiken)
+
+aktuell --- Mein Bereich / Startseite / Statistik klein
+Soll die Startseite werden wir brauchen verschiedene Bereiche
+Aufgaben,
+Notizen,
+Kalender
+Aktuelle Kündigungstermine von Verträgen ( man kann dann auswählen wann man wieder daran erinnert werden soll)
+Aktuelle Veränderungen an Datensäten 
+Aktuelle Eingangsdokumente (letze Eingangspost) (E-Mail, Post, etc.)
+Finanzübersicht
+verliehene Sachen
+Ablauftermine (Kündigungsfristen, Garantieauslauf, TüV Fälligkeiten)
+Einnahmen / Ausgaben liste
+allgemeines wie -- wie viel verträge wieviel Immobilien, wie viel ausgaben im Monat ( vielleicht auch unter Finanzen) einnahmen wieviel datensätze und Dateien bibt es und )
+
+--- Dokumente
+echte analyse der Dateien
+richtiger Vorschlag für Kategorie
+Daten extrahieren und in der Analyze einfügen
+richtige VOrschläge in der Analyze machen
+extrahierte Daten aus der Analyze in die Felder der create einfügen
+
+--- Überprüfen der Form-Definition per Hand in Excel. (Ich will mir jeden Datensatz anschauen was noch geändert werden muss)
+kannst du mir eine exceltabelle erstellen mit 4 spalten und zwar kommt in die erste Spalte die entenität 2. spalte art 3. Gruppierung und 4. Sparte/typ --- jetzt will ich das du alle möglichen Datensätze die bisher angelegt sind dort rein schreibst.
+Makiere deine Einträge farblich.
+schreibe mir zu jeder entnität auch noch  weitere vorschläge dazu was wichtig für Private Personen sein könnte. 
+
+
+--- Suchoption beim anlegen von Datensätzen (Kategorie)
+ich möchte eine Suchfunktion integrieren undzwar in der creat view. Ziel ist es, dass man etwas in die Suchfunktion schreibt und man verschiede vorschläge erhält welches man auswählen kann. also soll in der Suchfunktion alles aufgelistet werden was mit dem Begriff zu tun hat. Beispiel ich gebe in das Suchfeld Auto ein. also soll jetzt in allen Art Gruppierung und Sparte nach Auto gesucht werden. das muss später nochmal erweitert werden da zum Beispiel Datensätze dazu kommen die zwar nicht Auto in den Kategorien als wort stehen hat, aber etwas mit Auto zu tun hat. Ich denke für den Anfang wäre es am einfachsten wenn wir eine Datei anlegen in der alle möglilchen category subcategory Group stehen wie wir es in der formulardefinitionen_und_auswahlmoeglichkeiten gemacht haben. anhand dieser Tabelle kann man dann suchen. Eventuell hast du eine Bessere und einfachere Lösung. Das ist mein Vorschlag. wenn die suche Erfolgreich ist soll der passende Datensatzt geöffnet werden.
+
+--- Sidebar bearbeiten
+so dass man die Punkte ein und ausblenden kann und verschieben kann die man will etc
+
+
+---- weitere Funktionen des Systems (kann man machen)
+Vertragsstatus/Fristen: Nächste Verlängerungen, Sonderkündigungsrechte, automatische Hinweise
+Erinnerungen: Alle offenen Erinnerungen zentral (filterbar nach Bereich)
+Datenqualität: Dubletten, fehlende Pflichtfelder, veraltete Datensätze
+Letzte Aktivitäten: Zuletzt geänderte/angelegte Datensätze (wer/was/wann)
+Schnellerfassung: Quick‑Add für Aufgabe, Notiz, Dokument, Termin
+Such-Shortcuts: Gespeicherte Suchen/Filter (1‑Klick zur Ergebnisliste)
+Dokumenten‑Inbox: Unzugeordnete Dokumente, OCR ausstehend, Dublettenverdacht
+Favoriten/Angepinnt: Nutzerdefinierte Schnellzugriffe auf häufig genutzte Einträge
+Finanz‑Budgets: Monatsbudget vs. Ist (Balken/Badge), Ampellogik
+Cashflow‑Trend: Mini‑Sparkline Einnahmen/Ausgaben (letzte 12 Wochen)
+Steuer/Abgaben: Anstehende Termine (USt‑VA, ESt, Grundsteuer)
+Verträge nach Risiko: Beiträge > X €, variable Zinsbindung, Einmalzahlungen
+Immobilien‑Überblick: Leerstände, Fällige Wartungen/Prüfungen
+Mobilität: HU/Inspektion/Versicherung je Fahrzeug, Kilometer‑Reminder
+Garantien/Service: Auslaufende Garantien/Serviceverträge
+Ausleihen‑Historie: Zu spät, oft verliehene Gegenstände
+Speicher/Anhänge: Speicherverbrauch, große Dateien, Dateitypen‑Verteilung
+System‑Status: Backup‑Zeitpunkt, letzte erfolgreiche Jobs (nur Admin)
+Pinned‑KPIs: Nutzer wählt 3 Kennzahlen für prominente Anzeige
+Widget‑Katalog: Übersicht aller Widgets mit An/Aus‑Toggle (dein gewünschter Dialog)
+Standard-Sichtbarkeit pro Rolle: Je nach Nutzerrolle (z.B. Basis/Pro/Business) können Widgets initial an oder aus sein. Vorteil: Neue Nutzer sehen nur das Wesentliche; Power-User aktivieren mehr. Du kannst das später jederzeit im Dialog umschalten.
+Dialog statt Modal in der Kopfzeile: Alternative ist ein Dropover/Off‑Canvas rechts statt Modal in der Mitte. Das wirkt leichter, verdeckt weniger und passt zum „einfach“-Gefühl.
+Weitere Vereinfachungen bei vielen Funktionen:
+Progressive Disclosure: Erst die wichtigsten 4–6 Widgets sichtbar; Rest per „Widgets verwalten“.
+Soft‑Leittexte: Bei leeren Widgets kurze, hilfreiche Sätze statt Buttons.
+Einheitliche Muster: Gleiche Icons/Begriffe für „Neu“, „Mehr“, „Sortieren“, Rechtsklick überall gleich.
+Konfig‑Snapshot: „Layout speichern“ und „Zurücksetzen auf Standard“ im Dialog.
+Mikro‑Hilfen: „i“-Tooltip pro Widget‑Titel mit 1‑Satz‑Erklärung.

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-credit-car-caravan.createTitle": "Credit anlegen",
+  "jaynaApp.contract-credit-car-caravan.updateTitle": "Credit bearbeiten",
+  "jaynaApp.contract-credit-car-caravan.viewTitle": "Credit anzeigen",
+  "jaynaApp.contract-credit-car-caravan.specificData.title": "Credit-spezifische Daten",
+  "jaynaApp.contract-credit-car-caravan.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-credit-car-caravan.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,24 @@
+id;name;sub_category_group_id;translation_key;abbreviation
+118;Gewerbeeinheit;32;jaynaApp.real-estate.group-type.commercial-unit;GEWE
+119;Gewerbehaus;32;jaynaApp.real-estate.group-type.commercial-building;GEWH
+120;Halle;33;jaynaApp.real-estate.group-type.hall;HALL
+121;Doppelhaushälfte;34;jaynaApp.real-estate.group-type.semit-detached-house;DHH
+122;Einfamilienhaus;34;jaynaApp.real-estate.group-type.detached-house;EFH
+123;Ferienhaus;34;jaynaApp.real-estate.group-type.vacation-house;FEH
+124;Mehrfamilienhaus;34;jaynaApp.real-estate.group-type.apartment-building;MFH
+125;Pflegeeinrichtung;34;jaynaApp.real-estate.group-type.care-facility;PFE
+126;Reihenendhaus;34;jaynaApp.real-estate.group-type.terraced-end-house;REH
+127;Reihenmittelhaus;34;jaynaApp.real-estate.group-type.terraced-mid-house;RMH
+128;Zweifamilienhaus;34;jaynaApp.real-estate.group-type.two-family-house;ZFH
+129;Wohnungen & Gewerbe;35;jaynaApp.real-estate.group-type.apartments-commercial-mix;PGM
+130;Carport;36;jaynaApp.real-estate.group-type.carport;CARP
+131;Garage;36;jaynaApp.real-estate.group-type.garage;GARA
+132;Parkhaus;36;jaynaApp.real-estate.group-type.parking-house;PARH
+133;Parkplatz;36;jaynaApp.real-estate.group-type.parking-space;PARP
+134;Ackerland;37;jaynaApp.real-estate.group-type.farmland;ACKE
+135;Forst;37;jaynaApp.real-estate.group-type.forest;FORS
+136;Frucht;37;jaynaApp.real-estate.group-type.fruit;FRUCH
+137;Weide;37;jaynaApp.real-estate.group-type.pasture;WEID
+138;Schrebergarten;38;jaynaApp.real-estate.group-type.allotment-garden;STGA
+139;Bebauungsgrundstück;39;jaynaApp.real-estate.group-type.building-plot;BBGS
+140;Wiese;39;jaynaApp.real-estate.group-type.meadow;WIES

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-hall-hall.createTitle": "Halle anlegen",
+  "jaynaApp.realestate-withdevelopment-hall-hall.updateTitle": "Halle bearbeiten",
+  "jaynaApp.realestate-withdevelopment-hall-hall.viewTitle": "Halle anzeigen",
+  "jaynaApp.realestate-withdevelopment-hall-hall.specificData.title": "Halle-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-hall-hall.specificData.fields.specificField1": "Grundfläche",
+  "jaynaApp.realestate-withdevelopment-hall-hall.specificData.fields.specificField2": "Höhe"
+}

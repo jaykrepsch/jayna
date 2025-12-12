@@ -1,0 +1,17 @@
+{
+  "jaynaApp.mobility-bike-bike-cargo.createTitle": "Lastenrad anlegen",
+  "jaynaApp.mobility-bike-bike-cargo.updateTitle": "Lastenrad bearbeiten",
+  "jaynaApp.mobility-bike-bike-cargo.viewTitle": "Lastenrad anzeigen",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.title": "Lastenrad-spezifische Daten",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.bikeType": "Fahrrad-Typ",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.frameSize": "Rahmengröße",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.wheelSize": "Laufradgröße",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.frameMaterial": "Rahmenmaterial",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.suspension": "Federung",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.gears": "Gänge",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.brakeType": "Bremsentyp",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.cargoCapacity": "Ladekapazität (kg)",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.lights": "Beleuchtung",
+  "jaynaApp.mobility-bike-bike-cargo.specificData.fields.basket": "Korb"
+}

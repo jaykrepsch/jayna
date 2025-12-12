@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.createTitle": "Apple Pay anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.updateTitle": "Apple Pay bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.viewTitle": "Apple Pay anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.specificData.title": "Apple Pay-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.specificData.fields.specificField1": "Transaktionsgebühr",
+  "jaynaApp.financeaccount-systems-paymentsystems-applepay.specificData.fields.specificField2": "Abrechnungszeitraum"
+}

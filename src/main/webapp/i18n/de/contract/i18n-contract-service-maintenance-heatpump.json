@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-maintenance-heatpump.createTitle": "Wärmepumpenwartung anlegen",
+  "jaynaApp.contract-service-maintenance-heatpump.updateTitle": "Wärmepumpenwartung bearbeiten",
+  "jaynaApp.contract-service-maintenance-heatpump.viewTitle": "Wärmepumpenwartung anzeigen",
+  "jaynaApp.contract-service-maintenance-heatpump.specificData.title": "Wärmepumpenwartung-spezifische Daten",
+  "jaynaApp.contract-service-maintenance-heatpump.specificData.fields.specificField1": "Wartungsintervall",
+  "jaynaApp.contract-service-maintenance-heatpump.specificData.fields.specificField2": "Techniker"
+}

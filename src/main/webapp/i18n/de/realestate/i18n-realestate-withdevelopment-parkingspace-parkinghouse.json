@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.createTitle": "Parkhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.updateTitle": "Parkhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.viewTitle": "Parkhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.specificData.title": "Parkhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.specificData.fields.specificField1": "Anzahl Stellplätze",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkinghouse.specificData.fields.specificField2": "Etage"
+}

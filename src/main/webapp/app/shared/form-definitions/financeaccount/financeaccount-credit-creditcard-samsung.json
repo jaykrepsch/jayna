@@ -1,0 +1,143 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseFinanceaccount, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "Financeaccount Credit CreditCard Samsung",
+  "parts": [
+    {
+      "title": "jaynaApp.baseFinanceaccount.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.financeaccount-credit-creditCard-samsung.specificData.title",
+      "i18nSource": "financeaccount-credit-creditCard-samsung",
+      "fields": [
+        {
+          "name": "specificField1",
+          "type": "text"
+        },
+        {
+          "name": "specificField2",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "financeaccountContacts",
+      "relationConfig": {
+        "id": "contact-financeaccount",
+        "sourceEntity": "contact",
+        "targetEntity": "financeaccount",
+        "relationType": "ACCOUNT_HOLDER",
+        "displayName": "Kontakt - Finanzkonto",
+        "description": "Verknüpfung zwischen Kontakten und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "financeaccountContracts",
+      "relationConfig": {
+        "id": "contract-financeaccount",
+        "sourceEntity": "contract",
+        "targetEntity": "financeaccount",
+        "relationType": "PAYMENT_ACCOUNT",
+        "displayName": "Vertrag - Finanzkonto",
+        "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "financeaccountRealestates",
+      "relationConfig": {
+        "id": "realestate-financeaccount",
+        "sourceEntity": "realestate",
+        "targetEntity": "financeaccount",
+        "relationType": "FINANCED_BY",
+        "displayName": "Immobilie - Finanzkonto",
+        "description": "Verknüpfung zwischen Immobilien und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "financeaccountFinanceAccounts",
+      "relationConfig": {
+        "id": "financeaccount-financeaccount",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "financeaccount",
+        "relationType": "RELATED_TO",
+        "displayName": "Finanzkonto - Finanzkonto",
+        "description": "Verknüpfung zwischen Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "financeaccountMobilities",
+      "relationConfig": {
+        "id": "financeaccount-mobility",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "mobility",
+        "relationType": "FINANCES",
+        "displayName": "Finanzkonto - Mobilität",
+        "description": "Verknüpfung zwischen Finanzkonten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseFinanceaccount.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseFinanceaccount.documentRelations.title"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-loan-realestate-annuityloan.createTitle": "Annuitätendarlehen anlegen",
+  "jaynaApp.contract-loan-realestate-annuityloan.updateTitle": "Annuitätendarlehen bearbeiten",
+  "jaynaApp.contract-loan-realestate-annuityloan.viewTitle": "Annuitätendarlehen anzeigen",
+  "jaynaApp.contract-loan-realestate-annuityloan.specificData.title": "Annuitätendarlehen-spezifische Daten",
+  "jaynaApp.contract-loan-realestate-annuityloan.specificData.fields.specificField1": "Darlehensbetrag",
+  "jaynaApp.contract-loan-realestate-annuityloan.specificData.fields.specificField2": "Zinssatz"
+}

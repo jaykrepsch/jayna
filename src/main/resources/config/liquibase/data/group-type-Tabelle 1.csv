@@ -1,0 +1,158 @@
+id;name;created_date;translation_key;sub_category_group_id;entity_name;abbreviation;form_name
+1;Garage;2023-06-13 00:00:00;jaynaApp.contract.group-type.garage;22;contract;;
+2;Parkplatz;2023-06-13 00:00:00;jaynaApp.contract.group-type.parking;22;contract;;
+3;Mini;2023-06-13 00:00:00;jaynaApp.contract.group-type.mini-job;1;contract;;employment-contract
+4;Teilzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.half-time;1;contract;;employment-contract
+5;Vollzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.full-time;1;contract;;employment-contract
+6;Aushilfe;2023-06-13 00:00:00;jaynaApp.contract.group-type.help;1;contract;;employment-contract
+7;Praktikumsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.internship;1;contract;;employment-contract
+8;Aufhebungsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.termination-agreement;1;contract;;employment-contract
+9;Werkvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.work-contract;1;contract;;employment-contract
+10;Mini;2023-06-13 00:00:00;jaynaApp.contract.group-type.mini-job;3;contract;;employment-contract
+11;Teilzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.half-time;3;contract;;employment-contract
+12;Vollzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.full-time;3;contract;;employment-contract
+13;Aushilfe;2023-06-13 00:00:00;jaynaApp.contract.group-type.help;3;contract;;employment-contract
+14;Praktikumsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.internship;3;contract;;employment-contract
+15;Aufhebungsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.termination-agreement;3;contract;;employment-contract
+16;Werkvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.work-contract;3;contract;;employment-contract
+17;Strom;2023-06-13 00:00:00;jaynaApp.contract.group-type.electricity;7;contract;;
+18;Kabelfernsehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.cable-tv;18;contract;;
+19;Satellitenfernsehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.satellite-tv;18;contract;;
+20;Bafög;2023-06-13 00:00:00;jaynaApp.contract.group-type.student-loans;31;contract;;loan-credit-contract
+21;Couch;2023-06-13 00:00:00;jaynaApp.contract.group-type.coffee-table;12;contract;;
+22;Tisch;2023-06-13 00:00:00;jaynaApp.contract.group-type.table;12;contract;;
+23;Handy;2023-06-13 00:00:00;jaynaApp.contract.group-type.mobile;11;contract;;
+24;Fernseher;2023-06-13 00:00:00;jaynaApp.contract.group-type.tv;11;contract;;
+25;Gebäude;2023-06-13 00:00:00;jaynaApp.contract.group-type.building;30;contract;;
+26;D&O Managerhaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.manager-liability;30;contract;;
+27;Rechtsschutz;2023-06-13 00:00:00;jaynaApp.contract.group-type.legal-protection;30;contract;;
+28;Gas;2023-06-13 00:00:00;jaynaApp.contract.group-type.gas;9;contract;;
+29;Fernwärme;2023-06-13 00:00:00;jaynaApp.contract.group-type.district-heating;9;contract;;
+30;Öl;2023-06-13 00:00:00;jaynaApp.contract.group-type.oil;9;contract;;
+31;Annuitätendarlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.annuity-loan;4;contract;;loan-credit-contract
+32;Modernisierung;2023-06-13 00:00:00;jaynaApp.contract.group-type.modernization;4;contract;;loan-credit-contract
+33;Tilgungsdarlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.amortization-loan;4;contract;;loan-credit-contract
+34;Laufzeitzinsdarlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.term-loan;4;contract;;loan-credit-contract
+35;Partiarische Darlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.participatory-loans;4;contract;;loan-credit-contract
+36;Abrufdarlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.call-loan;4;contract;;loan-credit-contract
+37;Rollierende Geldmarktdarlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.rolling-market-loans;4;contract;;loan-credit-contract
+38;Endfällige Darlehen;2023-06-13 00:00:00;jaynaApp.contract.group-type.bullet-loans;4;contract;;loan-credit-contract
+39;Wohnung;2023-06-13 00:00:00;jaynaApp.contract.group-type.apartment;13;contract;;
+40;Haus;2023-06-13 00:00:00;jaynaApp.contract.group-type.house;13;contract;;
+41;Ferienwohnung;2023-06-13 00:00:00;jaynaApp.contract.group-type.holiday-apartment;23;contract;;
+42;Ferienhaus;2023-06-13 00:00:00;jaynaApp.contract.group-type.holiday-house;23;contract;;
+43;Raum;2023-06-13 00:00:00;jaynaApp.contract.group-type.room;23;contract;;
+44;Gebäude;2023-06-13 00:00:00;jaynaApp.contract.group-type.building;23;contract;;
+45;DSL;2023-06-13 00:00:00;jaynaApp.contract.group-type.broadband;19;contract;;
+46;Glasfaser;2023-06-13 00:00:00;jaynaApp.contract.group-type.glass-fiber;19;contract;;
+47;Auto;2023-06-13 00:00:00;jaynaApp.contract.group-type.car;10;contract;;
+48;Motorrad;2023-06-13 00:00:00;jaynaApp.contract.group-type.motorcycle;10;contract;;
+49;Auto;2023-06-13 00:00:00;jaynaApp.contract.group-type.car;14;contract;;
+50;Wohnwagen;2023-06-13 00:00:00;jaynaApp.contract.group-type.caravan;14;contract;;
+51;Motorboot;2023-06-13 00:00:00;jaynaApp.contract.group-type.boat;14;contract;;
+52;Auto;2023-06-13 00:00:00;jaynaApp.contract.group-type.car;16;contract;;
+53;Auto;2023-06-13 00:00:00;jaynaApp.contract.group-type.car;24;contract;;
+54;Wohnmobil;2023-06-13 00:00:00;jaynaApp.contract.group-type.camper;24;contract;;
+55;Motorrad;2023-06-13 00:00:00;jaynaApp.contract.group-type.motorcycle;26;contract;;
+56;Wohnwagen;2023-06-13 00:00:00;jaynaApp.contract.group-type.caravan;26;contract;;
+57;Wohnmobil;2023-06-13 00:00:00;jaynaApp.contract.group-type.camper;26;contract;;
+58;Traktor;2023-06-13 00:00:00;jaynaApp.contract.group-type.tractor;26;contract;;
+59;gesetzliche Krankenversicherung;2023-06-13 00:00:00;jaynaApp.contract.group-type.statutory-health-insurance;27;contract;;
+60;Ausland;2023-06-13 00:00:00;jaynaApp.contract.group-type.abroad;27;contract;;
+61;Privat Zusatz Zahn;2023-06-13 00:00:00;jaynaApp.contract.group-type.additional-insurance-teeth;27;contract;;
+62;Privat Zusatz stationär;2023-06-13 00:00:00;jaynaApp.contract.group-type.additional-insurance-stationary;27;contract;;
+63;Privat Zusatz ambulant;2023-06-13 00:00:00;jaynaApp.contract.group-type.additional-insurance-outpatient;27;contract;;
+64;Privat Kranken voll;2023-06-13 00:00:00;jaynaApp.contract.group-type.additional-insurance-full;27;contract;;
+65;Krankentagegeld;2023-06-13 00:00:00;jaynaApp.contract.group-type.sick-pay;27;contract;;
+66;Krankenhaustagegeld;2023-06-13 00:00:00;jaynaApp.contract.group-type.hospital-per-diem;27;contract;;
+67;Umschuldung;2023-06-13 00:00:00;jaynaApp.contract.group-type.rescheduling;15;contract;;
+68;Modernisierung;2023-06-13 00:00:00;jaynaApp.contract.group-type.modernization;15;contract;;
+69;freie Verwendung;2023-06-13 00:00:00;jaynaApp.contract.group-type.free-use;15;contract;;
+70;Risiko Lebensversicherung;2023-06-13 00:00:00;jaynaApp.contract.group-type.risk-life-insurance;28;contract;;
+71;Rentenversicherung Fonds;2023-06-13 00:00:00;jaynaApp.contract.group-type.pension-insurance-fund;28;contract;;
+72;Berufsunfähigkeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.disability-insurance;28;contract;;
+73;Pflegeversicherung;2023-06-13 00:00:00;jaynaApp.contract.group-type.care-insurance;28;contract;;
+74;Rentenversicherung klassisch;2023-06-13 00:00:00;jaynaApp.contract.group-type.pension-insurance;28;contract;;
+75;Pflegetagegeld;2023-06-13 00:00:00;jaynaApp.contract.group-type.daily-care-allowance;28;contract;;
+76;Autotelefon;2023-06-13 00:00:00;jaynaApp.contract.group-type.car-phone;20;contract;;
+77;Handy;2023-06-13 00:00:00;jaynaApp.contract.group-type.mobile;20;contract;;
+78;Tablet;2023-06-13 00:00:00;jaynaApp.contract.group-type.tablet;20;contract;;
+79;Mini;2023-06-13 00:00:00;jaynaApp.contract.group-type.mini-job;2;contract;;employment-contract
+80;Teilzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.half-time;2;contract;;employment-contract
+81;Vollzeit;2023-06-13 00:00:00;jaynaApp.contract.group-type.full-time;2;contract;;employment-contract
+82;Aushilfe;2023-06-13 00:00:00;jaynaApp.contract.group-type.help;2;contract;;employment-contract
+83;Praktikumsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.internship;2;contract;;employment-contract
+84;Aufhebungsvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.termination-agreement;2;contract;;employment-contract
+85;Werkvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.work-contract;2;contract;;employment-contract
+86;Strom;2023-06-13 00:00:00;jaynaApp.contract.group-type.electricity;8;contract;;
+87;Unfall;2023-06-13 00:00:00;jaynaApp.contract.group-type.accident;29;contract;;
+88;Hausrat;2023-06-13 00:00:00;jaynaApp.contract.group-type.household-goods;29;contract;;
+89;Wohngebäude;2023-06-13 00:00:00;jaynaApp.contract.group-type.residential-building;29;contract;;
+90;Rechtsschutz;2023-06-13 00:00:00;jaynaApp.contract.group-type.legal-protection;29;contract;;
+91;Privathaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.personal-liability;29;contract;;
+92;Bauherrenhaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.builders-liability;29;contract;;
+93;E-Bike & Pedeleg;2023-06-13 00:00:00;jaynaApp.contract.group-type.ebike;29;contract;;
+94;Glas;2023-06-13 00:00:00;jaynaApp.contract.group-type.glas;29;contract;;
+95;Feuer;2023-06-13 00:00:00;jaynaApp.contract.group-type.fire;29;contract;;
+96;Haus- und Grundbesitzerhaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.homeowner-liability;29;contract;;
+97;Kunst;2023-06-13 00:00:00;jaynaApp.contract.group-type.art;29;contract;;
+98;Mietausfall;2023-06-13 00:00:00;jaynaApp.contract.group-type.loss-of-rent;29;contract;;
+99;Photovoltaik;2023-06-13 00:00:00;jaynaApp.contract.group-type.photovoltaic;29;contract;;
+100;Tier OP;2023-06-13 00:00:00;jaynaApp.contract.group-type.animal-surgery;29;contract;;
+101;Tierhalterhaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.animal-owner-liability;29;contract;;
+102;Umweltschadenhaftpflicht;2023-06-13 00:00:00;jaynaApp.contract.group-type.environmental-damage;29;contract;;
+103;Elementar (Wohngebäude);2023-06-13 00:00:00;jaynaApp.contract.group-type.elementary;29;contract;;
+104;Versicherungsmakler;2023-06-13 00:00:00;jaynaApp.contract.group-type.insurance-broker;5;contract;;insurance-broker
+105;Hausmeisterservice;2023-06-13 00:00:00;jaynaApp.contract.group-type.caretaker-service;5;contract;;caretaker-service
+106;Reinigung;2023-06-13 00:00:00;jaynaApp.contract.group-type.cleaning;5;contract;;cleaning
+107;Immobilienmakler;2023-06-13 00:00:00;jaynaApp.contract.group-type.real-estate-agent;5;contract;;real-estate-agent
+108;Gärtner;2023-06-13 00:00:00;jaynaApp.contract.group-type.gardener;5;contract;;gardener
+109;KFZ-Inspektion;2023-06-13 00:00:00;jaynaApp.contract.group-type.car-inspection;5;contract;;car-inspection
+110;Filme / Serien;2023-06-13 00:00:00;jaynaApp.contract.group-type.movies-series;21;contract;;
+111;Musik;2023-06-13 00:00:00;jaynaApp.contract.group-type.music;21;contract;;
+112;Heizung;2023-06-13 00:00:00;jaynaApp.contract.group-type.heating;6;contract;;heating
+113;Wärmepumpe;2023-06-13 00:00:00;jaynaApp.contract.group-type.heat-pump;6;contract;;heat-pump
+114;Schornsteinfeger;2023-06-13 00:00:00;jaynaApp.contract.group-type.chimney-sweeper;6;contract;;chimney-sweeper
+115;Aufzug;2023-06-13 00:00:00;jaynaApp.contract.group-type.elevator;6;contract;;elevator
+116;Wohnungsmietvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.apartment-rental-agreement;25;contract;;
+117;Hausmietvertrag;2023-06-13 00:00:00;jaynaApp.contract.group-type.house-lease;25;contract;;
+118;Gewerbeeinheit;2023-06-13 00:00:00;jaynaApp.realestate.group-type.commercial-unit;32;realestate;GEWE;commercial-residential-property
+119;Gewerbehaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.commercial-building;32;realestate;GEWH;commercial-residential-property
+120;Halle;2023-06-13 00:00:00;jaynaApp.realestate.group-type.hall;33;realestate;HALL;commercial-residential-property
+121;Doppelhaushälfte;2023-06-13 00:00:00;jaynaApp.realestate.group-type.semit-detached-house;34;realestate;DHH;commercial-residential-property
+122;Einfamilienhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.detached-house;34;realestate;EFH;commercial-residential-property
+123;Ferienhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.vacation-house;34;realestate;FEH;commercial-residential-property
+124;Mehrfamilienhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.apartment-building;34;realestate;MFH;commercial-residential-property
+125;Pflegeeinrichtung;2023-06-13 00:00:00;jaynaApp.realestate.group-type.care-facility;34;realestate;PFE;commercial-residential-property
+126;Reihenendhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.terraced-end-house;34;realestate;REH;commercial-residential-property
+127;Reihenmittelhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.terraced-mid-house;34;realestate;RMH;commercial-residential-property
+128;Zweifamilienhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.two-family-house;34;realestate;ZFH;commercial-residential-property
+129;Wohnungen & Gewerbe;2023-06-13 00:00:00;jaynaApp.realestate.group-type.apartments-commercial-mix;35;realestate;PGM;commercial-residential-property
+130;Carport;2023-06-13 00:00:00;jaynaApp.realestate.group-type.carport;36;realestate;CARP;carport
+131;Garage;2023-06-13 00:00:00;jaynaApp.realestate.group-type.garage;36;realestate;GARA;garage
+132;Parkhaus;2023-06-13 00:00:00;jaynaApp.realestate.group-type.parking-house;36;realestate;PARH;parking-house
+133;Parkplatz;2023-06-13 00:00:00;jaynaApp.realestate.group-type.parking-space;36;realestate;PARP;parking-space
+134;Ackerland;2023-06-13 00:00:00;jaynaApp.realestate.group-type.farmland;37;realestate;ACKE;farmland
+135;Forst;2023-06-13 00:00:00;jaynaApp.realestate.group-type.forest;37;realestate;FORS;forest
+136;Frucht;2023-06-13 00:00:00;jaynaApp.realestate.group-type.fruit;37;realestate;FRUCH;fruit
+137;Weide;2023-06-13 00:00:00;jaynaApp.realestate.group-type.pasture;37;realestate;WEID;pasture
+138;Schrebergarten;2023-06-13 00:00:00;jaynaApp.realestate.group-type.allotment-garden;38;realestate;STGA;allotment-garden
+139;Bebauungsgrundstück;2023-06-13 00:00:00;jaynaApp.realestate.group-type.building-plot;39;realestate;BBGS;building-plot
+140;Wiese;2023-06-13 00:00:00;jaynaApp.realestate.group-type.meadow;39;realestate;WIES;meadow
+141;Notar;2023-06-13 00:00:00;jaynaApp.contract.group-type.notary;5;contract;;notary
+142;Gemeindegebühren;2023-06-13 00:00:00;jaynaApp.contract.group-type.municipal-fees;40;contract;;municipal-fees
+143;Grunderwerbssteuer;2023-06-13 00:00:00;jaynaApp.contract.group-type.real-estate-tax;40;contract;;real-estate-tax
+144;Girokonto;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.checking-account;41;financeaccount;;checking-account
+145;Sparkonto;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.saving-account;41;financeaccount;;saving-account
+146;Charge;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.charge;42;financeaccount;;charge
+147;Revolving;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.revolving;42;financeaccount;;revolving
+148;Prepaid;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.prepaid;42;financeaccount;;prepaid
+149;Debit;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.debit;42;financeaccount;;debit
+150;Online Virtuell;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.online-virtual;42;financeaccount;;online-virtual
+151;Paypal;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.paypal;43;financeaccount;;paypal
+152;Samsung;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.samsung;43;financeaccount;;samung
+153;Google Pay;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.google-pay;43;financeaccount;;google-pay
+154;Apple Pay;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.apple-pay;43;financeaccount;;apple-pay
+155;Skrill;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.skrill;43;financeaccount;;skrill
+156;Stripe;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.stripe;43;financeaccount;;stripe
+157;Klarna;2023-06-13 00:00:00;jaynaApp.financeaccount.group-type.klarna;43;financeaccount;;klarna

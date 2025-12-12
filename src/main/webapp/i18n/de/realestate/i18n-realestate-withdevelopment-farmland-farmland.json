@@ -1,0 +1,16 @@
+{
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.createTitle": "Ackerland anlegen",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.updateTitle": "Ackerland bearbeiten",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.viewTitle": "Ackerland anzeigen",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.title": "Ackerland-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.plotType": "Grundstückstyp",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.plotSize": "Grundstücksgröße (m²)",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.soilQuality": "Bodenqualität",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.irrigation": "Bewässerung",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.accessRoad": "Zufahrtsstraße",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.drainage": "Entwässerung",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.fencing": "Einzäunung",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.agriculturalUse": "Landwirtschaftliche Nutzung",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.leaseholder": "Pächter",
+  "jaynaApp.realestate-withdevelopment-farmland-farmland.specificData.fields.leaseAmount": "Pachtbetrag (€)"
+}

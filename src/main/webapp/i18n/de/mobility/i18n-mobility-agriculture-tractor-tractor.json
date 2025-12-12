@@ -1,0 +1,17 @@
+{
+  "jaynaApp.mobility-agriculture-tractor-tractor.createTitle": "Traktor anlegen",
+  "jaynaApp.mobility-agriculture-tractor-tractor.updateTitle": "Traktor bearbeiten",
+  "jaynaApp.mobility-agriculture-tractor-tractor.viewTitle": "Traktor anzeigen",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.title": "Traktor-spezifische Daten",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.tractorType": "Traktor-Typ",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.transmission": "Getriebe",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.tireSize": "Reifengröße",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.hydraulicSystem": "Hydrauliksystem",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.pto": "Zapfwelle",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.threePointHitch": "Dreipunktkupplung",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.cab": "Kabine",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.airConditioning": "Klimaanlage",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.gps": "GPS",
+  "jaynaApp.mobility-agriculture-tractor-tractor.specificData.fields.frontLoader": "Frontlader"
+}

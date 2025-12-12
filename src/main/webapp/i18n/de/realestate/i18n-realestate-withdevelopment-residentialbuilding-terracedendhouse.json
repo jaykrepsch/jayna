@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.createTitle": "Reihenhaus (Endhaus) anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.updateTitle": "Reihenhaus (Endhaus) bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.viewTitle": "Reihenhaus (Endhaus) anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.specificData.title": "Reihenhaus (Endhaus)-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.specificData.fields.specificField1": "Wohnfläche",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-terracedendhouse.specificData.fields.specificField2": "Anzahl Schlafzimmer"
+}

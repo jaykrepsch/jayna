@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.createTitle": "Personenfahrzeug Motorrad cruiser anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.updateTitle": "Personenfahrzeug Motorrad cruiser bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.viewTitle": "Personenfahrzeug Motorrad cruiser anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.specificData.title": "Personenfahrzeug Motorrad cruiser-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-motorcycle-cruiser.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

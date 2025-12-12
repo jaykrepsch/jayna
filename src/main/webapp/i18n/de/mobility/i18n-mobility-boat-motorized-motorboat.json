@@ -1,0 +1,18 @@
+{
+  "jaynaApp.mobility-boat-motorized-motorboat.createTitle": "Motorboot anlegen",
+  "jaynaApp.mobility-boat-motorized-motorboat.updateTitle": "Motorboot bearbeiten",
+  "jaynaApp.mobility-boat-motorized-motorboat.viewTitle": "Motorboot anzeigen",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.title": "Motorboot-spezifische Daten",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.boatType": "Boot-Typ",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.length": "Länge (m)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.width": "Breite (m)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.draft": "Tiefgang (m)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.displacement": "Verdrängung (t)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.maxSpeed": "Höchstgeschwindigkeit (kn)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.passengerCapacity": "Passagierkapazität",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.engineCount": "Anzahl Motoren",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.fuelCapacity": "Treibstoffkapazität (Liter)",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.navigationSystem": "Navigationssystem",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.radar": "Radar",
+  "jaynaApp.mobility-boat-motorized-motorboat.specificData.fields.autopilot": "Autopilot"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-pcity.createTitle": "Fahrrad pedelec pcity anlegen",
+  "jaynaApp.mobility-bike-pedelec-pcity.updateTitle": "Fahrrad pedelec pcity bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-pcity.viewTitle": "Fahrrad pedelec pcity anzeigen",
+  "jaynaApp.mobility-bike-pedelec-pcity.specificData.title": "Fahrrad pedelec pcity-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-pcity.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-pcity.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

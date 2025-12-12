@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.createTitle": "Personenfahrzeug Motorrad motocross anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.updateTitle": "Personenfahrzeug Motorrad motocross bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.viewTitle": "Personenfahrzeug Motorrad motocross anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.specificData.title": "Personenfahrzeug Motorrad motocross-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-motorcycle-motocross.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

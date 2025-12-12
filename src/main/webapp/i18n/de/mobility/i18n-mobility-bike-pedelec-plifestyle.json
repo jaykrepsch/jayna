@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-plifestyle.createTitle": "Fahrrad pedelec plifestyle anlegen",
+  "jaynaApp.mobility-bike-pedelec-plifestyle.updateTitle": "Fahrrad pedelec plifestyle bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-plifestyle.viewTitle": "Fahrrad pedelec plifestyle anzeigen",
+  "jaynaApp.mobility-bike-pedelec-plifestyle.specificData.title": "Fahrrad pedelec plifestyle-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-plifestyle.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-plifestyle.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

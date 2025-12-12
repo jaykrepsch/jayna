@@ -1,0 +1,31 @@
+package me.jayna.domain.enumeration;
+
+/**
+ * The RoofType enumeration.
+ */
+public enum RoofType {
+  FLAT,
+  HIPPED,
+  CROSS,
+  DITCH,
+  CROOKED_HIPPED,
+  MANSARD,
+  MANSARD_WITH_HIPPED_FOOT,
+  MANSARD_WITH_TUFT,
+  MANSARD_HIPPED,
+  ONLY_ROOF,
+  PARALLEL,
+  PENT,
+  PENT_EXTENDED,
+  PITCHED,
+  GABLE_EXTENDED,
+  SADDLE_HIP,
+  SHEDDACH_SAW_TOOTH,
+  CANOPY,
+  BUTTERFLY,
+  BARREL,
+  HIP,
+  HIP_THROAT,
+  TENT,
+  DWARF,
+}

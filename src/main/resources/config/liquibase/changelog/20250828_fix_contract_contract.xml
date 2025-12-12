@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <!-- Erstelle contract_contract nur, wenn fehlend -->
+    <changeSet id="20250828-cc-1" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="contract_contract"/>
+            </not>
+        </preConditions>
+        <createTable tableName="contract_contract">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="contract_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="related_contract_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="relation_type" type="varchar(255)"/>
+            <column name="description" type="varchar(1000)"/>
+        </createTable>
+    </changeSet>
+
+    <!-- FK: contract_id -> contract(id) -->
+    <changeSet id="20250828-cc-2" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <and>
+                <tableExists tableName="contract_contract"/>
+                <tableExists tableName="contract"/>
+            </and>
+        </preConditions>
+        <addForeignKeyConstraint baseColumnNames="contract_id"
+                                 baseTableName="contract_contract"
+                                 constraintName="fk_contract_contract_contract_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contract"/>
+    </changeSet>
+
+    <!-- FK: related_contract_id -> contract(id) -->
+    <changeSet id="20250828-cc-3" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <and>
+                <tableExists tableName="contract_contract"/>
+                <tableExists tableName="contract"/>
+            </and>
+        </preConditions>
+        <addForeignKeyConstraint baseColumnNames="related_contract_id"
+                                 baseTableName="contract_contract"
+                                 constraintName="fk_contract_contract_related_contract_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="contract"/>
+    </changeSet>
+
+</databaseChangeLog>
+
+

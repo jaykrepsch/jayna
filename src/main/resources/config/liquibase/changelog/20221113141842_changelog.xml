@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1668349129637-3">
+        <addColumn tableName="employment_contract">
+            <column name="application_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-4">
+        <addColumn tableName="employment_contract">
+            <column name="comment" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-5">
+        <addColumn tableName="employment_contract">
+            <column name="confirmation" type="boolean"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-6">
+        <addColumn tableName="employment_contract">
+            <column name="contract_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-7">
+        <addColumn tableName="employment_contract">
+            <column name="contract_owner" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-8">
+        <addColumn tableName="employment_contract">
+            <column name="contract_user" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-9">
+        <addColumn tableName="employment_contract">
+            <column name="contractor" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-10">
+        <addColumn tableName="employment_contract">
+            <column name="end_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-11">
+        <addColumn tableName="employment_contract">
+            <column name="payment" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1668349129637-12">
+        <addColumn tableName="employment_contract">
+            <column name="start_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-farmland-forest.createTitle": "Wald anlegen",
+  "jaynaApp.realestate-withdevelopment-farmland-forest.updateTitle": "Wald bearbeiten",
+  "jaynaApp.realestate-withdevelopment-farmland-forest.viewTitle": "Wald anzeigen",
+  "jaynaApp.realestate-withdevelopment-farmland-forest.specificData.title": "Wald-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-farmland-forest.specificData.fields.specificField1": "Grundfläche",
+  "jaynaApp.realestate-withdevelopment-farmland-forest.specificData.fields.specificField2": "Baumart"
+}

@@ -1,0 +1,118 @@
+id;name;translation_key
+1;Garage;jaynaApp.group-type.garage
+2;Parkplatz;jaynaApp.group-type.parking
+3;Mini;jaynaApp.group-type.mini-job
+4;Teilzeit;jaynaApp.group-type.half-time
+5;Vollzeit;jaynaApp.group-type.full-time
+6;Aushilfe;jaynaApp.group-type.help
+7;Praktikumsvertrag;jaynaApp.group-type.internship
+8;Aufhebungsvertrag;jaynaApp.group-type.termination-agreement
+9;Werkvertrag;jaynaApp.group-type.work-contract
+10;Mini;jaynaApp.group-type.mini-job
+11;Teilzeit;jaynaApp.group-type.half-time
+12;Vollzeit;jaynaApp.group-type.full-time
+13;Aushilfe;jaynaApp.group-type.help
+14;Praktikumsvertrag;jaynaApp.group-type.internship
+15;Aufhebungsvertrag;jaynaApp.group-type.termination-agreement
+16;Werkvertrag;jaynaApp.group-type.work-contract
+17;Strom;jaynaApp.group-type.electricity
+18;Kabelfernsehen;jaynaApp.group-type.cable-tv
+19;Satellitenfernsehen;jaynaApp.group-type.satellite-tv
+20;Bafög;jaynaApp.group-type.student-loans
+21;Couch;jaynaApp.group-type.coffee-table
+22;Tisch;jaynaApp.group-type.table
+23;Handy;jaynaApp.group-type.mobile
+24;Fernseher;jaynaApp.group-type.tv
+25;Gebäude;jaynaApp.group-type.building
+26;D&O Managerhaftpflicht;jaynaApp.group-type.manager-liability
+27;Rechtsschutz;jaynaApp.group-type.legal-protection
+28;Gas;jaynaApp.group-type.gas
+29;Fernwärme;jaynaApp.group-type.district-heating
+30;Öl;jaynaApp.group-type.oil
+31;Annuitätendarlehen;jaynaApp.group-type.annuity-loan
+32;Modernisierung;jaynaApp.group-type.modernization
+33;Tilgungsdarlehen;jaynaApp.group-type.amortization-loan
+34;Laufzeitzinsdarlehen;jaynaApp.group-type.term-loan
+35;Partiarische Darlehen;jaynaApp.group-type.participatory-loans
+36;Abrufdarlehen;jaynaApp.group-type.call-loan
+37;Rollierende Geldmarktdarlehen;jaynaApp.group-type.rolling-market-loans
+38;Endfällige Darlehen;jaynaApp.group-type.bullet-loans
+39;Wohnung;jaynaApp.group-type.apartment
+40;Haus;jaynaApp.group-type.house
+41;Ferienwohnung;jaynaApp.group-type.holiday-apartment
+42;Ferienhaus;jaynaApp.group-type.holiday-house
+43;Raum;jaynaApp.group-type.room
+44;Gebäude;jaynaApp.group-type.building
+45;DSL;jaynaApp.group-type.broadband
+46;Glasfaser;jaynaApp.group-type.glass-fiber
+47;Auto;jaynaApp.group-type.car
+48;Motorrad;jaynaApp.group-type.motorcycle
+49;Auto;jaynaApp.group-type.car
+50;Wohnwagen;jaynaApp.group-type.caravan
+51;Motorboot;jaynaApp.group-type.boat
+52;Auto;jaynaApp.group-type.car
+53;Auto;jaynaApp.group-type.car
+54;Wohnmobil;jaynaApp.group-type.camper
+55;Motorrad;jaynaApp.group-type.motorcycle
+56;Wohnwagen;jaynaApp.group-type.caravan
+57;Wohnmobil;jaynaApp.group-type.camper
+58;Traktor;jaynaApp.group-type.tractor
+59;gesetzliche Krankenversicherung;jaynaApp.group-type.statutory-health-insurance
+60;Ausland;jaynaApp.group-type.abroad
+61;Privat Zusatz Zahn;jaynaApp.group-type.additional-insurance-teeth
+62;Privat Zusatz stationär;jaynaApp.group-type.additional-insurance-stationary
+63;Privat Zusatz ambulant;jaynaApp.group-type.additional-insurance-outpatient
+64;Privat Kranken voll;jaynaApp.group-type.additional-insurance-full
+65;Krankentagegeld;jaynaApp.group-type.sick-pay
+66;Krankenhaustagegeld;jaynaApp.group-type.hospital-per-diem
+67;Umschuldung;jaynaApp.group-type.rescheduling
+68;Modernisierung;jaynaApp.group-type.modernization
+69;freie Verwendung;jaynaApp.group-type.free-use
+70;Risiko Lebensversicherung;jaynaApp.group-type.risk-life-insurance
+71;Rentenversicherung Fonds;jaynaApp.group-type.pension-insurance-fund
+72;Berufsunfähigkeit;jaynaApp.group-type.disability-insurance
+73;Pflegeversicherung;jaynaApp.group-type.care-insurance
+74;Rentenversicherung klassisch;jaynaApp.group-type.pension-insurance
+75;Pflegetagegeld;jaynaApp.group-type.daily-care-allowance
+76;Autotelefon;jaynaApp.group-type.car-phone
+77;Handy;jaynaApp.group-type.mobile
+78;Tablet;jaynaApp.group-type.tablet
+79;Mini;jaynaApp.group-type.mini-job
+80;Teilzeit;jaynaApp.group-type.half-time
+81;Vollzeit;jaynaApp.group-type.full-time
+82;Aushilfe;jaynaApp.group-type.help
+83;Praktikumsvertrag;jaynaApp.group-type.internship
+84;Aufhebungsvertrag;jaynaApp.group-type.termination-agreement
+85;Werkvertrag;jaynaApp.group-type.work-contract
+86;Strom;jaynaApp.group-type.electricity
+87;Unfall;jaynaApp.group-type.accident
+88;Hausrat;jaynaApp.group-type.household-goods
+89;Wohngebäude;jaynaApp.group-type.residential-building
+90;Rechtsschutz;jaynaApp.group-type.legal-protection
+91;Privathaftpflicht;jaynaApp.group-type.personal-liability
+92;Bauherrenhaftpflicht;jaynaApp.group-type.builders-liability
+93;E-Bike & Pedeleg;jaynaApp.group-type.ebike
+94;Glas;jaynaApp.group-type.glas
+95;Feuer;jaynaApp.group-type.fire
+96;Haus- und Grundbesitzerhaftpflicht;jaynaApp.group-type.homeowner-liability
+97;Kunst;jaynaApp.group-type.art
+98;Mietausfall;jaynaApp.group-type.loss-of-rent
+99;Photovoltaik;jaynaApp.group-type.photovoltaic
+100;Tier OP;jaynaApp.group-type.animal-surgery
+101;Tierhalterhaftpflicht;jaynaApp.group-type.animal-owner-liability
+102;Umweltschadenhaftpflicht;jaynaApp.group-type.environmental-damage
+103;Elementar (Wohngebäude);jaynaApp.group-type.elementary
+104;Versicherungsmakler;jaynaApp.group-type.insurance-broker
+105;Hausmeisterservice;jaynaApp.group-type.concierge-service
+106;Reinigung;jaynaApp.group-type.cleaning
+107;Immobilienmakler;jaynaApp.group-type.real-estate-agent
+108;Gärtner;jaynaApp.group-type.gardener
+109;KFZ-Inspektion;jaynaApp.group-type.car-inspection
+110;Filme / Serien;jaynaApp.group-type.movies-series
+111;Musik;jaynaApp.group-type.music
+112;Heizung;jaynaApp.group-type.heating
+113;Wärmepumpe;jaynaApp.group-type.heat-pump
+114;Schornsteinfeger;jaynaApp.group-type.chimney-sweeper
+115;Aufzug;jaynaApp.group-type.elevator
+116;Wohnungsmietvertrag;jaynaApp.group-type.apartment-rental-agreement
+117;Hausmietvertrag;jaynaApp.group-type.house-lease

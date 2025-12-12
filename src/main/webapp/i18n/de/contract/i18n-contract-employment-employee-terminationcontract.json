@@ -1,0 +1,13 @@
+{
+  "jaynaApp.contract-employment-employee-terminationcontract.createTitle": "Aufhebungsvertrag erstellen",
+  "jaynaApp.contract-employment-employee-terminationcontract.updateTitle": "Aufhebungsvertrag bearbeiten",
+  "jaynaApp.contract-employment-employee-terminationcontract.viewTitle": "Aufhebungsvertrag anzeigen",
+  "jaynaApp.contract-employment-employee-terminationcontract.specificData.title": "Kündigungsspezifische Daten",
+  "jaynaApp.contract-employment-employee-terminationcontract.specificData.fields.terminationReason": "Kündigungsgrund",
+  "jaynaApp.contract-employment-employee-terminationcontract.specificData.fields.terminationPeriod": "Kündigungsfrist (Tage)",
+  "jaynaApp.contract-employment-employee-terminationcontract.specificData.fields.terminationType": "Kündigungstyp",
+  "jaynaApp.contract-employment-employee-terminationcontract.specificData.fields.noticeDate": "Kündigungsdatum",
+  "jaynaApp.contract.sub-category.employment-contract": "Arbeitsvertrag",
+  "jaynaApp.contract.sub-category-group.employee": "Angestellter",
+  "jaynaApp.contract.group-type.termination-agreement": "Aufhebungsvertrag"
+}

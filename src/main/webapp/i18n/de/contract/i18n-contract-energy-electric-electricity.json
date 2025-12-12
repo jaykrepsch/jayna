@@ -1,0 +1,13 @@
+{
+  "jaynaApp.contract-energy-electric-electricity.createTitle": "Stromvertrag erstellen",
+  "jaynaApp.contract-energy-electric-electricity.updateTitle": "Stromvertrag bearbeiten",
+  "jaynaApp.contract-energy-electric-electricity.viewTitle": "Stromvertrag anzeigen",
+  "jaynaApp.contract-energy-electric-electricity.specificData.title": "Strom-spezifische Daten",
+  "jaynaApp.contract-energy-electric-electricity.specificData.fields.meterNumber": "Zählernummer",
+  "jaynaApp.contract-energy-electric-electricity.specificData.fields.tariff": "Tarif",
+  "jaynaApp.contract-energy-electric-electricity.specificData.fields.consumption": "Verbrauch (kWh)",
+  "jaynaApp.contract-energy-electric-electricity.specificData.fields.connectionType": "Anschlusstyp",
+  "jaynaApp.contract.sub-category.energy-electric": "Strom",
+  "jaynaApp.contract.sub-category-group.electric": "Elektrik",
+  "jaynaApp.contract.group-type.electricity": "Strom"
+}

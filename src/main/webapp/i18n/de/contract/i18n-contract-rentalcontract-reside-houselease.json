@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-reside-houselease.createTitle": "Hausmietvertrag anlegen",
+  "jaynaApp.contract-rentalcontract-reside-houselease.updateTitle": "Hausmietvertrag bearbeiten",
+  "jaynaApp.contract-rentalcontract-reside-houselease.viewTitle": "Hausmietvertrag anzeigen",
+  "jaynaApp.contract-rentalcontract-reside-houselease.specificData.title": "Hausmietvertrag-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-reside-houselease.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-reside-houselease.specificData.fields.specificField2": "Nebenkosten"
+}

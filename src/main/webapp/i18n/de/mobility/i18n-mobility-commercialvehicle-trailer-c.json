@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-commercialvehicle-trailer-c.createTitle": "Nutzfahrzeug Anhänger c anlegen",
+  "jaynaApp.mobility-commercialvehicle-trailer-c.updateTitle": "Nutzfahrzeug Anhänger c bearbeiten",
+  "jaynaApp.mobility-commercialvehicle-trailer-c.viewTitle": "Nutzfahrzeug Anhänger c anzeigen",
+  "jaynaApp.mobility-commercialvehicle-trailer-c.specificData.title": "Nutzfahrzeug Anhänger c-spezifische Daten",
+  "jaynaApp.mobility-commercialvehicle-trailer-c.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-commercialvehicle-trailer-c.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

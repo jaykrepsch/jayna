@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.createTitle": "Personenfahrzeug Motorrad srambler anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.updateTitle": "Personenfahrzeug Motorrad srambler bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.viewTitle": "Personenfahrzeug Motorrad srambler anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.specificData.title": "Personenfahrzeug Motorrad srambler-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-motorcycle-srambler.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

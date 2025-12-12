@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.createTitle": "Garagenmiete anlegen",
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.updateTitle": "Garagenmiete bearbeiten",
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.viewTitle": "Garagenmiete anzeigen",
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.specificData.title": "Garagenmiete-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-putdownspace-garage.specificData.fields.specificField2": "Größe"
+}

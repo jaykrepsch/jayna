@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1701175773357-1">
+        <addColumn tableName="group_type">
+            <column name="created_by" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701175773357-2">
+        <addColumn tableName="sub_category">
+            <column name="created_by" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701175773357-3">
+        <addColumn tableName="sub_category_group">
+            <column name="created_by" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701175773357-4">
+      <loadUpdateData
+                file="config/liquibase/data/sub-category-Tabelle 1_20231128.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="sub_category"
+                usePreparedStatements="true">
+      </loadUpdateData>
+      <loadUpdateData
+                file="config/liquibase/data/sub-category-group-Tabelle 1_20231128.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="sub_category_group"
+                usePreparedStatements="true">
+      </loadUpdateData>
+        <loadUpdateData
+                file="config/liquibase/data/group-type-Tabelle 1_20231128.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="group_type"
+                usePreparedStatements="true">
+      </loadUpdateData>
+    </changeSet>
+</databaseChangeLog>

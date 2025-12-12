@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <changeSet id="20250708000000-1" author="system">
+        <comment>Korrigiere alle Form-Namen basierend auf den tatsächlichen Formdefinition-Dateien</comment>
+        
+        <!-- Arbeitsverträge - Aufhebungsvertrag (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-terminationagreement"/>
+            <where>name = 'Aufhebungsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Aufhebungsvertrag (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-terminationagreement"/>
+            <where>name = 'Aufhebungsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Aufhebungsvertrag (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-terminationagreement"/>
+            <where>name = 'Aufhebungsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Vollzeit (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-fulltime"/>
+            <where>name = 'Vollzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Vollzeit (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-fulltime"/>
+            <where>name = 'Vollzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Vollzeit (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-fulltime"/>
+            <where>name = 'Vollzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Teilzeit (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-parttime"/>
+            <where>name = 'Teilzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Teilzeit (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-parttime"/>
+            <where>name = 'Teilzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Teilzeit (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-parttime"/>
+            <where>name = 'Teilzeit' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Mini (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-minijob"/>
+            <where>name = 'Mini' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Mini (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-minijob"/>
+            <where>name = 'Mini' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Mini (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-minijob"/>
+            <where>name = 'Mini' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Aushilfe (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-help"/>
+            <where>name = 'Aushilfe' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Aushilfe (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-help"/>
+            <where>name = 'Aushilfe' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Aushilfe (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-help"/>
+            <where>name = 'Aushilfe' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Praktikumsvertrag (Angestellter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-internship"/>
+            <where>name = 'Praktikumsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Angestellter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Praktikumsvertrag (Beamter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-official-internship"/>
+            <where>name = 'Praktikumsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Beamter')</where>
+        </update>
+        
+        <!-- Arbeitsverträge - Praktikumsvertrag (öffentlicher Dienst) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-publicservice-internship"/>
+            <where>name = 'Praktikumsvertrag' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'öffentlicher Dienst')</where>
+        </update>
+        
+        <!-- Versicherungen - Krankenversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-statutoryhealthinsurance"/>
+            <where>name = 'gesetzliche Krankenversicherung'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Kranken voll -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-additionalinsurancefull"/>
+            <where>name = 'Privat Kranken voll'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz ambulant -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-additionalinsuranceoutpatient"/>
+            <where>name = 'Privat Zusatz ambulant'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz stationär -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-additionalinsurancestationary"/>
+            <where>name = 'Privat Zusatz stationär'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz Zahn -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-additionalinsuranceteeth"/>
+            <where>name = 'Privat Zusatz Zahn'</where>
+        </update>
+        
+        <!-- Versicherungen - Krankentagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-sickpay"/>
+            <where>name = 'Krankentagegeld'</where>
+        </update>
+        
+        <!-- Versicherungen - Krankenhaustagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-hospitalperdiem"/>
+            <where>name = 'Krankenhaustagegeld'</where>
+        </update>
+        
+        <!-- Versicherungen - Ausland -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-abroad"/>
+            <where>name = 'Ausland'</where>
+        </update>
+        
+        <!-- Versicherungen - Auslandsreise -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-foreigntravel"/>
+            <where>name = 'Auslandsreise'</where>
+        </update>
+        
+        <!-- Versicherungen - Risiko Lebensversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-risklifeinsurance"/>
+            <where>name = 'Risiko Lebensversicherung'</where>
+        </update>
+        
+        <!-- Versicherungen - Rentenversicherung klassisch -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-pensioninsurance"/>
+            <where>name = 'Rentenversicherung klassisch'</where>
+        </update>
+        
+        <!-- Versicherungen - Rentenversicherung Fonds -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-pensioninsurancefund"/>
+            <where>name = 'Rentenversicherung Fonds'</where>
+        </update>
+        
+        <!-- Versicherungen - Berufsunfähigkeit -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-disabilityinsurance"/>
+            <where>name = 'Berufsunfähigkeit'</where>
+        </update>
+        
+        <!-- Versicherungen - Pflegeversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-careinsurance"/>
+            <where>name = 'Pflegeversicherung'</where>
+        </update>
+        
+        <!-- Versicherungen - Pflegetagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-life-dailycareallowance"/>
+            <where>name = 'Pflegetagegeld'</where>
+        </update>
+        
+        <!-- Versicherungen - Privathaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-personalliability"/>
+            <where>name = 'Privathaftpflicht'</where>
+        </update>
+        
+        <!-- Versicherungen - Hausrat -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-householdgoods"/>
+            <where>name = 'Hausrat'</where>
+        </update>
+        
+        <!-- Versicherungen - Haus- und Grundbesitzerhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-homeownerliability"/>
+            <where>name = 'Haus- und Grundbesitzerhaftpflicht'</where>
+        </update>
+        
+        <!-- Versicherungen - Feuer -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-fire"/>
+            <where>name = 'Feuer'</where>
+        </update>
+        
+        <!-- Versicherungen - Elementar (Wohngebäude) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-elementary"/>
+            <where>name = 'Elementar (Wohngebäude)'</where>
+        </update>
+        
+        <!-- Versicherungen - Glas -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-glas"/>
+            <where>name = 'Glas'</where>
+        </update>
+        
+        <!-- Versicherungen - Kunst -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-art"/>
+            <where>name = 'Kunst'</where>
+        </update>
+        
+        <!-- Versicherungen - Bauherrenhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-buildersliability"/>
+            <where>name = 'Bauherrenhaftpflicht'</where>
+        </update>
+        
+        <!-- Versicherungen - E-Bike & Pedeleg -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-ebike"/>
+            <where>name = 'E-Bike &amp; Pedeleg'</where>
+        </update>
+        
+        <!-- Versicherungen - Photovoltaik -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-photovoltaic"/>
+            <where>name = 'Photovoltaik'</where>
+        </update>
+        
+        <!-- Versicherungen - Mietausfall -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-lossofrent"/>
+            <where>name = 'Mietausfall'</where>
+        </update>
+        
+        <!-- Versicherungen - Rechtsschutz -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-legalprotection"/>
+            <where>name = 'Rechtsschutz'</where>
+        </update>
+        
+        <!-- Versicherungen - Umweltschäden -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-environmentaldamage"/>
+            <where>name = 'Umweltschäden'</where>
+        </update>
+        
+        <!-- Versicherungen - Wohngebäude -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-residentialbuilding"/>
+            <where>name = 'Wohngebäude'</where>
+        </update>
+        
+        <!-- Versicherungen - Tierhalterhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-animalownerliability"/>
+            <where>name = 'Tierhalterhaftpflicht'</where>
+        </update>
+        
+        <!-- Versicherungen - Tierchirurgie -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-animalsurgery"/>
+            <where>name = 'Tierchirurgie'</where>
+        </update>
+        
+        <!-- Versicherungen - Unfall -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-object-accident"/>
+            <where>name = 'Unfall'</where>
+        </update>
+        
+        <!-- Versicherungen - Gebäude (Gewerbe) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-business-building"/>
+            <where>name = 'Gebäude' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Gewerbe')</where>
+        </update>
+        
+        <!-- Versicherungen - Rechtsschutz (Gewerbe) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-business-legalprotection"/>
+            <where>name = 'Rechtsschutz' AND sub_category_group_id IN (SELECT id FROM sub_category_group WHERE name = 'Gewerbe')</where>
+        </update>
+        
+        <!-- Versicherungen - D&amp;O Managerhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-business-managerliability"/>
+            <where>name = 'D&amp;O Managerhaftpflicht'</where>
+        </update>
+        
+        <!-- Versicherungen - Motorrad -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-car-motorcycle"/>
+            <where>name = 'Motorrad'</where>
+        </update>
+        
+        <!-- Versicherungen - Auto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-car-car"/>
+            <where>name = 'Auto'</where>
+        </update>
+        
+        <!-- Versicherungen - Wohnwagen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-car-caravan"/>
+            <where>name = 'Wohnwagen'</where>
+        </update>
+        
+        <!-- Versicherungen - Wohnmobil -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-car-camper"/>
+            <where>name = 'Wohnmobil'</where>
+        </update>
+        
+        <!-- Versicherungen - Traktor -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-car-tractor"/>
+            <where>name = 'Traktor'</where>
+        </update>
+        
+        <!-- Kredit - freie Verwendung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-credit-credit-freeuse"/>
+            <where>name = 'freie Verwendung'</where>
+        </update>
+        
+        <!-- Kredit - Modernisierung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-credit-credit-modernization"/>
+            <where>name = 'Modernisierung'</where>
+        </update>
+        
+        <!-- Kredit - Auto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-credit-car-car"/>
+            <where>name = 'Auto'</where>
+        </update>
+        
+        <!-- Kredit - Motorboot -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-credit-car-boat"/>
+            <where>name = 'Motorboot'</where>
+        </update>
+        
+        <!-- Darlehen - Annuitätendarlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-annuityloan"/>
+            <where>name = 'Annuitätendarlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Tilgungsdarlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-amortizationloan"/>
+            <where>name = 'Tilgungsdarlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Endfällige Darlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-bulletloans"/>
+            <where>name = 'Endfällige Darlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Kündigungsdarlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-callloan"/>
+            <where>name = 'Kündigungsdarlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Laufzeitzinsdarlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-termloan"/>
+            <where>name = 'Laufzeitzinsdarlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Partiarische Darlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-participatoryloans"/>
+            <where>name = 'Partiarische Darlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Rollierende Geldmarktdarlehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-rollingmarketloans"/>
+            <where>name = 'Rollierende Geldmarktdarlehen'</where>
+        </update>
+        
+        <!-- Darlehen - Modernisierung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-realestate-modernization"/>
+            <where>name = 'Modernisierung'</where>
+        </update>
+        
+        <!-- Darlehen - Bafög -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-support-studentloans"/>
+            <where>name = 'Bafög'</where>
+        </update>
+        
+        <!-- Darlehen - Kreditvertrag -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-credit-creditcontract"/>
+            <where>name = 'Kreditvertrag'</where>
+        </update>
+        
+        <!-- Mietvertrag - Hausmietvertrag -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-reside-houselease"/>
+            <where>name = 'Hausmietvertrag'</where>
+        </update>
+        
+        <!-- Mietvertrag - Wohnungsmietvertrag -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-reside-apartmentrentalagreement"/>
+            <where>name = 'Wohnungsmietvertrag'</where>
+        </update>
+        
+        <!-- Mietvertrag - Raum -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-realestate-room"/>
+            <where>name = 'Raum'</where>
+        </update>
+        
+        <!-- Mietvertrag - Gebäude -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-realestate-building"/>
+            <where>name = 'Gebäude'</where>
+        </update>
+        
+        <!-- Mietvertrag - Ferienhaus -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-realestate-holidayhouse"/>
+            <where>name = 'Ferienhaus'</where>
+        </update>
+        
+        <!-- Mietvertrag - Ferienwohnung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-realestate-holidayapartment"/>
+            <where>name = 'Ferienwohnung'</where>
+        </update>
+        
+        <!-- Mietvertrag - Parkplatz -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-putdownspace-parking"/>
+            <where>name = 'Parkplatz'</where>
+        </update>
+        
+        <!-- Mietvertrag - Garage -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-putdownspace-garage"/>
+            <where>name = 'Garage'</where>
+        </update>
+        
+        <!-- Mietvertrag - Auto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-car-car"/>
+            <where>name = 'Auto'</where>
+        </update>
+        
+        <!-- Mietvertrag - Wohnmobil -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalcontract-car-camper"/>
+            <where>name = 'Wohnmobil'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Haus -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-realestate-house"/>
+            <where>name = 'Haus'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Wohnung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-realestate-apartment"/>
+            <where>name = 'Wohnung'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Grunderwerbssteuer -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-realestate-realestatetax"/>
+            <where>name = 'Grunderwerbssteuer'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Tisch -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-objects-table"/>
+            <where>name = 'Tisch'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Couch -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-objects-coffeetable"/>
+            <where>name = 'Couch'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Fernseher -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-devices-tv"/>
+            <where>name = 'Fernseher'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Handy -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-devices-mobile"/>
+            <where>name = 'Handy'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Auto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-car-car"/>
+            <where>name = 'Auto'</where>
+        </update>
+        
+        <!-- Kaufvertrag - Motorrad -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-purchase-car-motorcycle"/>
+            <where>name = 'Motorrad'</where>
+        </update>
+        
+        <!-- Leasing - Auto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-leasing-car-car"/>
+            <where>name = 'Auto'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Immobilienmakler -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-realestateagent"/>
+            <where>name = 'Immobilienmakler'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Mietverwaltung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-rentalmanagement"/>
+            <where>name = 'Mietverwaltung'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Hausverwaltung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-propertymanagement"/>
+            <where>name = 'Hausverwaltung'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Hausmeisterservice -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-caretakerservice"/>
+            <where>name = 'Hausmeisterservice'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Reinigung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-cleaning"/>
+            <where>name = 'Reinigung'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Gärtner -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-gardener"/>
+            <where>name = 'Gärtner'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Notar -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-notary"/>
+            <where>name = 'Notar'</where>
+        </update>
+        
+        <!-- Dienstleistungen - KFZ-Inspektion -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-service-carinspection"/>
+            <where>name = 'KFZ-Inspektion'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Heizung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-heating"/>
+            <where>name = 'Heizung'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Wärmepumpe -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-heatpump"/>
+            <where>name = 'Wärmepumpe'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Aufzug -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-elevator"/>
+            <where>name = 'Aufzug'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Schornsteinfeger -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-chimneysweeper"/>
+            <where>name = 'Schornsteinfeger'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Gemeindegebühren -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-fees-municipalfees"/>
+            <where>name = 'Gemeindegebühren'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Grunderwerbssteuer -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-fees-realestatetax"/>
+            <where>name = 'Grunderwerbssteuer'</where>
+        </update>
+        
+        <!-- Energie - Gas -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-energy-heating-gas"/>
+            <where>name = 'Gas'</where>
+        </update>
+        
+        <!-- Energie - Öl -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-energy-heating-oil"/>
+            <where>name = 'Öl'</where>
+        </update>
+        
+        <!-- Energie - Fernwärme -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-energy-heating-districtheating"/>
+            <where>name = 'Fernwärme'</where>
+        </update>
+        
+        <!-- Energie - Photovoltaik -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-energy-photovoltaic-electricity"/>
+            <where>name = 'Photovoltaik'</where>
+        </update>
+        
+        <!-- Medien - DSL -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-internet-broadband"/>
+            <where>name = 'DSL'</where>
+        </update>
+        
+        <!-- Medien - Glasfaser -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-internet-glassfiber"/>
+            <where>name = 'Glasfaser'</where>
+        </update>
+        
+        <!-- Medien - Handy -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-cellular-mobile"/>
+            <where>name = 'Handy'</where>
+        </update>
+        
+        <!-- Medien - Tablet -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-cellular-tablet"/>
+            <where>name = 'Tablet'</where>
+        </update>
+        
+        <!-- Medien - Autotelefon -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-cellular-carphone"/>
+            <where>name = 'Autotelefon'</where>
+        </update>
+        
+        <!-- Medien - Kabelfernsehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-television-cabletv"/>
+            <where>name = 'Kabelfernsehen'</where>
+        </update>
+        
+        <!-- Medien - Satellitenfernsehen -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-television-satellitetv"/>
+            <where>name = 'Satellitenfernsehen'</where>
+        </update>
+        
+        <!-- Medien - Musik -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-streaming-music"/>
+            <where>name = 'Musik'</where>
+        </update>
+        
+        <!-- Medien - Filme / Serien -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-streaming-moviesseries"/>
+            <where>name = 'Filme / Serien'</where>
+        </update>
+        
+        <!-- Kontakte - Einzelkontakt -->
+        <update tableName="group_type">
+            <column name="form_name" value="single-contact"/>
+            <where>name = 'Einzelkontakt'</where>
+        </update>
+        
+        <!-- Kontakte - Kontaktgruppe -->
+        <update tableName="group_type">
+            <column name="form_name" value="contact-group"/>
+            <where>name = 'Kontaktgruppe'</where>
+        </update>
+        
+    </changeSet>
+</databaseChangeLog> 

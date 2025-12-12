@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-purchase-objects-coffeetable.createTitle": "Couchtischkauf anlegen",
+  "jaynaApp.contract-purchase-objects-coffeetable.updateTitle": "Couchtischkauf bearbeiten",
+  "jaynaApp.contract-purchase-objects-coffeetable.viewTitle": "Couchtischkauf anzeigen",
+  "jaynaApp.contract-purchase-objects-coffeetable.specificData.title": "Couchtischkauf-spezifische Daten",
+  "jaynaApp.contract-purchase-objects-coffeetable.specificData.fields.specificField1": "Kaufpreis",
+  "jaynaApp.contract-purchase-objects-coffeetable.specificData.fields.specificField2": "Material"
+}

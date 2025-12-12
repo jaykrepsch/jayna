@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.createTitle": "Skrill anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.updateTitle": "Skrill bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.viewTitle": "Skrill anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.specificData.title": "Skrill-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.specificData.fields.specificField1": "Transaktionsgebühr",
+  "jaynaApp.financeaccount-systems-paymentsystems-skrill.specificData.fields.specificField2": "Abrechnungszeitraum"
+}

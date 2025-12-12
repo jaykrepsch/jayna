@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.createTitle": "Bankaccount anlegen",
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.updateTitle": "Bankaccount bearbeiten",
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.viewTitle": "Bankaccount anzeigen",
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.specificData.title": "Bankaccount-spezifische Daten",
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-bankaccount-savingsaccount-savingsaccount.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

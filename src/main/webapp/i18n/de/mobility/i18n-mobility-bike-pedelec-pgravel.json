@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-pgravel.createTitle": "Fahrrad pedelec pgravel anlegen",
+  "jaynaApp.mobility-bike-pedelec-pgravel.updateTitle": "Fahrrad pedelec pgravel bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-pgravel.viewTitle": "Fahrrad pedelec pgravel anzeigen",
+  "jaynaApp.mobility-bike-pedelec-pgravel.specificData.title": "Fahrrad pedelec pgravel-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-pgravel.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-pgravel.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

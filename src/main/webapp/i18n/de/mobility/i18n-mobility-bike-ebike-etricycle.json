@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-ebike-etricycle.createTitle": "Fahrrad ebike etricycle anlegen",
+  "jaynaApp.mobility-bike-ebike-etricycle.updateTitle": "Fahrrad ebike etricycle bearbeiten",
+  "jaynaApp.mobility-bike-ebike-etricycle.viewTitle": "Fahrrad ebike etricycle anzeigen",
+  "jaynaApp.mobility-bike-ebike-etricycle.specificData.title": "Fahrrad ebike etricycle-spezifische Daten",
+  "jaynaApp.mobility-bike-ebike-etricycle.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-ebike-etricycle.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

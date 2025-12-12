@@ -1,0 +1,15 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.createTitle": "Einfamilienhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.updateTitle": "Einfamilienhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.viewTitle": "Einfamilienhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.title": "Einfamilienhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.houseType": "Haustyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.plotSize": "Grundstücksgröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.gardenSize": "Gartengröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.basement": "Keller",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.attic": "Dachboden",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.garage": "Garage",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.parkingSpaces": "Stellplätze",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.heatingType": "Heizungstyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-detachedhouse.specificData.fields.renovationYear": "Renovierungsjahr"
+}

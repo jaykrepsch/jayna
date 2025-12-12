@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.createTitle": "Personenfahrzeug Auto stationwagon anlegen",
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.updateTitle": "Personenfahrzeug Auto stationwagon bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.viewTitle": "Personenfahrzeug Auto stationwagon anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.specificData.title": "Personenfahrzeug Auto stationwagon-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-stationwagon.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.createTitle": "Personenfahrzeug Quad quadpocket anlegen",
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.updateTitle": "Personenfahrzeug Quad quadpocket bearbeiten",
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.viewTitle": "Personenfahrzeug Quad quadpocket anzeigen",
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.specificData.title": "Personenfahrzeug Quad quadpocket-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-quad-quadpocket.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

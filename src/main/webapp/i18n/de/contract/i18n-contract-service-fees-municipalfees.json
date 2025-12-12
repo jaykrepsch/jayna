@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-fees-municipalfees.createTitle": "Gemeindegebühren anlegen",
+  "jaynaApp.contract-service-fees-municipalfees.updateTitle": "Gemeindegebühren bearbeiten",
+  "jaynaApp.contract-service-fees-municipalfees.viewTitle": "Gemeindegebühren anzeigen",
+  "jaynaApp.contract-service-fees-municipalfees.specificData.title": "Gemeindegebühren-spezifische Daten",
+  "jaynaApp.contract-service-fees-municipalfees.specificData.fields.specificField1": "Gebührensatz",
+  "jaynaApp.contract-service-fees-municipalfees.specificData.fields.specificField2": "Zahlungsfrequenz"
+}

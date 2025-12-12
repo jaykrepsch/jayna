@@ -1,0 +1,12 @@
+{
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.createTitle": "Eingangsrechnung erstellen",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.updateTitle": "Eingangsrechnung bearbeiten",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.viewTitle": "Eingangsrechnung anzeigen",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.title": "Rechnungsspezifische Daten",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.fields.supplierName": "Lieferant",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.fields.supplierNumber": "Lieferantennummer",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.fields.dueDate": "Fällig am",
+  "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.fields.paymentReference": "Zahlungsreferenz"
+}
+
+

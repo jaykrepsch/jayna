@@ -1,0 +1,2085 @@
+{
+  "timestamp": "2025-07-01T14:40:12.644Z",
+  "summary": {
+    "totalPaths": 259,
+    "workingPaths": 165,
+    "brokenPaths": 94,
+    "successRate": "63.7"
+  },
+  "workingPaths": [
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Mini",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.mini-job"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Teilzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.half-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Vollzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.full-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Aushilfe",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.help"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Praktikumsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.internship"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Aufhebungsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.termination-agreement"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Angestellter",
+      "groupType": "Werkvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.work-contract"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Mini",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.mini-job"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Teilzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.half-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Vollzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.full-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Aushilfe",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.help"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Praktikumsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.internship"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Aufhebungsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.termination-agreement"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "öffentlicher Dienst",
+      "groupType": "Werkvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.work-contract"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Mini",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.mini-job"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Teilzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.half-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Vollzeit",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.full-time"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Aushilfe",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.help"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Praktikumsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.internship"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Aufhebungsvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.termination-agreement"
+    },
+    {
+      "subCategory": "Arbeitsvertrag",
+      "subCategoryGroup": "Beamter",
+      "groupType": "Werkvertrag",
+      "formName": "contract-employment-employment-employmentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.work-contract"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Annuitätendarlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.annuity-loan"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Modernisierung",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.modernization"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Tilgungsdarlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.amortization-loan"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Laufzeitzinsdarlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.term-loan"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Partiarische Darlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.participatory-loans"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Abrufdarlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.call-loan"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Rollierende Geldmarktdarlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.rolling-market-loans"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Endfällige Darlehen",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.bullet-loans"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "KFZ-Inspektion",
+      "formName": "contract-mobility-car-inspection",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car-inspection"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Notar",
+      "formName": "contract-service-notary-notarycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.notary"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Hausverwaltung",
+      "formName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.property-management"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Mietverwaltung",
+      "formName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.rental-management"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Wartung",
+      "groupType": "Heizung",
+      "formName": "contract-service-maintenance-maintenancecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.heating"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Wartung",
+      "groupType": "Wärmepumpe",
+      "formName": "contract-service-maintenance-maintenancecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.heat-pump"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Wartung",
+      "groupType": "Schornsteinfeger",
+      "formName": "contract-service-chimney-sweeper",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.chimney-sweeper"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Wartung",
+      "groupType": "Aufzug",
+      "formName": "contract-service-maintenance-maintenancecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.elevator"
+    },
+    {
+      "subCategory": "Energie",
+      "subCategoryGroup": "Elektrik",
+      "groupType": "Strom",
+      "formName": "contract-energy-energy-energycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.electricity"
+    },
+    {
+      "subCategory": "Energie",
+      "subCategoryGroup": "Photovoltaik",
+      "groupType": "Strom",
+      "formName": "contract-energy-energy-energycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.electricity"
+    },
+    {
+      "subCategory": "Energie",
+      "subCategoryGroup": "Heizen",
+      "groupType": "Gas",
+      "formName": "contract-energy-energy-energycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.gas"
+    },
+    {
+      "subCategory": "Energie",
+      "subCategoryGroup": "Heizen",
+      "groupType": "Fernwärme",
+      "formName": "contract-energy-energy-energycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.district-heating"
+    },
+    {
+      "subCategory": "Energie",
+      "subCategoryGroup": "Heizen",
+      "groupType": "Öl",
+      "formName": "contract-energy-energy-energycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.oil"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Auto",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Motorrad",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.motorcycle"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Geräte",
+      "groupType": "Handy",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.mobile"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Geräte",
+      "groupType": "Fernseher",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.tv"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Gegenstände",
+      "groupType": "Couch",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.coffee-table"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Gegenstände",
+      "groupType": "Tisch",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.table"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Wohnung",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.apartment"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Haus",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.house"
+    },
+    {
+      "subCategory": "Kaufvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Grunderwerbssteuer",
+      "formName": "contract-sale-sale-salecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.real-estate-tax"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Auto",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Wohnwagen",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.caravan"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Motorboot",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.boat"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kredit",
+      "groupType": "Umschuldung",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.rescheduling"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kredit",
+      "groupType": "Modernisierung",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.modernization"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kredit",
+      "groupType": "freie Verwendung",
+      "formName": "contract-creditcard-credit-creditcard",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.free-use"
+    },
+    {
+      "subCategory": "Leasing",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Auto",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Fernsehen",
+      "groupType": "Kabelfernsehen",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.cable-tv"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Fernsehen",
+      "groupType": "Satellitenfernsehen",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.satellite-tv"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Internet",
+      "groupType": "DSL",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.broadband"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Internet",
+      "groupType": "Glasfaser",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.glass-fiber"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Mobilfunk",
+      "groupType": "Autotelefon",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car-phone"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Mobilfunk",
+      "groupType": "Handy",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.mobile"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Mobilfunk",
+      "groupType": "Tablet",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.tablet"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Streaming",
+      "groupType": "Filme / Serien",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.movies-series"
+    },
+    {
+      "subCategory": "Medien",
+      "subCategoryGroup": "Streaming",
+      "groupType": "Musik",
+      "formName": "contract-media-media-mediacontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.music"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Abstellplatz",
+      "groupType": "Garage",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.garage"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Abstellplatz",
+      "groupType": "Parkplatz",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.parking"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Ferienwohnung",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.holiday-apartment"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Ferienhaus",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.holiday-house"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Raum",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.room"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Immobilie",
+      "groupType": "Gebäude",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.building"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Auto",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.car"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Wohnmobil",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.camper"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Wohnen",
+      "groupType": "Wohnungsmietvertrag",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.apartment-rental-agreement"
+    },
+    {
+      "subCategory": "Mietvertrag",
+      "subCategoryGroup": "Wohnen",
+      "groupType": "Hausmietvertrag",
+      "formName": "contract-lease-lease-leasecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.house-lease"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "gesetzliche Krankenversicherung",
+      "formName": "contract-insurance-health-healthcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.statutory-health-insurance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Ausland",
+      "formName": "contract-insurance-inthealth-inthealthcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.abroad"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Privat Zusatz Zahn",
+      "formName": "contract-insurance-priaddtooth-priaddtoothcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.additional-insurance-teeth"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Privat Zusatz stationär",
+      "formName": "contract-insurance-priaddstat-priaddstatcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.additional-insurance-stationary"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Privat Zusatz ambulant",
+      "formName": "contract-insurance-priaddout-priaddoutcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.additional-insurance-outpatient"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Privat Kranken voll",
+      "formName": "contract-insurance-health-prisickfullcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.additional-insurance-full"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Krankentagegeld",
+      "formName": "contract-insurance-dailysickness-dailysicknesscontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.sick-pay"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Krankenhaustagegeld",
+      "formName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.hospital-per-diem"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Kranken",
+      "groupType": "Auslandsreise",
+      "formName": "contract-insurance-travel-travelcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.foreign-travel"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Risiko Lebensversicherung",
+      "formName": "contract-insurance-risklife-risklifecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.risk-life-insurance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Rentenversicherung Fonds",
+      "formName": "contract-insurance-pensionfund-pensionfundcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.pension-insurance-fund"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Berufsunfähigkeit",
+      "formName": "contract-insurance-disability-disabilitycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.disability-insurance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Pflegeversicherung",
+      "formName": "contract-insurance-longtermcare-longtermcarecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.care-insurance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Rentenversicherung klassisch",
+      "formName": "contract-insurance-classicpension-classicpensioncontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.pension-insurance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Leben",
+      "groupType": "Pflegetagegeld",
+      "formName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.daily-care-allowance"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Unfall",
+      "formName": "contract-insurance-accident-accidentcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.accident"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Hausrat",
+      "formName": "contract-insurance-furniture-furniturecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.household-goods"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Wohngebäude",
+      "formName": "contract-insurance-residential-residentialcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.residential-building"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Rechtsschutz",
+      "formName": "contract-insurance-legalprotection-legalprotectioncontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.legal-protection"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Privathaftpflicht",
+      "formName": "contract-insurance-liability-liabilitycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.personal-liability"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Bauherrenhaftpflicht",
+      "formName": "contract-insurance-builderliability-builderliabilitycontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.builders-liability"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "E-Bike & Pedeleg",
+      "formName": "contract-insurance-bike-bikecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.ebike"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Feuer",
+      "formName": "contract-insurance-fire-firecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.fire"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Mietausfall",
+      "formName": "contract-insurance-rental-rentalcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.loss-of-rent"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Photovoltaik",
+      "formName": "contract-insurance-photovoltaic-photovoltaiccontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.photovoltaic"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Tier OP",
+      "formName": "contract-insurance-pet-petcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.animal-surgery"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Tierhalterhaftpflicht",
+      "formName": "contract-insurance-liabilitypet-liabilitypetcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.animal-owner-liability"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Umweltschadenhaftpflicht",
+      "formName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.environmental-damage"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Gewerbe",
+      "groupType": "Gebäude",
+      "formName": "contract-insurance-residential-residentialcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.building"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Gewerbe",
+      "groupType": "D&O Managerhaftpflicht",
+      "formName": "contract-insurance-domanager-domanagercontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.manager-liability"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Gewerbe",
+      "groupType": "Rechtsschutz",
+      "formName": "contract-insurance-legalprotection-legalprotectioncontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.legal-protection"
+    },
+    {
+      "subCategory": "Darlehen",
+      "subCategoryGroup": "Förderung",
+      "groupType": "Bafög",
+      "formName": "contract-loan-credit-creditcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.student-loans"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Gebühren",
+      "groupType": "Gemeindegebühren",
+      "formName": "contract-tax-realestate-realestatetaxcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.municipal-fees"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Gebühren",
+      "groupType": "Grunderwerbssteuer",
+      "formName": "contract-tax-realestate-realestatetaxcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.real-estate-tax"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Gewerbehaus",
+      "groupType": "Gewerbeeinheit",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.commercial-unit"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Gewerbehaus",
+      "groupType": "Gewerbehaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.commercial-building"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Halle",
+      "groupType": "Halle",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.hall"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Doppelhaushälfte",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.semit-detached-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Einfamilienhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.detached-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Ferienhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.vacation-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Mehrfamilienhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.apartment-building"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Pflegeeinrichtung",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.care-facility"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Reihenendhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.terraced-end-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Reihenmittelhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.terraced-mid-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohnhaus",
+      "groupType": "Zweifamilienhaus",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.two-family-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Wohn + Gewerbehaus",
+      "groupType": "Wohnungen & Gewerbe",
+      "formName": "realestate-property-commercialresidential-commercialresidentialproperty",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.apartments-commercial-mix"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Parkfläche",
+      "groupType": "Carport",
+      "formName": "realestate-parking-carport-carport",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.carport"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Parkfläche",
+      "groupType": "Garage",
+      "formName": "realestate-parking-garage-garage",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.garage"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Parkfläche",
+      "groupType": "Parkhaus",
+      "formName": "realestate-parking-parkinghouse-parkinghouse",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.parking-house"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Parkfläche",
+      "groupType": "Parkplatz",
+      "formName": "realestate-parking-parkingspace-parkingspace",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.parking-space"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Bewirtschaftung",
+      "groupType": "Ackerland",
+      "formName": "realestate-plot-farmland-farmland",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.farmland"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Bewirtschaftung",
+      "groupType": "Forst",
+      "formName": "realestate-plot-forest-forest",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.forest"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Bewirtschaftung",
+      "groupType": "Frucht",
+      "formName": "realestate-plot-fruit-fruit",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.fruit"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Bewirtschaftung",
+      "groupType": "Weide",
+      "formName": "realestate-plot-pasture-pasture",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.pasture"
+    },
+    {
+      "subCategory": "mit Bebauung",
+      "subCategoryGroup": "Garten",
+      "groupType": "Schrebergarten",
+      "formName": "realestate-plot-allotmentgarden-allotmentgarden",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.allotment-garden"
+    },
+    {
+      "subCategory": "ohne Bebauung",
+      "subCategoryGroup": "Grund",
+      "groupType": "Bebauungsgrundstück",
+      "formName": "realestate-plot-buildingplot-buildingplot",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.building-plot"
+    },
+    {
+      "subCategory": "ohne Bebauung",
+      "subCategoryGroup": "Grund",
+      "groupType": "Wiese",
+      "formName": "realestate-plot-meadow-meadow",
+      "entityName": "realestate",
+      "translationKey": "jaynaApp.realestate.group-type.meadow"
+    },
+    {
+      "subCategory": "Bank",
+      "subCategoryGroup": "Bankkonto",
+      "groupType": "Girokonto",
+      "formName": "financeaccount-bank-checkingaccount-checkingaccount",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.checking-account"
+    },
+    {
+      "subCategory": "Bank",
+      "subCategoryGroup": "Bankkonto",
+      "groupType": "Sparkonto",
+      "formName": "financeaccount-bank-savingaccount-savingaccount",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.saving-account"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Charge",
+      "formName": "financeaccount-bank-charge-charge",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.charge"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Revolving",
+      "formName": "financeaccount-bank-revolving-revolving",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.revolving"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Prepaid",
+      "formName": "financeaccount-bank-prepaid-prepaid",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.prepaid"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Debit",
+      "formName": "financeaccount-bank-debit-debit",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.debit"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Online Virtuell",
+      "formName": "financeaccount-systems-onlinevirtual-onlinevirtual",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.online-virtual"
+    },
+    {
+      "subCategory": "Kredit",
+      "subCategoryGroup": "Kreditkarte",
+      "groupType": "Samsung",
+      "formName": "financeaccount-systems-samsungpay-samsungpay",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.samsung"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Paypal",
+      "formName": "financeaccount-systems-paypal-paypal",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.paypal"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Google Pay",
+      "formName": "financeaccount-systems-googlepay-googlepay",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.google-pay"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Apple Pay",
+      "formName": "financeaccount-systems-applepay-applepay",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.apple-pay"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Skrill",
+      "formName": "financeaccount-systems-skrill-skrill",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.skrill"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Stripe",
+      "formName": "financeaccount-systems-stripe-stripe",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.stripe"
+    },
+    {
+      "subCategory": "Systeme",
+      "subCategoryGroup": "Bezahlsysteme",
+      "groupType": "Klarna",
+      "formName": "financeaccount-systems-klarna-klarna",
+      "entityName": "financeaccount",
+      "translationKey": "jaynaApp.financeaccount.group-type.klarna"
+    },
+    {
+      "subCategory": "Kontakte",
+      "subCategoryGroup": "Kontakt",
+      "groupType": "Einzelkontakt",
+      "formName": "contact-single-contact-contact",
+      "entityName": "contact",
+      "translationKey": "jaynaApp.contact.group-type.single-contact"
+    },
+    {
+      "subCategory": "Kontakte",
+      "subCategoryGroup": "Kontakt",
+      "groupType": "Kontaktgruppe",
+      "formName": "contact-group-group-groupcontact",
+      "entityName": "contact",
+      "translationKey": "jaynaApp.contact.group-type.contact-group"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Cabrio",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.convertible"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Coupé",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.coupe"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "CUV",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.cuv"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Geländewagen",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.off-road-vehicle"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Kleinbus",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.minibus"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Kleintransporter",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.small-transporter"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Kleinwagen",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.small-car"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Kombi",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.station-wagon"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Limousine",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.limousine"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Minivan",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.minivan"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Pickup",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.pickup"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Roadstar",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.roadstar"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "SUV",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.suv"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Transporter",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.transporter"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Auto",
+      "groupType": "Van",
+      "formName": "mobility-passenger-car-car",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.van"
+    }
+  ],
+  "brokenPaths": [
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Versicherungsmakler",
+      "formName": "insurance-broker",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.insurance-broker"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Hausmeisterservice",
+      "formName": "caretaker-service",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.caretaker-service"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Reinigung",
+      "formName": "cleaning",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.cleaning"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Immobilienmakler",
+      "formName": "real-estate-agent",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.real-estate-agent"
+    },
+    {
+      "subCategory": "Dienstleistung",
+      "subCategoryGroup": "Service",
+      "groupType": "Gärtner",
+      "formName": "gardener",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.gardener"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Motorrad",
+      "formName": "contract-insurance-car-carcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.motorcycle"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Wohnwagen",
+      "formName": "contract-insurance-car-carcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.caravan"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Wohnmobil",
+      "formName": "contract-insurance-car-carcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.camper"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "KFZ",
+      "groupType": "Traktor",
+      "formName": "contract-insurance-car-carcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.tractor"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Glas",
+      "formName": "contract-insurance-glass-glasscontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.glas"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Haus- und Grundbesitzerhaftpflicht",
+      "formName": "insurance-homelandowner",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.homeowner-liability"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Kunst",
+      "formName": "contract-insurance-art-artcontract",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.art"
+    },
+    {
+      "subCategory": "Versicherung",
+      "subCategoryGroup": "Sach",
+      "groupType": "Elementar (Wohngebäude)",
+      "formName": "insurance-elementary",
+      "entityName": "contract",
+      "translationKey": "jaynaApp.contract.group-type.elementary"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Anhänger",
+      "groupType": "A",
+      "formName": "mobility-trailer-trailer-trailer",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.a"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Anhänger",
+      "groupType": "B",
+      "formName": "mobility-trailer-trailer-trailer",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.b"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Anhänger",
+      "groupType": "C",
+      "formName": "mobility-trailer-trailer-trailer",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.c"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "City",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.city"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Cross",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.cross"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Dreirad",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.tricycle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Falt",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.folding-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Gravel",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.gravel"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Lasten",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.cargo"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Lifestyle",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.lifestyle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Mountainbike",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.mtb"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Rennrad",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.racing-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Speed",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.speed-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "SUV",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.suv"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "Trekking",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.trekking-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Bike",
+      "groupType": "XXL",
+      "formName": "mobility-bicycle-bicycle-bicycle",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.xxl"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "City",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-city"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Cross",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-cross"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Dreirad",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-tricycle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Falt",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-folding-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Gravel",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-gravel"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Lasten",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-cargo"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Lifestyle",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-lifestyle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Mountainbike",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-mtb"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Rennrad",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-racing-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Speed",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-speed-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "SUV",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-suv"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "Trekking",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-trekking-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "E-Bike",
+      "groupType": "XXL",
+      "formName": "mobility-ebike-ebike-ebike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.e-xxl"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Hybrid",
+      "groupType": "Motorsegler",
+      "formName": "mobility-motorsailer-motorsailer-motorsailer",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motor-glider"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Kasten",
+      "groupType": "A",
+      "formName": "mobility-boxvan-boxvan-boxvan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.boxvan"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Kasten",
+      "groupType": "B",
+      "formName": "mobility-boxvan-boxvan-boxvan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.boxvan"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Kasten",
+      "groupType": "C",
+      "formName": "mobility-boxvan-boxvan-boxvan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.boxvan"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Motorbetrieben",
+      "groupType": "Motorboot",
+      "formName": "mobility-motorboat-motorboat-motorboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motorboat"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Motorbetrieben",
+      "groupType": "Sportboot",
+      "formName": "mobility-motorboat-motorboat-motorboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motorboat"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Motorbetrieben",
+      "groupType": "Yacht",
+      "formName": "mobility-motorboat-motorboat-motorboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motorboat"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Motorbetrieben",
+      "groupType": "Jollenkreuzer",
+      "formName": "mobility-motorboat-motorboat-motorboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motorboat"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Chopper",
+      "formName": "mobility-chopper-chopper-chopper",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.chopper"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Cruiser",
+      "formName": "mobility-cruiser-cruiser-cruiser",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.cruiser"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Dirt Bike",
+      "formName": "mobility-dirt-bike-dirt-bike-dirt-bike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.dirt-bike"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Motocross",
+      "formName": "mobility-motocross-motocross-motocross",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.motocross"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Naked",
+      "formName": "mobility-naked-naked-naked",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.naked"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Srambler",
+      "formName": "mobility-srambler-srambler-srambler",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.srambler"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Streetfighter",
+      "formName": "mobility-streetfighter-streetfighter-streetfighter",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.streetfighter"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Stuntbike",
+      "formName": "mobility-stuntbike-stuntbike-stuntbike",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.stuntbike"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Motorrad",
+      "groupType": "Trial",
+      "formName": "mobility-trial-trial-trial",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.trial"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "City",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-city"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Cross",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-cross"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Dreirad",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-tricycle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Falt",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-folding-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Gravel",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-gravel"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Lasten",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-cargo"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Lifestyle",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-lifestyle"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Mountainbike",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-mtb"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Rennrad",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-racing-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Speed",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-speed-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "SUV",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-suv"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "Trekking",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-trekking-bike"
+    },
+    {
+      "subCategory": "Fahrrad",
+      "subCategoryGroup": "Pedelec",
+      "groupType": "XXL",
+      "formName": "mobility-pedelec-pedelec-pedelec",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.p-xxl"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "4x4",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-4x4"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "C",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-c"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Elektro",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-electro"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Kinder",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-children"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Offroad",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-offroad"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Pocket",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-pocket"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Renn",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-race"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Road",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-road"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Quad",
+      "groupType": "Side by Side",
+      "formName": "mobility-quad-quad-quad",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.quad-side-by-side"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Segeln",
+      "groupType": "Segelboot",
+      "formName": "mobility-sailboat-sailboat-sailboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.sailing-boat"
+    },
+    {
+      "subCategory": "Boot",
+      "subCategoryGroup": "Segeln",
+      "groupType": "Segelyacht",
+      "formName": "mobility-sailboat-sailboat-sailboat",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.sailing-yacht"
+    },
+    {
+      "subCategory": "Landwirtschaft",
+      "subCategoryGroup": "Traktor",
+      "groupType": "B",
+      "formName": "mobility-tractor-tractor-tractor",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.tractor"
+    },
+    {
+      "subCategory": "Landwirtschaft",
+      "subCategoryGroup": "Traktor",
+      "groupType": "C",
+      "formName": "mobility-tractor-tractor-tractor",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.tractor"
+    },
+    {
+      "subCategory": "Landwirtschaft",
+      "subCategoryGroup": "Traktor",
+      "groupType": "Träker",
+      "formName": "mobility-tractor-tractor-tractor",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.tractor"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Wohnmobil",
+      "groupType": "mit Alkoven",
+      "formName": "mobility-camper-camper-camper",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.alkoven"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Wohnmobil",
+      "groupType": "teilintegriert",
+      "formName": "mobility-camper-camper-camper",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.semi-integrated"
+    },
+    {
+      "subCategory": "Personenfahrzeug",
+      "subCategoryGroup": "Wohnmobil",
+      "groupType": "vollintegriert",
+      "formName": "mobility-camper-camper-camper",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.fully-integrated"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Wohnwagen",
+      "groupType": "Familien",
+      "formName": "mobility-caravan-caravan-caravan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.family"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Wohnwagen",
+      "groupType": "Luxus",
+      "formName": "mobility-caravan-caravan-caravan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.luxury"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Wohnwagen",
+      "groupType": "Sport",
+      "formName": "mobility-caravan-caravan-caravan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.sport"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Wohnwagen",
+      "groupType": "Zelt",
+      "formName": "mobility-caravan-caravan-caravan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.tent"
+    },
+    {
+      "subCategory": "Nutzfahrzeug",
+      "subCategoryGroup": "Wohnwagen",
+      "groupType": "Zwei-Personen",
+      "formName": "mobility-caravan-caravan-caravan",
+      "entityName": "mobility",
+      "translationKey": "jaynaApp.mobility.group-type.two-persons"
+    }
+  ]
+}

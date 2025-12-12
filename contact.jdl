@@ -1,0 +1,53 @@
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity Contact {
+  title Title
+  salutation Salutation
+  rank Rank
+  gender Gender
+  surName String
+  firstName String
+  otherFirstNames String
+  birthName String
+  maritalStatus MaritalStatus
+  nickName String
+  birthDate LocalDate
+  birthCity String
+  birthCountry String
+  nationality String
+  addressType AddressType
+  street String
+  streetNumber String
+  postalCode String
+  city String
+  additionalAddressField1 String
+  additionalAddressField2 String
+  communicationType CommunicationType
+  phoneCountryCode Integer
+  phonePrefix Integer
+  phoneNumber Integer
+}
+enum Title {
+  DR, PROF, DR_MED
+}
+enum Salutation {
+  MR, MRS
+}
+enum Rank {
+  COLONEL, LIEUTENANT
+}
+enum Gender {
+  MALE, FEMALE, DIVERS
+}
+enum MaritalStatus {
+  SINGLE, MARRIED, DIVORCED, WIDOWED, PARTNERSHIP
+}
+enum AddressType {
+  PRIVATE, BUSINESS
+}
+enum CommunicationType {
+  PHONE, FAX, MOBILE, PAGER, EMAIL, CHAT, HOMEPAGE, SOCIAL_MEDIA
+}

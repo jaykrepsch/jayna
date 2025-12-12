@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.createTitle": "Ferienhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.updateTitle": "Ferienhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.viewTitle": "Ferienhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.specificData.title": "Ferienhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.specificData.fields.specificField1": "Wohnfläche",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-vacationhouse.specificData.fields.specificField2": "Anzahl Schlafzimmer"
+}

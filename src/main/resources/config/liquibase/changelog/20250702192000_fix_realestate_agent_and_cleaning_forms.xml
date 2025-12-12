@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <changeSet id="20250702192000-1" author="jayna">
+        <comment>Korrigiere form_name für Immobilienmakler (real-estate-agent) und Reinigung (cleaning)</comment>
+        
+        <!-- Immobilienmakler (real-estate-agent) - ID 108 -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-broker-realestateagent"/>
+            <where>id = 108</where>
+        </update>
+        
+        <!-- Reinigung (cleaning) - ID 107 -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-cleaning-cleaningcontract"/>
+            <where>id = 107</where>
+        </update>
+        
+    </changeSet>
+
+</databaseChangeLog> 

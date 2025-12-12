@@ -1,0 +1,21 @@
+{
+  "jaynaApp": {
+    "contact": {
+      "sub-category": {
+        "person": "Person",
+        "company": "Unternehmen",
+        "organization": "Organisation"
+      },
+      "sub-category-group": {
+        "individual": "Einzelperson",
+        "group": "Gruppe",
+        "business": "Geschäft"
+      },
+      "group-type": {
+        "single-contact": "Einzelkontakt",
+        "contact-group": "Kontaktgruppe",
+        "business-contact": "Geschäftskontakt"
+      }
+    }
+  }
+} 

@@ -1,0 +1,76 @@
+@skipClient
+entity ApplicationUser
+
+@service(serviceClass)
+entity Category {
+	name String
+    createdDate LocalDate
+    translationKey String
+}
+
+@service(serviceClass)
+entity SubCategory {
+	name String
+    createdDate LocalDate
+    translationKey String
+}
+
+@service(serviceClass)
+entity SubCategoryGroup {
+	name String
+    createdDate LocalDate
+    translationKey String
+}
+
+@service(serviceClass)
+entity GroupType {
+	name String
+    createdDate LocalDate
+    translationKey String
+}
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity Contract {
+  contractor String
+  contractOwner String
+  contractUser String
+  contractNumber String
+  startDate LocalDate
+  endDate LocalDate
+  applicationDate LocalDate
+  confirmationDate LocalDate
+  paymentPattern PaymentPattern
+  comment Blob
+  payer String
+  paymentType PaymentType
+  salary Double
+  vacationDays Integer
+  occupation String
+  activities String
+  loanValue Double
+  interestRatePercent Double
+  interestRateCurrency Double
+  amortizationRatePercent Double
+  amortizationRateCurrency Double
+}
+enum PaymentPattern {
+  ONETIME, WEEKLY, DAILY, MONTHLY, TWOMONTHLY, QUARTERLY, SEMIANNUAL, ANNUAL
+}
+enum PaymentType {
+  TRANSFER, SEPA_DEBIT, CASH
+}
+
+relationship OneToOne {
+  	ApplicationUser{internalUser} to User
+}
+
+relationship OneToMany {
+    ApplicationUser{contract} to Contract{applicationUser}
+    Category{subCategory} to SubCategory{category}
+    SubCategory{subCategoryGroup} to SubCategoryGroup{subCategory}
+    SubCategoryGroup{groupType} to GroupType{subCategoryGroup}
+    GroupType{contract} to Contract{groupType}
+}

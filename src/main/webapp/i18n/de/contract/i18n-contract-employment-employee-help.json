@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-help.createTitle": "Aushilfe erstellen",
+  "jaynaApp.contract-employment-employee-help.updateTitle": "Aushilfe bearbeiten",
+  "jaynaApp.contract-employment-employee-help.viewTitle": "Aushilfe anzeigen",
+  "jaynaApp.contract-employment-employee-help.specificData.title": "Spezifische Daten",
+  "jaynaApp.contract-employment-employee-help.specificData.fields.specificField1": "Arbeitsbereich",
+  "jaynaApp.contract-employment-employee-help.specificData.fields.specificField2": "Stunden pro Woche"
+}

@@ -1,0 +1,13 @@
+{
+  "jaynaApp": {
+    "baseCategories": {
+      "title": "Kategorien",
+      "create": "Kategorie erstellen",
+      "edit": "Kategorie bearbeiten",
+      "delete": "Kategorie löschen",
+      "name": "Name",
+      "description": "Beschreibung",
+      "type": "Typ"
+    }
+  }
+}

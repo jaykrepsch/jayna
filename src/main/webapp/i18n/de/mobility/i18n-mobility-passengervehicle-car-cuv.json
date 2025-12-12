@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-cuv.createTitle": "Personenfahrzeug Auto cuv anlegen",
+  "jaynaApp.mobility-passengervehicle-car-cuv.updateTitle": "Personenfahrzeug Auto cuv bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-cuv.viewTitle": "Personenfahrzeug Auto cuv anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-cuv.specificData.title": "Personenfahrzeug Auto cuv-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-cuv.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-cuv.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

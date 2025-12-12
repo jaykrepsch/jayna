@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <changeSet id="20250117000001-1" author="system">
+        <comment>Korrigiere alle fehlerhaften form_name-Einträge auf existierende JSON-Dateien</comment>
+        
+        <!-- Arbeitsverträge - Aufhebungsvertrag -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-employment-employee-terminationAgreement"/>
+            <where>name = 'Aufhebungsvertrag'</where>
+        </update>
+        
+        <!-- Darlehen - alle auf contract-loan-loan-loancontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-loan-loancontract"/>
+            <where>form_name = 'loan-credit-contract'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Reinigung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-cleaning-cleaningcontract"/>
+            <where>form_name = 'contract-service-cleaning-cleaningservicecontract'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Gärtner -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-gardener-gardenercontract"/>
+            <where>form_name = 'contract-service-gardener-gardenerservicecontract'</where>
+        </update>
+        
+        <!-- Dienstleistungen - KFZ-Inspektion -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-mobility-car-inspection"/>
+            <where>form_name = 'car-inspection'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Notar -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-notary-notarycontract"/>
+            <where>form_name = 'notary'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Mietverwaltung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalmanagement-rentalmanagement-rentalmanagementcontract"/>
+            <where>form_name = 'rental-management'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Heizung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-maintenancecontract"/>
+            <where>form_name = 'heating'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Wärmepumpe -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-maintenancecontract"/>
+            <where>form_name = 'heat-pump'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Aufzug -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-maintenance-maintenancecontract"/>
+            <where>form_name = 'elevator'</where>
+        </update>
+        
+        <!-- Dienstleistungen - Grunderwerbssteuer -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-tax-realestate-realestatetaxcontract"/>
+            <where>form_name = 'real-estate-tax'</where>
+        </update>
+        
+        <!-- Kaufvertrag - alle auf contract-sale-sale-salecontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-sale-sale-salecontract"/>
+            <where>form_name = 'sale-contract'</where>
+        </update>
+        
+        <!-- Kredit - alle auf contract-loan-credit-creditcontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-loan-credit-creditcontract"/>
+            <where>form_name = 'credit-contract'</where>
+        </update>
+        
+        <!-- Leasing - alle auf contract-lease-lease-leasecontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-lease-lease-leasecontract"/>
+            <where>form_name = 'lease'</where>
+        </update>
+        
+        <!-- Medien - alle auf contract-media-media-mediacontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-media-media-mediacontract"/>
+            <where>form_name = 'medien'</where>
+        </update>
+        
+        <!-- Mietvertrag - alle auf contract-rental-rental-rentalcontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rental-rental-rentalcontract"/>
+            <where>form_name = 'lease' AND name NOT LIKE '%Wohnmobil%'</where>
+        </update>
+        
+        <!-- Versicherungen - Krankenversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-healthcontract"/>
+            <where>form_name = 'insurance-health'</where>
+        </update>
+        
+        <!-- Versicherungen - Ausland -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-inthealth-inthealthcontract"/>
+            <where>form_name = 'insurance-int-health'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-prisickfullcontract"/>
+            <where>form_name = 'insurance-pri-add-health'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz stationär -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-priaddstat-priaddstatcontract"/>
+            <where>form_name = 'insurance-pri-add-stat'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Zusatz ambulant -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-priaddout-priaddoutcontract"/>
+            <where>form_name = 'insurance-pri-add-out'</where>
+        </update>
+        
+        <!-- Versicherungen - Privat Kranken voll -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-health-prisickfullcontract"/>
+            <where>form_name = 'insurance-pri-sick-full'</where>
+        </update>
+        
+        <!-- Versicherungen - Krankentagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-dailysickness-dailysicknesscontract"/>
+            <where>form_name = 'insurance-daily-sickness'</where>
+        </update>
+        
+        <!-- Versicherungen - Krankenhaustagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-dailyhospital-dailyhospitalcontract"/>
+            <where>form_name = 'insurance-daily-hospital'</where>
+        </update>
+        
+        <!-- Versicherungen - Auslandsreise -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-travel-travelcontract"/>
+            <where>form_name = 'insurance-travel-sickness'</where>
+        </update>
+        
+        <!-- Versicherungen - Risiko Lebensversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-risklife-risklifecontract"/>
+            <where>form_name = 'insurance-risk-life'</where>
+        </update>
+        
+        <!-- Versicherungen - Rentenversicherung Fonds -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-pensionfund-pensionfundcontract"/>
+            <where>form_name = 'insurance-pensionfund'</where>
+        </update>
+        
+        <!-- Versicherungen - Berufsunfähigkeit -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-disability-disabilitycontract"/>
+            <where>form_name = 'insurance-disability'</where>
+        </update>
+        
+        <!-- Versicherungen - Pflegeversicherung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-longtermcare-longtermcarecontract"/>
+            <where>form_name = 'insurance-long-term-care'</where>
+        </update>
+        
+        <!-- Versicherungen - Rentenversicherung klassisch -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-classicpension-classicpensioncontract"/>
+            <where>form_name = 'insurance-classic-pension'</where>
+        </update>
+        
+        <!-- Versicherungen - Pflegetagegeld -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-longtermcaredaily-longtermcaredailycontract"/>
+            <where>form_name = 'insurance-long-term-care-daily'</where>
+        </update>
+        
+        <!-- Versicherungen - Unfall -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-accident-accidentcontract"/>
+            <where>form_name = 'insurance-accident'</where>
+        </update>
+        
+        <!-- Versicherungen - Hausrat -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-furniture-furniturecontract"/>
+            <where>form_name = 'insurance-furniture'</where>
+        </update>
+        
+        <!-- Versicherungen - Wohngebäude -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-residential-residentialcontract"/>
+            <where>form_name = 'insurance-residential'</where>
+        </update>
+        
+        <!-- Versicherungen - Rechtsschutz -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-legalprotection-legalprotectioncontract"/>
+            <where>form_name = 'insurance-legal-protection'</where>
+        </update>
+        
+        <!-- Versicherungen - Privathaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-liability-liabilitycontract"/>
+            <where>form_name = 'insurance-liability'</where>
+        </update>
+        
+        <!-- Versicherungen - Bauherrenhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-builderliability-builderliabilitycontract"/>
+            <where>form_name = 'insurance-builder-liability'</where>
+        </update>
+        
+        <!-- Versicherungen - E-Bike -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-bike-bikecontract"/>
+            <where>form_name = 'insurance-bike'</where>
+        </update>
+        
+        <!-- Versicherungen - Glas -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-fire-firecontract"/>
+            <where>form_name = 'insurance-glass'</where>
+        </update>
+        
+        <!-- Versicherungen - Kunst -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-fire-firecontract"/>
+            <where>form_name = 'insurance-art'</where>
+        </update>
+        
+        <!-- Versicherungen - Mietausfall -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-rental-rentalcontract"/>
+            <where>form_name = 'insurance-loss-rent'</where>
+        </update>
+        
+        <!-- Versicherungen - Photovoltaik -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-photovoltaic-photovoltaiccontract"/>
+            <where>form_name = 'insurance-photovoltaic'</where>
+        </update>
+        
+        <!-- Versicherungen - Tier OP -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-pet-petcontract"/>
+            <where>form_name = 'insurance-animal-surgery'</where>
+        </update>
+        
+        <!-- Versicherungen - Tierhalterhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-liabilitypet-liabilitypetcontract"/>
+            <where>form_name = 'insurance-liability-pet'</where>
+        </update>
+        
+        <!-- Versicherungen - Umweltschadenhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-environmentaldamage-environmentaldamagecontract"/>
+            <where>form_name = 'insurance-environmental-damage'</where>
+        </update>
+        
+        <!-- Versicherungen - D&O Managerhaftpflicht -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-domanager-domanagercontract"/>
+            <where>form_name = 'insurance-domanager'</where>
+        </update>
+        
+        <!-- Finanzkonten - Girokonto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-bankaccount-bank-bankaccount"/>
+            <where>form_name = 'financeaccount-bank-checkingaccount-checkingaccount'</where>
+        </update>
+        
+        <!-- Finanzkonten - Revolving -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcardcontract"/>
+            <where>form_name = 'revolving'</where>
+        </update>
+        
+        <!-- Finanzkonten - Samsung -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'samsung'</where>
+        </update>
+        
+        <!-- Finanzkonten - Google Pay -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'google-pay'</where>
+        </update>
+        
+        <!-- Finanzkonten - Apple Pay -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'apple-pay'</where>
+        </update>
+        
+        <!-- Finanzkonten - Skrill -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'skrill'</where>
+        </update>
+        
+        <!-- Finanzkonten - Stripe -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'stripe'</where>
+        </update>
+        
+        <!-- Finanzkonten - Klarna -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>form_name = 'klarna'</where>
+        </update>
+        
+    </changeSet>
+
+</databaseChangeLog> 

@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "value": "BASIC",
+      "label": "Grunddeckung"
+    },
+    {
+      "value": "EXTENDED",
+      "label": "Erweiterte Deckung"
+    },
+    {
+      "value": "COMPREHENSIVE",
+      "label": "Vollkasko"
+    },
+    {
+      "value": "FIRE_ONLY",
+      "label": "Nur Feuer"
+    },
+    {
+      "value": "NATURAL_HAZARDS",
+      "label": "Elementarschäden"
+    },
+    {
+      "value": "THEFT",
+      "label": "Einbruchdiebstahl"
+    },
+    {
+      "value": "WATER_DAMAGE",
+      "label": "Wasserschäden"
+    },
+    {
+      "value": "STORM_HAIL",
+      "label": "Sturm/Hagel"
+    }
+  ]
+} 

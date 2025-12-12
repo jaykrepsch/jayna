@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity EmploymentContract.
+    -->
+    <changeSet id="20221105084545-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="application_user_id"
+                                 baseTableName="employment_contract"
+                                 constraintName="fk_employment_contract__application_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="application_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="group_type_id"
+                                 baseTableName="employment_contract"
+                                 constraintName="fk_employment_contract__group_type_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="group_type"/>
+    </changeSet>
+</databaseChangeLog>

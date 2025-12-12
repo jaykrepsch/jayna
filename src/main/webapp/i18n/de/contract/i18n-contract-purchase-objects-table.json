@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-purchase-objects-table.createTitle": "Tischkauf anlegen",
+  "jaynaApp.contract-purchase-objects-table.updateTitle": "Tischkauf bearbeiten",
+  "jaynaApp.contract-purchase-objects-table.viewTitle": "Tischkauf anzeigen",
+  "jaynaApp.contract-purchase-objects-table.specificData.title": "Tischkauf-spezifische Daten",
+  "jaynaApp.contract-purchase-objects-table.specificData.fields.specificField1": "Kaufpreis",
+  "jaynaApp.contract-purchase-objects-table.specificData.fields.specificField2": "Material"
+}

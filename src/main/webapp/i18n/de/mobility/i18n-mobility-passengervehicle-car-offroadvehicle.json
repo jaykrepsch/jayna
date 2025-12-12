@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.createTitle": "Personenfahrzeug Auto offroadvehicle anlegen",
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.updateTitle": "Personenfahrzeug Auto offroadvehicle bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.viewTitle": "Personenfahrzeug Auto offroadvehicle anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.specificData.title": "Personenfahrzeug Auto offroadvehicle-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-offroadvehicle.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

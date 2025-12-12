@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1690295912710-3">
+        <createTable tableName="contact_contract">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contact_contractPK"/>
+            </column>
+            <column name="contact_id" type="BIGINT"/>
+            <column name="contract_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-4">
+        <createTable tableName="contact_mobility">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contact_mobilityPK"/>
+            </column>
+            <column name="contact_id" type="BIGINT"/>
+            <column name="mobility_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-5">
+        <createTable tableName="contact_realestate">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contact_realestatePK"/>
+            </column>
+            <column name="contact_id" type="BIGINT"/>
+            <column name="realestate_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-6">
+        <createTable tableName="contract_financeaccount">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contract_financeaccountPK"/>
+            </column>
+            <column name="contract_id" type="BIGINT"/>
+            <column name="finance_account_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-7">
+        <addForeignKeyConstraint baseColumnNames="contact_id" baseTableName="contact_realestate" constraintName="FK98tbsrn87lvwj49jdq52qfngf" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contact" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-8">
+        <addForeignKeyConstraint baseColumnNames="contract_id" baseTableName="contact_contract" constraintName="FKb8klhn0qpuxn4nvn5cftrvbb4" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contract" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-9">
+        <addForeignKeyConstraint baseColumnNames="finance_account_id" baseTableName="contract_financeaccount" constraintName="FKc1h5uk658ornhqkcsr3krcoqj" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="finance_account" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-10">
+        <addForeignKeyConstraint baseColumnNames="realestate_id" baseTableName="contact_realestate" constraintName="FKf4lqftdiaigxdgp8bl8fqpoxh" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-11">
+        <addForeignKeyConstraint baseColumnNames="contact_id" baseTableName="contact_contract" constraintName="FKjjdc4yuh3konm73u3gmobb0fp" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contact" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-12">
+        <addForeignKeyConstraint baseColumnNames="mobility_id" baseTableName="contact_mobility" constraintName="FKlehuydlhvhyv4rexwynwbyt6n" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="mobility" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-13">
+        <addForeignKeyConstraint baseColumnNames="contract_id" baseTableName="contract_financeaccount" constraintName="FKn33hxc86yknsl5003wais8f76" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contract" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-14">
+        <addForeignKeyConstraint baseColumnNames="contact_id" baseTableName="contact_mobility" constraintName="FKssfgrifotc0aat36k9d7ekw0k" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contact" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690295912710-15">
+      <loadUpdateData
+                file="config/liquibase/data/group-type-Tabelle 1_20230725_2.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="group_type"
+                usePreparedStatements="true">
+      </loadUpdateData>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-maintenance-elevator.createTitle": "Aufzugwartung anlegen",
+  "jaynaApp.contract-service-maintenance-elevator.updateTitle": "Aufzugwartung bearbeiten",
+  "jaynaApp.contract-service-maintenance-elevator.viewTitle": "Aufzugwartung anzeigen",
+  "jaynaApp.contract-service-maintenance-elevator.specificData.title": "Aufzugwartung-spezifische Daten",
+  "jaynaApp.contract-service-maintenance-elevator.specificData.fields.specificField1": "Wartungsintervall",
+  "jaynaApp.contract-service-maintenance-elevator.specificData.fields.specificField2": "Techniker"
+}

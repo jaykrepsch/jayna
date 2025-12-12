@@ -1,0 +1,253 @@
+{
+  "formTitle": "jaynaApp.document-work-education-work-documents-employment-contract.viewTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseDocument.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documentData.title",
+      "fields": [
+        {
+          "name": "documentNumber",
+          "type": "text"
+        },
+        {
+          "name": "customerNumber",
+          "type": "text"
+        },
+        {
+          "name": "partner",
+          "type": "text"
+        },
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "realEstateNumber",
+          "type": "text"
+        },
+        {
+          "name": "financeAccountNumber",
+          "type": "text"
+        },
+        {
+          "name": "mobilityNumber",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "documentStatus",
+          "defaultValue": "DRAFT"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.document-work-education-work-documents-employment-contract.specificData.title",
+      "i18nSource": "document-work-education-work-documents-employment-contract",
+      "fields": [
+        {
+          "name": "contractNumber",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "startDate",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "endDate",
+          "type": "date"
+        },
+        {
+          "name": "probationPeriod",
+          "type": "number",
+          "min": "0",
+          "max": "12"
+        },
+        {
+          "name": "noticePeriod",
+          "type": "number",
+          "min": "0",
+          "max": "12"
+        },
+        {
+          "name": "salary",
+          "type": "number",
+          "step": "0.01",
+          "min": "0",
+          "required": true
+        },
+        {
+          "name": "salaryType",
+          "type": "select",
+          "options": [
+            {
+              "value": "monthly",
+              "label": "Monatlich"
+            },
+            {
+              "value": "hourly",
+              "label": "Stündlich"
+            },
+            {
+              "value": "yearly",
+              "label": "Jährlich"
+            }
+          ],
+          "default": "monthly"
+        },
+        {
+          "name": "workingHours",
+          "type": "number",
+          "step": "0.5",
+          "min": "0",
+          "max": "168"
+        },
+        {
+          "name": "position",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "department",
+          "type": "text"
+        },
+        {
+          "name": "workplace",
+          "type": "text"
+        },
+        {
+          "name": "contractType",
+          "type": "select",
+          "options": [
+            {
+              "value": "permanent",
+              "label": "Unbefristet"
+            },
+            {
+              "value": "fixed-term",
+              "label": "Befristet"
+            },
+            {
+              "value": "temporary",
+              "label": "Zeitarbeit"
+            },
+            {
+              "value": "part-time",
+              "label": "Teilzeit"
+            },
+            {
+              "value": "full-time",
+              "label": "Vollzeit"
+            }
+          ],
+          "default": "permanent"
+        },
+        {
+          "name": "employerName",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "employeeName",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.weiteres.title",
+      "fields": [
+        {
+          "name": "tags",
+          "type": "textarea"
+        },
+        {
+          "name": "keywords",
+          "type": "textarea"
+        },
+        {
+          "name": "isPublic",
+          "type": "checkbox"
+        },
+        {
+          "name": "expiryDate",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documents.title",
+      "fields": [
+        {
+          "name": "documentsPlaceholder",
+          "type": "info",
+          "text-key": "jaynaApp.baseDocument.documents.placeholder"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.fileInfo.title",
+      "fields": [
+        {
+          "name": "fileName",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileType",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileSize",
+          "type": "number",
+          "readonly": true
+        },
+        {
+          "name": "uploadDate",
+          "type": "datetime",
+          "readonly": true
+        },
+        {
+          "name": "lastModified",
+          "type": "datetime",
+          "readonly": true
+        }
+      ]
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseDocument.relations.title"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1701862405176-3">
+        <createTable tableName="form_config">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="form_configPK"/>
+            </column>
+            <column name="group_type_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701862405176-4">
+        <createTable tableName="form_field">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="form_fieldPK"/>
+            </column>
+            <column name="label" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="placeholder" type="VARCHAR(255)"/>
+            <column name="rules" type="VARCHAR(255)"/>
+            <column name="type" type="VARCHAR(255)"/>
+            <column name="part_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701862405176-5">
+        <createTable tableName="form_part">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="form_partPK"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="config_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701862405176-6">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="form_config" constraintName="FK1vi123q4m3j9s0uaxl3dffyod" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701862405176-7">
+        <addForeignKeyConstraint baseColumnNames="config_id" baseTableName="form_part" constraintName="FKhkkhbyg9p70addbkj0jndr4nt" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="form_config" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1701862405176-8">
+        <addForeignKeyConstraint baseColumnNames="part_id" baseTableName="form_field" constraintName="FKqsdrgwt6q0u8nj2676fhvy74u" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="form_part" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

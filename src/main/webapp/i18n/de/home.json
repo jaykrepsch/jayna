@@ -1,0 +1,72 @@
+{
+  "home.title": "Dashboard",
+  "home.common.customize": "Ansicht anpassen",
+  "home.common.save": "Ansicht speichern",
+  "home.common.more": "Mehr anzeigen",
+  "home.common.refresh": "Aktualisieren",
+  "home.empty": "Keine Einträge vorhanden",
+
+  "home.kpi.title": "Kennzahlen",
+  "home.kpi.info": "Wichtige Kennzahlen auf einen Blick.",
+
+  "home.tasks.title": "Aufgaben",
+  "home.tasks.col.title": "Aufgabe",
+  "home.tasks.col.due": "Fällig",
+  "home.tasks.col.status": "Status",
+
+  "home.docs.title": "Eingangsdokumente",
+  "home.docs.col.title": "Dokument",
+  "home.docs.col.source": "Quelle",
+  "home.docs.col.received": "Eingang",
+
+  "home.birthdays.title": "Geburtstage",
+  "home.birthdays.col.name": "Name",
+  "home.birthdays.col.date": "Geburtstag",
+  "home.birthdays.col.age": "Alter",
+
+  "home.calendar.title": "Kalender",
+  "home.calendar.col.title": "Termin",
+  "home.calendar.col.date": "Datum",
+  "home.calendar.col.location": "Ort",
+  "home.calendar.col.actions": "Aktionen",
+
+  "home.terminations.title": "Kündigungstermine",
+  "home.terminations.col.contract": "Vertrag",
+  "home.terminations.col.notice": "Frist",
+  "home.terminations.col.date": "Termin",
+
+  "home.changes.title": "Änderungen",
+  "home.changes.col.object": "Objekt",
+  "home.changes.col.change": "Änderung",
+  "home.changes.col.time": "Zeitpunkt",
+
+  "home.loans.title": "Verliehene Sachen",
+  "home.loans.col.item": "Gegenstand",
+  "home.loans.col.to": "An",
+  "home.loans.col.return": "Rückgabe",
+
+  "home.finance.title": "Finanzübersicht",
+  "home.finance.col.category": "Kategorie",
+  "home.finance.col.amount": "Betrag",
+  "home.finance.col.period": "Zeitraum",
+
+  "home.incomeExpense.title": "Einnahmen / Ausgaben",
+  "home.incomeExpense.col.title": "Beleg",
+  "home.incomeExpense.col.amount": "Betrag",
+  "home.incomeExpense.col.date": "Datum",
+
+  "home.favorites.title": "Favoriten",
+  "home.favorites.info": "Schnellzugriffe auf häufig genutzte Einträge.",
+
+  "home.budgets.title": "Budgets",
+  "home.budgets.info": "Monatsbudget im Vergleich zum Ist.",
+  "home.budgets.legend.ok": "im Rahmen",
+  "home.budgets.legend.over": "> Budget",
+
+  "home.cashflow.title": "Cashflow",
+  "home.cashflow.info": "Trend der letzten 12 Wochen.",
+  "home.searchShortcuts.title": "Such‑Shortcuts",
+  "home.searchShortcuts.info": "Gespeicherte Suchen – 1‑Klick zur Ergebnisliste.",
+  "home.searchShortcuts.open": "Öffnen"
+}
+

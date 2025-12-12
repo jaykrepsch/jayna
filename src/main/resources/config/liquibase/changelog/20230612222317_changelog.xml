@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1686608603880-1">
+        <loadUpdateData
+                  file="config/liquibase/data/group-type-2023_06_13.csv"
+                  primaryKey="id"
+                  onlyUpdate="true"
+                  separator=";"
+                  tableName="group_type"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadUpdateData>
+        <loadUpdateData
+                  file="config/liquibase/data/sub-category-group-2023_06_13.csv"
+                  primaryKey="id"
+                  onlyUpdate="true"
+                  separator=";"
+                  tableName="sub_category_group"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadUpdateData>
+        <loadUpdateData
+                  file="config/liquibase/data/sub-category-2023_06_13.csv"
+                  primaryKey="id"
+                  onlyUpdate="true"
+                  separator=";"
+                  tableName="sub_category"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadUpdateData>
+    </changeSet>
+</databaseChangeLog>

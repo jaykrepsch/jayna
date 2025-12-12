@@ -1,0 +1,286 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1688984751147-1">
+        <modifyDataType
+          columnName="payment_type"
+          newDataType="varchar(255)"
+          tableName="contract"
+        />
+        <modifyDataType
+          columnName="payment_pattern"
+          newDataType="varchar(255)"
+          tableName="contract"
+        />
+        <modifyDataType
+          columnName="entity_state"
+          newDataType="varchar(255)"
+          tableName="contract"
+        />
+
+        <modifyDataType
+          columnName="design_type_class"
+          newDataType="varchar(255)"
+          tableName="real_estate"
+        />
+        <modifyDataType
+          columnName="heating_type"
+          newDataType="varchar(255)"
+          tableName="real_estate"
+        />
+        <modifyDataType
+          columnName="roof_type"
+          newDataType="varchar(255)"
+          tableName="real_estate"
+        />
+        <modifyDataType
+          columnName="gable_alignment"
+          newDataType="varchar(255)"
+          tableName="real_estate"
+        />
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-2">
+      <update tableName="contract">
+        <column name="entity_state" value="ACTIVE"/>
+        <where>entity_state='0'</where>
+      </update>
+      <update tableName="contract">
+        <column name="entity_state" value="ARCHIVE"/>
+        <where>entity_state='1'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-3">
+      <update tableName="real_estate">
+        <column name="entity_state" value="ACTIVE"/>
+        <where>entity_state='0'</where>
+      </update>
+      <update tableName="contract">
+        <column name="entity_state" value="ARCHIVE"/>
+        <where>entity_state='1'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-4">
+      <update tableName="contract">
+        <column name="payment_type" value="TRANSFER"/>
+        <where>payment_type='0'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_type" value="SEPA_DEBIT"/>
+        <where>payment_type='1'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_type" value="CASH"/>
+        <where>payment_type='2'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-5">
+      <update tableName="contract">
+        <column name="payment_pattern" value="ONETIME"/>
+        <where>payment_pattern='0'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_pattern" value="WEEKLY"/>
+        <where>payment_pattern='1'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_pattern" value="DAILY"/>
+        <where>payment_pattern='2'</where>
+      </update>
+    
+      <update tableName="contract">
+        <column name="payment_pattern" value="MONTHLY"/>
+        <where>payment_pattern='3'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_pattern" value="TWOMONTHLY"/>
+        <where>payment_pattern='4'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_pattern" value="QUARTERLY"/>
+        <where>payment_pattern='5'</where>
+      </update>
+
+      <update tableName="contract">
+        <column name="payment_pattern" value="SEMIANNUAL"/>
+        <where>payment_pattern='6'</where>
+      </update>
+      <update tableName="contract">
+        <column name="payment_pattern" value="ANNUAL"/>
+        <where>payment_pattern='7'</where>
+      </update>
+    </changeSet>
+
+
+    <changeSet author="okieven (generated)" id="1688984751147-6">
+      <update tableName="real_estate">
+        <column name="design_type_class" value="BAK1"/>
+        <where>design_type_class='0'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="design_type_class" value="BAK2"/>
+        <where>design_type_class='1'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="design_type_class" value="BAK3"/>
+        <where>design_type_class='2'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="design_type_class" value="BAK4"/>
+        <where>design_type_class='3'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="design_type_class" value="BAK5"/>
+        <where>design_type_class='4'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-7">
+      <update tableName="real_estate">
+        <column name="heating_type" value="GAS"/>
+        <where>heating_type='0'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="heating_type" value="PELLET"/>
+        <where>heating_type='1'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="heating_type" value="ELECTRIC"/>
+        <where>heating_type='2'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="heating_type" value="HEATPUMP"/>
+        <where>heating_type='3'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-8">
+      <update tableName="real_estate">
+        <column name="roof_type" value="FLAT"/>
+        <where>roof_type='0'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="HIPPED"/>
+        <where>roof_type='1'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="CROSS"/>
+        <where>roof_type='2'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="DITCH"/>
+        <where>roof_type='3'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="CROOKED_HIPPED"/>
+        <where>roof_type='4'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="MANSARD"/>
+        <where>roof_type='5'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="MANSARD_WITH_HIPPED_FOOT"/>
+        <where>roof_type='6'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="MANSARD_WITH_TUFT"/>
+        <where>roof_type='7'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="MANSARD_HIPPED"/>
+        <where>roof_type='8'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="ONLY_ROOF"/>
+        <where>roof_type='9'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="PARALLEL"/>
+        <where>roof_type='10'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="PENT"/>
+        <where>roof_type='11'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="PENT_EXTENDED"/>
+        <where>roof_type='12'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="PITCHED"/>
+        <where>roof_type='13'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="GABLE_EXTENDED"/>
+        <where>roof_type='14'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="SADDLE_HIP"/>
+        <where>roof_type='15'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="SHEDDACH_SAW_TOOTH"/>
+        <where>roof_type='16'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="CANOPY"/>
+        <where>roof_type='17'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="BUTTERFLY"/>
+        <where>roof_type='18'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="BARREL"/>
+        <where>roof_type='19'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="HIP"/>
+        <where>roof_type='20'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="HIP_THROAT"/>
+        <where>roof_type='21'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="TENT"/>
+        <where>roof_type='22'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="roof_type" value="DWARF"/>
+        <where>roof_type='23'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-9">
+      <update tableName="real_estate">
+        <column name="gable_alignment" value="NORTH"/>
+        <where>gable_alignment='0'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="gable_alignment" value="EAST"/>
+        <where>gable_alignment='1'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="gable_alignment" value="SOUTH"/>
+        <where>gable_alignment='2'</where>
+      </update>
+      <update tableName="real_estate">
+        <column name="gable_alignment" value="WEST"/>
+        <where>gable_alignment='3'</where>
+      </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1688984751147-10">
+      <loadUpdateData
+                file="config/liquibase/data/group_type_20230710.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="group_type"
+                usePreparedStatements="true">
+      </loadUpdateData>
+    </changeSet>
+</databaseChangeLog>

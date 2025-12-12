@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.createTitle": "Gewerbeeinheit anlegen",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.updateTitle": "Gewerbeeinheit bearbeiten",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.viewTitle": "Gewerbeeinheit anzeigen",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.specificData.title": "Gewerbeeinheit-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.specificData.fields.specificField1": "Gewerbefläche",
+  "jaynaApp.realestate-withdevelopment-commercialbuilding-commercialunit.specificData.fields.specificField2": "Nutzungsart"
+}

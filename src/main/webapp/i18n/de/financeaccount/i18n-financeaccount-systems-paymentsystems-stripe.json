@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.createTitle": "Stripe anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.updateTitle": "Stripe bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.viewTitle": "Stripe anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.specificData.title": "Stripe-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.specificData.fields.specificField1": "Transaktionsgebühr",
+  "jaynaApp.financeaccount-systems-paymentsystems-stripe.specificData.fields.specificField2": "Abrechnungszeitraum"
+}

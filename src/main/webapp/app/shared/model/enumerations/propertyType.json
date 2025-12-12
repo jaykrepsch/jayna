@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "value": "SINGLE_FAMILY_HOUSE",
+      "label": "Einfamilienhaus"
+    },
+    {
+      "value": "MULTI_FAMILY_HOUSE",
+      "label": "Mehrfamilienhaus"
+    },
+    {
+      "value": "APARTMENT",
+      "label": "Wohnung"
+    },
+    {
+      "value": "TOWNHOUSE",
+      "label": "Reihenhaus"
+    },
+    {
+      "value": "VILLA",
+      "label": "Villa"
+    },
+    {
+      "value": "COTTAGE",
+      "label": "Ferienhaus"
+    },
+    {
+      "value": "COMMERCIAL",
+      "label": "Gewerbeimmobilie"
+    },
+    {
+      "value": "MIXED_USE",
+      "label": "Mischnutzung"
+    }
+  ]
+} 

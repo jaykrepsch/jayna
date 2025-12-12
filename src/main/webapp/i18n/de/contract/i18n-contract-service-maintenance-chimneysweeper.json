@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-maintenance-chimneysweeper.createTitle": "Schornsteinfeger anlegen",
+  "jaynaApp.contract-service-maintenance-chimneysweeper.updateTitle": "Schornsteinfeger bearbeiten",
+  "jaynaApp.contract-service-maintenance-chimneysweeper.viewTitle": "Schornsteinfeger anzeigen",
+  "jaynaApp.contract-service-maintenance-chimneysweeper.specificData.title": "Schornsteinfeger-spezifische Daten",
+  "jaynaApp.contract-service-maintenance-chimneysweeper.specificData.fields.specificField1": "Kehrintervall",
+  "jaynaApp.contract-service-maintenance-chimneysweeper.specificData.fields.specificField2": "Messung"
+}

@@ -1,0 +1,25 @@
+[{
+  "name": "ONETIME",
+  "translationKey": "global.enums.ONETIME"
+}, {
+  "name": "DAILY",
+  "translationKey": "global.enums.DAILY"
+}, {
+  "name": "WEEKLY",
+  "translationKey": "global.enums.WEEKLY"
+}, {
+  "name": "MONTHLY",
+  "translationKey": "global.enums.MONTHLY"
+}, {
+  "name": "TWOMONTHLY",
+  "translationKey": "global.enums.TWOMONTHLY"
+}, {
+  "name": "QUARTERLY",
+  "translationKey": "global.enums.QUARTERLY"
+}, {
+  "name": "SEMIANNUAL",
+  "translationKey": "global.enums.SEMIANNUAL"
+}, {
+  "name": "ANNUAL",
+  "translationKey": "global.enums.ANNUAL"
+}]

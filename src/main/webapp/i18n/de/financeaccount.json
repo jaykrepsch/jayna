@@ -1,0 +1,30 @@
+{
+  "jaynaApp": {
+    "financeaccount": {
+      "sub-category": {
+        "bank": "Bank",
+        "credit": "Kredit",
+        "systems": "Systeme"
+      },
+      "sub-category-group": {
+        "bank-account": "Bankkonto",
+        "credit-card": "Kreditkarte",
+        "payment-systems": "Bezahlsysteme"
+      },
+      "group-type": {
+        "checking": "Girokonto",
+        "savings": "Sparkonto",
+        "credit": "Kreditkonto",
+        "investment": "Anlagekonto",
+        "online-virtual": "Online Virtuell",
+        "samsung": "Samsung",
+        "paypal": "Paypal",
+        "google-pay": "Google Pay",
+        "apple-pay": "Apple Pay",
+        "skrill": "Skrill",
+        "stripe": "Stripe",
+        "klarna": "Klarna"
+      }
+    }
+  }
+} 

@@ -1,0 +1,375 @@
+package me.jayna.web.rest;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.UUID;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import me.jayna.domain.Document;
+import me.jayna.domain.DocumentContact;
+import me.jayna.domain.Contact;
+import me.jayna.repository.ContactRepository;
+import me.jayna.service.DocumentContactService;
+import me.jayna.service.DocumentService;
+import me.jayna.service.dto.NewRelationDTO;
+import me.jayna.web.rest.errors.BadRequestAlertException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+import tech.jhipster.web.util.HeaderUtil;
+import tech.jhipster.web.util.PaginationUtil;
+import tech.jhipster.web.util.ResponseUtil;
+
+/**
+ * REST controller for managing {@link me.jayna.domain.Document}.
+ */
+// @RestController
+// @RequestMapping("/api")
+// @Transactional
+// public class DocumentResource {
+
+    // private final Logger log = LoggerFactory.getLogger(DocumentResource.class);
+
+    // private static final String ENTITY_NAME = "document";
+
+    // @Value("${jhipster.clientApp.name}")
+    // private String applicationName;
+
+    // @Value("${app.file.upload.path:/tmp/uploads}")
+    // private String uploadPath;
+
+    // @Value("${app.file.server.url:http://localhost:8081}")
+    // private String fileServerUrl;
+
+    // private final DocumentService documentService;
+    // private final ContactRepository contactRepository;
+    // private final DocumentContactService documentContactService;
+    // private final ObjectMapper objectMapper;
+
+    // public DocumentResource(
+    //     DocumentService documentService,
+    //     ContactRepository contactRepository,
+    //     DocumentContactService documentContactService,
+    //     ObjectMapper objectMapper
+    // ) {
+    //     this.documentService = documentService;
+    //     this.contactRepository = contactRepository;
+    //     this.documentContactService = documentContactService;
+    //     this.objectMapper = objectMapper;
+    // }
+
+    /**
+     * {@code POST  /documents} : Create a new document.
+     *
+     * @param document the document to create.
+     * @return the {@link ResponseEntity} with status {@code 201 (Created)} and with body the new document, or with status {@code 400 (Bad Request)} if the document has already an ID.
+     * @throws URISyntaxException if the Location URI syntax is incorrect.
+     */
+    @PostMapping("/documents")
+    public ResponseEntity<Document> createDocument(@RequestBody Document document) throws URISyntaxException {
+        log.debug("REST request to save Document : {}", document);
+        if (document.getId() != null) {
+            throw new BadRequestAlertException("A new document cannot already have an ID", ENTITY_NAME, "idexists");
+        }
+        Document result = documentService.save(document);
+        return ResponseEntity
+            .created(new URI("/api/documents/" + result.getId()))
+            .headers(HeaderUtil.createEntityCreationAlert(applicationName, true, ENTITY_NAME, result.getId().toString()))
+            .body(result);
+    }
+
+    /**
+     * {@code PUT  /documents/:id} : Updates an existing document.
+     *
+     * @param id the id of the document to save.
+     * @param document the document to update.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the updated document,
+     * or with status {@code 400 (Bad Request)} if the document is not valid,
+     * or with status {@code 500 (Internal Server Error)} if the document couldn't be updated.
+     * @throws URISyntaxException if the Location URI syntax is incorrect.
+     */
+    @PutMapping("/documents/{id}")
+    public ResponseEntity<Document> updateDocument(@PathVariable(value = "id", required = false) final Long id, @RequestBody Document document)
+        throws URISyntaxException {
+        log.debug("REST request to update Document : {}, {}", id, document);
+        if (document.getId() == null) {
+            throw new BadRequestAlertException("Invalid id", ENTITY_NAME, "idnull");
+        }
+        if (!Objects.equals(id, document.getId())) {
+            throw new BadRequestAlertException("Invalid ID", ENTITY_NAME, "idinvalid");
+        }
+
+        Document result = documentService.update(document);
+        return ResponseEntity
+            .ok()
+            .headers(HeaderUtil.createEntityUpdateAlert(applicationName, true, ENTITY_NAME, document.getId().toString()))
+            .body(result);
+    }
+
+    /**
+     * {@code PATCH  /documents/:id} : Partial updates given fields of an existing document, field will ignore if it is null
+     *
+     * @param id the id of the document to save.
+     * @param document the document to update.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the updated document,
+     * or with status {@code 400 (Bad Request)} if the document is not valid,
+     * or with status {@code 404 (Not Found)} if the document is not found,
+     * or with status {@code 500 (Internal Server Error)} if the document couldn't be updated.
+     * @throws URISyntaxException if the Location URI syntax is incorrect.
+     */
+    @PatchMapping(value = "/documents/{id}", consumes = { "application/json", "application/merge-patch+json" })
+    public ResponseEntity<Document> partialUpdateDocument(
+        @PathVariable(value = "id", required = false) final Long id,
+        @RequestBody Document document
+    ) throws URISyntaxException {
+        log.debug("REST request to partial update Document partially : {}, {}", id, document);
+        if (document.getId() == null) {
+            throw new BadRequestAlertException("Invalid id", ENTITY_NAME, "idnull");
+        }
+        if (!Objects.equals(id, document.getId())) {
+            throw new BadRequestAlertException("Invalid ID", ENTITY_NAME, "idinvalid");
+        }
+
+        Optional<Document> result = documentService.partialUpdate(document);
+
+        return ResponseUtil.wrapOrNotFound(
+            result,
+            HeaderUtil.createEntityUpdateAlert(applicationName, true, ENTITY_NAME, document.getId().toString())
+        );
+    }
+
+    /**
+     * {@code GET  /documents} : get all the documents.
+     *
+     * @param pageable the pagination information.
+     * @param relations whether to load relations (default: false).
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of documents in body.
+     */
+    @GetMapping("/documents")
+    public ResponseEntity<List<Document>> getAllDocuments(@org.springdoc.api.annotations.ParameterObject Pageable pageable,
+                                                         @RequestParam(defaultValue = "false") boolean relations) {
+        log.debug("REST request to get a page of Documents with relations: {}", relations);
+        Page<Document> page = documentService.findAll(pageable, relations);
+        HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
+        return ResponseEntity.ok().headers(headers).body(page.getContent());
+    }
+
+    /**
+     * {@code GET  /documents/:id} : get the "id" document.
+     *
+     * @param id the id of the document to retrieve.
+     * @param relations whether to load relations (default: false).
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the document, or with status {@code 404 (Not Found)}.
+     */
+    @GetMapping("/documents/{id}")
+    public ResponseEntity<Document> getDocument(@PathVariable Long id, 
+                                               @RequestParam(defaultValue = "false") boolean relations) {
+        log.debug("REST request to get Document : {} with relations: {}", id, relations);
+        Optional<Document> documentOpt = documentService.findOne(id, relations);
+        
+        if (documentOpt.isPresent()) {
+            return ResponseEntity.ok(documentOpt.get());
+        }
+        
+        return ResponseEntity.notFound().build();
+    }
+
+    /**
+     * {@code DELETE  /documents/:id} : delete the "id" document.
+     *
+     * @param id the id of the document to delete.
+     * @return the {@link ResponseEntity} with status {@code 204 (NO_CONTENT)}.
+     */
+    @DeleteMapping("/documents/{id}")
+    public ResponseEntity<Void> deleteDocument(@PathVariable Long id) {
+        log.debug("REST request to delete Document : {}", id);
+        documentService.delete(id);
+        return ResponseEntity
+            .noContent()
+            .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
+            .build();
+    }
+
+    /**
+     * {@code POST  /documents/{id}/relate} : Add a relation to a document.
+     *
+     * @param id the id of the document to add relation to.
+     * @param newRelation the relation to add.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the updated document.
+     * @throws URISyntaxException if the Location URI syntax is incorrect.
+     */
+    @PostMapping("/documents/{id}/relate")
+    public ResponseEntity<Document> addRelation(@PathVariable(value = "id") final Long id, @RequestBody NewRelationDTO newRelation)
+        throws URISyntaxException {
+        log.debug("REST request to add relation to Document : {}, {}", id, newRelation);
+
+        final Document document = documentService.findOne(id)
+            .orElseThrow(() -> new BadRequestAlertException("Invalid id", ENTITY_NAME, "idnull"));
+
+        String entityName = newRelation.getEntityName();
+        Object relationData = newRelation.getRelationData();
+
+        switch (entityName) {
+            case "contact":
+                DocumentContact dc = objectMapper.convertValue(relationData, DocumentContact.class);
+                dc.setDocument(document);
+                if (dc.getContact() != null && dc.getContact().getId() != null) {
+                    Contact contact = contactRepository.findById(dc.getContact().getId())
+                        .orElseThrow(() -> new BadRequestAlertException("Contact not found", ENTITY_NAME, "contactnotfound"));
+                    dc.setContact(contact);
+                } else {
+                    throw new BadRequestAlertException("Contact ID is required", ENTITY_NAME, "contactidrequired");
+                }
+                documentContactService.save(dc);
+                break;
+            default:
+                throw new BadRequestAlertException("Unknown relation entity name: " + entityName, ENTITY_NAME, "invalidrelation");
+        }
+
+        return ResponseEntity.ok(documentService.findOne(id).orElse(document));
+    }
+
+    /**
+     * {@code POST  /documents/{id}/upload} : Upload a file for a document.
+     *
+     * @param id the id of the document to upload file for.
+     * @param file the file to upload.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the updated document.
+     */
+    @PostMapping("/documents/{id}/upload")
+    public ResponseEntity<Document> uploadFile(@PathVariable Long id, @RequestParam("file") MultipartFile file) {
+        log.debug("REST request to upload file for Document : {}", id);
+
+        if (file.isEmpty()) {
+            throw new BadRequestAlertException("File is empty", ENTITY_NAME, "fileempty");
+        }
+
+        try {
+            // Create upload directory if it doesn't exist
+            Path uploadDir = Paths.get(uploadPath);
+            if (!Files.exists(uploadDir)) {
+                Files.createDirectories(uploadDir);
+            }
+
+            // Generate unique filename
+            String originalFilename = file.getOriginalFilename();
+            String fileExtension = "";
+            if (originalFilename != null && originalFilename.contains(".")) {
+                fileExtension = originalFilename.substring(originalFilename.lastIndexOf("."));
+            }
+            String uniqueFilename = UUID.randomUUID().toString() + fileExtension;
+
+            // Save file
+            Path filePath = uploadDir.resolve(uniqueFilename);
+            Files.copy(file.getInputStream(), filePath);
+
+            // Update document with file information
+            Document document = documentService.findOne(id)
+                .orElseThrow(() -> new BadRequestAlertException("Document not found", ENTITY_NAME, "documentnotfound"));
+
+            document.setFileName(originalFilename);
+            document.setFilePath(uniqueFilename);
+            document.setFileType(file.getContentType());
+            document.setFileSize(file.getSize());
+            document.setUploadDate(java.time.LocalDateTime.now());
+
+            Document updatedDocument = documentService.save(document);
+
+            log.debug("File uploaded successfully: {}", uniqueFilename);
+            return ResponseEntity.ok(updatedDocument);
+
+        } catch (Exception e) {
+            log.error("Error uploading file", e);
+            throw new BadRequestAlertException("Error uploading file: " + e.getMessage(), ENTITY_NAME, "uploaderror");
+        }
+    }
+
+    /**
+     * {@code GET  /documents/{id}/download} : Download a document file.
+     *
+     * @param id the id of the document to download.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the file as body.
+     */
+    @GetMapping("/documents/{id}/download")
+    public ResponseEntity<Resource> downloadFile(@PathVariable Long id) {
+        log.debug("REST request to download file for Document : {}", id);
+
+        try {
+            Document document = documentService.findOne(id)
+                .orElseThrow(() -> new BadRequestAlertException("Document not found", ENTITY_NAME, "documentnotfound"));
+
+            if (document.getFilePath() == null || document.getFilePath().isEmpty()) {
+                throw new BadRequestAlertException("No file attached to document", ENTITY_NAME, "nofile");
+            }
+
+            Path filePath = Paths.get(uploadPath).resolve(document.getFilePath());
+            Resource resource = new UrlResource(filePath.toUri());
+
+            if (resource.exists() && resource.isReadable()) {
+                return ResponseEntity.ok()
+                    .contentType(MediaType.parseMediaType(document.getFileType() != null ? document.getFileType() : "application/octet-stream"))
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + document.getFileName() + "\"")
+                    .body(resource);
+            } else {
+                throw new BadRequestAlertException("File not found", ENTITY_NAME, "filenotfound");
+            }
+
+        } catch (Exception e) {
+            log.error("Error downloading file", e);
+            throw new BadRequestAlertException("Error downloading file: " + e.getMessage(), ENTITY_NAME, "downloaderror");
+        }
+    }
+
+    /**
+     * {@code DELETE  /documents/{id}/file} : Delete a document file.
+     *
+     * @param id the id of the document to delete file for.
+     * @return the {@link ResponseEntity} with status {@code 204 (NO_CONTENT)}.
+     */
+    @DeleteMapping("/documents/{id}/file")
+    public ResponseEntity<Void> deleteFile(@PathVariable Long id) {
+        log.debug("REST request to delete file for Document : {}", id);
+
+        try {
+            Document document = documentService.findOne(id)
+                .orElseThrow(() -> new BadRequestAlertException("Document not found", ENTITY_NAME, "documentnotfound"));
+
+            if (document.getFilePath() != null && !document.getFilePath().isEmpty()) {
+                Path filePath = Paths.get(uploadPath).resolve(document.getFilePath());
+                Files.deleteIfExists(filePath);
+
+                // Clear file information from document
+                document.setFileName(null);
+                document.setFilePath(null);
+                document.setFileType(null);
+                document.setFileSize(null);
+                documentService.save(document);
+            }
+
+            return ResponseEntity.noContent()
+                .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
+                .build();
+
+        } catch (Exception e) {
+            log.error("Error deleting file", e);
+            throw new BadRequestAlertException("Error deleting file: " + e.getMessage(), ENTITY_NAME, "deleteerror");
+        }
+    }
+}

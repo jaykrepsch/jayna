@@ -1,0 +1,201 @@
+{
+  "_comment": "Standard-Abschnitte für alle Finanzkonto-Form-Definitionen. Diese werden in spezifischen Finanzkonto-Definitionen referenziert.",
+  "general": {
+    "title": "jaynaApp.baseFinanceaccount.general.title",
+    "fields": [
+      {
+        "name": "label",
+        "type": "text",
+        "rules": "required"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "entityState",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "entityState",
+        "defaultValue": "ACTIVE"
+      }
+    ]
+  },
+  "accountData": {
+    "title": "jaynaApp.baseFinanceaccount.accountData.title",
+    "fields": [
+      {
+        "name": "accountType",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "accountType"
+      },
+      {
+        "name": "accountGiver",
+        "type": "text"
+      },
+      {
+        "name": "accountOwner",
+        "type": "text"
+      },
+      {
+        "name": "accountUser",
+        "type": "text"
+      },
+      {
+        "name": "accountNumber",
+        "type": "text"
+      },
+      {
+        "name": "iban",
+        "type": "text"
+      },
+      {
+        "name": "bic",
+        "type": "text"
+      },
+      {
+        "name": "balance",
+        "type": "number"
+      },
+      {
+        "name": "currency",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "currency",
+        "defaultValue": "EUR"
+      },
+      {
+        "name": "openingDate",
+        "type": "date"
+      },
+      {
+        "name": "creditLimit",
+        "type": "number"
+      },
+      {
+        "name": "availableCredit",
+        "type": "number"
+      }
+    ]
+  },
+  "bank": {
+    "title": "jaynaApp.baseFinanceaccount.bank.title",
+    "fields": [
+      {
+        "name": "bankName",
+        "type": "text"
+      },
+      {
+        "name": "bankCode",
+        "type": "text"
+      },
+      {
+        "name": "bankAddress",
+        "type": "text"
+      },
+      {
+        "name": "bankPhone",
+        "type": "text"
+      },
+      {
+        "name": "bankEmail",
+        "type": "text"
+      },
+      {
+        "name": "bankWebsite",
+        "type": "text"
+      }
+    ]
+  },
+  "financial": {
+    "title": "jaynaApp.baseFinanceaccount.financial.title",
+    "fields": [
+      {
+        "name": "interestRate",
+        "type": "number"
+      },
+      {
+        "name": "overdraftLimit",
+        "type": "number"
+      },
+      {
+        "name": "monthlyFee",
+        "type": "number"
+      },
+      {
+        "name": "annualFee",
+        "type": "number"
+      },
+      {
+        "name": "transactionFee",
+        "type": "number"
+      },
+      {
+        "name": "cashbackRate",
+        "type": "number"
+      },
+      {
+        "name": "rewardPoints",
+        "type": "number"
+      }
+    ]
+  },
+  "security": {
+    "title": "jaynaApp.baseFinanceaccount.security.title",
+    "fields": [
+      {
+        "name": "pinCode",
+        "type": "text"
+      },
+      {
+        "name": "securityQuestions",
+        "type": "textarea"
+      },
+      {
+        "name": "twoFactorAuth",
+        "type": "checkbox"
+      },
+      {
+        "name": "fraudProtection",
+        "type": "checkbox"
+      }
+    ]
+  },
+  "weiteres": {
+    "title": "jaynaApp.baseFinanceaccount.weiteres.title",
+    "fields": [
+      {
+        "name": "comment",
+        "type": "textarea"
+      },
+      {
+        "name": "notes",
+        "type": "textarea"
+      }
+    ]
+  },
+  "relations": {
+    "title": "jaynaApp.baseFinanceaccount.relations.title"
+  },
+  "organisation": {
+    "title": "jaynaApp.baseContract.organisation.title",
+    "fields": [
+      {
+        "name": "organisationTable",
+        "type": "organisation-table",
+        "label": "Kalender, Aufgaben & Notizen"
+      }
+    ]
+  },
+  "documents": {
+    "title": "jaynaApp.baseContract.documents.title",
+    "fields": [
+      {
+        "name": "documentsTable",
+        "type": "documents-table",
+        "label": "Verknüpfte Dokumente"
+      }
+    ]
+  }
+}

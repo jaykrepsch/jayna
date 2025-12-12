@@ -1,0 +1,251 @@
+@skipClient
+entity ApplicationUser
+
+@skipClient
+@service(serviceClass)
+entity Category {
+	name String
+  createdDate LocalDate
+  translationKey String
+  entityName String
+}
+
+@skipClient
+@service(serviceClass)
+entity SubCategory {
+	name String
+  createdDate LocalDate
+  translationKey String
+}
+
+@skipClient
+@service(serviceClass)
+entity SubCategoryGroup {
+	name String
+  createdDate LocalDate
+  translationKey String
+}
+
+@skipClient
+@service(serviceClass)
+entity GroupType {
+	name String
+  createdDate LocalDate
+  translationKey String
+  entityName String
+  formName String
+  abbreviation String
+}
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity Contract {
+  contractor String
+  contractOwner String
+  contractUser String
+  contractNumber String
+  startDate LocalDate
+  endDate LocalDate
+  applicationDate LocalDate
+  confirmationDate LocalDate
+  paymentPattern PaymentPattern
+  comment String
+  payer String
+  paymentType PaymentType
+  salary Double
+  vacationDays Integer
+  occupation String
+  activities String
+  loanValue Double
+  interestRatePercent Double
+  interestRateCurrency Double
+  amortizationRatePercent Double
+  amortizationRateCurrency Double
+}
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity RealEstate {
+  street String
+  streetNumber String
+  postalCode String
+  city String
+  state String
+  country String
+  propertyWidth Double
+  propertyLength Double
+  propertyArea Double
+  area Double
+  noHouses Integer
+  constructionYear Integer
+  designType String
+  designTypeClass DesignTypeClass
+  builtUpArea Double
+  sealtArea Double
+  undevelopedArea Double
+  noSmokeDetectors Integer
+  noUnits Integer
+  noFloors Integer
+  noPowerOutlets Integer
+  noNetworkSockets Integer
+  noLightSwitches Integer
+  noAntennas Integer
+  noShutterSwitches Integer
+  noRadiators Integer
+  noParkings Integer
+  noGarages Integer
+  noCarports Integer
+  noWindows Integer
+  windowArea Double
+  noElevators Integer
+  corridorArea Double
+  noBasementRooms Integer
+  monumentProtected Boolean
+  heatingType HeatingType
+  roofPitch Double
+  roofType RoofType
+  gableAlignment Direction
+  roofArea Double
+  longitude String
+  latitude String
+  comment String
+}
+
+entity ContractRealestate
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity Contact {
+  title Title
+  salutation Salutation
+  rank Rank
+  gender Gender
+  surName String
+  firstName String
+  otherFirstNames String
+  birthName String
+  maritalStatus MaritalStatus
+  nickName String
+  birthDate LocalDate
+  birthCity String
+  birthCountry String
+  nationality String
+  addressType AddressType
+  street String
+  streetNumber String
+  postalCode String
+  city String
+  additionalAddressField1 String
+  additionalAddressField2 String
+  communicationType CommunicationType
+  phoneCountryCode Integer
+  phonePrefix Integer
+  phoneNumber Integer
+  comment String
+}
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity FinanceAccount {
+  startDate LocalDate
+  endDate LocalDate
+  accountGiver String
+  accountUser String
+  iban String
+  bic String
+  currentAccount String
+  overdraftInterest Double
+  limit Double
+  paymentUntil LocalDate
+  cardFee Double
+  loanInterest Double
+  accountMaintenanceFee Double
+  accountNumber String
+  bankNumber String
+  comment String
+}
+
+entity ContactFinanceAccount
+
+enum Title {
+  DR, PROF, DR_MED
+}
+enum Salutation {
+  MR, MRS
+}
+enum Rank {
+  COLONEL, LIEUTENANT
+}
+enum Gender {
+  MALE, FEMALE, DIVERS
+}
+enum MaritalStatus {
+  SINGLE, MARRIED, DIVORCED, WIDOWED, PARTNERSHIP
+}
+enum AddressType {
+  PRIVATE, BUSINESS
+}
+enum CommunicationType {
+  PHONE, FAX, MOBILE, PAGER, EMAIL, CHAT, HOMEPAGE, SOCIAL_MEDIA
+}
+enum DesignTypeClass {
+  BAK1, BAK2, BAK3, BAK4, BAK5
+}
+enum HeatingType {
+  GAS, PELLET, ELECTRICT, HEATPUMP
+}
+enum RoofType {
+  FLAT, HIPPED, CROSS, DITCH, CROOKED_HIPPED, MANSARD, MANSARD_WITH_HIPPED_FOOT, MANSARD_WITH_TUFT, MANSARD_HIPPED, ONLY_ROOF, PARALLEL, PENT, PENT_EXTENDED, PITCHED, GABLE_EXTENDED, SADDLE_HIP, SHEDDACH_SAW_TOOTH, CANOPY, BUTTERFLY, BARREL, HIP, HIP_THROAT, TENT, DWARF
+}
+enum Direction {
+  NORTH, EAST, SOUTH, WEST
+}
+enum PaymentPattern {
+  ONETIME, WEEKLY, DAILY, MONTHLY, TWOMONTHLY, QUARTERLY, SEMIANNUAL, ANNUAL
+}
+enum PaymentType {
+  TRANSFER, SEPA_DEBIT, CASH
+}
+enum EntityState {
+  ACTIVE, ARCHIVE
+}
+
+relationship OneToOne {
+  	ApplicationUser{internalUser} to User
+}
+
+relationship OneToMany {
+    Category{subCategory} to SubCategory{category}
+    SubCategory{subCategoryGroup} to SubCategoryGroup{subCategory}
+    SubCategoryGroup{groupType} to GroupType{subCategoryGroup}
+}
+
+/**
+ * Many to one relationship.
+ */
+relationship ManyToOne {
+  Contract{applicationUser} to ApplicationUser
+  Contract{groupType} to GroupType
+  
+  RealEstate{applicationUser} to ApplicationUser
+  RealEstate{groupType} to GroupType
+
+  Contact{applicationUser} to ApplicationUser
+  Contact{groupType} to GroupType
+
+  FinanceAccount{applicationUser} to ApplicationUser
+  FinanceAccount{groupType} to GroupType
+
+  ContractRealestate{contract} to Contract{contractRealestates}
+  ContractRealestate{realestate} to RealEstate{contractRealestates}
+  ContactFinanceAccount{contact} to Contact{contactFinanceAccount}
+  ContactFinanceAccount{financeAccount} to FinanceAccount{contactFinanceAccount}
+}

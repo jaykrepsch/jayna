@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-suv.createTitle": "Personenfahrzeug Auto suv anlegen",
+  "jaynaApp.mobility-passengervehicle-car-suv.updateTitle": "Personenfahrzeug Auto suv bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-suv.viewTitle": "Personenfahrzeug Auto suv anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-suv.specificData.title": "Personenfahrzeug Auto suv-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-suv.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-suv.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

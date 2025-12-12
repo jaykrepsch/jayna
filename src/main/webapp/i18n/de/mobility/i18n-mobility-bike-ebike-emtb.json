@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-ebike-emtb.createTitle": "Fahrrad ebike emtb anlegen",
+  "jaynaApp.mobility-bike-ebike-emtb.updateTitle": "Fahrrad ebike emtb bearbeiten",
+  "jaynaApp.mobility-bike-ebike-emtb.viewTitle": "Fahrrad ebike emtb anzeigen",
+  "jaynaApp.mobility-bike-ebike-emtb.specificData.title": "Fahrrad ebike emtb-spezifische Daten",
+  "jaynaApp.mobility-bike-ebike-emtb.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-ebike-emtb.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,34 @@
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity Contract {
+  contractor String
+  contractOwner String
+  contractUser String
+  contractNumber String
+  startDate LocalDate
+  endDate LocalDate
+  applicationDate LocalDate
+  confirmationDate LocalDate
+  paymentPattern PaymentPattern
+  comment Blob
+  payer String
+  paymentType PaymentType
+  salary Double
+  vacationDays Integer
+  occupation String
+  activities String
+  loanValue Double
+  interestRatePercent Double
+  interestRateCurrency Double
+  amortizationRatePercent Double
+  amortizationRateCurrency Double
+}
+enum PaymentPattern {
+  ONETIME, WEEKLY, DAILY, MONTHLY, TWOMONTHLY, QUARTERLY, SEMIANNUAL, ANNUAL
+}
+enum PaymentType {
+  TRANSFER, SEPA_DEBIT, CASH
+}

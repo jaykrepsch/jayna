@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.createTitle": "Personenfahrzeug Motorrad trial anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.updateTitle": "Personenfahrzeug Motorrad trial bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.viewTitle": "Personenfahrzeug Motorrad trial anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.specificData.title": "Personenfahrzeug Motorrad trial-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-motorcycle-trial.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

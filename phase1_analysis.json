@@ -1,0 +1,4328 @@
+{
+  "summary": {
+    "totalRecords": 267,
+    "categories": [
+      "financeaccount",
+      "realestate",
+      "mobility",
+      "contract",
+      "contact"
+    ],
+    "stats": {
+      "financeaccount": {
+        "count": 14,
+        "uniqueFormNames": 14,
+        "items": [
+          {
+            "category": "financeaccount",
+            "subcategory": "bank",
+            "subcategorygroup": "bankAccount",
+            "grouptype": "checkingAccount",
+            "currentFormName": "contract-savings-realestate-buildingsavings",
+            "correctFormName": "financeaccount-bank-bankAccount-checkingAccount"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "bank",
+            "subcategorygroup": "bankAccount",
+            "grouptype": "savingAccount",
+            "currentFormName": "contract-savings-savings-savingscontract",
+            "correctFormName": "financeaccount-bank-bankAccount-savingAccount"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "charge",
+            "currentFormName": "contract-savings-savings-overnightcontract",
+            "correctFormName": "financeaccount-credit-creditCard-charge"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "debit",
+            "currentFormName": "contract-creditcard-credit-creditcard",
+            "correctFormName": "financeaccount-credit-creditCard-debit"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "onlineVirtual",
+            "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+            "correctFormName": "financeaccount-credit-creditCard-onlineVirtual"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "prepaid",
+            "currentFormName": "contract-creditcard-credit-creditcardcontract",
+            "correctFormName": "financeaccount-credit-creditCard-prepaid"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "revolving",
+            "currentFormName": "contract-savings-savings-depositcontract",
+            "correctFormName": "financeaccount-credit-creditCard-revolving"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "credit",
+            "subcategorygroup": "creditCard",
+            "grouptype": "samsung",
+            "currentFormName": "contract-creditcard-credit-creditcardcontract",
+            "correctFormName": "financeaccount-credit-creditCard-samsung"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "applePay",
+            "currentFormName": "contract-employment-official-mini-job",
+            "correctFormName": "financeaccount-systems-paymentSystems-applePay"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "googlePay",
+            "currentFormName": "contract-employment-official-part-time",
+            "correctFormName": "financeaccount-systems-paymentSystems-googlePay"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "klarna",
+            "currentFormName": "contract-employment-public-service-fulltime",
+            "correctFormName": "financeaccount-systems-paymentSystems-klarna"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "paypal",
+            "currentFormName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+            "correctFormName": "financeaccount-systems-paymentSystems-paypal"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "skrill",
+            "currentFormName": "contract-employment-public-service-mini-job",
+            "correctFormName": "financeaccount-systems-paymentSystems-skrill"
+          },
+          {
+            "category": "financeaccount",
+            "subcategory": "systems",
+            "subcategorygroup": "paymentSystems",
+            "grouptype": "stripe",
+            "currentFormName": "contract-employment-public-service-part-time",
+            "correctFormName": "financeaccount-systems-paymentSystems-stripe"
+          }
+        ]
+      },
+      "realestate": {
+        "count": 23,
+        "uniqueFormNames": 23,
+        "items": [
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "farmland",
+            "grouptype": "farmland",
+            "currentFormName": "contract-service-gardener-gardenercontract2",
+            "correctFormName": "realestate-withDevelopment-farmland-farmland"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "farmland",
+            "grouptype": "forest",
+            "currentFormName": "contract-employment-employee-work-contract",
+            "correctFormName": "realestate-withDevelopment-farmland-forest"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "farmland",
+            "grouptype": "fruit",
+            "currentFormName": "contract-employment-official-fulltime",
+            "correctFormName": "realestate-withDevelopment-farmland-fruit"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "farmland",
+            "grouptype": "pasture",
+            "currentFormName": "contract-employment-official-internship",
+            "correctFormName": "realestate-withDevelopment-farmland-pasture"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "garden",
+            "grouptype": "allotmentGarden",
+            "currentFormName": "contract-service-franchise-franchisecontract",
+            "correctFormName": "realestate-withDevelopment-garden-allotmentGarden"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "commercialBuilding",
+            "grouptype": "commercialUnit",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-commercialBuilding-commercialUnit"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "commercialBuilding",
+            "grouptype": "commercialBuilding",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-commercialBuilding-commercialBuilding"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "hall",
+            "grouptype": "hall",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-hall-hall"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "parkingSpace",
+            "grouptype": "carport",
+            "currentFormName": "contract-service-security-securitycontract",
+            "correctFormName": "realestate-withDevelopment-parkingSpace-carport"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "parkingSpace",
+            "grouptype": "garage",
+            "currentFormName": "contract-service-software-softwarecontract",
+            "correctFormName": "realestate-withDevelopment-parkingSpace-garage"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "parkingSpace",
+            "grouptype": "parkingHouse",
+            "currentFormName": "contract-tax-realestate-realestatetaxcontract",
+            "correctFormName": "realestate-withDevelopment-parkingSpace-parkingHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "parkingSpace",
+            "grouptype": "parkingSpace",
+            "currentFormName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+            "correctFormName": "realestate-withDevelopment-parkingSpace-parkingSpace"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "commercialResidentialBuilding",
+            "grouptype": "apartmentsCommercialMix",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-commercialResidentialBuilding-apartmentsCommercialMix"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "semitDetachedHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-semitDetachedHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "detachedHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-detachedHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "vacationHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-vacationHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "apartmentBuilding",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-apartmentBuilding"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "careFacility",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-careFacility"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "terracedEndHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-terracedEndHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "terracedMidHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-terracedMidHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withDevelopment",
+            "subcategorygroup": "residentialBuilding",
+            "grouptype": "twoFamilyHouse",
+            "currentFormName": "contract-service-broker-realestateagent",
+            "correctFormName": "realestate-withDevelopment-residentialBuilding-twoFamilyHouse"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withoutDevelopment",
+            "subcategorygroup": "ground",
+            "grouptype": "buildingPlot",
+            "currentFormName": "contract-service-maintenance-maintenancecontract",
+            "correctFormName": "realestate-withoutDevelopment-ground-buildingPlot"
+          },
+          {
+            "category": "realestate",
+            "subcategory": "withoutDevelopment",
+            "subcategorygroup": "ground",
+            "grouptype": "meadow",
+            "currentFormName": "contract-service-service-servicecontract",
+            "correctFormName": "realestate-withoutDevelopment-ground-meadow"
+          }
+        ]
+      },
+      "mobility": {
+        "count": 96,
+        "uniqueFormNames": 89,
+        "items": [
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "hybrid",
+            "grouptype": "motorGlider",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-hybrid-motorGlider"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "motorized",
+            "grouptype": "motorboat",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-motorized-motorboat"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "motorized",
+            "grouptype": "motorboat",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-motorized-motorboat"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "motorized",
+            "grouptype": "motorboat",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-motorized-motorboat"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "motorized",
+            "grouptype": "motorboat",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-motorized-motorboat"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "sailing",
+            "grouptype": "sailingBoat",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-sailing-sailingBoat"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "boat",
+            "subcategorygroup": "sailing",
+            "grouptype": "sailingYacht",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-boat-sailing-sailingYacht"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "city",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-city"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "cross",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-cross"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "tricycle",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-tricycle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "foldingBike",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-foldingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "gravel",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-gravel"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "cargo",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-cargo"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "lifestyle",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-lifestyle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "mtb",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-mtb"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "racingBike",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-racingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "speedBike",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-speedBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "suv",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-suv"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "trekkingBike",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-trekkingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "bike",
+            "grouptype": "xxl",
+            "currentFormName": "contract-employment-publicservice-internship",
+            "correctFormName": "mobility-bike-bike-xxl"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eCity",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eCity"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eCross",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eCross"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eTricycle",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eTricycle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eFoldingBike",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eFoldingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eGravel",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eGravel"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eCargo",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eCargo"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eLifestyle",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eLifestyle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eMtb",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eMtb"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eRacingBike",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eRacingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eSpeedBike",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eSpeedBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eSuv",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eSuv"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eTrekkingBike",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eTrekkingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "eBike",
+            "grouptype": "eXxl",
+            "currentFormName": "contract-energy-energy-energycontract2",
+            "correctFormName": "mobility-bike-eBike-eXxl"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pCity",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pCity"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pCross",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pCross"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pTricycle",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pTricycle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pFoldingBike",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pFoldingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pGravel",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pGravel"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pCargo",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pCargo"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pLifestyle",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pLifestyle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pMtb",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pMtb"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pRacingBike",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pRacingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pSpeedBike",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pSpeedBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pSuv",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pSuv"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pTrekkingBike",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pTrekkingBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "bike",
+            "subcategorygroup": "pedelec",
+            "grouptype": "pXxl",
+            "currentFormName": "contract-loan-loan-loancontract",
+            "correctFormName": "mobility-bike-pedelec-pXxl"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "agriculture",
+            "subcategorygroup": "tractor",
+            "grouptype": "tractor",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-agriculture-tractor-tractor"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "agriculture",
+            "subcategorygroup": "tractor",
+            "grouptype": "tractor",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-agriculture-tractor-tractor"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "agriculture",
+            "subcategorygroup": "tractor",
+            "grouptype": "tractor",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-agriculture-tractor-tractor"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "trailer",
+            "grouptype": "a",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-trailer-a"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "trailer",
+            "grouptype": "b",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-trailer-b"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "trailer",
+            "grouptype": "c",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-trailer-c"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "box",
+            "grouptype": "boxvan",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-box-boxvan"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "box",
+            "grouptype": "boxvan",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-box-boxvan"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "box",
+            "grouptype": "boxvan",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-commercialVehicle-box-boxvan"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "caravan",
+            "grouptype": "family",
+            "currentFormName": "contract-lease-lease-leasecontract",
+            "correctFormName": "mobility-commercialVehicle-caravan-family"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "caravan",
+            "grouptype": "luxury",
+            "currentFormName": "contract-lease-lease-leasecontract",
+            "correctFormName": "mobility-commercialVehicle-caravan-luxury"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "caravan",
+            "grouptype": "sport",
+            "currentFormName": "contract-lease-lease-leasecontract",
+            "correctFormName": "mobility-commercialVehicle-caravan-sport"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "caravan",
+            "grouptype": "tent",
+            "currentFormName": "contract-lease-lease-leasecontract",
+            "correctFormName": "mobility-commercialVehicle-caravan-tent"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "commercialVehicle",
+            "subcategorygroup": "caravan",
+            "grouptype": "twoPersons",
+            "currentFormName": "contract-lease-lease-leasecontract",
+            "correctFormName": "mobility-commercialVehicle-caravan-twoPersons"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "convertible",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-convertible"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "coupe",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-coupe"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "cuv",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-cuv"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "offRoadVehicle",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-offRoadVehicle"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "minibus",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-minibus"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "smallTransporter",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-smallTransporter"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "smallCar",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-smallCar"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "stationWagon",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-stationWagon"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "limousine",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-limousine"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "minivan",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-minivan"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "pickup",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-pickup"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "roadstar",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-roadstar"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "suv",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-suv"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "transporter",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-transporter"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "car",
+            "grouptype": "van",
+            "currentFormName": "contract-employment-public-service-work-contract",
+            "correctFormName": "mobility-passengerVehicle-car-van"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "chopper",
+            "currentFormName": "contract-media-media-mediacontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-chopper"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "cruiser",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-cruiser"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "dirtBike",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-dirtBike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "motocross",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-motocross"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "naked",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-naked"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "srambler",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-srambler"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "streetfighter",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-streetfighter"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "stuntbike",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-stuntbike"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "motorcycle",
+            "grouptype": "trial",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-motorcycle-trial"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quad4x4",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quad4x4"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadC",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadC"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadElectro",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadElectro"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadChildren",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadChildren"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadOffroad",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadOffroad"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadPocket",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadPocket"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadRace",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadRace"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadRoad",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadRoad"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "quad",
+            "grouptype": "quadSideBySide",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "mobility-passengerVehicle-quad-quadSideBySide"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "camper",
+            "grouptype": "alkoven",
+            "currentFormName": "contract-loan-realestate-annuityloan",
+            "correctFormName": "mobility-passengerVehicle-camper-alkoven"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "camper",
+            "grouptype": "semiIntegrated",
+            "currentFormName": "contract-loan-realestate-annuityloan",
+            "correctFormName": "mobility-passengerVehicle-camper-semiIntegrated"
+          },
+          {
+            "category": "mobility",
+            "subcategory": "passengerVehicle",
+            "subcategorygroup": "camper",
+            "grouptype": "fullyIntegrated",
+            "currentFormName": "contract-loan-realestate-annuityloan",
+            "correctFormName": "mobility-passengerVehicle-camper-fullyIntegrated"
+          }
+        ]
+      },
+      "contract": {
+        "count": 132,
+        "uniqueFormNames": 132,
+        "items": [
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "terminationAgreement",
+            "currentFormName": "contract-employment-employee-terminationcontract",
+            "correctFormName": "contract-employmentContract-employee-terminationAgreement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "help",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-employee-help"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "miniJob",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-employee-miniJob"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "internship",
+            "currentFormName": "contract-employment-employee-internship",
+            "correctFormName": "contract-employmentContract-employee-internship"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "halfTime",
+            "currentFormName": "contract-employment-employee-part-time",
+            "correctFormName": "contract-employmentContract-employee-halfTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "fullTime",
+            "currentFormName": "contract-employment-employee-fulltime",
+            "correctFormName": "contract-employmentContract-employee-fullTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "employee",
+            "grouptype": "workContract",
+            "currentFormName": "contract-employment-employment-employmentcontract",
+            "correctFormName": "contract-employmentContract-employee-workContract"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "terminationAgreement",
+            "currentFormName": "contract-employment-employee-terminationcontract",
+            "correctFormName": "contract-employmentContract-official-terminationAgreement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "help",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-official-help"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "miniJob",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-official-miniJob"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "internship",
+            "currentFormName": "contract-employment-employee-internship",
+            "correctFormName": "contract-employmentContract-official-internship"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "halfTime",
+            "currentFormName": "contract-employment-employee-part-time",
+            "correctFormName": "contract-employmentContract-official-halfTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "fullTime",
+            "currentFormName": "contract-employment-employee-fulltime",
+            "correctFormName": "contract-employmentContract-official-fullTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "official",
+            "grouptype": "workContract",
+            "currentFormName": "contract-employment-employment-employmentcontract",
+            "correctFormName": "contract-employmentContract-official-workContract"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "terminationAgreement",
+            "currentFormName": "contract-employment-employee-terminationcontract",
+            "correctFormName": "contract-employmentContract-publicService-terminationAgreement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "help",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-publicService-help"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "miniJob",
+            "currentFormName": "contract-employment-employee-mini-job",
+            "correctFormName": "contract-employmentContract-publicService-miniJob"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "internship",
+            "currentFormName": "contract-employment-employee-internship",
+            "correctFormName": "contract-employmentContract-publicService-internship"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "halfTime",
+            "currentFormName": "contract-employment-employee-part-time",
+            "correctFormName": "contract-employmentContract-publicService-halfTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "fullTime",
+            "currentFormName": "contract-employment-employee-fulltime",
+            "correctFormName": "contract-employmentContract-publicService-fullTime"
+          },
+          {
+            "category": "contract",
+            "subcategory": "employmentContract",
+            "subcategorygroup": "publicService",
+            "grouptype": "workContract",
+            "currentFormName": "contract-employment-employment-employmentcontract",
+            "correctFormName": "contract-employmentContract-publicService-workContract"
+          },
+          {
+            "category": "contract",
+            "subcategory": "bankAccount",
+            "subcategorygroup": "fixedTermAccount",
+            "grouptype": "festgeldkonto",
+            "currentFormName": "contract-savings-savings-fixedtermcontract",
+            "correctFormName": "contract-bankAccount-fixedTermAccount-festgeldkonto"
+          },
+          {
+            "category": "contract",
+            "subcategory": "bankAccount",
+            "subcategorygroup": "checkingAccount",
+            "grouptype": "girokonto",
+            "currentFormName": "contract-bankaccount-bank-bankaccount",
+            "correctFormName": "contract-bankAccount-checkingAccount-girokonto"
+          },
+          {
+            "category": "contract",
+            "subcategory": "bankAccount",
+            "subcategorygroup": "savingsAccount",
+            "grouptype": "sparkonto",
+            "currentFormName": "contract-savings-savings-savingscontract",
+            "correctFormName": "contract-bankAccount-savingsAccount-sparkonto"
+          },
+          {
+            "category": "contract",
+            "subcategory": "bankAccount",
+            "subcategorygroup": "overnightAccount",
+            "grouptype": "tagesgeldkonto",
+            "currentFormName": "contract-savings-savings-overnightcontract",
+            "correctFormName": "contract-bankAccount-overnightAccount-tagesgeldkonto"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "support",
+            "grouptype": "studentLoans",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-support-studentLoans"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "callLoan",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-callLoan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "annuityLoan",
+            "currentFormName": "contract-loan-annuityloan-annuityloan",
+            "correctFormName": "contract-loan-realestate-annuityLoan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "bulletLoans",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-bulletLoans"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "termLoan",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-termLoan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "modernization",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-modernization"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "participatoryLoans",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-participatoryLoans"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "rollingMarketLoans",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-rollingMarketLoans"
+          },
+          {
+            "category": "contract",
+            "subcategory": "loan",
+            "subcategorygroup": "realestate",
+            "grouptype": "amortizationLoan",
+            "currentFormName": "contract-loan-credit-creditcontract",
+            "correctFormName": "contract-loan-realestate-amortizationLoan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "fees",
+            "grouptype": "municipalFees",
+            "currentFormName": "contract-fees-municipal-municipalcontract",
+            "correctFormName": "contract-service-fees-municipalFees"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "fees",
+            "grouptype": "realEstateTax",
+            "currentFormName": "contract-purchase-realestate-purchasecontract",
+            "correctFormName": "contract-service-fees-realEstateTax"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "gardener",
+            "currentFormName": "contract-service-gardener-gardenercontract",
+            "correctFormName": "contract-service-service-gardener"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "caretakerService",
+            "currentFormName": "contract-service-caretaker-service",
+            "correctFormName": "contract-service-service-caretakerService"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "propertyManagement",
+            "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+            "correctFormName": "contract-service-service-propertyManagement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "realEstateAgent",
+            "currentFormName": "contract-service-broker-insurancebroker",
+            "correctFormName": "contract-service-service-realEstateAgent"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "carInspection",
+            "currentFormName": "contract-mobility-car-inspection",
+            "correctFormName": "contract-service-service-carInspection"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "rentalManagement",
+            "currentFormName": "contract-rental-rental-rentalcontract",
+            "correctFormName": "contract-service-service-rentalManagement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "notary",
+            "currentFormName": "contract-service-notary-notarycontract",
+            "correctFormName": "contract-service-service-notary"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "cleaning",
+            "currentFormName": "contract-service-cleaning-cleaningcontract",
+            "correctFormName": "contract-service-service-cleaning"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "service",
+            "grouptype": "insuranceBroker",
+            "currentFormName": "contract-insurance-broker-brokercontract",
+            "correctFormName": "contract-service-service-insuranceBroker"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "maintenance",
+            "grouptype": "elevator",
+            "currentFormName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+            "correctFormName": "contract-service-maintenance-elevator"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "maintenance",
+            "grouptype": "heating",
+            "currentFormName": "contract-service-service-caretakerservice",
+            "correctFormName": "contract-service-maintenance-heating"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "maintenance",
+            "grouptype": "chimneySweeper",
+            "currentFormName": "contract-service-chimney-sweeper",
+            "correctFormName": "contract-service-maintenance-chimneySweeper"
+          },
+          {
+            "category": "contract",
+            "subcategory": "service",
+            "subcategorygroup": "maintenance",
+            "grouptype": "heatPump",
+            "currentFormName": "contract-service-service-chimneysweeper",
+            "correctFormName": "contract-service-maintenance-heatPump"
+          },
+          {
+            "category": "contract",
+            "subcategory": "energy",
+            "subcategorygroup": "electric",
+            "grouptype": "electricity",
+            "currentFormName": "contract-energy-electric-stromcontract",
+            "correctFormName": "contract-energy-electric-electricity"
+          },
+          {
+            "category": "contract",
+            "subcategory": "energy",
+            "subcategorygroup": "heating",
+            "grouptype": "districtHeating",
+            "currentFormName": "contract-energy-energy-energycontract",
+            "correctFormName": "contract-energy-heating-districtHeating"
+          },
+          {
+            "category": "contract",
+            "subcategory": "energy",
+            "subcategorygroup": "heating",
+            "grouptype": "gas",
+            "currentFormName": "contract-energy-energy-energycontract",
+            "correctFormName": "contract-energy-heating-gas"
+          },
+          {
+            "category": "contract",
+            "subcategory": "energy",
+            "subcategorygroup": "heating",
+            "grouptype": "oil",
+            "currentFormName": "contract-energy-energy-energycontract",
+            "correctFormName": "contract-energy-heating-oil"
+          },
+          {
+            "category": "contract",
+            "subcategory": "energy",
+            "subcategorygroup": "photovoltaic",
+            "grouptype": "electricity",
+            "currentFormName": "contract-energy-electric-stromcontract",
+            "correctFormName": "contract-energy-photovoltaic-electricity"
+          },
+          {
+            "category": "contract",
+            "subcategory": "propertyManagement",
+            "subcategorygroup": "propertyManagement",
+            "grouptype": "hausverwaltung",
+            "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+            "correctFormName": "contract-propertyManagement-propertyManagement-hausverwaltung"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "objects",
+            "grouptype": "coffeeTable",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-objects-coffeeTable"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "objects",
+            "grouptype": "table",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-objects-table"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "devices",
+            "grouptype": "tv",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-devices-tv"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "devices",
+            "grouptype": "mobile",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-devices-mobile"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "realEstateTax",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-realestate-realEstateTax"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "house",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-realestate-house"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "apartment",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-realestate-apartment"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "car",
+            "grouptype": "car",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-purchaseContract-car-car"
+          },
+          {
+            "category": "contract",
+            "subcategory": "purchaseContract",
+            "subcategorygroup": "car",
+            "grouptype": "motorcycle",
+            "currentFormName": "contract-sale-sale-salecontract",
+            "correctFormName": "contract-purchaseContract-car-motorcycle"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "car",
+            "grouptype": "car",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-credit-car-car"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "car",
+            "grouptype": "boat",
+            "currentFormName": "contract-loan-loan-loanagreementcontract",
+            "correctFormName": "contract-credit-car-boat"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "car",
+            "grouptype": "caravan",
+            "currentFormName": "contract-loan-loan-loanagreementcontract",
+            "correctFormName": "contract-credit-car-caravan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "credit",
+            "grouptype": "freeUse",
+            "currentFormName": "contract-loan-loan-loanagreementcontract",
+            "correctFormName": "contract-credit-credit-freeUse"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "credit",
+            "grouptype": "modernization",
+            "currentFormName": "contract-loan-loan-loanagreementcontract",
+            "correctFormName": "contract-credit-credit-modernization"
+          },
+          {
+            "category": "contract",
+            "subcategory": "credit",
+            "subcategorygroup": "credit",
+            "grouptype": "rescheduling",
+            "currentFormName": "contract-loan-loan-loanagreementcontract",
+            "correctFormName": "contract-credit-credit-rescheduling"
+          },
+          {
+            "category": "contract",
+            "subcategory": "creditCard",
+            "subcategorygroup": "debitCard",
+            "grouptype": "debitkarte",
+            "currentFormName": "contract-creditcard-credit-creditcard",
+            "correctFormName": "contract-creditCard-debitCard-debitkarte"
+          },
+          {
+            "category": "contract",
+            "subcategory": "creditCard",
+            "subcategorygroup": "creditCard",
+            "grouptype": "kreditkarte",
+            "currentFormName": "contract-creditcard-credit-creditcardcontract",
+            "correctFormName": "contract-creditCard-creditCard-kreditkarte"
+          },
+          {
+            "category": "contract",
+            "subcategory": "leasing",
+            "subcategorygroup": "car",
+            "grouptype": "car",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-leasing-car-car"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "television",
+            "grouptype": "cableTv",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-television-cableTv"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "television",
+            "grouptype": "satelliteTv",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-television-satelliteTv"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "internet",
+            "grouptype": "broadband",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-internet-broadband"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "internet",
+            "grouptype": "glassFiber",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-internet-glassFiber"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "cellular",
+            "grouptype": "carPhone",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-cellular-carPhone"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "cellular",
+            "grouptype": "mobile",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-cellular-mobile"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "cellular",
+            "grouptype": "tablet",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-cellular-tablet"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "streaming",
+            "grouptype": "moviesSeries",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-streaming-moviesSeries"
+          },
+          {
+            "category": "contract",
+            "subcategory": "media",
+            "subcategorygroup": "streaming",
+            "grouptype": "music",
+            "currentFormName": "contract-media-streaming-streamingcontract",
+            "correctFormName": "contract-media-streaming-music"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "putDownSpace",
+            "grouptype": "garage",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-putDownSpace-garage"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "putDownSpace",
+            "grouptype": "parking",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-putDownSpace-parking"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "holidayHouse",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-realestate-holidayHouse"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "holidayApartment",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-realestate-holidayApartment"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "building",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-realestate-building"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "realestate",
+            "grouptype": "room",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-realestate-room"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "car",
+            "grouptype": "car",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-rentalContract-car-car"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "car",
+            "grouptype": "camper",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-car-camper"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "reside",
+            "grouptype": "houseLease",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-reside-houseLease"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalContract",
+            "subcategorygroup": "reside",
+            "grouptype": "apartmentRentalAgreement",
+            "currentFormName": "contract-lease-realestate-leasecontract",
+            "correctFormName": "contract-rentalContract-reside-apartmentRentalAgreement"
+          },
+          {
+            "category": "contract",
+            "subcategory": "rentalManagement",
+            "subcategorygroup": "rentalManagement",
+            "grouptype": "mietverwaltung",
+            "currentFormName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+            "correctFormName": "contract-rentalManagement-rentalManagement-mietverwaltung"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "business",
+            "grouptype": "managerLiability",
+            "currentFormName": "contract-insurance-domanager-domanagercontract",
+            "correctFormName": "contract-insurance-business-managerLiability"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "business",
+            "grouptype": "building",
+            "currentFormName": "contract-insurance-residential-residentialcontract",
+            "correctFormName": "contract-insurance-business-building"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "business",
+            "grouptype": "legalProtection",
+            "currentFormName": "contract-insurance-legalprotection-legalprotectioncontract",
+            "correctFormName": "contract-insurance-business-legalProtection"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "car",
+            "grouptype": "motorcycle",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-insurance-car-motorcycle"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "car",
+            "grouptype": "tractor",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-insurance-car-tractor"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "car",
+            "grouptype": "camper",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-insurance-car-camper"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "car",
+            "grouptype": "caravan",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-insurance-car-caravan"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "abroad",
+            "currentFormName": "contract-insurance-inthealth-inthealthcontract",
+            "correctFormName": "contract-insurance-health-abroad"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "foreignTravel",
+            "currentFormName": "contract-insurance-travel-travelcontract",
+            "correctFormName": "contract-insurance-health-foreignTravel"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "statutoryHealthInsurance",
+            "currentFormName": "contract-insurance-health-healthcontract",
+            "correctFormName": "contract-insurance-health-statutoryHealthInsurance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "hospitalPerDiem",
+            "currentFormName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+            "correctFormName": "contract-insurance-health-hospitalPerDiem"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "sickPay",
+            "currentFormName": "contract-insurance-dailysickness-dailysicknesscontract",
+            "correctFormName": "contract-insurance-health-sickPay"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "additionalInsuranceFull",
+            "currentFormName": "contract-insurance-health-prisickfullcontract",
+            "correctFormName": "contract-insurance-health-additionalInsuranceFull"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "additionalInsuranceOutpatient",
+            "currentFormName": "contract-insurance-priaddout-priaddoutcontract",
+            "correctFormName": "contract-insurance-health-additionalInsuranceOutpatient"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "additionalInsuranceStationary",
+            "currentFormName": "contract-insurance-priaddstat-priaddstatcontract",
+            "correctFormName": "contract-insurance-health-additionalInsuranceStationary"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "health",
+            "grouptype": "additionalInsuranceTeeth",
+            "currentFormName": "contract-insurance-priaddtooth-priaddtoothcontract",
+            "correctFormName": "contract-insurance-health-additionalInsuranceTeeth"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "disabilityInsurance",
+            "currentFormName": "contract-insurance-disability-disabilitycontract",
+            "correctFormName": "contract-insurance-life-disabilityInsurance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "dailyCareAllowance",
+            "currentFormName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+            "correctFormName": "contract-insurance-life-dailyCareAllowance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "careInsurance",
+            "currentFormName": "contract-insurance-longtermcare-longtermcarecontract",
+            "correctFormName": "contract-insurance-life-careInsurance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "pensionInsuranceFund",
+            "currentFormName": "contract-insurance-pensionfund-pensionfundcontract",
+            "correctFormName": "contract-insurance-life-pensionInsuranceFund"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "pensionInsurance",
+            "currentFormName": "contract-insurance-classicpension-classicpensioncontract",
+            "correctFormName": "contract-insurance-life-pensionInsurance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "life",
+            "grouptype": "riskLifeInsurance",
+            "currentFormName": "contract-insurance-risklife-risklifecontract",
+            "correctFormName": "contract-insurance-life-riskLifeInsurance"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "buildersLiability",
+            "currentFormName": "contract-insurance-builderliability-builderliabilitycontract",
+            "correctFormName": "contract-insurance-object-buildersLiability"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "ebike",
+            "currentFormName": "contract-insurance-bike-bikecontract",
+            "correctFormName": "contract-insurance-object-ebike"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "elementary",
+            "currentFormName": "contract-insurance-fire-firecontract",
+            "correctFormName": "contract-insurance-object-elementary"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "fire",
+            "currentFormName": "contract-insurance-fire-firecontract",
+            "correctFormName": "contract-insurance-object-fire"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "glas",
+            "currentFormName": "contract-insurance-automobile-automobilecontract",
+            "correctFormName": "contract-insurance-object-glas"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "householdGoods",
+            "currentFormName": "contract-insurance-furniture-furniturecontract",
+            "correctFormName": "contract-insurance-object-householdGoods"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "homeownerLiability",
+            "currentFormName": "contract-insurance-liability-liabilitycontract",
+            "correctFormName": "contract-insurance-object-homeownerLiability"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "art",
+            "currentFormName": "contract-insurance-expatriates-expatriatescontract",
+            "correctFormName": "contract-insurance-object-art"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "lossOfRent",
+            "currentFormName": "contract-insurance-rental-rentalcontract",
+            "correctFormName": "contract-insurance-object-lossOfRent"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "photovoltaic",
+            "currentFormName": "contract-insurance-photovoltaic-photovoltaiccontract",
+            "correctFormName": "contract-insurance-object-photovoltaic"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "personalLiability",
+            "currentFormName": "contract-insurance-liability-liabilitycontract",
+            "correctFormName": "contract-insurance-object-personalLiability"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "legalProtection",
+            "currentFormName": "contract-insurance-legalprotection-legalprotectioncontract",
+            "correctFormName": "contract-insurance-object-legalProtection"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "animalOwnerLiability",
+            "currentFormName": "contract-insurance-liabilitypet-liabilitypetcontract",
+            "correctFormName": "contract-insurance-object-animalOwnerLiability"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "animalSurgery",
+            "currentFormName": "contract-insurance-pet-petcontract",
+            "correctFormName": "contract-insurance-object-animalSurgery"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "environmentalDamage",
+            "currentFormName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+            "correctFormName": "contract-insurance-object-environmentalDamage"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "accident",
+            "currentFormName": "contract-insurance-accident-accidentcontract",
+            "correctFormName": "contract-insurance-object-accident"
+          },
+          {
+            "category": "contract",
+            "subcategory": "insurance",
+            "subcategorygroup": "object",
+            "grouptype": "residentialBuilding",
+            "currentFormName": "contract-insurance-residential-residentialcontract",
+            "correctFormName": "contract-insurance-object-residentialBuilding"
+          }
+        ]
+      },
+      "contact": {
+        "count": 2,
+        "uniqueFormNames": 2,
+        "items": [
+          {
+            "category": "contact",
+            "subcategory": "contact",
+            "subcategorygroup": "contact",
+            "grouptype": "singleContact",
+            "currentFormName": "contract-service-distribution-distributioncontract",
+            "correctFormName": "contact-contact-contact-singleContact"
+          },
+          {
+            "category": "contact",
+            "subcategory": "contact",
+            "subcategorygroup": "contact",
+            "grouptype": "contactGroup",
+            "currentFormName": "contract-service-consulting-consultingcontract",
+            "correctFormName": "contact-contact-contact-contactGroup"
+          }
+        ]
+      }
+    }
+  },
+  "categories": {
+    "financeaccount": [
+      {
+        "category": "financeaccount",
+        "subcategory": "bank",
+        "subcategorygroup": "bankAccount",
+        "grouptype": "checkingAccount",
+        "currentFormName": "contract-savings-realestate-buildingsavings",
+        "correctFormName": "financeaccount-bank-bankAccount-checkingAccount"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "bank",
+        "subcategorygroup": "bankAccount",
+        "grouptype": "savingAccount",
+        "currentFormName": "contract-savings-savings-savingscontract",
+        "correctFormName": "financeaccount-bank-bankAccount-savingAccount"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "charge",
+        "currentFormName": "contract-savings-savings-overnightcontract",
+        "correctFormName": "financeaccount-credit-creditCard-charge"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "debit",
+        "currentFormName": "contract-creditcard-credit-creditcard",
+        "correctFormName": "financeaccount-credit-creditCard-debit"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "onlineVirtual",
+        "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "correctFormName": "financeaccount-credit-creditCard-onlineVirtual"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "prepaid",
+        "currentFormName": "contract-creditcard-credit-creditcardcontract",
+        "correctFormName": "financeaccount-credit-creditCard-prepaid"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "revolving",
+        "currentFormName": "contract-savings-savings-depositcontract",
+        "correctFormName": "financeaccount-credit-creditCard-revolving"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "credit",
+        "subcategorygroup": "creditCard",
+        "grouptype": "samsung",
+        "currentFormName": "contract-creditcard-credit-creditcardcontract",
+        "correctFormName": "financeaccount-credit-creditCard-samsung"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "applePay",
+        "currentFormName": "contract-employment-official-mini-job",
+        "correctFormName": "financeaccount-systems-paymentSystems-applePay"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "googlePay",
+        "currentFormName": "contract-employment-official-part-time",
+        "correctFormName": "financeaccount-systems-paymentSystems-googlePay"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "klarna",
+        "currentFormName": "contract-employment-public-service-fulltime",
+        "correctFormName": "financeaccount-systems-paymentSystems-klarna"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "paypal",
+        "currentFormName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "correctFormName": "financeaccount-systems-paymentSystems-paypal"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "skrill",
+        "currentFormName": "contract-employment-public-service-mini-job",
+        "correctFormName": "financeaccount-systems-paymentSystems-skrill"
+      },
+      {
+        "category": "financeaccount",
+        "subcategory": "systems",
+        "subcategorygroup": "paymentSystems",
+        "grouptype": "stripe",
+        "currentFormName": "contract-employment-public-service-part-time",
+        "correctFormName": "financeaccount-systems-paymentSystems-stripe"
+      }
+    ],
+    "realestate": [
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "farmland",
+        "grouptype": "farmland",
+        "currentFormName": "contract-service-gardener-gardenercontract2",
+        "correctFormName": "realestate-withDevelopment-farmland-farmland"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "farmland",
+        "grouptype": "forest",
+        "currentFormName": "contract-employment-employee-work-contract",
+        "correctFormName": "realestate-withDevelopment-farmland-forest"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "farmland",
+        "grouptype": "fruit",
+        "currentFormName": "contract-employment-official-fulltime",
+        "correctFormName": "realestate-withDevelopment-farmland-fruit"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "farmland",
+        "grouptype": "pasture",
+        "currentFormName": "contract-employment-official-internship",
+        "correctFormName": "realestate-withDevelopment-farmland-pasture"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "garden",
+        "grouptype": "allotmentGarden",
+        "currentFormName": "contract-service-franchise-franchisecontract",
+        "correctFormName": "realestate-withDevelopment-garden-allotmentGarden"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "commercialBuilding",
+        "grouptype": "commercialUnit",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-commercialBuilding-commercialUnit"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "commercialBuilding",
+        "grouptype": "commercialBuilding",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-commercialBuilding-commercialBuilding"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "hall",
+        "grouptype": "hall",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-hall-hall"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "parkingSpace",
+        "grouptype": "carport",
+        "currentFormName": "contract-service-security-securitycontract",
+        "correctFormName": "realestate-withDevelopment-parkingSpace-carport"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "parkingSpace",
+        "grouptype": "garage",
+        "currentFormName": "contract-service-software-softwarecontract",
+        "correctFormName": "realestate-withDevelopment-parkingSpace-garage"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "parkingSpace",
+        "grouptype": "parkingHouse",
+        "currentFormName": "contract-tax-realestate-realestatetaxcontract",
+        "correctFormName": "realestate-withDevelopment-parkingSpace-parkingHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "parkingSpace",
+        "grouptype": "parkingSpace",
+        "currentFormName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+        "correctFormName": "realestate-withDevelopment-parkingSpace-parkingSpace"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "commercialResidentialBuilding",
+        "grouptype": "apartmentsCommercialMix",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-commercialResidentialBuilding-apartmentsCommercialMix"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "semitDetachedHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-semitDetachedHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "detachedHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-detachedHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "vacationHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-vacationHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "apartmentBuilding",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-apartmentBuilding"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "careFacility",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-careFacility"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "terracedEndHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-terracedEndHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "terracedMidHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-terracedMidHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withDevelopment",
+        "subcategorygroup": "residentialBuilding",
+        "grouptype": "twoFamilyHouse",
+        "currentFormName": "contract-service-broker-realestateagent",
+        "correctFormName": "realestate-withDevelopment-residentialBuilding-twoFamilyHouse"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withoutDevelopment",
+        "subcategorygroup": "ground",
+        "grouptype": "buildingPlot",
+        "currentFormName": "contract-service-maintenance-maintenancecontract",
+        "correctFormName": "realestate-withoutDevelopment-ground-buildingPlot"
+      },
+      {
+        "category": "realestate",
+        "subcategory": "withoutDevelopment",
+        "subcategorygroup": "ground",
+        "grouptype": "meadow",
+        "currentFormName": "contract-service-service-servicecontract",
+        "correctFormName": "realestate-withoutDevelopment-ground-meadow"
+      }
+    ],
+    "mobility": [
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "hybrid",
+        "grouptype": "motorGlider",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-hybrid-motorGlider"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "motorized",
+        "grouptype": "motorboat",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-motorized-motorboat"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "motorized",
+        "grouptype": "motorboat",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-motorized-motorboat"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "motorized",
+        "grouptype": "motorboat",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-motorized-motorboat"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "motorized",
+        "grouptype": "motorboat",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-motorized-motorboat"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "sailing",
+        "grouptype": "sailingBoat",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-sailing-sailingBoat"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "boat",
+        "subcategorygroup": "sailing",
+        "grouptype": "sailingYacht",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-boat-sailing-sailingYacht"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "city",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-city"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "cross",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-cross"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "tricycle",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-tricycle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "foldingBike",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-foldingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "gravel",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-gravel"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "cargo",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-cargo"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "lifestyle",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-lifestyle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "mtb",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-mtb"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "racingBike",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-racingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "speedBike",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-speedBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "suv",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-suv"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "trekkingBike",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-trekkingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "bike",
+        "grouptype": "xxl",
+        "currentFormName": "contract-employment-publicservice-internship",
+        "correctFormName": "mobility-bike-bike-xxl"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eCity",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eCity"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eCross",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eCross"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eTricycle",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eTricycle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eFoldingBike",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eFoldingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eGravel",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eGravel"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eCargo",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eCargo"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eLifestyle",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eLifestyle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eMtb",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eMtb"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eRacingBike",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eRacingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eSpeedBike",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eSpeedBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eSuv",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eSuv"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eTrekkingBike",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eTrekkingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "eBike",
+        "grouptype": "eXxl",
+        "currentFormName": "contract-energy-energy-energycontract2",
+        "correctFormName": "mobility-bike-eBike-eXxl"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pCity",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pCity"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pCross",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pCross"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pTricycle",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pTricycle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pFoldingBike",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pFoldingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pGravel",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pGravel"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pCargo",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pCargo"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pLifestyle",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pLifestyle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pMtb",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pMtb"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pRacingBike",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pRacingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pSpeedBike",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pSpeedBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pSuv",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pSuv"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pTrekkingBike",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pTrekkingBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "bike",
+        "subcategorygroup": "pedelec",
+        "grouptype": "pXxl",
+        "currentFormName": "contract-loan-loan-loancontract",
+        "correctFormName": "mobility-bike-pedelec-pXxl"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "agriculture",
+        "subcategorygroup": "tractor",
+        "grouptype": "tractor",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-agriculture-tractor-tractor"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "agriculture",
+        "subcategorygroup": "tractor",
+        "grouptype": "tractor",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-agriculture-tractor-tractor"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "agriculture",
+        "subcategorygroup": "tractor",
+        "grouptype": "tractor",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-agriculture-tractor-tractor"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "trailer",
+        "grouptype": "a",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-trailer-a"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "trailer",
+        "grouptype": "b",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-trailer-b"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "trailer",
+        "grouptype": "c",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-trailer-c"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "box",
+        "grouptype": "boxvan",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-box-boxvan"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "box",
+        "grouptype": "boxvan",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-box-boxvan"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "box",
+        "grouptype": "boxvan",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-commercialVehicle-box-boxvan"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "caravan",
+        "grouptype": "family",
+        "currentFormName": "contract-lease-lease-leasecontract",
+        "correctFormName": "mobility-commercialVehicle-caravan-family"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "caravan",
+        "grouptype": "luxury",
+        "currentFormName": "contract-lease-lease-leasecontract",
+        "correctFormName": "mobility-commercialVehicle-caravan-luxury"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "caravan",
+        "grouptype": "sport",
+        "currentFormName": "contract-lease-lease-leasecontract",
+        "correctFormName": "mobility-commercialVehicle-caravan-sport"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "caravan",
+        "grouptype": "tent",
+        "currentFormName": "contract-lease-lease-leasecontract",
+        "correctFormName": "mobility-commercialVehicle-caravan-tent"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "commercialVehicle",
+        "subcategorygroup": "caravan",
+        "grouptype": "twoPersons",
+        "currentFormName": "contract-lease-lease-leasecontract",
+        "correctFormName": "mobility-commercialVehicle-caravan-twoPersons"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "convertible",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-convertible"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "coupe",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-coupe"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "cuv",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-cuv"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "offRoadVehicle",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-offRoadVehicle"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "minibus",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-minibus"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "smallTransporter",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-smallTransporter"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "smallCar",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-smallCar"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "stationWagon",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-stationWagon"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "limousine",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-limousine"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "minivan",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-minivan"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "pickup",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-pickup"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "roadstar",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-roadstar"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "suv",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-suv"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "transporter",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-transporter"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "car",
+        "grouptype": "van",
+        "currentFormName": "contract-employment-public-service-work-contract",
+        "correctFormName": "mobility-passengerVehicle-car-van"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "chopper",
+        "currentFormName": "contract-media-media-mediacontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-chopper"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "cruiser",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-cruiser"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "dirtBike",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-dirtBike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "motocross",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-motocross"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "naked",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-naked"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "srambler",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-srambler"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "streetfighter",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-streetfighter"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "stuntbike",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-stuntbike"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "motorcycle",
+        "grouptype": "trial",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-motorcycle-trial"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quad4x4",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quad4x4"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadC",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadC"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadElectro",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadElectro"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadChildren",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadChildren"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadOffroad",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadOffroad"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadPocket",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadPocket"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadRace",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadRace"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadRoad",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadRoad"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "quad",
+        "grouptype": "quadSideBySide",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "mobility-passengerVehicle-quad-quadSideBySide"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "camper",
+        "grouptype": "alkoven",
+        "currentFormName": "contract-loan-realestate-annuityloan",
+        "correctFormName": "mobility-passengerVehicle-camper-alkoven"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "camper",
+        "grouptype": "semiIntegrated",
+        "currentFormName": "contract-loan-realestate-annuityloan",
+        "correctFormName": "mobility-passengerVehicle-camper-semiIntegrated"
+      },
+      {
+        "category": "mobility",
+        "subcategory": "passengerVehicle",
+        "subcategorygroup": "camper",
+        "grouptype": "fullyIntegrated",
+        "currentFormName": "contract-loan-realestate-annuityloan",
+        "correctFormName": "mobility-passengerVehicle-camper-fullyIntegrated"
+      }
+    ],
+    "contract": [
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "terminationAgreement",
+        "currentFormName": "contract-employment-employee-terminationcontract",
+        "correctFormName": "contract-employmentContract-employee-terminationAgreement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "help",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-employee-help"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "miniJob",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-employee-miniJob"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "internship",
+        "currentFormName": "contract-employment-employee-internship",
+        "correctFormName": "contract-employmentContract-employee-internship"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "halfTime",
+        "currentFormName": "contract-employment-employee-part-time",
+        "correctFormName": "contract-employmentContract-employee-halfTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "fullTime",
+        "currentFormName": "contract-employment-employee-fulltime",
+        "correctFormName": "contract-employmentContract-employee-fullTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "employee",
+        "grouptype": "workContract",
+        "currentFormName": "contract-employment-employment-employmentcontract",
+        "correctFormName": "contract-employmentContract-employee-workContract"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "terminationAgreement",
+        "currentFormName": "contract-employment-employee-terminationcontract",
+        "correctFormName": "contract-employmentContract-official-terminationAgreement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "help",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-official-help"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "miniJob",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-official-miniJob"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "internship",
+        "currentFormName": "contract-employment-employee-internship",
+        "correctFormName": "contract-employmentContract-official-internship"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "halfTime",
+        "currentFormName": "contract-employment-employee-part-time",
+        "correctFormName": "contract-employmentContract-official-halfTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "fullTime",
+        "currentFormName": "contract-employment-employee-fulltime",
+        "correctFormName": "contract-employmentContract-official-fullTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "official",
+        "grouptype": "workContract",
+        "currentFormName": "contract-employment-employment-employmentcontract",
+        "correctFormName": "contract-employmentContract-official-workContract"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "terminationAgreement",
+        "currentFormName": "contract-employment-employee-terminationcontract",
+        "correctFormName": "contract-employmentContract-publicService-terminationAgreement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "help",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-publicService-help"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "miniJob",
+        "currentFormName": "contract-employment-employee-mini-job",
+        "correctFormName": "contract-employmentContract-publicService-miniJob"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "internship",
+        "currentFormName": "contract-employment-employee-internship",
+        "correctFormName": "contract-employmentContract-publicService-internship"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "halfTime",
+        "currentFormName": "contract-employment-employee-part-time",
+        "correctFormName": "contract-employmentContract-publicService-halfTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "fullTime",
+        "currentFormName": "contract-employment-employee-fulltime",
+        "correctFormName": "contract-employmentContract-publicService-fullTime"
+      },
+      {
+        "category": "contract",
+        "subcategory": "employmentContract",
+        "subcategorygroup": "publicService",
+        "grouptype": "workContract",
+        "currentFormName": "contract-employment-employment-employmentcontract",
+        "correctFormName": "contract-employmentContract-publicService-workContract"
+      },
+      {
+        "category": "contract",
+        "subcategory": "bankAccount",
+        "subcategorygroup": "fixedTermAccount",
+        "grouptype": "festgeldkonto",
+        "currentFormName": "contract-savings-savings-fixedtermcontract",
+        "correctFormName": "contract-bankAccount-fixedTermAccount-festgeldkonto"
+      },
+      {
+        "category": "contract",
+        "subcategory": "bankAccount",
+        "subcategorygroup": "checkingAccount",
+        "grouptype": "girokonto",
+        "currentFormName": "contract-bankaccount-bank-bankaccount",
+        "correctFormName": "contract-bankAccount-checkingAccount-girokonto"
+      },
+      {
+        "category": "contract",
+        "subcategory": "bankAccount",
+        "subcategorygroup": "savingsAccount",
+        "grouptype": "sparkonto",
+        "currentFormName": "contract-savings-savings-savingscontract",
+        "correctFormName": "contract-bankAccount-savingsAccount-sparkonto"
+      },
+      {
+        "category": "contract",
+        "subcategory": "bankAccount",
+        "subcategorygroup": "overnightAccount",
+        "grouptype": "tagesgeldkonto",
+        "currentFormName": "contract-savings-savings-overnightcontract",
+        "correctFormName": "contract-bankAccount-overnightAccount-tagesgeldkonto"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "support",
+        "grouptype": "studentLoans",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-support-studentLoans"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "callLoan",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-callLoan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "annuityLoan",
+        "currentFormName": "contract-loan-annuityloan-annuityloan",
+        "correctFormName": "contract-loan-realestate-annuityLoan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "bulletLoans",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-bulletLoans"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "termLoan",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-termLoan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "modernization",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-modernization"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "participatoryLoans",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-participatoryLoans"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "rollingMarketLoans",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-rollingMarketLoans"
+      },
+      {
+        "category": "contract",
+        "subcategory": "loan",
+        "subcategorygroup": "realestate",
+        "grouptype": "amortizationLoan",
+        "currentFormName": "contract-loan-credit-creditcontract",
+        "correctFormName": "contract-loan-realestate-amortizationLoan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "fees",
+        "grouptype": "municipalFees",
+        "currentFormName": "contract-fees-municipal-municipalcontract",
+        "correctFormName": "contract-service-fees-municipalFees"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "fees",
+        "grouptype": "realEstateTax",
+        "currentFormName": "contract-purchase-realestate-purchasecontract",
+        "correctFormName": "contract-service-fees-realEstateTax"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "gardener",
+        "currentFormName": "contract-service-gardener-gardenercontract",
+        "correctFormName": "contract-service-service-gardener"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "caretakerService",
+        "currentFormName": "contract-service-caretaker-service",
+        "correctFormName": "contract-service-service-caretakerService"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "propertyManagement",
+        "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "correctFormName": "contract-service-service-propertyManagement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "realEstateAgent",
+        "currentFormName": "contract-service-broker-insurancebroker",
+        "correctFormName": "contract-service-service-realEstateAgent"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "carInspection",
+        "currentFormName": "contract-mobility-car-inspection",
+        "correctFormName": "contract-service-service-carInspection"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "rentalManagement",
+        "currentFormName": "contract-rental-rental-rentalcontract",
+        "correctFormName": "contract-service-service-rentalManagement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "notary",
+        "currentFormName": "contract-service-notary-notarycontract",
+        "correctFormName": "contract-service-service-notary"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "cleaning",
+        "currentFormName": "contract-service-cleaning-cleaningcontract",
+        "correctFormName": "contract-service-service-cleaning"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "service",
+        "grouptype": "insuranceBroker",
+        "currentFormName": "contract-insurance-broker-brokercontract",
+        "correctFormName": "contract-service-service-insuranceBroker"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "maintenance",
+        "grouptype": "elevator",
+        "currentFormName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+        "correctFormName": "contract-service-maintenance-elevator"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "maintenance",
+        "grouptype": "heating",
+        "currentFormName": "contract-service-service-caretakerservice",
+        "correctFormName": "contract-service-maintenance-heating"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "maintenance",
+        "grouptype": "chimneySweeper",
+        "currentFormName": "contract-service-chimney-sweeper",
+        "correctFormName": "contract-service-maintenance-chimneySweeper"
+      },
+      {
+        "category": "contract",
+        "subcategory": "service",
+        "subcategorygroup": "maintenance",
+        "grouptype": "heatPump",
+        "currentFormName": "contract-service-service-chimneysweeper",
+        "correctFormName": "contract-service-maintenance-heatPump"
+      },
+      {
+        "category": "contract",
+        "subcategory": "energy",
+        "subcategorygroup": "electric",
+        "grouptype": "electricity",
+        "currentFormName": "contract-energy-electric-stromcontract",
+        "correctFormName": "contract-energy-electric-electricity"
+      },
+      {
+        "category": "contract",
+        "subcategory": "energy",
+        "subcategorygroup": "heating",
+        "grouptype": "districtHeating",
+        "currentFormName": "contract-energy-energy-energycontract",
+        "correctFormName": "contract-energy-heating-districtHeating"
+      },
+      {
+        "category": "contract",
+        "subcategory": "energy",
+        "subcategorygroup": "heating",
+        "grouptype": "gas",
+        "currentFormName": "contract-energy-energy-energycontract",
+        "correctFormName": "contract-energy-heating-gas"
+      },
+      {
+        "category": "contract",
+        "subcategory": "energy",
+        "subcategorygroup": "heating",
+        "grouptype": "oil",
+        "currentFormName": "contract-energy-energy-energycontract",
+        "correctFormName": "contract-energy-heating-oil"
+      },
+      {
+        "category": "contract",
+        "subcategory": "energy",
+        "subcategorygroup": "photovoltaic",
+        "grouptype": "electricity",
+        "currentFormName": "contract-energy-electric-stromcontract",
+        "correctFormName": "contract-energy-photovoltaic-electricity"
+      },
+      {
+        "category": "contract",
+        "subcategory": "propertyManagement",
+        "subcategorygroup": "propertyManagement",
+        "grouptype": "hausverwaltung",
+        "currentFormName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "correctFormName": "contract-propertyManagement-propertyManagement-hausverwaltung"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "objects",
+        "grouptype": "coffeeTable",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-objects-coffeeTable"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "objects",
+        "grouptype": "table",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-objects-table"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "devices",
+        "grouptype": "tv",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-devices-tv"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "devices",
+        "grouptype": "mobile",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-devices-mobile"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "realEstateTax",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-realestate-realEstateTax"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "house",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-realestate-house"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "apartment",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-realestate-apartment"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "car",
+        "grouptype": "car",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-purchaseContract-car-car"
+      },
+      {
+        "category": "contract",
+        "subcategory": "purchaseContract",
+        "subcategorygroup": "car",
+        "grouptype": "motorcycle",
+        "currentFormName": "contract-sale-sale-salecontract",
+        "correctFormName": "contract-purchaseContract-car-motorcycle"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "car",
+        "grouptype": "car",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-credit-car-car"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "car",
+        "grouptype": "boat",
+        "currentFormName": "contract-loan-loan-loanagreementcontract",
+        "correctFormName": "contract-credit-car-boat"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "car",
+        "grouptype": "caravan",
+        "currentFormName": "contract-loan-loan-loanagreementcontract",
+        "correctFormName": "contract-credit-car-caravan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "credit",
+        "grouptype": "freeUse",
+        "currentFormName": "contract-loan-loan-loanagreementcontract",
+        "correctFormName": "contract-credit-credit-freeUse"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "credit",
+        "grouptype": "modernization",
+        "currentFormName": "contract-loan-loan-loanagreementcontract",
+        "correctFormName": "contract-credit-credit-modernization"
+      },
+      {
+        "category": "contract",
+        "subcategory": "credit",
+        "subcategorygroup": "credit",
+        "grouptype": "rescheduling",
+        "currentFormName": "contract-loan-loan-loanagreementcontract",
+        "correctFormName": "contract-credit-credit-rescheduling"
+      },
+      {
+        "category": "contract",
+        "subcategory": "creditCard",
+        "subcategorygroup": "debitCard",
+        "grouptype": "debitkarte",
+        "currentFormName": "contract-creditcard-credit-creditcard",
+        "correctFormName": "contract-creditCard-debitCard-debitkarte"
+      },
+      {
+        "category": "contract",
+        "subcategory": "creditCard",
+        "subcategorygroup": "creditCard",
+        "grouptype": "kreditkarte",
+        "currentFormName": "contract-creditcard-credit-creditcardcontract",
+        "correctFormName": "contract-creditCard-creditCard-kreditkarte"
+      },
+      {
+        "category": "contract",
+        "subcategory": "leasing",
+        "subcategorygroup": "car",
+        "grouptype": "car",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-leasing-car-car"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "television",
+        "grouptype": "cableTv",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-television-cableTv"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "television",
+        "grouptype": "satelliteTv",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-television-satelliteTv"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "internet",
+        "grouptype": "broadband",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-internet-broadband"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "internet",
+        "grouptype": "glassFiber",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-internet-glassFiber"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "cellular",
+        "grouptype": "carPhone",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-cellular-carPhone"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "cellular",
+        "grouptype": "mobile",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-cellular-mobile"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "cellular",
+        "grouptype": "tablet",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-cellular-tablet"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "streaming",
+        "grouptype": "moviesSeries",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-streaming-moviesSeries"
+      },
+      {
+        "category": "contract",
+        "subcategory": "media",
+        "subcategorygroup": "streaming",
+        "grouptype": "music",
+        "currentFormName": "contract-media-streaming-streamingcontract",
+        "correctFormName": "contract-media-streaming-music"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "putDownSpace",
+        "grouptype": "garage",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-putDownSpace-garage"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "putDownSpace",
+        "grouptype": "parking",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-putDownSpace-parking"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "holidayHouse",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-realestate-holidayHouse"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "holidayApartment",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-realestate-holidayApartment"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "building",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-realestate-building"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "realestate",
+        "grouptype": "room",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-realestate-room"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "car",
+        "grouptype": "car",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-rentalContract-car-car"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "car",
+        "grouptype": "camper",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-car-camper"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "reside",
+        "grouptype": "houseLease",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-reside-houseLease"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalContract",
+        "subcategorygroup": "reside",
+        "grouptype": "apartmentRentalAgreement",
+        "currentFormName": "contract-lease-realestate-leasecontract",
+        "correctFormName": "contract-rentalContract-reside-apartmentRentalAgreement"
+      },
+      {
+        "category": "contract",
+        "subcategory": "rentalManagement",
+        "subcategorygroup": "rentalManagement",
+        "grouptype": "mietverwaltung",
+        "currentFormName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "correctFormName": "contract-rentalManagement-rentalManagement-mietverwaltung"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "business",
+        "grouptype": "managerLiability",
+        "currentFormName": "contract-insurance-domanager-domanagercontract",
+        "correctFormName": "contract-insurance-business-managerLiability"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "business",
+        "grouptype": "building",
+        "currentFormName": "contract-insurance-residential-residentialcontract",
+        "correctFormName": "contract-insurance-business-building"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "business",
+        "grouptype": "legalProtection",
+        "currentFormName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "correctFormName": "contract-insurance-business-legalProtection"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "car",
+        "grouptype": "motorcycle",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-insurance-car-motorcycle"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "car",
+        "grouptype": "tractor",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-insurance-car-tractor"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "car",
+        "grouptype": "camper",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-insurance-car-camper"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "car",
+        "grouptype": "caravan",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-insurance-car-caravan"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "abroad",
+        "currentFormName": "contract-insurance-inthealth-inthealthcontract",
+        "correctFormName": "contract-insurance-health-abroad"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "foreignTravel",
+        "currentFormName": "contract-insurance-travel-travelcontract",
+        "correctFormName": "contract-insurance-health-foreignTravel"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "statutoryHealthInsurance",
+        "currentFormName": "contract-insurance-health-healthcontract",
+        "correctFormName": "contract-insurance-health-statutoryHealthInsurance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "hospitalPerDiem",
+        "currentFormName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+        "correctFormName": "contract-insurance-health-hospitalPerDiem"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "sickPay",
+        "currentFormName": "contract-insurance-dailysickness-dailysicknesscontract",
+        "correctFormName": "contract-insurance-health-sickPay"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "additionalInsuranceFull",
+        "currentFormName": "contract-insurance-health-prisickfullcontract",
+        "correctFormName": "contract-insurance-health-additionalInsuranceFull"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "additionalInsuranceOutpatient",
+        "currentFormName": "contract-insurance-priaddout-priaddoutcontract",
+        "correctFormName": "contract-insurance-health-additionalInsuranceOutpatient"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "additionalInsuranceStationary",
+        "currentFormName": "contract-insurance-priaddstat-priaddstatcontract",
+        "correctFormName": "contract-insurance-health-additionalInsuranceStationary"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "health",
+        "grouptype": "additionalInsuranceTeeth",
+        "currentFormName": "contract-insurance-priaddtooth-priaddtoothcontract",
+        "correctFormName": "contract-insurance-health-additionalInsuranceTeeth"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "disabilityInsurance",
+        "currentFormName": "contract-insurance-disability-disabilitycontract",
+        "correctFormName": "contract-insurance-life-disabilityInsurance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "dailyCareAllowance",
+        "currentFormName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+        "correctFormName": "contract-insurance-life-dailyCareAllowance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "careInsurance",
+        "currentFormName": "contract-insurance-longtermcare-longtermcarecontract",
+        "correctFormName": "contract-insurance-life-careInsurance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "pensionInsuranceFund",
+        "currentFormName": "contract-insurance-pensionfund-pensionfundcontract",
+        "correctFormName": "contract-insurance-life-pensionInsuranceFund"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "pensionInsurance",
+        "currentFormName": "contract-insurance-classicpension-classicpensioncontract",
+        "correctFormName": "contract-insurance-life-pensionInsurance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "life",
+        "grouptype": "riskLifeInsurance",
+        "currentFormName": "contract-insurance-risklife-risklifecontract",
+        "correctFormName": "contract-insurance-life-riskLifeInsurance"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "buildersLiability",
+        "currentFormName": "contract-insurance-builderliability-builderliabilitycontract",
+        "correctFormName": "contract-insurance-object-buildersLiability"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "ebike",
+        "currentFormName": "contract-insurance-bike-bikecontract",
+        "correctFormName": "contract-insurance-object-ebike"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "elementary",
+        "currentFormName": "contract-insurance-fire-firecontract",
+        "correctFormName": "contract-insurance-object-elementary"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "fire",
+        "currentFormName": "contract-insurance-fire-firecontract",
+        "correctFormName": "contract-insurance-object-fire"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "glas",
+        "currentFormName": "contract-insurance-automobile-automobilecontract",
+        "correctFormName": "contract-insurance-object-glas"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "householdGoods",
+        "currentFormName": "contract-insurance-furniture-furniturecontract",
+        "correctFormName": "contract-insurance-object-householdGoods"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "homeownerLiability",
+        "currentFormName": "contract-insurance-liability-liabilitycontract",
+        "correctFormName": "contract-insurance-object-homeownerLiability"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "art",
+        "currentFormName": "contract-insurance-expatriates-expatriatescontract",
+        "correctFormName": "contract-insurance-object-art"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "lossOfRent",
+        "currentFormName": "contract-insurance-rental-rentalcontract",
+        "correctFormName": "contract-insurance-object-lossOfRent"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "photovoltaic",
+        "currentFormName": "contract-insurance-photovoltaic-photovoltaiccontract",
+        "correctFormName": "contract-insurance-object-photovoltaic"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "personalLiability",
+        "currentFormName": "contract-insurance-liability-liabilitycontract",
+        "correctFormName": "contract-insurance-object-personalLiability"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "legalProtection",
+        "currentFormName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "correctFormName": "contract-insurance-object-legalProtection"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "animalOwnerLiability",
+        "currentFormName": "contract-insurance-liabilitypet-liabilitypetcontract",
+        "correctFormName": "contract-insurance-object-animalOwnerLiability"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "animalSurgery",
+        "currentFormName": "contract-insurance-pet-petcontract",
+        "correctFormName": "contract-insurance-object-animalSurgery"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "environmentalDamage",
+        "currentFormName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+        "correctFormName": "contract-insurance-object-environmentalDamage"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "accident",
+        "currentFormName": "contract-insurance-accident-accidentcontract",
+        "correctFormName": "contract-insurance-object-accident"
+      },
+      {
+        "category": "contract",
+        "subcategory": "insurance",
+        "subcategorygroup": "object",
+        "grouptype": "residentialBuilding",
+        "currentFormName": "contract-insurance-residential-residentialcontract",
+        "correctFormName": "contract-insurance-object-residentialBuilding"
+      }
+    ],
+    "contact": [
+      {
+        "category": "contact",
+        "subcategory": "contact",
+        "subcategorygroup": "contact",
+        "grouptype": "singleContact",
+        "currentFormName": "contract-service-distribution-distributioncontract",
+        "correctFormName": "contact-contact-contact-singleContact"
+      },
+      {
+        "category": "contact",
+        "subcategory": "contact",
+        "subcategorygroup": "contact",
+        "grouptype": "contactGroup",
+        "currentFormName": "contract-service-consulting-consultingcontract",
+        "correctFormName": "contact-contact-contact-contactGroup"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.createTitle": "Klarna anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.updateTitle": "Klarna bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.viewTitle": "Klarna anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.specificData.title": "Klarna-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.specificData.fields.specificField1": "Transaktionsgebühr",
+  "jaynaApp.financeaccount-systems-paymentsystems-klarna.specificData.fields.specificField2": "Abrechnungszeitraum"
+}

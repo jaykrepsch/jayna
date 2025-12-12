@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <!-- Ergänzung Dokument-Taxonomie: Kommunikation (Gruppen + Typen) und Eingangsrechnung -->
+    <changeSet id="20250901-doc-taxonomy-comm-and-purchase-invoice" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="category"/>
+            <tableExists tableName="sub_category"/>
+            <tableExists tableName="sub_category_group"/>
+            <tableExists tableName="group_type"/>
+        </preConditions>
+
+        <sql dbms="postgresql">
+            WITH doc_cat AS (
+                SELECT id FROM category WHERE entity_name = 'document'
+            ),
+            -- SubCategory: Kommunikation
+            sc_comm AS (
+                SELECT id FROM sub_category WHERE name = 'Kommunikation' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Kommunikation', 'jaynaApp.document.main.communication', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Kommunikation' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            -- Gruppen unter Kommunikation
+            scg_corr AS (
+                SELECT id FROM sub_category_group WHERE name = 'Alltagskorrespondenz' AND sub_category_id = (SELECT id FROM sc_comm)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Alltagskorrespondenz', 'jaynaApp.document.group.everyday-correspondence', (SELECT id FROM sc_comm)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Alltagskorrespondenz' AND sub_category_id = (SELECT id FROM sc_comm)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            scg_protocols AS (
+                SELECT id FROM sub_category_group WHERE name = 'Protokolle' AND sub_category_id = (SELECT id FROM sc_comm)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Protokolle', 'jaynaApp.document.group.protocols', (SELECT id FROM sc_comm)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Protokolle' AND sub_category_id = (SELECT id FROM sc_comm)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            scg_digital AS (
+                SELECT id FROM sub_category_group WHERE name = 'Digitale Kommunikation' AND sub_category_id = (SELECT id FROM sc_comm)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Digitale Kommunikation', 'jaynaApp.document.group.digital-communication', (SELECT id FROM sc_comm)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Digitale Kommunikation' AND sub_category_id = (SELECT id FROM sc_comm)
+                    )
+                    RETURNING id
+                ) i
+            )
+            INSERT INTO group_type (id, name, translation_key, sub_category_group_id)
+            -- Alltagskorrespondenz
+            SELECT nextval('sequence_generator'), 'Allgemeine Korrespondenz', 'jaynaApp.document.type.general-correspondence', (SELECT id FROM scg_corr)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Allgemeine Korrespondenz' AND sub_category_group_id = (SELECT id FROM scg_corr))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Grußkarte', 'jaynaApp.document.type.greeting-card', (SELECT id FROM scg_corr)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Grußkarte' AND sub_category_group_id = (SELECT id FROM scg_corr))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Einladung', 'jaynaApp.document.type.invitation', (SELECT id FROM scg_corr)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Einladung' AND sub_category_group_id = (SELECT id FROM scg_corr))
+            -- Protokolle
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Besprechungsprotokoll', 'jaynaApp.document.type.meeting-minutes', (SELECT id FROM scg_protocols)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Besprechungsprotokoll' AND sub_category_group_id = (SELECT id FROM scg_protocols))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Vereinsprotokoll', 'jaynaApp.document.type.club-minutes', (SELECT id FROM scg_protocols)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Vereinsprotokoll' AND sub_category_group_id = (SELECT id FROM scg_protocols))
+            -- Digitale Kommunikation
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'E-Mail Ausdruck', 'jaynaApp.document.type.email-printout', (SELECT id FROM scg_digital)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'E-Mail Ausdruck' AND sub_category_group_id = (SELECT id FROM scg_digital))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Social-Media-Post', 'jaynaApp.document.type.social-media-post', (SELECT id FROM scg_digital)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Social-Media-Post' AND sub_category_group_id = (SELECT id FROM scg_digital))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Chat-Verlauf', 'jaynaApp.document.type.chat-log', (SELECT id FROM scg_digital)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Chat-Verlauf' AND sub_category_group_id = (SELECT id FROM scg_digital));
+        </sql>
+    </changeSet>
+
+    <!-- Ergänzung: Eingangsrechnung für Finanzen & Versicherungen → Rechnungen -->
+    <changeSet id="20250901-doc-taxonomy-purchase-invoice" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="sub_category"/>
+            <tableExists tableName="sub_category_group"/>
+            <tableExists tableName="group_type"/>
+        </preConditions>
+        <sql dbms="postgresql">
+            WITH doc_cat AS (
+                SELECT id FROM category WHERE entity_name = 'document'
+            ),
+            sc_fin AS (
+                SELECT id FROM sub_category WHERE name = 'Finanzen & Versicherungen' AND category_id = (SELECT id FROM doc_cat)
+            ),
+            scg_invoice AS (
+                SELECT id FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_fin)
+            )
+            INSERT INTO group_type (id, name, translation_key, sub_category_group_id)
+            SELECT nextval('sequence_generator'), 'Eingangsrechnung', 'jaynaApp.document.type.purchase-invoice', (SELECT id FROM scg_invoice)
+            WHERE EXISTS (SELECT 1 FROM scg_invoice)
+              AND NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Eingangsrechnung' AND sub_category_group_id = (SELECT id FROM scg_invoice));
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
+
+
+
+

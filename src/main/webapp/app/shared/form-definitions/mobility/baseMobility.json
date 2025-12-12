@@ -1,0 +1,167 @@
+{
+  "_comment": "Standard-Abschnitte für alle Mobilitäts-Form-Definitionen. Diese werden in spezifischen Mobilitäts-Definitionen referenziert.",
+  "general": {
+    "title": "jaynaApp.baseMobility.general.title",
+    "fields": [
+      {
+        "name": "label",
+        "type": "text",
+        "rules": "required"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "entityState",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "entityState",
+        "defaultValue": "ACTIVE"
+      }
+    ]
+  },
+  "vehicleData": {
+    "title": "jaynaApp.baseMobility.vehicleData.title",
+    "fields": [
+      {
+        "name": "vehicleType",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "vehicleType"
+      },
+      {
+        "name": "brand",
+        "type": "text"
+      },
+      {
+        "name": "model",
+        "type": "text"
+      },
+      {
+        "name": "yearOfManufacture",
+        "type": "number"
+      },
+      {
+        "name": "licensePlate",
+        "type": "text"
+      },
+      {
+        "name": "vin",
+        "type": "text"
+      },
+      {
+        "name": "color",
+        "type": "text"
+      },
+      {
+        "name": "mileage",
+        "type": "number"
+      },
+      {
+        "name": "fuelType",
+        "type": "dropdown",
+        "boxLabel": "global.menu.choose",
+        "enumName": "fuelType"
+      },
+      {
+        "name": "engineSize",
+        "type": "number"
+      },
+      {
+        "name": "power",
+        "type": "number"
+      }
+    ]
+  },
+  "ownership": {
+    "title": "jaynaApp.baseMobility.ownership.title",
+    "fields": [
+      {
+        "name": "owner",
+        "type": "text"
+      },
+      {
+        "name": "purchaseDate",
+        "type": "date"
+      },
+      {
+        "name": "purchasePrice",
+        "type": "number"
+      },
+      {
+        "name": "currentValue",
+        "type": "number"
+      },
+      {
+        "name": "registrationDate",
+        "type": "date"
+      }
+    ]
+  },
+  "financial": {
+    "title": "jaynaApp.baseMobility.financial.title",
+    "fields": [
+      {
+        "name": "monthlyCosts",
+        "type": "number"
+      },
+      {
+        "name": "annualCosts",
+        "type": "number"
+      },
+      {
+        "name": "fuelCosts",
+        "type": "number"
+      },
+      {
+        "name": "maintenanceCosts",
+        "type": "number"
+      },
+      {
+        "name": "insuranceCosts",
+        "type": "number"
+      },
+      {
+        "name": "taxCosts",
+        "type": "number"
+      }
+    ]
+  },
+  "weiteres": {
+    "title": "jaynaApp.baseMobility.weiteres.title",
+    "fields": [
+      {
+        "name": "comment",
+        "type": "textarea"
+      },
+      {
+        "name": "notes",
+        "type": "textarea"
+      }
+    ]
+  },
+  "relations": {
+    "title": "jaynaApp.baseMobility.relations.title"
+  },
+  "organisation": {
+    "title": "jaynaApp.baseContract.organisation.title",
+    "fields": [
+      {
+        "name": "organisationTable",
+        "type": "organisation-table",
+        "label": "Kalender, Aufgaben & Notizen"
+      }
+    ]
+  },
+  "documents": {
+    "title": "jaynaApp.baseContract.documents.title",
+    "fields": [
+      {
+        "name": "documentsTable",
+        "type": "documents-table",
+        "label": "Verknüpfte Dokumente"
+      }
+    ]
+  }
+}

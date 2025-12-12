@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <changeSet id="20250715000002-1" author="jayna">
+        <comment>Aktualisiere alle Mobility Form-Namen basierend auf dem Contract-Employment-Employee-TerminationAgreement-Konzept</comment>
+        
+        <!-- Auto (Car) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-car"/>
+            <where>name = 'Auto' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Geländewagen (Off-Road Vehicle) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-offroadvehicle"/>
+            <where>name = 'Geländewagen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- SUV -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-suv"/>
+            <where>name = 'SUV' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Van -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-van"/>
+            <where>name = 'Van' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Transporter -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-transporter"/>
+            <where>name = 'Transporter' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kombi (Station Wagon) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-stationwagon"/>
+            <where>name = 'Kombi' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinlaster (Small Transporter) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-smalltransporter"/>
+            <where>name = 'Kleinlaster' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinwagen (Small Car) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-smallcar"/>
+            <where>name = 'Kleinwagen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Roadster -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-roadstar"/>
+            <where>name = 'Roadster' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Pickup -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-pickup"/>
+            <where>name = 'Pickup' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Minivan -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-minivan"/>
+            <where>name = 'Minivan' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinbus (Minibus) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-minibus"/>
+            <where>name = 'Kleinbus' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Limousine -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-limousine"/>
+            <where>name = 'Limousine' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- CUV -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-cuv"/>
+            <where>name = 'CUV' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Coupé -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-coupe"/>
+            <where>name = 'Coupé' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Cabrio (Convertible) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-convertible"/>
+            <where>name = 'Cabrio' AND entity_name = 'mobility'</where>
+        </update>
+        
+    </changeSet>
+    
+</databaseChangeLog> 

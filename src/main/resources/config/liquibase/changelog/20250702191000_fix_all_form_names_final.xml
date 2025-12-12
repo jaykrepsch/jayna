@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20250702191000-1" author="system">
+        <comment>Korrigiere alle fehlerhaften form_name-Werte in der group_type Tabelle</comment>
+        
+        <!-- Sparkonto (ID 146) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-savings-savings-savingscontract"/>
+            <where>id = 146</where>
+        </update>
+        
+        <!-- Tagesgeldkonto (ID 147) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-savings-savings-overnightcontract"/>
+            <where>id = 147</where>
+        </update>
+        
+        <!-- Kreditkarte (ID 149) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcardcontract"/>
+            <where>id = 149</where>
+        </update>
+        
+        <!-- Debitkarte (ID 150) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-creditcard-credit-creditcard"/>
+            <where>id = 150</where>
+        </update>
+        
+        <!-- Hausverwaltung (ID 151) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-propertymanagement-propertymanagement-propertymanagementcontract"/>
+            <where>id = 151</where>
+        </update>
+        
+        <!-- Mietverwaltung (ID 152) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-rentalmanagement-rentalmanagement-rentalmanagementcontract"/>
+            <where>id = 152</where>
+        </update>
+        
+        <!-- Haus- und Grundbesitzerhaftpflicht (ID 97) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-liability-liabilitycontract"/>
+            <where>id = 97</where>
+        </update>
+        
+        <!-- Elementar (Wohngebäude) (ID 104) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-fire-firecontract"/>
+            <where>id = 104</where>
+        </update>
+        
+        <!-- Versicherungsmakler (ID 105) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-broker-brokercontract"/>
+            <where>id = 105</where>
+        </update>
+        
+        <!-- Hausmeisterservice (ID 106) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-caretaker-caretakerservicecontract"/>
+            <where>id = 106</where>
+        </update>
+        
+        <!-- Reinigung (ID 107) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-cleaning-cleaningservicecontract"/>
+            <where>id = 107</where>
+        </update>
+        
+        <!-- Immobilienmakler (ID 108) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-broker-brokercontract"/>
+            <where>id = 108</where>
+        </update>
+        
+        <!-- Gärtner (ID 109) -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-service-gardener-gardenerservicecontract"/>
+            <where>id = 109</where>
+        </update>
+        
+    </changeSet>
+
+</databaseChangeLog> 

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-notary.createTitle": "Notar anlegen",
+  "jaynaApp.contract-service-service-notary.updateTitle": "Notar bearbeiten",
+  "jaynaApp.contract-service-service-notary.viewTitle": "Notar anzeigen",
+  "jaynaApp.contract-service-service-notary.specificData.title": "Notar-spezifische Daten",
+  "jaynaApp.contract-service-service-notary.specificData.fields.specificField1": "Notargebühr",
+  "jaynaApp.contract-service-service-notary.specificData.fields.specificField2": "Dienstleistung"
+}

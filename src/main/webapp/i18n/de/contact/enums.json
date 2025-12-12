@@ -1,0 +1,45 @@
+{
+  "title": {
+    "DR": "Dr.",
+    "PROF": "Prof.",
+    "DR_MED": "Dr. med."
+  },
+  "salutation": {
+    "MR": "Herr",
+    "MRS": "Frau"
+  },
+  "rank": {
+    "COLONEL": "Oberst",
+    "LIEUTENANT": "Leutnant"
+  },
+  "gender": {
+    "MALE": "Männlich",
+    "FEMALE": "Weiblich",
+    "DIVERS": "Divers"
+  },
+  "maritalStatus": {
+    "SINGLE": "Ledig",
+    "MARRIED": "Verheiratet",
+    "DIVORCED": "Geschieden",
+    "WIDOWED": "Verwitwet",
+    "PARTNERSHIP": "Partnerschaft"
+  },
+  "addressType": {
+    "PRIVATE": "Privat",
+    "BUSINESS": "Geschäftlich"
+  },
+  "communicationType": {
+    "PHONE": "Telefon",
+    "FAX": "Fax",
+    "MOBILE": "Mobil",
+    "PAGER": "Pager",
+    "EMAIL": "E-Mail",
+    "CHAT": "Chat",
+    "HOMEPAGE": "Homepage",
+    "SOCIAL_MEDIA": "Soziale Medien"
+  },
+  "entityState": {
+    "ACTIVE": "Aktiv",
+    "ARCHIVE": "Archiviert"
+  }
+}

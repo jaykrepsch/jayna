@@ -1,0 +1,17 @@
+{
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.createTitle": "Google Pay-Konto anlegen",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.updateTitle": "Google Pay-Konto bearbeiten",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.viewTitle": "Google Pay-Konto anzeigen",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.title": "Google Pay-spezifische Daten",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.paymentSystemType": "Bezahlsystem-Typ",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.emailAddress": "E-Mail-Adresse",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.phoneNumber": "Telefonnummer",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.accountStatus": "Kontostatus",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.verificationStatus": "Verifizierungsstatus",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.businessAccount": "Geschäftskonto",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.googleAccount": "Google-Konto",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.walletEnabled": "Wallet aktiviert",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.contactlessPayments": "Kontaktlose Zahlungen",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.onlinePayments": "Online-Zahlungen",
+  "jaynaApp.financeaccount-systems-paymentsystems-googlepay.specificData.fields.rewardsProgram": "Bonusprogramm"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.createTitle": "Personenfahrzeug Motorrad dirtbike anlegen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.updateTitle": "Personenfahrzeug Motorrad dirtbike bearbeiten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.viewTitle": "Personenfahrzeug Motorrad dirtbike anzeigen",
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.specificData.title": "Personenfahrzeug Motorrad dirtbike-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-motorcycle-dirtbike.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-official-terminationagreement.createTitle": "Kündigungsvereinbarung Beamter erstellen",
+  "jaynaApp.contract-employment-official-terminationagreement.updateTitle": "Kündigungsvereinbarung Beamter bearbeiten",
+  "jaynaApp.contract-employment-official-terminationagreement.viewTitle": "Kündigungsvereinbarung Beamter anzeigen",
+  "jaynaApp.contract-employment-official-terminationagreement.specificData.title": "Spezifische Daten",
+  "jaynaApp.contract-employment-official-terminationagreement.specificData.fields.specificField1": "Kündigungsgrund",
+  "jaynaApp.contract-employment-official-terminationagreement.specificData.fields.specificField2": "Kündigungsfrist (Tage)"
+}

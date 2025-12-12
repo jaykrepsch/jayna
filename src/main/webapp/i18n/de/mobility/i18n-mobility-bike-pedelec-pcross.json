@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-pcross.createTitle": "Fahrrad pedelec pcross anlegen",
+  "jaynaApp.mobility-bike-pedelec-pcross.updateTitle": "Fahrrad pedelec pcross bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-pcross.viewTitle": "Fahrrad pedelec pcross anzeigen",
+  "jaynaApp.mobility-bike-pedelec-pcross.specificData.title": "Fahrrad pedelec pcross-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-pcross.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-pcross.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

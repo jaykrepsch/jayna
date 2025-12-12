@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.createTitle": "Online-Virtuelle Kreditkarte anlegen",
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.updateTitle": "Online-Virtuelle Kreditkarte bearbeiten",
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.viewTitle": "Online-Virtuelle Kreditkarte anzeigen",
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.specificData.title": "Online-Virtuelle Kreditkarte-spezifische Daten",
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.specificData.fields.specificField1": "Kreditlimit",
+  "jaynaApp.financeaccount-credit-creditcard-onlinevirtual.specificData.fields.specificField2": "Gültigkeitsdauer"
+}

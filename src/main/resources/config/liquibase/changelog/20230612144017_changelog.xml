@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1686580823800-3">
+        <createTable tableName="jhi_authority_config">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="allowed_contracts" type="VARCHAR(255)"/>
+            <column name="allowed_real_estates" type="VARCHAR(255)"/>
+            <column name="allowed_devices" type="VARCHAR(255)"/>
+            <column name="allowed_objects" type="VARCHAR(255)"/>
+        </createTable>
+        <addPrimaryKey columnNames="id" tableName="jhi_authority_config"/>
+        <createSequence sequenceName="sequence_generator"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1686580823800-4">
+        <addColumn tableName="jhi_authority">
+            <column name="authority_config_id" type="BIGINT"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1686580823800-5">
+        <addUniqueConstraint columnNames="authority_config_id" constraintName="UC_JHI_AUTHORITYAUTHORITY_CONFIG_ID_COL" tableName="jhi_authority"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1686580823800-6">
+        <addForeignKeyConstraint baseColumnNames="authority_config_id" baseTableName="jhi_authority" constraintName="FKbo8a182gj2gl582c2frqxjmvw" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="jhi_authority_config" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1686580823800-8">
+      <update tableName="jhi_user_authority">
+        <column name="authority_name" value="ROLE_USER_LIGHT"/>
+        <where>authority_name = 'ROLE_USER'</where>
+      </update>
+    </changeSet>
+</databaseChangeLog>

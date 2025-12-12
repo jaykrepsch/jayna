@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="20250829-add-document-category" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <sqlCheck expectedResult="0">SELECT COUNT(*) FROM category WHERE entity_name = 'document'</sqlCheck>
+            </not>
+        </preConditions>
+        <insert tableName="category">
+            <column name="name" value="Dokumente"/>
+            <column name="translation_key" value="document"/>
+            <column name="entity_name" value="document"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
+
+

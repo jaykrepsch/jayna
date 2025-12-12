@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.createTitle": "Wohnungsmietvertrag anlegen",
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.updateTitle": "Wohnungsmietvertrag bearbeiten",
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.viewTitle": "Wohnungsmietvertrag anzeigen",
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.specificData.title": "Wohnungsmietvertrag-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-reside-apartmentrentalagreement.specificData.fields.specificField2": "Nebenkosten"
+}

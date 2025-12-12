@@ -1,0 +1,120 @@
+{
+  "applications": "*",
+  "changelogDate": "20230710101719",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contract",
+  "fields": [
+    {
+      "fieldName": "contractor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contractOwner",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contractUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contractNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "applicationDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "confirmationDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "paymentPattern",
+      "fieldType": "PaymentPattern",
+      "fieldValues": "ONETIME,WEEKLY,DAILY,MONTHLY,TWOMONTHLY,QUARTERLY,SEMIANNUAL,ANNUAL"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "payer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentType",
+      "fieldType": "PaymentType",
+      "fieldValues": "TRANSFER,SEPA_DEBIT,CASH"
+    },
+    {
+      "fieldName": "salary",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vacationDays",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "occupation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activities",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "loanValue",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "interestRatePercent",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "interestRateCurrency",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "amortizationRatePercent",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "amortizationRateCurrency",
+      "fieldType": "Double"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Contract",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "applicationUser",
+      "relationshipName": "applicationUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "groupType",
+      "relationshipName": "groupType",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "contractRealestate",
+      "otherEntityRelationshipName": "contract",
+      "relationshipName": "contractRealestates",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": true
+}

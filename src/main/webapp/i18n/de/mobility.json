@@ -1,0 +1,90 @@
+{
+  "jaynaApp": {
+    "mobility": {
+      "sub-category": {
+        "car": "Auto",
+        "motorcycle": "Motorrad",
+        "truck": "LKW",
+        "van": "Transporter",
+        "boat": "Boot",
+        "plane": "Flugzeug",
+        "bike": "Fahrrad",
+        "agriculture": "Landwirtschaft",
+        "commercial-vehicle": "Nutzfahrzeug",
+        "passenger-vehicle": "Personenkraftwagen",
+        "scooter": "Roller"
+      },
+      "sub-category-group": {
+        "vehicle": "Fahrzeug",
+        "watercraft": "Wasserfahrzeug",
+        "aircraft": "Luftfahrzeug",
+        "bike": "Fahrrad",
+        "ebike": "E-Bike",
+        "pedelec": "Pedelec",
+        "tractor": "Traktor",
+        "caravan": "Wohnwagen",
+        "sailing": "Segeln",
+        "hybrid": "Hybrid",
+        "car": "Auto",
+        "motorcycle": "Motorrad",
+        "quad": "Quad",
+        "camper": "Wohnmobil",
+        "passengervehicle": "Personenkraftwagen"
+      },
+      "group-type": {
+        "car": "Auto",
+        "motorcycle": "Motorrad",
+        "truck": "LKW",
+        "van": "Transporter",
+        "boat": "Boot",
+        "plane": "Flugzeug",
+        "bike": "Fahrrad",
+        "cargo": "Lastenrad",
+        "trekkingbike": "Trekkingrad",
+        "city": "Stadtrad",
+        "gravel": "Gravel Bike",
+        "suv": "SUV",
+        "cross": "Cross",
+        "foldingbike": "Faltrad",
+        "lifestyle": "Lifestyle",
+        "speedbike": "Speedbike",
+        "mtb": "Mountainbike",
+        "etrekkingbike": "E-Trekkingrad",
+        "egravel": "E-Gravel",
+        "ecross": "E-Cross",
+        "efoldingbike": "E-Faltrad",
+        "elifestyle": "E-Lifestyle",
+        "espeedbike": "E-Speedbike",
+        "emtb": "E-Mountainbike",
+        "etricycle": "E-Dreirad",
+        "ecargo": "E-Lastenrad",
+        "pgravel": "P-Gravel",
+        "pcargo": "P-Lastenrad",
+        "pfoldingbike": "P-Faltrad",
+        "tractor": "Traktor",
+        "tent": "Zelt",
+        "sailingyacht": "Segelyacht",
+        "motorglider": "Motorsegler",
+        "convertible": "Cabrio",
+        "coupe": "Coupé",
+        "cuv": "CUV",
+        "off-road-vehicle": "Geländewagen",
+        "minibus": "Minibus",
+        "small-transporter": "Kleintransporter",
+        "small-car": "Kleinwagen",
+        "station-wagon": "Kombi",
+        "limousine": "Limousine",
+        "minivan": "Minivan",
+        "pickup": "Pickup",
+        "roadstar": "Roadster",
+        "transporter": "Transporter"
+      },
+      "messages": {
+        "delete": {
+          "title": "Mobilität löschen",
+          "content": "Sind Sie sicher, dass Sie diese Mobilität löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    }
+  }
+} 

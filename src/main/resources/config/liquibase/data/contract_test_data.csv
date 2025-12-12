@@ -1,0 +1,4 @@
+id;contract_number;start_date;end_date;application_date;confirmation_date;amount;payment_pattern;payment_type;payer;contractor;contract_owner;contract_user;label;comment;entity_state;application_user_id;group_type_id
+1;CTR-001;2024-01-01;2024-12-31;2023-12-15;2023-12-20;50000;MONTHLY;TRANSFER;Max Mustermann;Max Mustermann;Max Mustermann;Max Mustermann;Arbeitsvertrag Vollzeit;Vollzeit Arbeitsvertrag;ACTIVE;1;1
+2;CTR-002;2024-02-01;2024-12-31;2024-01-15;2024-01-20;30000;MONTHLY;TRANSFER;Anna Schmidt;Anna Schmidt;Anna Schmidt;Anna Schmidt;Teilzeit Vertrag;Teilzeit Arbeitsvertrag;ACTIVE;1;2
+3;CTR-003;2024-03-01;2024-12-31;2024-02-15;2024-02-20;40000;MONTHLY;TRANSFER;Peter Müller;Peter Müller;Peter Müller;Peter Müller;Versicherung Kranken;Krankenversicherung;ACTIVE;1;3 

@@ -1,0 +1,271 @@
+  kategorie   |       art        |     gruppierung     |               sparte               |                                 form_name                                 
+--------------+------------------+---------------------+------------------------------------+---------------------------------------------------------------------------
+ Finanzkonten | Bank             | Bankkonto           | Girokonto                          | contract-savings-realestate-buildingsavings
+ Finanzkonten | Bank             | Bankkonto           | Sparkonto                          | contract-savings-savings-savingscontract
+ Finanzkonten | Kredit           | Kreditkarte         | Charge                             | contract-savings-savings-overnightcontract
+ Finanzkonten | Kredit           | Kreditkarte         | Debit                              | contract-creditcard-credit-creditcard
+ Finanzkonten | Kredit           | Kreditkarte         | Online Virtuell                    | contract-propertymanagement-propertymanagement-propertymanagementcontract
+ Finanzkonten | Kredit           | Kreditkarte         | Prepaid                            | contract-creditcard-credit-creditcardcontract
+ Finanzkonten | Kredit           | Kreditkarte         | Revolving                          | contract-savings-savings-depositcontract
+ Finanzkonten | Kredit           | Kreditkarte         | Samsung                            | contract-employment-official-work-contract
+ Finanzkonten | Systeme          | Bezahlsysteme       | Apple Pay                          | contract-employment-official-mini-job
+ Finanzkonten | Systeme          | Bezahlsysteme       | Google Pay                         | contract-employment-official-part-time
+ Finanzkonten | Systeme          | Bezahlsysteme       | Klarna                             | contract-employment-public-service-fulltime
+ Finanzkonten | Systeme          | Bezahlsysteme       | Paypal                             | contract-rentalmanagement-rentalmanagement-rentalmanagementcontract
+ Finanzkonten | Systeme          | Bezahlsysteme       | Skrill                             | contract-employment-public-service-mini-job
+ Finanzkonten | Systeme          | Bezahlsysteme       | Stripe                             | contract-employment-public-service-part-time
+ Immobilien   | mit Bebauung     | Bewirtschaftung     | Ackerland                          | contract-service-gardener-gardenercontract2
+ Immobilien   | mit Bebauung     | Bewirtschaftung     | Forst                              | contract-employment-employee-work-contract
+ Immobilien   | mit Bebauung     | Bewirtschaftung     | Frucht                             | contract-employment-official-fulltime
+ Immobilien   | mit Bebauung     | Bewirtschaftung     | Weide                              | contract-employment-official-internship
+ Immobilien   | mit Bebauung     | Garten              | Schrebergarten                     | contract-service-franchise-franchisecontract
+ Immobilien   | mit Bebauung     | Gewerbehaus         | Gewerbeeinheit                     | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Gewerbehaus         | Gewerbehaus                        | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Halle               | Halle                              | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Parkfläche          | Carport                            | contract-service-security-securitycontract
+ Immobilien   | mit Bebauung     | Parkfläche          | Garage                             | contract-service-software-softwarecontract
+ Immobilien   | mit Bebauung     | Parkfläche          | Parkhaus                           | contract-tax-realestate-realestatetaxcontract
+ Immobilien   | mit Bebauung     | Parkfläche          | Parkplatz                          | contract-telecommunication-telecommunication-telecommunicationcontract
+ Immobilien   | mit Bebauung     | Wohn + Gewerbehaus  | Wohnungen & Gewerbe                | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Doppelhaushälfte                   | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Einfamilienhaus                    | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Ferienhaus                         | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Mehrfamilienhaus                   | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Pflegeeinrichtung                  | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Reihenendhaus                      | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Reihenmittelhaus                   | contract-service-broker-realestateagent
+ Immobilien   | mit Bebauung     | Wohnhaus            | Zweifamilienhaus                   | contract-service-broker-realestateagent
+ Immobilien   | ohne Bebauung    | Grund               | Bebauungsgrundstück                | contract-service-maintenance-maintenancecontract
+ Immobilien   | ohne Bebauung    | Grund               | Wiese                              | contract-service-service-servicecontract
+ Kontakte     | Kontakte         | Kontakt             | Einzelkontakt                      | contract-service-distribution-distributioncontract
+ Kontakte     | Kontakte         | Kontakt             | Kontaktgruppe                      | contract-service-consulting-consultingcontract
+ Mobilität    | Boot             | Hybrid              | Motorsegler                        | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Motorbetrieben      | Jollenkreuzer                      | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Motorbetrieben      | Motorboot                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Motorbetrieben      | Sportboot                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Motorbetrieben      | Yacht                              | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Segeln              | Segelboot                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Boot             | Segeln              | Segelyacht                         | contract-insurance-automobile-automobilecontract
+ Mobilität    | Fahrrad          | Bike                | City                               | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Cross                              | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Dreirad                            | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Falt                               | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Gravel                             | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Lasten                             | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Lifestyle                          | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Mountainbike                       | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Rennrad                            | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Speed                              | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | SUV                                | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | Trekking                           | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | Bike                | XXL                                | contract-employment-publicservice-internship
+ Mobilität    | Fahrrad          | E-Bike              | City                               | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Cross                              | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Dreirad                            | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Falt                               | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Gravel                             | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Lasten                             | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Lifestyle                          | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Mountainbike                       | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Rennrad                            | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Speed                              | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | SUV                                | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | Trekking                           | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | E-Bike              | XXL                                | contract-energy-energy-energycontract2
+ Mobilität    | Fahrrad          | Pedelec             | City                               | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Cross                              | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Dreirad                            | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Falt                               | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Gravel                             | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Lasten                             | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Lifestyle                          | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Mountainbike                       | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Rennrad                            | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Speed                              | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | SUV                                | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | Trekking                           | contract-loan-loan-loancontract
+ Mobilität    | Fahrrad          | Pedelec             | XXL                                | contract-loan-loan-loancontract
+ Mobilität    | Landwirtschaft   | Traktor             | B                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Landwirtschaft   | Traktor             | C                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Landwirtschaft   | Traktor             | Träker                             | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Anhänger            | A                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Anhänger            | B                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Anhänger            | C                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Kasten              | A                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Kasten              | B                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Kasten              | C                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Nutzfahrzeug     | Wohnwagen           | Familien                           | contract-lease-lease-leasecontract
+ Mobilität    | Nutzfahrzeug     | Wohnwagen           | Luxus                              | contract-lease-lease-leasecontract
+ Mobilität    | Nutzfahrzeug     | Wohnwagen           | Sport                              | contract-lease-lease-leasecontract
+ Mobilität    | Nutzfahrzeug     | Wohnwagen           | Zelt                               | contract-lease-lease-leasecontract
+ Mobilität    | Nutzfahrzeug     | Wohnwagen           | Zwei-Personen                      | contract-lease-lease-leasecontract
+ Mobilität    | Personenfahrzeug | Auto                | Cabrio                             | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Coupé                              | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | CUV                                | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Geländewagen                       | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Kleinbus                           | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Kleintransporter                   | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Kleinwagen                         | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Kombi                              | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Limousine                          | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Minivan                            | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Pickup                             | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Roadstar                           | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | SUV                                | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Transporter                        | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Auto                | Van                                | contract-employment-public-service-work-contract
+ Mobilität    | Personenfahrzeug | Motorrad            | Chopper                            | contract-media-media-mediacontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Cruiser                            | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Dirt Bike                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Motocross                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Naked                              | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Srambler                           | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Streetfighter                      | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Stuntbike                          | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Motorrad            | Trial                              | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | 4x4                                | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | C                                  | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Elektro                            | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Kinder                             | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Offroad                            | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Pocket                             | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Renn                               | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Road                               | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Quad                | Side by Side                       | contract-insurance-automobile-automobilecontract
+ Mobilität    | Personenfahrzeug | Wohnmobil           | mit Alkoven                        | contract-loan-realestate-annuityloan
+ Mobilität    | Personenfahrzeug | Wohnmobil           | teilintegriert                     | contract-loan-realestate-annuityloan
+ Mobilität    | Personenfahrzeug | Wohnmobil           | vollintegriert                     | contract-loan-realestate-annuityloan
+ Verträge     | Arbeitsvertrag   | Angestellter        | Aufhebungsvertrag                  | contract-employment-employee-terminationcontract
+ Verträge     | Arbeitsvertrag   | Angestellter        | Aushilfe                           | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | Angestellter        | Mini                               | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | Angestellter        | Praktikumsvertrag                  | contract-employment-employee-internship
+ Verträge     | Arbeitsvertrag   | Angestellter        | Teilzeit                           | contract-employment-employee-part-time
+ Verträge     | Arbeitsvertrag   | Angestellter        | Vollzeit                           | contract-employment-employee-fulltime
+ Verträge     | Arbeitsvertrag   | Angestellter        | Werkvertrag                        | contract-employment-employment-employmentcontract
+ Verträge     | Arbeitsvertrag   | Beamter             | Aufhebungsvertrag                  | contract-employment-employee-terminationcontract
+ Verträge     | Arbeitsvertrag   | Beamter             | Aushilfe                           | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | Beamter             | Mini                               | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | Beamter             | Praktikumsvertrag                  | contract-employment-employee-internship
+ Verträge     | Arbeitsvertrag   | Beamter             | Teilzeit                           | contract-employment-employee-part-time
+ Verträge     | Arbeitsvertrag   | Beamter             | Vollzeit                           | contract-employment-employee-fulltime
+ Verträge     | Arbeitsvertrag   | Beamter             | Werkvertrag                        | contract-employment-employment-employmentcontract
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Aufhebungsvertrag                  | contract-employment-employee-terminationcontract
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Aushilfe                           | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Mini                               | contract-employment-employee-mini-job
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Praktikumsvertrag                  | contract-employment-employee-internship
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Teilzeit                           | contract-employment-employee-part-time
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Vollzeit                           | contract-employment-employee-fulltime
+ Verträge     | Arbeitsvertrag   | öffentlicher Dienst | Werkvertrag                        | contract-employment-employment-employmentcontract
+ Verträge     | Bankkonto        | Festgeldkonto       | Festgeldkonto                      | contract-savings-savings-fixedtermcontract
+ Verträge     | Bankkonto        | Girokonto           | Girokonto                          | contract-bankaccount-bank-bankaccount
+ Verträge     | Bankkonto        | Sparkonto           | Sparkonto                          | contract-savings-savings-savingscontract
+ Verträge     | Bankkonto        | Tagesgeldkonto      | Tagesgeldkonto                     | contract-savings-savings-overnightcontract
+ Verträge     | Darlehen         | Förderung           | Bafög                              | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Abrufdarlehen                      | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Annuitätendarlehen                 | contract-loan-annuityloan-annuityloan
+ Verträge     | Darlehen         | Immobilie           | Endfällige Darlehen                | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Laufzeitzinsdarlehen               | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Modernisierung                     | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Partiarische Darlehen              | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Rollierende Geldmarktdarlehen      | contract-loan-credit-creditcontract
+ Verträge     | Darlehen         | Immobilie           | Tilgungsdarlehen                   | contract-loan-credit-creditcontract
+ Verträge     | Dienstleistung   | Gebühren            | Gemeindegebühren                   | contract-fees-municipal-municipalcontract
+ Verträge     | Dienstleistung   | Gebühren            | Grunderwerbssteuer                 | contract-purchase-realestate-purchasecontract
+ Verträge     | Dienstleistung   | Service             | Gärtner                            | contract-service-gardener-gardenercontract
+ Verträge     | Dienstleistung   | Service             | Hausmeisterservice                 | contract-service-caretaker-service
+ Verträge     | Dienstleistung   | Service             | Hausverwaltung                     | contract-propertymanagement-propertymanagement-propertymanagementcontract
+ Verträge     | Dienstleistung   | Service             | Immobilienmakler                   | contract-service-broker-insurancebroker
+ Verträge     | Dienstleistung   | Service             | KFZ-Inspektion                     | contract-mobility-car-inspection
+ Verträge     | Dienstleistung   | Service             | Mietverwaltung                     | contract-rental-rental-rentalcontract
+ Verträge     | Dienstleistung   | Service             | Notar                              | contract-service-notary-notarycontract
+ Verträge     | Dienstleistung   | Service             | Reinigung                          | contract-service-cleaning-cleaningcontract
+ Verträge     | Dienstleistung   | Service             | Versicherungsmakler                | contract-insurance-broker-brokercontract
+ Verträge     | Dienstleistung   | Wartung             | Aufzug                             | contract-telecommunication-telecommunication-telecommunicationcontract2
+ Verträge     | Dienstleistung   | Wartung             | Heizung                            | contract-service-service-caretakerservice
+ Verträge     | Dienstleistung   | Wartung             | Schornsteinfeger                   | contract-service-chimney-sweeper
+ Verträge     | Dienstleistung   | Wartung             | Wärmepumpe                         | contract-service-service-chimneysweeper
+ Verträge     | Energie          | Elektrik            | Strom                              | contract-energy-electric-stromcontract
+ Verträge     | Energie          | Heizen              | Fernwärme                          | contract-energy-energy-energycontract
+ Verträge     | Energie          | Heizen              | Gas                                | contract-energy-energy-energycontract
+ Verträge     | Energie          | Heizen              | Öl                                 | contract-energy-energy-energycontract
+ Verträge     | Energie          | Photovoltaik        | Strom                              | contract-energy-electric-stromcontract
+ Verträge     | Hausverwaltung   | Hausverwaltung      | Hausverwaltung                     | contract-propertymanagement-propertymanagement-propertymanagementcontract
+ Verträge     | Kaufvertrag      | Gegenstände         | Couch                              | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Gegenstände         | Tisch                              | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Geräte              | Fernseher                          | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Geräte              | Handy                              | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Immobilie           | Grunderwerbssteuer                 | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Immobilie           | Haus                               | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | Immobilie           | Wohnung                            | contract-sale-sale-salecontract
+ Verträge     | Kaufvertrag      | KFZ                 | Auto                               | contract-insurance-automobile-automobilecontract
+ Verträge     | Kaufvertrag      | KFZ                 | Motorrad                           | contract-sale-sale-salecontract
+ Verträge     | Kredit           | KFZ                 | Auto                               | contract-insurance-automobile-automobilecontract
+ Verträge     | Kredit           | KFZ                 | Motorboot                          | contract-loan-loan-loanagreementcontract
+ Verträge     | Kredit           | KFZ                 | Wohnwagen                          | contract-loan-loan-loanagreementcontract
+ Verträge     | Kredit           | Kredit              | freie Verwendung                   | contract-loan-loan-loanagreementcontract
+ Verträge     | Kredit           | Kredit              | Modernisierung                     | contract-loan-loan-loanagreementcontract
+ Verträge     | Kredit           | Kredit              | Umschuldung                        | contract-loan-loan-loanagreementcontract
+ Verträge     | Kreditkarte      | Debitkarte          | Debitkarte                         | contract-creditcard-credit-creditcard
+ Verträge     | Kreditkarte      | Kreditkarte         | Kreditkarte                        | contract-creditcard-credit-creditcardcontract
+ Verträge     | Leasing          | KFZ                 | Auto                               | contract-insurance-automobile-automobilecontract
+ Verträge     | Medien           | Fernsehen           | Kabelfernsehen                     | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Fernsehen           | Satellitenfernsehen                | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Internet            | DSL                                | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Internet            | Glasfaser                          | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Mobilfunk           | Autotelefon                        | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Mobilfunk           | Handy                              | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Mobilfunk           | Tablet                             | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Streaming           | Filme / Serien                     | contract-media-streaming-streamingcontract
+ Verträge     | Medien           | Streaming           | Musik                              | contract-media-streaming-streamingcontract
+ Verträge     | Mietvertrag      | Abstellplatz        | Garage                             | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Abstellplatz        | Parkplatz                          | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Immobilie           | Ferienhaus                         | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Immobilie           | Ferienwohnung                      | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Immobilie           | Gebäude                            | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Immobilie           | Raum                               | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | KFZ                 | Auto                               | contract-insurance-automobile-automobilecontract
+ Verträge     | Mietvertrag      | KFZ                 | Wohnmobil                          | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Wohnen              | Hausmietvertrag                    | contract-lease-realestate-leasecontract
+ Verträge     | Mietvertrag      | Wohnen              | Wohnungsmietvertrag                | contract-lease-realestate-leasecontract
+ Verträge     | Mietverwaltung   | Mietverwaltung      | Mietverwaltung                     | contract-rentalmanagement-rentalmanagement-rentalmanagementcontract
+ Verträge     | Versicherung     | Gewerbe             | D&O Managerhaftpflicht             | contract-insurance-domanager-domanagercontract
+ Verträge     | Versicherung     | Gewerbe             | Gebäude                            | contract-insurance-residential-residentialcontract
+ Verträge     | Versicherung     | Gewerbe             | Rechtsschutz                       | contract-insurance-legalprotection-legalprotectioncontract
+ Verträge     | Versicherung     | KFZ                 | Motorrad                           | contract-insurance-automobile-automobilecontract
+ Verträge     | Versicherung     | KFZ                 | Traktor                            | contract-insurance-automobile-automobilecontract
+ Verträge     | Versicherung     | KFZ                 | Wohnmobil                          | contract-insurance-automobile-automobilecontract
+ Verträge     | Versicherung     | KFZ                 | Wohnwagen                          | contract-insurance-automobile-automobilecontract
+ Verträge     | Versicherung     | Kranken             | Ausland                            | contract-insurance-inthealth-inthealthcontract
+ Verträge     | Versicherung     | Kranken             | Auslandsreise                      | contract-insurance-travel-travelcontract
+ Verträge     | Versicherung     | Kranken             | gesetzliche Krankenversicherung    | contract-insurance-health-healthcontract
+ Verträge     | Versicherung     | Kranken             | Krankenhaustagegeld                | contract-insurance-dailyhospital-dailyhospitalcontract
+ Verträge     | Versicherung     | Kranken             | Krankentagegeld                    | contract-insurance-dailysickness-dailysicknesscontract
+ Verträge     | Versicherung     | Kranken             | Privat Kranken voll                | contract-insurance-health-prisickfullcontract
+ Verträge     | Versicherung     | Kranken             | Privat Zusatz ambulant             | contract-insurance-priaddout-priaddoutcontract
+ Verträge     | Versicherung     | Kranken             | Privat Zusatz stationär            | contract-insurance-priaddstat-priaddstatcontract
+ Verträge     | Versicherung     | Kranken             | Privat Zusatz Zahn                 | contract-insurance-priaddtooth-priaddtoothcontract
+ Verträge     | Versicherung     | Leben               | Berufsunfähigkeit                  | contract-insurance-disability-disabilitycontract
+ Verträge     | Versicherung     | Leben               | Pflegetagegeld                     | contract-insurance-longtermcaredaily-longtermcaredailycontract
+ Verträge     | Versicherung     | Leben               | Pflegeversicherung                 | contract-insurance-longtermcare-longtermcarecontract
+ Verträge     | Versicherung     | Leben               | Rentenversicherung Fonds           | contract-insurance-pensionfund-pensionfundcontract
+ Verträge     | Versicherung     | Leben               | Rentenversicherung klassisch       | contract-insurance-classicpension-classicpensioncontract
+ Verträge     | Versicherung     | Leben               | Risiko Lebensversicherung          | contract-insurance-risklife-risklifecontract
+ Verträge     | Versicherung     | Sach                | Bauherrenhaftpflicht               | contract-insurance-builderliability-builderliabilitycontract
+ Verträge     | Versicherung     | Sach                | E-Bike & Pedeleg                   | contract-insurance-bike-bikecontract
+ Verträge     | Versicherung     | Sach                | Elementar (Wohngebäude)            | contract-insurance-fire-firecontract
+ Verträge     | Versicherung     | Sach                | Feuer                              | contract-insurance-fire-firecontract
+ Verträge     | Versicherung     | Sach                | Glas                               | contract-insurance-automobile-automobilecontract
+ Verträge     | Versicherung     | Sach                | Hausrat                            | contract-insurance-furniture-furniturecontract
+ Verträge     | Versicherung     | Sach                | Haus- und Grundbesitzerhaftpflicht | contract-insurance-liability-liabilitycontract
+ Verträge     | Versicherung     | Sach                | Kunst                              | contract-insurance-expatriates-expatriatescontract
+ Verträge     | Versicherung     | Sach                | Mietausfall                        | contract-insurance-rental-rentalcontract
+ Verträge     | Versicherung     | Sach                | Photovoltaik                       | contract-insurance-photovoltaic-photovoltaiccontract
+ Verträge     | Versicherung     | Sach                | Privathaftpflicht                  | contract-insurance-liability-liabilitycontract
+ Verträge     | Versicherung     | Sach                | Rechtsschutz                       | contract-insurance-legalprotection-legalprotectioncontract
+ Verträge     | Versicherung     | Sach                | Tierhalterhaftpflicht              | contract-insurance-liabilitypet-liabilitypetcontract
+ Verträge     | Versicherung     | Sach                | Tier OP                            | contract-insurance-pet-petcontract
+ Verträge     | Versicherung     | Sach                | Umweltschadenhaftpflicht           | contract-insurance-environmentaldamage-environmentaldamagecontract
+ Verträge     | Versicherung     | Sach                | Unfall                             | contract-insurance-accident-accidentcontract
+ Verträge     | Versicherung     | Sach                | Wohngebäude                        | contract-insurance-residential-residentialcontract
+(267 rows)
+

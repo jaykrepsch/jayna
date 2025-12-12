@@ -1,0 +1,89 @@
+{
+  "_comment": "Vereinfachte Contract-Form-Definition nach RealEstate-Muster",
+  "formTitle": "Contract Employment Employee Termination Contract",
+  "parts": [
+    {
+      "title": "jaynaApp.baseContract.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.contractData.title",
+      "fields": [
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "startDate",
+          "type": "date"
+        },
+        {
+          "name": "endDate",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.payment.title",
+      "fields": [
+        {
+          "name": "amount",
+          "type": "number"
+        },
+        {
+          "name": "currency",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "currency",
+          "defaultValue": "EUR"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "contractContacts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContract.relations.title"
+}

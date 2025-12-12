@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-minibus.createTitle": "Personenfahrzeug Auto minibus anlegen",
+  "jaynaApp.mobility-passengervehicle-car-minibus.updateTitle": "Personenfahrzeug Auto minibus bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-minibus.viewTitle": "Personenfahrzeug Auto minibus anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-minibus.specificData.title": "Personenfahrzeug Auto minibus-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-minibus.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-minibus.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

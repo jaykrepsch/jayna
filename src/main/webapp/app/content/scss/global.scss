@@ -1,0 +1,6 @@
+/* Globale Required Field Styles */
+.required::after {
+  content: " *";
+  color: #111827 !important; /* schwarz - normale Textfarbe */
+  font-weight: bold !important;
+} 

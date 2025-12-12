@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.createTitle": "Pflegeeinrichtung anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.updateTitle": "Pflegeeinrichtung bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.viewTitle": "Pflegeeinrichtung anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.specificData.title": "Pflegeeinrichtung-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.specificData.fields.specificField1": "Wohnfläche",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-carefacility.specificData.fields.specificField2": "Anzahl Betten"
+}

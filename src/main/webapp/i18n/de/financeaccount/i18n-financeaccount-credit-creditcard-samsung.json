@@ -1,0 +1,8 @@
+{
+  "jaynaApp.financeaccount-credit-creditcard-samsung.createTitle": "Samsung Pay anlegen",
+  "jaynaApp.financeaccount-credit-creditcard-samsung.updateTitle": "Samsung Pay bearbeiten",
+  "jaynaApp.financeaccount-credit-creditcard-samsung.viewTitle": "Samsung Pay anzeigen",
+  "jaynaApp.financeaccount-credit-creditcard-samsung.specificData.title": "Samsung Pay-spezifische Daten",
+  "jaynaApp.financeaccount-credit-creditcard-samsung.specificData.fields.specificField1": "Kreditlimit",
+  "jaynaApp.financeaccount-credit-creditcard-samsung.specificData.fields.specificField2": "Zinssatz"
+}

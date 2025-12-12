@@ -1,0 +1,210 @@
+{
+  "applications": "*",
+  "changelogDate": "20230417204220",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "real_estate",
+  "fields": [
+    {
+      "fieldName": "street",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "streetNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "country",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "propertyWidth",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "propertyLength",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "propertyArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "area",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "noHouses",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "constructionYear",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "designType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "designTypeClass",
+      "fieldType": "DesignTypeClass",
+      "fieldValues": "BAK1,BAK2,BAK3,BAK4,BAK5"
+    },
+    {
+      "fieldName": "builtUpArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "sealtArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "undevelopedArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "noSmokeDetectors",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noUnits",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noFloors",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noPowerOutlets",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noNetworkSockets",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noLightSwitches",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noAntennas",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noShutterSwitches",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noRadiators",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noParkings",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noGarages",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noCarports",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "noWindows",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "windowArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "noElevators",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "corridorArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "noBasementRooms",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "monumentProtected",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "heatingType",
+      "fieldType": "HeatingType",
+      "fieldValues": "GAS,PELLET,ELECTRICT,HEATPUMP"
+    },
+    {
+      "fieldName": "roofPitch",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "roofType",
+      "fieldType": "RoofType",
+      "fieldValues": "FLAT,HIPPED,CROSS,DITCH,CROOKED_HIPPED,MANSARD,MANSARD_WITH_HIPPED_FOOT,MANSARD_WITH_TUFT,MANSARD_HIPPED,ONLY_ROOF,PARALLEL,PENT,PENT_EXTENDED,PITCHED,GABLE_EXTENDED,SADDLE_HIP,SHEDDACH_SAW_TOOTH,CANOPY,BUTTERFLY,BARREL,HIP,HIP_THROAT,TENT,DWARF"
+    },
+    {
+      "fieldName": "gableAlignment",
+      "fieldType": "Direction",
+      "fieldValues": "NORTH,EAST,SOUTH,WEST"
+    },
+    {
+      "fieldName": "roofArea",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "longitude",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "latitude",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "RealEstate",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "applicationUser",
+      "relationshipName": "applicationUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "groupType",
+      "relationshipName": "groupType",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "contractRealestate",
+      "otherEntityRelationshipName": "realestate",
+      "relationshipName": "contractRealestates",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": true
+}

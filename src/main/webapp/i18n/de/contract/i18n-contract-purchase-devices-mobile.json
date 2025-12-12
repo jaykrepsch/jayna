@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-purchase-devices-mobile.createTitle": "Handykauf anlegen",
+  "jaynaApp.contract-purchase-devices-mobile.updateTitle": "Handykauf bearbeiten",
+  "jaynaApp.contract-purchase-devices-mobile.viewTitle": "Handykauf anzeigen",
+  "jaynaApp.contract-purchase-devices-mobile.specificData.title": "Handykauf-spezifische Daten",
+  "jaynaApp.contract-purchase-devices-mobile.specificData.fields.specificField1": "Kaufpreis",
+  "jaynaApp.contract-purchase-devices-mobile.specificData.fields.specificField2": "Marke"
+}

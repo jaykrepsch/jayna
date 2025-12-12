@@ -1,0 +1,37 @@
+# Bereichs-Bezeichnungen für den Screenshot
+
+1. **Seitenleiste (links):**
+   - Verträge (Menüpunkt)
+   - Immobilien (Menüpunkt)
+   - Kontakte (Menüpunkt)
+   - Finanzkonten (Menüpunkt)
+   - Mobilität (Menüpunkt)
+   - Mein Bereich (Menüpunkt)
+
+2. **Seitenüberschrift (oben, mittig):**
+   - Aufhebungsvertrag (große Überschrift)
+   - Arbeitsvertrag (kleine Überschrift darunter)
+
+3. **Oben rechts:**
+   - Zurück (Button)
+   - Bearbeiten (Button)
+
+4. **Formularfelder (mittig):**
+   - Vertragsart: Arbeitsvertrag (Feld)
+   - Gruppierung: Angestellter (Feld)
+   - Sparte/Typ: Aufhebungsvertrag (Feld)
+
+5. **Abschnitte mit Feldern:**
+   - Vertragspartnerdaten (jaynaApp.termination-agreement.contractpartner.title)
+     - label, contractor, contractOwner, contractUser (jeweils Feld)
+   - Vertragsdaten (jaynaApp.termination-agreement.contractdata.title)
+     - startDate, endDate, applicationDate, confirmationDate, contractNumber (jeweils Feld)
+   - Zahlungsdaten (jaynaApp.termination-agreement.paymentPattern.title)
+     - payer, paymentPattern, paymentType (jeweils Feld)
+   - Weitere Details (jaynaApp.termination-agreement.contractdetails.title)
+     - salary, activities, vacationDays, occupation (jeweils Feld)
+   - Weitere Informationen (jaynaApp.termination-agreement.further.information.title)
+     - entityState, activities (jeweils Feld)
+
+**Hinweis:**
+Du kannst diese Bezeichnungen nutzen, um mir genau zu sagen, wo du etwas ändern möchtest (z. B. "Button: Bearbeiten" oder "Feld: Vertragsart"). 

@@ -1,0 +1,20 @@
+Eingabeaufforderung:
+
+Backup erstellen für Datenbank
+
+docker exec -t docker-jayna-postgresql-1 pg_dump -U user jayna > backup.sql
+
+
+Backup wiederherstellen
+
+docker exec -i docker-jayna-postgresql-1 psql -U user -d jayna < backup.sql
+
+
+backend starten
+
+mvnw.cmd
+
+
+frontend starten 
+
+npm start

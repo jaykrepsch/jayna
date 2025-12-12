@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-internship.createTitle": "Arbeitsvertrag Angestellter Praktikum erstellen",
+  "jaynaApp.contract-employment-employee-internship.updateTitle": "Arbeitsvertrag Angestellter Praktikum bearbeiten",
+  "jaynaApp.contract-employment-employee-internship.viewTitle": "Arbeitsvertrag Angestellter Praktikum anzeigen",
+  "jaynaApp.contract-employment-employee-internship.specificData.title": "Praktikum Daten",
+  "jaynaApp.contract-employment-employee-internship.specificData.fields.specificField1": "Praktikumsbereich",
+  "jaynaApp.contract-employment-employee-internship.specificData.fields.specificField2": "Dauer (Wochen)"
+}

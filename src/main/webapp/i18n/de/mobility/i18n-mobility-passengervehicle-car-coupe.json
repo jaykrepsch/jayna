@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-coupe.createTitle": "Personenfahrzeug Auto coupe anlegen",
+  "jaynaApp.mobility-passengervehicle-car-coupe.updateTitle": "Personenfahrzeug Auto coupe bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-coupe.viewTitle": "Personenfahrzeug Auto coupe anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-coupe.specificData.title": "Personenfahrzeug Auto coupe-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-coupe.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-coupe.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

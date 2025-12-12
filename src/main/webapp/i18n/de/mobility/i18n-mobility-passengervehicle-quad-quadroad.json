@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.createTitle": "Personenfahrzeug Quad quadroad anlegen",
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.updateTitle": "Personenfahrzeug Quad quadroad bearbeiten",
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.viewTitle": "Personenfahrzeug Quad quadroad anzeigen",
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.specificData.title": "Personenfahrzeug Quad quadroad-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-quad-quadroad.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-cleaning.createTitle": "Reinigung anlegen",
+  "jaynaApp.contract-service-service-cleaning.updateTitle": "Reinigung bearbeiten",
+  "jaynaApp.contract-service-service-cleaning.viewTitle": "Reinigung anzeigen",
+  "jaynaApp.contract-service-service-cleaning.specificData.title": "Reinigung-spezifische Daten",
+  "jaynaApp.contract-service-service-cleaning.specificData.fields.specificField1": "Stundensatz",
+  "jaynaApp.contract-service-service-cleaning.specificData.fields.specificField2": "Reinigungsfrequenz"
+}

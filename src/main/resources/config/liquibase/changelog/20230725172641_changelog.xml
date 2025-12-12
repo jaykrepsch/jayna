@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1690306010161-3">
+        <createTable tableName="contract_mobility">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contract_mobilityPK"/>
+            </column>
+            <column name="contract_id" type="BIGINT"/>
+            <column name="mobility_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-4">
+        <createTable tableName="finance_account_mobility">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="finance_account_mobilityPK"/>
+            </column>
+            <column name="finance_account_id" type="BIGINT"/>
+            <column name="mobility_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-5">
+        <createTable tableName="finance_account_real_estate">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="finance_account_real_estatePK"/>
+            </column>
+            <column name="finance_account_id" type="BIGINT"/>
+            <column name="realestate_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-6">
+        <createTable tableName="mobility_real_estate">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="mobility_real_estatePK"/>
+            </column>
+            <column name="mobility_id" type="BIGINT"/>
+            <column name="realestate_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-7">
+        <addForeignKeyConstraint baseColumnNames="realestate_id" baseTableName="mobility_real_estate" constraintName="FK4uh3bbsgh589xm659ane3vmru" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-8">
+        <addForeignKeyConstraint baseColumnNames="realestate_id" baseTableName="finance_account_real_estate" constraintName="FK86n5d3xm1pl9q8g304mqfe3dw" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-9">
+        <addForeignKeyConstraint baseColumnNames="finance_account_id" baseTableName="finance_account_mobility" constraintName="FKkddvb1u5ucn3wawjs3xrvc1yx" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="finance_account" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-10">
+        <addForeignKeyConstraint baseColumnNames="finance_account_id" baseTableName="finance_account_real_estate" constraintName="FKl7b6r1siy0p1nyk33dd9h53uu" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="finance_account" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-11">
+        <addForeignKeyConstraint baseColumnNames="mobility_id" baseTableName="contract_mobility" constraintName="FKlwhyd88nwgvb1tso0gocilsjl" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="mobility" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-12">
+        <addForeignKeyConstraint baseColumnNames="mobility_id" baseTableName="finance_account_mobility" constraintName="FKn0pkgvb3hpwltoxgbvio4ru0q" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="mobility" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-13">
+        <addForeignKeyConstraint baseColumnNames="mobility_id" baseTableName="mobility_real_estate" constraintName="FKnhulg3gmlodxksfrbyh8ojvxl" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="mobility" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1690306010161-14">
+        <addForeignKeyConstraint baseColumnNames="contract_id" baseTableName="contract_mobility" constraintName="FKpapcjj6okop0u34ggl89uq705" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contract" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

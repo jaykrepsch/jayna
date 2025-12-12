@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "value": "MASONRY",
+      "label": "Massivbau"
+    },
+    {
+      "value": "WOOD_FRAME",
+      "label": "Holzrahmenbau"
+    },
+    {
+      "value": "STEEL_FRAME",
+      "label": "Stahlskelettbau"
+    },
+    {
+      "value": "CONCRETE",
+      "label": "Betonbau"
+    },
+    {
+      "value": "TIMBER_FRAME",
+      "label": "Fachwerkbau"
+    },
+    {
+      "value": "PREFABRICATED",
+      "label": "Fertighaus"
+    },
+    {
+      "value": "HISTORIC",
+      "label": "Denkmalgeschützt"
+    },
+    {
+      "value": "MODERN",
+      "label": "Moderne Bauweise"
+    }
+  ]
+} 

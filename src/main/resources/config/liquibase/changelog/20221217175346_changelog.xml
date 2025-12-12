@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1671299633646-3">
+        <addColumn tableName="loan_credit">
+            <column name="application_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-4">
+        <addColumn tableName="loan_credit">
+            <column name="application_user_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-5">
+        <addColumn tableName="loan_credit">
+            <column name="comment" type="varchar(2000)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-6">
+        <addColumn tableName="loan_credit">
+            <column name="confirmation_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-7">
+        <addColumn tableName="loan_credit">
+            <column name="contract_number" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-8">
+        <addColumn tableName="loan_credit">
+            <column name="contract_owner" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-9">
+        <addColumn tableName="loan_credit">
+            <column name="contract_user" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-10">
+        <addColumn tableName="loan_credit">
+            <column name="contractor" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-11">
+        <addColumn tableName="loan_credit">
+            <column name="created_date" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-12">
+        <addColumn tableName="loan_credit">
+            <column name="end_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-13">
+        <addColumn tableName="loan_credit">
+            <column name="group_type_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-14">
+        <addColumn tableName="loan_credit">
+            <column name="payer" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-15">
+        <addColumn tableName="loan_credit">
+            <column name="payment" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-16">
+        <addColumn tableName="loan_credit">
+            <column name="payment_type" type="int4"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-17">
+        <addColumn tableName="loan_credit">
+            <column name="route_name_detail" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-18">
+        <addColumn tableName="loan_credit">
+            <column name="start_date" type="timestamp"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-19">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="loan_credit" constraintName="FK3mw33di9loiqgsnfggkqk62bp" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1671299633646-20">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="loan_credit" constraintName="FKfjxbmpfb7gnqgpiump8y4a9qo" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

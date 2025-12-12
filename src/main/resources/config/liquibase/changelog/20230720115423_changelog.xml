@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1689854071400-1">
+        <modifyDataType 
+            columnName="comment"  
+            newDataType="varchar(2000)"
+            tableName="contact"/> 
+        <modifyDataType 
+            columnName="comment"  
+            newDataType="varchar(2000)"
+            tableName="contract"/> 
+        <modifyDataType 
+            columnName="comment"  
+            newDataType="varchar(2000)"
+            tableName="real_estate"/> 
+        <modifyDataType 
+            columnName="comment"  
+            newDataType="varchar(2000)"
+            tableName="finance_account"/> 
+    </changeSet>
+</databaseChangeLog>

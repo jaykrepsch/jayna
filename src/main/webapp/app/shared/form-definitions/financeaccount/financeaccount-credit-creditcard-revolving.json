@@ -1,0 +1,334 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseFinanceaccount, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.financeaccount-credit-creditcard-revolving.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseFinanceaccount.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.accountData.title",
+      "fields": [
+        {
+          "name": "accountType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "accountType",
+          "defaultValue": "CREDIT"
+        },
+        {
+          "name": "accountGiver",
+          "type": "text"
+        },
+        {
+          "name": "accountOwner",
+          "type": "text"
+        },
+        {
+          "name": "accountUser",
+          "type": "text"
+        },
+        {
+          "name": "accountNumber",
+          "type": "text"
+        },
+        {
+          "name": "iban",
+          "type": "text"
+        },
+        {
+          "name": "bic",
+          "type": "text"
+        },
+        {
+          "name": "balance",
+          "type": "number"
+        },
+        {
+          "name": "currency",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "currency",
+          "defaultValue": "EUR"
+        },
+        {
+          "name": "openingDate",
+          "type": "date"
+        },
+        {
+          "name": "creditLimit",
+          "type": "number"
+        },
+        {
+          "name": "availableCredit",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.title",
+      "i18nSource": "financeaccount-credit-creditcard-revolving",
+      "fields": [
+        {
+          "name": "creditCardType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "creditCardType",
+          "defaultValue": "REVOLVING"
+        },
+        {
+          "name": "cardNumber",
+          "type": "text"
+        },
+        {
+          "name": "expiryDate",
+          "type": "date"
+        },
+        {
+          "name": "cvv",
+          "type": "text"
+        },
+        {
+          "name": "cardHolder",
+          "type": "text"
+        },
+        {
+          "name": "cardNetwork",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "cardNetwork"
+        },
+        {
+          "name": "contactless",
+          "type": "checkbox"
+        },
+        {
+          "name": "chipCard",
+          "type": "checkbox"
+        },
+        {
+          "name": "onlineShopping",
+          "type": "checkbox"
+        },
+        {
+          "name": "balanceTransfer",
+          "type": "checkbox"
+        },
+        {
+          "name": "cashAdvance",
+          "type": "checkbox"
+        },
+        {
+          "name": "gracePeriod",
+          "type": "number"
+        },
+        {
+          "name": "minimumPayment",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.bank.title",
+      "fields": [
+        {
+          "name": "bankName",
+          "type": "text"
+        },
+        {
+          "name": "bankCode",
+          "type": "text"
+        },
+        {
+          "name": "bankAddress",
+          "type": "text"
+        },
+        {
+          "name": "bankPhone",
+          "type": "text"
+        },
+        {
+          "name": "bankEmail",
+          "type": "text"
+        },
+        {
+          "name": "bankWebsite",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.financial.title",
+      "fields": [
+        {
+          "name": "interestRate",
+          "type": "number"
+        },
+        {
+          "name": "overdraftLimit",
+          "type": "number"
+        },
+        {
+          "name": "monthlyFee",
+          "type": "number"
+        },
+        {
+          "name": "annualFee",
+          "type": "number"
+        },
+        {
+          "name": "transactionFee",
+          "type": "number"
+        },
+        {
+          "name": "cashbackRate",
+          "type": "number"
+        },
+        {
+          "name": "rewardPoints",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.security.title",
+      "fields": [
+        {
+          "name": "pinCode",
+          "type": "text"
+        },
+        {
+          "name": "securityQuestions",
+          "type": "textarea"
+        },
+        {
+          "name": "twoFactorAuth",
+          "type": "checkbox"
+        },
+        {
+          "name": "fraudProtection",
+          "type": "checkbox"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseFinanceaccount.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "financeaccountContacts",
+      "relationConfig": {
+        "id": "contact-financeaccount",
+        "sourceEntity": "contact",
+        "targetEntity": "financeaccount",
+        "relationType": "ACCOUNT_HOLDER",
+        "displayName": "Kontakt - Finanzkonto",
+        "description": "Verknüpfung zwischen Kontakten und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "financeaccountContracts",
+      "relationConfig": {
+        "id": "contract-financeaccount",
+        "sourceEntity": "contract",
+        "targetEntity": "financeaccount",
+        "relationType": "PAYMENT_ACCOUNT",
+        "displayName": "Vertrag - Finanzkonto",
+        "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "financeaccountRealestates",
+      "relationConfig": {
+        "id": "realestate-financeaccount",
+        "sourceEntity": "realestate",
+        "targetEntity": "financeaccount",
+        "relationType": "FINANCED_BY",
+        "displayName": "Immobilie - Finanzkonto",
+        "description": "Verknüpfung zwischen Immobilien und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "financeaccountFinanceAccounts",
+      "relationConfig": {
+        "id": "financeaccount-financeaccount",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "financeaccount",
+        "relationType": "RELATED_TO",
+        "displayName": "Finanzkonto - Finanzkonto",
+        "description": "Verknüpfung zwischen Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "financeaccountMobilities",
+      "relationConfig": {
+        "id": "financeaccount-mobility",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "mobility",
+        "relationType": "FINANCES",
+        "displayName": "Finanzkonto - Mobilität",
+        "description": "Verknüpfung zwischen Finanzkonten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseFinanceaccount.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseFinanceaccount.documentRelations.title"
+}

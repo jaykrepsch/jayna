@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="jayna (generated)" id="1704374400000-1">
+        <!-- Aktualisiere bestehende Kategorie mit korrekten Übersetzungsschlüsseln -->
+        <update tableName="category">
+            <column name="translation_key" value="contract" />
+            <column name="entity_name" value="contract" />
+            <where>name = 'Verträge'</where>
+        </update>
+        
+        <!-- Aktualisiere oder füge fehlende Kategorien hinzu (nur wenn sie nicht existieren) -->
+        <sql>
+            INSERT INTO category (id, name, translation_key, entity_name, created_date)
+            SELECT 2, 'Immobilien', 'realestate', 'realestate', '2025-01-04'
+            WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 2);
+        </sql>
+        
+        <sql>
+            INSERT INTO category (id, name, translation_key, entity_name, created_date)
+            SELECT 3, 'Kontakte', 'contact', 'contact', '2025-01-04'
+            WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 3);
+        </sql>
+        
+        <sql>
+            INSERT INTO category (id, name, translation_key, entity_name, created_date)
+            SELECT 4, 'Finanzkonten', 'financeaccount', 'financeaccount', '2025-01-04'
+            WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 4);
+        </sql>
+        
+        <sql>
+            INSERT INTO category (id, name, translation_key, entity_name, created_date)
+            SELECT 5, 'Mobilität', 'mobility', 'mobility', '2025-01-04'
+            WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 5);
+        </sql>
+    </changeSet>
+</databaseChangeLog> 

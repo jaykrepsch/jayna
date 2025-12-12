@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1689846075669-3">
+        <addColumn tableName="contact">
+            <column name="comment" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-4">
+        <addColumn tableName="contact">
+            <column name="created_date" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-5">
+        <addColumn tableName="contact">
+            <column name="group_type_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-6">
+        <addColumn tableName="contact">
+            <column name="last_modified_by" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-7">
+        <addColumn tableName="contact">
+            <column name="last_modified_date" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-8">
+        <addColumn tableName="contract_realestate">
+            <column name="realestate_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-9">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="contact" constraintName="FKoewxqtf3lylo8b2grv7v7cemg" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-10">
+        <addForeignKeyConstraint baseColumnNames="realestate_id" baseTableName="contract_realestate" constraintName="FKoyg1blc2m78ntekv6pecj2m2" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-11">
+        <dropForeignKeyConstraint baseTableName="contract_realestate" constraintName="FK8oi297c8muyi8xbexlpfact53"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-12">
+        <dropColumn columnName="comment_content_type" tableName="finance_account"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1689846075669-13">
+        <dropColumn columnName="real_estate_id" tableName="contract_realestate"/>
+    </changeSet>
+</databaseChangeLog>

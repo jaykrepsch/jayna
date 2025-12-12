@@ -1,0 +1,1616 @@
+[
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Bewirtschaftung",
+    "groupType": "Ackerland"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Bewirtschaftung",
+    "groupType": "Forst"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Bewirtschaftung",
+    "groupType": "Frucht"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Bewirtschaftung",
+    "groupType": "Weide"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Garten",
+    "groupType": "Schrebergarten"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Gewerbehaus",
+    "groupType": "Gewerbeeinheit"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Gewerbehaus",
+    "groupType": "Gewerbehaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Halle",
+    "groupType": "Halle"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Parkfläche",
+    "groupType": "Carport"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Parkfläche",
+    "groupType": "Garage"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Parkfläche",
+    "groupType": "Parkhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Parkfläche",
+    "groupType": "Parkplatz"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohn + Gewerbehaus",
+    "groupType": "Wohnungen & Gewerbe"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Doppelhaushälfte"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Einfamilienhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Ferienhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Mehrfamilienhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Pflegeeinrichtung"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Reihenendhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Reihenmittelhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "mit Bebauung",
+    "subCategoryGroup": "Wohnhaus",
+    "groupType": "Zweifamilienhaus"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "ohne Bebauung",
+    "subCategoryGroup": "Grund",
+    "groupType": "Bebauungsgrundstück"
+  },
+  {
+    "category": "Immobilien",
+    "subCategory": "ohne Bebauung",
+    "subCategoryGroup": "Grund",
+    "groupType": "Wiese"
+  },
+  {
+    "category": "Kontakte",
+    "subCategory": "Kontakte",
+    "subCategoryGroup": "Kontakt",
+    "groupType": "Einzelkontakt"
+  },
+  {
+    "category": "Kontakte",
+    "subCategory": "Kontakte",
+    "subCategoryGroup": "Kontakt",
+    "groupType": "Kontaktgruppe"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Bank",
+    "subCategoryGroup": "Bankkonto",
+    "groupType": "Girokonto"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Bank",
+    "subCategoryGroup": "Bankkonto",
+    "groupType": "Sparkonto"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Charge"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Debit"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Online Virtuell"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Prepaid"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Revolving"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "Samsung"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Apple Pay"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Google Pay"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Klarna"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Paypal"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Skrill"
+  },
+  {
+    "category": "Finanzkonten",
+    "subCategory": "Systeme",
+    "subCategoryGroup": "Bezahlsysteme",
+    "groupType": "Stripe"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Hybrid",
+    "groupType": "Motorsegler"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Motorbetrieben",
+    "groupType": "Jollenkreuzer"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Motorbetrieben",
+    "groupType": "Motorboot"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Motorbetrieben",
+    "groupType": "Sportboot"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Motorbetrieben",
+    "groupType": "Yacht"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Segeln",
+    "groupType": "Segelboot"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Boot",
+    "subCategoryGroup": "Segeln",
+    "groupType": "Segelyacht"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "City"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Cross"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Dreirad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Falt"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Gravel"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Lasten"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Lifestyle"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Mountainbike"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Rennrad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Speed"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "SUV"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "Trekking"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Bike",
+    "groupType": "XXL"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "City"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Cross"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Dreirad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Falt"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Gravel"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Lasten"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Lifestyle"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Mountainbike"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Rennrad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Speed"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "SUV"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "Trekking"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "E-Bike",
+    "groupType": "XXL"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "City"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Cross"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Dreirad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Falt"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Gravel"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Lasten"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Lifestyle"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Mountainbike"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Rennrad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Speed"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "SUV"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "Trekking"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Fahrrad",
+    "subCategoryGroup": "Pedelec",
+    "groupType": "XXL"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Landwirtschaft",
+    "subCategoryGroup": "Traktor",
+    "groupType": "B"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Landwirtschaft",
+    "subCategoryGroup": "Traktor",
+    "groupType": "C"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Landwirtschaft",
+    "subCategoryGroup": "Traktor",
+    "groupType": "Träker"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Anhänger",
+    "groupType": "A"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Anhänger",
+    "groupType": "B"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Anhänger",
+    "groupType": "C"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Kasten",
+    "groupType": "A"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Kasten",
+    "groupType": "B"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Kasten",
+    "groupType": "C"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Wohnwagen",
+    "groupType": "Familien"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Wohnwagen",
+    "groupType": "Luxus"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Wohnwagen",
+    "groupType": "Sport"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Wohnwagen",
+    "groupType": "Zelt"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Nutzfahrzeug",
+    "subCategoryGroup": "Wohnwagen",
+    "groupType": "Zwei-Personen"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Cabrio"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Coupé"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "CUV"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Geländewagen"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Kleinbus"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Kleintransporter"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Kleinwagen"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Kombi"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Limousine"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Minivan"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Pickup"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Roadstar"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "SUV"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Transporter"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Auto",
+    "groupType": "Van"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Chopper"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Cruiser"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Dirt Bike"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Motocross"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Naked"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Srambler"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Streetfighter"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Stuntbike"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Motorrad",
+    "groupType": "Trial"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "4x4"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "C"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Elektro"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Kinder"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Offroad"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Pocket"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Renn"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Road"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Quad",
+    "groupType": "Side by Side"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Wohnmobil",
+    "groupType": "mit Alkoven"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Wohnmobil",
+    "groupType": "teilintegriert"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Personenfahrzeug",
+    "subCategoryGroup": "Wohnmobil",
+    "groupType": "vollintegriert"
+  },
+  {
+    "category": "Mobilität",
+    "subCategory": "Scooter",
+    "subCategoryGroup": "-",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Abstellplatz",
+    "groupType": "Garage"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Abstellplatz",
+    "groupType": "Parkplatz"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Ferienhaus"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Ferienwohnung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Gebäude"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Raum"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Auto"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Wohnmobil"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Wohnen",
+    "groupType": "Hausmietvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietvertrag",
+    "subCategoryGroup": "Wohnen",
+    "groupType": "Wohnungsmietvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Gewerbe",
+    "groupType": "D&O Managerhaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Gewerbe",
+    "groupType": "Gebäude"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Gewerbe",
+    "groupType": "Rechtsschutz"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Motorrad"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Traktor"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Wohnmobil"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Wohnwagen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Ausland"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Auslandsreise"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "gesetzliche Krankenversicherung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Krankenhaustagegeld"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Krankentagegeld"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Privat Kranken voll"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Privat Zusatz ambulant"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Privat Zusatz stationär"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Kranken",
+    "groupType": "Privat Zusatz Zahn"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Berufsunfähigkeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Pflegetagegeld"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Pflegeversicherung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Rentenversicherung Fonds"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Rentenversicherung klassisch"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Leben",
+    "groupType": "Risiko Lebensversicherung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Bauherrenhaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "E-Bike & Pedeleg"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Elementar (Wohngebäude)"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Feuer"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Glas"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Hausrat"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Haus- und Grundbesitzerhaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Kunst"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Mietausfall"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Photovoltaik"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Privathaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Rechtsschutz"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Tierhalterhaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Tier OP"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Umweltschadenhaftpflicht"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Unfall"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Versicherung",
+    "subCategoryGroup": "Sach",
+    "groupType": "Wohngebäude"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Hausverwaltung",
+    "subCategoryGroup": "Hausverwaltung",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Mietverwaltung",
+    "subCategoryGroup": "Mietverwaltung",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Aufhebungsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Aushilfe"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Mini"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Praktikumsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Teilzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Vollzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Angestellter",
+    "groupType": "Werkvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Aufhebungsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Aushilfe"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Mini"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Praktikumsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Teilzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Vollzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "Beamter",
+    "groupType": "Werkvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Aufhebungsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Aushilfe"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Mini"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Praktikumsvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Teilzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Vollzeit"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Arbeitsvertrag",
+    "subCategoryGroup": "öffentlicher Dienst",
+    "groupType": "Werkvertrag"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Bankkonto",
+    "subCategoryGroup": "Festgeldkonto",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Bankkonto",
+    "subCategoryGroup": "Girokonto",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Bankkonto",
+    "subCategoryGroup": "Sparkonto",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Bankkonto",
+    "subCategoryGroup": "Tagesgeldkonto",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kreditkarte",
+    "subCategoryGroup": "Debitkarte",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kreditkarte",
+    "subCategoryGroup": "Kreditkarte",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Förderung",
+    "groupType": "Bafög"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Abrufdarlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Annuitätendarlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Endfällige Darlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Laufzeitzinsdarlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Modernisierung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Partiarische Darlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Rollierende Geldmarktdarlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Darlehen",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Tilgungsdarlehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Gebühren",
+    "groupType": "Gemeindegebühren"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Gebühren",
+    "groupType": "Grunderwerbssteuer"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Gärtner"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Hausmeisterservice"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Hausverwaltung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Immobilienmakler"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "KFZ-Inspektion"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Mietverwaltung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Notar"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Reinigung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Service",
+    "groupType": "Versicherungsmakler"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Wartung",
+    "groupType": "Aufzug"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Wartung",
+    "groupType": "Heizung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Wartung",
+    "groupType": "Schornsteinfeger"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Dienstleistung",
+    "subCategoryGroup": "Wartung",
+    "groupType": "Wärmepumpe"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Energie",
+    "subCategoryGroup": "Elektrik",
+    "groupType": "Strom"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Energie",
+    "subCategoryGroup": "Heizen",
+    "groupType": "Fernwärme"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Energie",
+    "subCategoryGroup": "Heizen",
+    "groupType": "Gas"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Energie",
+    "subCategoryGroup": "Heizen",
+    "groupType": "Öl"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Energie",
+    "subCategoryGroup": "Photovoltaik",
+    "groupType": "Strom"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Gegenstände",
+    "groupType": "Couch"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Gegenstände",
+    "groupType": "Tisch"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Geräte",
+    "groupType": "Fernseher"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Geräte",
+    "groupType": "Handy"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Grunderwerbssteuer"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Haus"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "Immobilie",
+    "groupType": "Wohnung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Auto"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kaufvertrag",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Motorrad"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Auto"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Motorboot"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Wohnwagen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kredit",
+    "groupType": "freie Verwendung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kredit",
+    "groupType": "Modernisierung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Kredit",
+    "subCategoryGroup": "Kredit",
+    "groupType": "Umschuldung"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Leasing",
+    "subCategoryGroup": "KFZ",
+    "groupType": "Auto"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Leihvertrag",
+    "subCategoryGroup": "Geräte",
+    "groupType": "-"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Fernsehen",
+    "groupType": "Kabelfernsehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Fernsehen",
+    "groupType": "Satellitenfernsehen"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Internet",
+    "groupType": "DSL"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Internet",
+    "groupType": "Glasfaser"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Mobilfunk",
+    "groupType": "Autotelefon"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Mobilfunk",
+    "groupType": "Handy"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Mobilfunk",
+    "groupType": "Tablet"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Streaming",
+    "groupType": "Filme / Serien"
+  },
+  {
+    "category": "Verträge",
+    "subCategory": "Medien",
+    "subCategoryGroup": "Streaming",
+    "groupType": "Musik"
+  }
+]

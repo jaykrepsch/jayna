@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1680886641817-3">
+        <addColumn tableName="commercial_residential_property">
+            <column name="application_user_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1680886641817-4">
+        <addColumn tableName="commercial_residential_property">
+            <column name="group_type_id" type="int8"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1680886641817-5">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="commercial_residential_property" constraintName="FK37vsluvwsc1o26phy427f1bmv" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1680886641817-6">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="commercial_residential_property" constraintName="FKqehiapaagukhud3f3o2x94xna" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

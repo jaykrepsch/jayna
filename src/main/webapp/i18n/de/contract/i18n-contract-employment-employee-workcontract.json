@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-workContract.createTitle": "Arbeitsvertrag Angestellter Werkvertrag erstellen",
+  "jaynaApp.contract-employment-employee-workContract.updateTitle": "Arbeitsvertrag Angestellter Werkvertrag bearbeiten",
+  "jaynaApp.contract-employment-employee-workContract.viewTitle": "Arbeitsvertrag Angestellter Werkvertrag anzeigen",
+  "jaynaApp.contract-employment-employee-workContract.specificData.title": "Werkvertrag Daten",
+  "jaynaApp.contract-employment-employee-workContract.specificData.fields.specificField1": "Projektbereich",
+  "jaynaApp.contract-employment-employee-workContract.specificData.fields.specificField2": "Projektdauer (Wochen)"
+}

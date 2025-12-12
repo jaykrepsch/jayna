@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-credit-credit-rescheduling.createTitle": "Credit anlegen",
+  "jaynaApp.contract-credit-credit-rescheduling.updateTitle": "Credit bearbeiten",
+  "jaynaApp.contract-credit-credit-rescheduling.viewTitle": "Credit anzeigen",
+  "jaynaApp.contract-credit-credit-rescheduling.specificData.title": "Credit-spezifische Daten",
+  "jaynaApp.contract-credit-credit-rescheduling.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-credit-credit-rescheduling.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

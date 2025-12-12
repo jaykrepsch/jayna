@@ -1,0 +1,17 @@
+{
+  "jaynaApp.contract-leasing-car-car.createTitle": "Leasing KFZ Auto anlegen",
+  "jaynaApp.contract-leasing-car-car.updateTitle": "Leasing KFZ Auto bearbeiten",
+  "jaynaApp.contract-leasing-car-car.viewTitle": "Leasing KFZ Auto anzeigen",
+  "jaynaApp.contract-leasing-car-car.specificData.title": "KFZ-Leasing-spezifische Daten",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.leasingRate": "Leasingrate (€/Monat)",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.vehicleType": "Fahrzeugtyp",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.vehicleBrand": "Fahrzeugmarke",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.vehicleModel": "Fahrzeugmodell",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.leasingPeriod": "Leasingdauer (Monate)",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.mileageLimit": "Kilometerlimit (km/Jahr)",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.insuranceIncluded": "Versicherung inklusive",
+  "jaynaApp.contract-leasing-car-car.specificData.fields.maintenanceIncluded": "Wartung inklusive",
+  "jaynaApp.contract.sub-category.leasing": "Leasing",
+  "jaynaApp.contract.sub-category-group.car": "KFZ",
+  "jaynaApp.contract.group-type.car": "Auto"
+}

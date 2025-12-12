@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20250801000000-1" author="jhipster">
+        <createTable tableName="contract_contract">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="contract_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="related_contract_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="relation_type" type="varchar(255)"/>
+            <column name="description" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20250801000000-2" author="jhipster">
+        <addForeignKeyConstraint baseColumnNames="contract_id"
+                                baseTableName="contract_contract"
+                                constraintName="fk_contract_contract_contract_id"
+                                referencedColumnNames="id"
+                                referencedTableName="contract"/>
+    </changeSet>
+
+    <changeSet id="20250801000000-3" author="jhipster">
+        <addForeignKeyConstraint baseColumnNames="related_contract_id"
+                                baseTableName="contract_contract"
+                                constraintName="fk_contract_contract_related_contract_id"
+                                referencedColumnNames="id"
+                                referencedTableName="contract"/>
+    </changeSet>
+
+</databaseChangeLog> 

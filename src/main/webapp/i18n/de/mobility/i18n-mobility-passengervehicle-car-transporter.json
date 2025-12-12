@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-transporter.createTitle": "Personenfahrzeug Auto transporter anlegen",
+  "jaynaApp.mobility-passengervehicle-car-transporter.updateTitle": "Personenfahrzeug Auto transporter bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-transporter.viewTitle": "Personenfahrzeug Auto transporter anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-transporter.specificData.title": "Personenfahrzeug Auto transporter-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-transporter.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-transporter.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

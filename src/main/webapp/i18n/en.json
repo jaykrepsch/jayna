@@ -1,0 +1,29 @@
+{
+  "global": {
+    "title": "Jayna",
+    "nav": {
+      "CustomGroupTypeList": "Custom Groups"
+    }
+  },
+  "jaynaApp": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "devicesStar": "Devices*",
+      "itemsStar": "Items*",
+      "clothesStar": "Clothes*",
+      "softwareStar": "Software*",
+      "sportsStar": "Sports*",
+      "travelStar": "Travel*",
+      "animalsStar": "Animals*",
+      "damagesStar": "Damages*",
+      "calendarStar": "Calendar*",
+      "tasksStar": "Tasks*",
+      "notesStar": "Notes*",
+      "contractStatusStar": "Contract Status*",
+      "dataQualityStar": "Data Quality*",
+      "documentInboxStar": "Document Inbox*"
+    }
+  }
+}
+
+

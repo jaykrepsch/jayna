@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-purchase-realestate-realestatetax.createTitle": "Grundsteuer anlegen",
+  "jaynaApp.contract-purchase-realestate-realestatetax.updateTitle": "Grundsteuer bearbeiten",
+  "jaynaApp.contract-purchase-realestate-realestatetax.viewTitle": "Grundsteuer anzeigen",
+  "jaynaApp.contract-purchase-realestate-realestatetax.specificData.title": "Grundsteuer-spezifische Daten",
+  "jaynaApp.contract-purchase-realestate-realestatetax.specificData.fields.specificField1": "Steuersatz",
+  "jaynaApp.contract-purchase-realestate-realestatetax.specificData.fields.specificField2": "Zahlungsfrequenz"
+}

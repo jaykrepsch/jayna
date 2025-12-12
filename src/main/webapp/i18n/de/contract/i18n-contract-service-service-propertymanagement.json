@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-propertymanagement.createTitle": "Hausverwaltung anlegen",
+  "jaynaApp.contract-service-service-propertymanagement.updateTitle": "Hausverwaltung bearbeiten",
+  "jaynaApp.contract-service-service-propertymanagement.viewTitle": "Hausverwaltung anzeigen",
+  "jaynaApp.contract-service-service-propertymanagement.specificData.title": "Hausverwaltung-spezifische Daten",
+  "jaynaApp.contract-service-service-propertymanagement.specificData.fields.specificField1": "Verwaltungsgebühr",
+  "jaynaApp.contract-service-service-propertymanagement.specificData.fields.specificField2": "Serviceumfang"
+}

@@ -1,0 +1,16 @@
+{
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.createTitle": "Girokonto anlegen",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.updateTitle": "Girokonto bearbeiten",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.viewTitle": "Girokonto anzeigen",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.title": "Girokonto-spezifische Daten",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.checkingType": "Girokonto-Typ",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.debitCard": "EC-Karte",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.creditCard": "Kreditkarte",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.onlineBanking": "Online-Banking",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.mobileBanking": "Mobile Banking",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.overdraftProtection": "Dispo-Schutz",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.directDebit": "Lastschrift",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.standingOrders": "Daueraufträge",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.monthlyTransactions": "Monatliche Transaktionen",
+  "jaynaApp.financeaccount-bank-bankaccount-checkingaccount.specificData.fields.freeTransactions": "Kostenlose Transaktionen"
+}

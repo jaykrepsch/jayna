@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven" id="1679419651524-1">
+        <renameColumn 
+        	tableName="group_type"
+        	newColumnName="entity_name"
+        	oldColumnName="form_component_name" 
+        />
+    </changeSet>
+    <changeSet author="okieven" id="1679419651524-2">
+        <dropColumn 
+        	tableName="group_type"
+        	columnName="update_component_name"
+        />
+        
+    </changeSet>
+    
+    <changeSet id="okieven" author="1679419651524-3">
+    	<update tableName="group_type">
+    		<column name="entity_name" value="employment-contract" />
+    		<where>entity_name = 'EmploymentContractCreate'</where>
+    	</update>
+    	
+    	<update tableName="group_type">
+    		<column name="entity_name" value="loan-credit-contract" />
+    		<where>entity_name = 'LoanCreditContractCreate'</where>
+    	</update>
+    	
+    	<update tableName="group_type">
+    		<column name="entity_name" value="property" />
+    		<where>entity_name = 'PropertyCreate'</where>
+    	</update>
+    </changeSet>
+</databaseChangeLog>

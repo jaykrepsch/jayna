@@ -1,0 +1,15 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.createTitle": "Doppelhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.updateTitle": "Doppelhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.viewTitle": "Doppelhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.title": "Doppelhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.houseType": "Haustyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.plotSize": "Grundstücksgröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.gardenSize": "Gartengröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.basement": "Keller",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.attic": "Dachboden",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.garage": "Garage",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.parkingSpaces": "Stellplätze",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.heatingType": "Heizungstyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-semitdetachedhouse.specificData.fields.renovationYear": "Renovierungsjahr"
+}

@@ -1,0 +1,203 @@
+{
+  "_comment": "Zentrale Verknüpfungsdefinition für alle Entitäten - ersetzt die redundanten bidirektionalen Verknüpfungen",
+  "version": "1.0",
+  "relations": [
+    {
+      "id": "contact-realestate",
+      "sourceEntity": "contact",
+      "targetEntity": "realestate",
+      "relationType": "OWNER",
+      "displayName": "Kontakt - Immobilie",
+      "description": "Verknüpfung zwischen Kontakten und Immobilien",
+      "bidirectional": true,
+      "sourceRelationName": "contactRealestates",
+      "targetRelationName": "realestateContacts"
+    },
+    {
+      "id": "contact-contract",
+      "sourceEntity": "contact",
+      "targetEntity": "contract",
+      "relationType": "CONTRACTOR",
+      "displayName": "Kontakt - Vertrag",
+      "description": "Verknüpfung zwischen Kontakten und Verträgen",
+      "bidirectional": true,
+      "sourceRelationName": "contactContracts",
+      "targetRelationName": "contractContacts"
+    },
+    {
+      "id": "contact-financeaccount",
+      "sourceEntity": "contact",
+      "targetEntity": "financeaccount",
+      "relationType": "ACCOUNT_HOLDER",
+      "displayName": "Kontakt - Finanzkonto",
+      "description": "Verknüpfung zwischen Kontakten und Finanzkonten",
+      "bidirectional": true,
+      "sourceRelationName": "contactFinanceAccounts",
+      "targetRelationName": "financeaccountContacts"
+    },
+    {
+      "id": "contact-mobility",
+      "sourceEntity": "contact",
+      "targetEntity": "mobility",
+      "relationType": "OWNER",
+      "displayName": "Kontakt - Mobilität",
+      "description": "Verknüpfung zwischen Kontakten und Mobilitätsobjekten",
+      "bidirectional": true,
+      "sourceRelationName": "contactMobilities",
+      "targetRelationName": "mobilityContacts"
+    },
+    {
+      "id": "contract-realestate",
+      "sourceEntity": "contract",
+      "targetEntity": "realestate",
+      "relationType": "COVERS",
+      "displayName": "Vertrag - Immobilie",
+      "description": "Verknüpfung zwischen Verträgen und Immobilien",
+      "bidirectional": true,
+      "sourceRelationName": "contractRealestates",
+      "targetRelationName": "realestateContracts"
+    },
+    {
+      "id": "contract-financeaccount",
+      "sourceEntity": "contract",
+      "targetEntity": "financeaccount",
+      "relationType": "PAYMENT_ACCOUNT",
+      "displayName": "Vertrag - Finanzkonto",
+      "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+      "bidirectional": true,
+      "sourceRelationName": "contractFinanceAccounts",
+      "targetRelationName": "financeaccountContracts"
+    },
+    {
+      "id": "contract-mobility",
+      "sourceEntity": "contract",
+      "targetEntity": "mobility",
+      "relationType": "INSURES",
+      "displayName": "Vertrag - Mobilität",
+      "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+      "bidirectional": true,
+      "sourceRelationName": "contractMobilities",
+      "targetRelationName": "mobilityContracts"
+    },
+    {
+      "id": "realestate-financeaccount",
+      "sourceEntity": "realestate",
+      "targetEntity": "financeaccount",
+      "relationType": "FINANCED_BY",
+      "displayName": "Immobilie - Finanzkonto",
+      "description": "Verknüpfung zwischen Immobilien und Finanzkonten",
+      "bidirectional": true,
+      "sourceRelationName": "realestateFinanceaccounts",
+      "targetRelationName": "financeaccountRealestates"
+    },
+    {
+      "id": "realestate-mobility",
+      "sourceEntity": "realestate",
+      "targetEntity": "mobility",
+      "relationType": "STORES",
+      "displayName": "Immobilie - Mobilität",
+      "description": "Verknüpfung zwischen Immobilien und Mobilitätsobjekten",
+      "bidirectional": true,
+      "sourceRelationName": "realestateMobilities",
+      "targetRelationName": "mobilityRealestates"
+    },
+    {
+      "id": "financeaccount-mobility",
+      "sourceEntity": "financeaccount",
+      "targetEntity": "mobility",
+      "relationType": "FINANCES",
+      "displayName": "Finanzkonto - Mobilität",
+      "description": "Verknüpfung zwischen Finanzkonten und Mobilitätsobjekten",
+      "bidirectional": true,
+      "sourceRelationName": "financeaccountMobilities",
+      "targetRelationName": "mobilityFinanceAccounts"
+    },
+    {
+      "id": "contact-contact",
+      "sourceEntity": "contact",
+      "targetEntity": "contact",
+      "relationType": "RELATED_TO",
+      "displayName": "Kontakt - Kontakt",
+      "description": "Verknüpfung zwischen Kontakten",
+      "bidirectional": true,
+      "sourceRelationName": "contactContacts",
+      "targetRelationName": "contactContacts"
+    },
+    {
+      "id": "contract-contract",
+      "sourceEntity": "contract",
+      "targetEntity": "contract",
+      "relationType": "RELATED_TO",
+      "displayName": "Vertrag - Vertrag",
+      "description": "Verknüpfung zwischen Verträgen",
+      "bidirectional": true,
+      "sourceRelationName": "contractContracts",
+      "targetRelationName": "contractContracts"
+    },
+    {
+      "id": "realestate-realestate",
+      "sourceEntity": "realestate",
+      "targetEntity": "realestate",
+      "relationType": "RELATED_TO",
+      "displayName": "Immobilie - Immobilie",
+      "description": "Verknüpfung zwischen Immobilien",
+      "bidirectional": true,
+      "sourceRelationName": "realestateRealestates",
+      "targetRelationName": "realestateRealestates"
+    },
+    {
+      "id": "financeaccount-financeaccount",
+      "sourceEntity": "financeaccount",
+      "targetEntity": "financeaccount",
+      "relationType": "RELATED_TO",
+      "displayName": "Finanzkonto - Finanzkonto",
+      "description": "Verknüpfung zwischen Finanzkonten",
+      "bidirectional": true,
+      "sourceRelationName": "financeaccountFinanceAccounts",
+      "targetRelationName": "financeaccountFinanceAccounts"
+    },
+    {
+      "id": "mobility-mobility",
+      "sourceEntity": "mobility",
+      "targetEntity": "mobility",
+      "relationType": "RELATED_TO",
+      "displayName": "Mobilität - Mobilität",
+      "description": "Verknüpfung zwischen Mobilitätsobjekten",
+      "bidirectional": true,
+      "sourceRelationName": "mobilityMobilities",
+      "targetRelationName": "mobilityMobilities"
+    },
+    {
+      "id": "document-contact",
+      "sourceEntity": "document",
+      "targetEntity": "contact",
+      "relationType": "RELATES_TO",
+      "displayName": "Dokument - Kontakt",
+      "description": "Verknüpfung zwischen Dokumenten und Kontakten",
+      "bidirectional": true,
+      "sourceRelationName": "documentContacts",
+      "targetRelationName": "contactDocuments"
+    }
+  ],
+  "entityTypes": [
+    "contact",
+    "contract",
+    "realestate",
+    "financeaccount",
+    "mobility",
+    "document"
+  ],
+  "relationTypes": [
+    "OWNER",
+    "CONTRACTOR",
+    "ACCOUNT_HOLDER",
+    "COVERS",
+    "PAYMENT_ACCOUNT",
+    "INSURES",
+    "FINANCED_BY",
+    "STORES",
+    "FINANCES",
+    "RELATED_TO",
+    "RELATES_TO"
+  ]
+}

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="20250715000001-fix-all-mobility-formnames" author="jayna">
+        <comment>Korrigiere alle formName-Einträge für Mobility basierend auf den existierenden Form-Definitionen</comment>
+        
+        <!-- Geländewagen -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-offroadvehicle"/>
+            <where>name = 'Geländewagen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- SUV -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-suv"/>
+            <where>name = 'SUV' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Van -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-van"/>
+            <where>name = 'Van' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Transporter -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-transporter"/>
+            <where>name = 'Transporter' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kombi -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-stationwagon"/>
+            <where>name = 'Kombi' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinlaster -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-smalltransporter"/>
+            <where>name = 'Kleinlaster' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinwagen -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-smallcar"/>
+            <where>name = 'Kleinwagen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Roadster -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-roadstar"/>
+            <where>name = 'Roadster' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Pickup -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-pickup"/>
+            <where>name = 'Pickup' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Minivan -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-minivan"/>
+            <where>name = 'Minivan' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kleinbus -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-minibus"/>
+            <where>name = 'Kleinbus' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Limousine -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-limousine"/>
+            <where>name = 'Limousine' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- CUV -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-cuv"/>
+            <where>name = 'CUV' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Coupé -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-coupe"/>
+            <where>name = 'Coupé' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Cabrio -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-car-convertible"/>
+            <where>name = 'Cabrio' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Motorräder -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-trial"/>
+            <where>name = 'Trial' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-stuntbike"/>
+            <where>name = 'Stuntbike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-streetfighter"/>
+            <where>name = 'Streetfighter' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-srambler"/>
+            <where>name = 'Scrambler' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-naked"/>
+            <where>name = 'Naked Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-motocross"/>
+            <where>name = 'Motocross' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-dirtbike"/>
+            <where>name = 'Dirtbike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-cruiser"/>
+            <where>name = 'Cruiser' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-motorcycle-chopper"/>
+            <where>name = 'Chopper' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Quads -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadsidebyside"/>
+            <where>name = 'Side-by-Side' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadroad"/>
+            <where>name = 'Road Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadrace"/>
+            <where>name = 'Race Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadpocket"/>
+            <where>name = 'Pocket Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadoffroad"/>
+            <where>name = 'Offroad Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadelectro"/>
+            <where>name = 'Electro Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadchildren"/>
+            <where>name = 'Children Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quadc"/>
+            <where>name = 'Quad C' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-quad-quad4x4"/>
+            <where>name = '4x4 Quad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Wohnmobile -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-camper-semiintegrated"/>
+            <where>name = 'Teilintegriert' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-camper-fullyintegrated"/>
+            <where>name = 'Vollintegriert' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-passengervehicle-camper-alkoven"/>
+            <where>name = 'Alkoven' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Anhänger -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-trailer-c"/>
+            <where>name = 'Anhänger C' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-trailer-b"/>
+            <where>name = 'Anhänger B' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-trailer-a"/>
+            <where>name = 'Anhänger A' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Wohnwagen -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-caravan-twopersons"/>
+            <where>name = '2-Personen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-caravan-tent"/>
+            <where>name = 'Zelt' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-caravan-sport"/>
+            <where>name = 'Sport' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-caravan-luxury"/>
+            <where>name = 'Luxus' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-caravan-family"/>
+            <where>name = 'Familie' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Kastenwagen -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-commercialvehicle-box-boxvan"/>
+            <where>name = 'Kastenwagen' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Boote -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-boat-sailing-sailingyacht"/>
+            <where>name = 'Segelyacht' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-boat-sailing-sailingboat"/>
+            <where>name = 'Segelboot' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-boat-motorized-motorboat"/>
+            <where>name = 'Motorboot' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-boat-hybrid-motorglider"/>
+            <where>name = 'Motorsegler' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Fahrräder (Pedelec) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pxxl"/>
+            <where>name = 'XXL Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-ptricycle"/>
+            <where>name = 'Dreirad Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-ptrekkingbike"/>
+            <where>name = 'Trekking Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-psuv"/>
+            <where>name = 'SUV Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pspeedbike"/>
+            <where>name = 'Speed Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pracingbike"/>
+            <where>name = 'Rennrad Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pmtb"/>
+            <where>name = 'MTB Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-plifestyle"/>
+            <where>name = 'Lifestyle Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pgravel"/>
+            <where>name = 'Gravel Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pfoldingbike"/>
+            <where>name = 'Faltrad Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pcross"/>
+            <where>name = 'Cross Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pcity"/>
+            <where>name = 'City Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-pedelec-pcargo"/>
+            <where>name = 'Cargo Pedelec' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Fahrräder (E-Bike) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-exxl"/>
+            <where>name = 'XXL E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-etricycle"/>
+            <where>name = 'Dreirad E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-etrekkingbike"/>
+            <where>name = 'Trekking E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-esuv"/>
+            <where>name = 'SUV E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-espeedbike"/>
+            <where>name = 'Speed E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-eracingbike"/>
+            <where>name = 'Rennrad E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-emtb"/>
+            <where>name = 'MTB E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-elifestyle"/>
+            <where>name = 'Lifestyle E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-egravel"/>
+            <where>name = 'Gravel E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-efoldingbike"/>
+            <where>name = 'Faltrad E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-ecross"/>
+            <where>name = 'Cross E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-ecity"/>
+            <where>name = 'City E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-ebike-ecargo"/>
+            <where>name = 'Cargo E-Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Fahrräder (Normal) -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-xxl"/>
+            <where>name = 'XXL Fahrrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-tricycle"/>
+            <where>name = 'Dreirad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-trekkingbike"/>
+            <where>name = 'Trekkingrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-suv"/>
+            <where>name = 'SUV Fahrrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-speedbike"/>
+            <where>name = 'Speedbike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-racingbike"/>
+            <where>name = 'Rennrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-mtb"/>
+            <where>name = 'MTB' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-lifestyle"/>
+            <where>name = 'Lifestyle Fahrrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-gravel"/>
+            <where>name = 'Gravel Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-foldingbike"/>
+            <where>name = 'Faltrad' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-cross"/>
+            <where>name = 'Cross Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-city"/>
+            <where>name = 'City Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-bike-bike-cargo"/>
+            <where>name = 'Cargo Bike' AND entity_name = 'mobility'</where>
+        </update>
+        
+        <!-- Traktor -->
+        <update tableName="group_type">
+            <column name="form_name" value="mobility-agriculture-tractor-tractor"/>
+            <where>name = 'Traktor' AND entity_name = 'mobility'</where>
+        </update>
+        
+    </changeSet>
+
+</databaseChangeLog> 

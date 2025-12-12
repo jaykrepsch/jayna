@@ -1,0 +1,16 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-car.createTitle": "Auto anlegen",
+  "jaynaApp.mobility-passengervehicle-car-car.updateTitle": "Auto bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-car.viewTitle": "Auto anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.title": "Auto-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.carType": "Auto-Typ",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.transmission": "Getriebe",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.seats": "Sitzplätze",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.doors": "Türen",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.trunkCapacity": "Kofferraum (Liter)",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.airConditioning": "Klimaanlage",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.navigation": "Navigation",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.parkingSensors": "Einparkhilfe",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.cruiseControl": "Tempomat",
+  "jaynaApp.mobility-passengervehicle-car-car.specificData.fields.automaticEmergencyBraking": "Notbremsassistent"
+}

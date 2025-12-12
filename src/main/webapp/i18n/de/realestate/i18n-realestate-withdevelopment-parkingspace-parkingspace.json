@@ -1,0 +1,8 @@
+{
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.createTitle": "Parkplatz anlegen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.updateTitle": "Parkplatz bearbeiten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.viewTitle": "Parkplatz anzeigen",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.specificData.title": "Parkplatz-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.specificData.fields.specificField1": "Größe",
+  "jaynaApp.realestate-withdevelopment-parkingspace-parkingspace.specificData.fields.specificField2": "Überdacht"
+}

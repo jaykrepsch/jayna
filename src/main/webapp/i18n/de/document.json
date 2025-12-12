@@ -1,0 +1,225 @@
+{
+  "jaynaApp": {
+    "document": {
+      "home": {
+        "title": "Dokumente",
+        "createLabel": "Neues Dokument erstellen",
+        "createOrEditLabel": "Dokument erstellen oder bearbeiten",
+        "notFound": "Keine Dokumente gefunden"
+      },
+      "created": "Dokument wurde mit der ID {{ param }} erstellt.",
+      "updated": "Dokument wurde mit der ID {{ param }} aktualisiert.",
+      "deleted": "Dokument wurde mit der ID {{ param }} gelöscht.",
+      "delete": {
+        "question": "Sind Sie sicher, dass Sie das Dokument {{ id }} löschen möchten?"
+      },
+      "detail": {
+        "title": "Dokument"
+      },
+      "title": "Titel",
+      "description": "Beschreibung",
+      "fileName": "Dateiname",
+      "filePath": "Dateipfad",
+      "fileSize": "Dateigröße",
+      "uploadDate": "Upload-Datum",
+      "category": "Kategorie",
+      "subCategory": "Unterkategorie",
+      "subCategoryGroup": "Gruppierung",
+      "groupType": "Dokumententyp",
+      "select": {
+        "title": "Dokument auswählen",
+        "uploadSection": "Datei-Upload",
+        "suggestedCategory": "Vorgeschlagene Kategorie",
+        "acceptSuggestion": "Vorschlag annehmen",
+        "rejectSuggestion": "Vorschlag ablehnen",
+        "noSuggestion": "Kein Vorschlag verfügbar",
+        "confidence": "Vertrauen",
+        "mainCategory": "Hauptkategorie",
+        "grouping": "Gruppierung",
+        "documentType": "Dokumententyp",
+        "adjustCategory": "Kategorie anpassen",
+        "category": "Kategorie"
+      },
+      "workflow": {
+        "step1": "Dokument auswählen",
+        "step2": "Dokument analysieren", 
+        "step3": "Dokument erstellen",
+        "quickCreate": "Schnellanlage",
+        "quickCreateTooltip": "Dokument automatisch nach besten Gewissen anlegen",
+        "analyzing": "Analysiere...",
+        "documentData": "Dokumentendaten",
+        "suggestions": "Vorschläge",
+        "extractedData": "Extrahierte Daten",
+        "categorySuggestion": "Kategorie-Vorschlag",
+        "confidence": "Vertrauen",
+        "high": "Hoch",
+        "medium": "Mittel",
+        "low": "Niedrig",
+        "highConfidence": "Hoch",
+        "mediumConfidence": "Mittel",
+        "lowConfidence": "Niedrig",
+        "analyzing": "Analysiere...",
+        "noConfidence": "Kein Vertrauen",
+        "confirmCategory": "Kategorie bestätigen",
+        "entityMatches": "Gefundene Datensätze",
+        "linkExisting": "Verknüpfen",
+        "noMatches": "Keine Übereinstimmungen gefunden",
+        "newEntitySuggestions": "Neue Datensätze vorschlagen",
+        "createNew": "Neu anlegen",
+        "deviations": "Abweichungen",
+        "updateExisting": "Bestehenden aktualisieren"
+      },
+      "relations": "Verknüpfungen",
+      "relatedDocuments": "Verknüpfte Dokumente",
+      "relatedDocumentsDescription": "Hier können Sie andere Dokumente mit diesem Dokument verknüpfen.",
+      "create": {
+        "basicInfo": "Grundinformationen",
+        "titlePlaceholder": "Dokumenttitel eingeben",
+        "descriptionPlaceholder": "Beschreibung des Dokuments"
+      },
+      "preview": {
+        "title": "Dokument-Vorschau",
+        "categoryInfo": "Kategorie-Informationen",
+        "fileInfo": "Datei-Informationen",
+        "fileCount": "Anzahl Dateien",
+        "preview": "Vorschau",
+        "previewText": "Hier wird die Dokument-Vorschau angezeigt",
+        "previewSubtext": "PDF, Bilder und andere Dateien werden hier gerendert",
+        "showPreview": "Vorschau anzeigen",
+        "hidePreview": "Vorschau ausblenden"
+      },
+      "main": {
+        "communication": "Kommunikation",
+        "finances-insurance": "Finanzen & Versicherungen",
+        "energy-utilities": "Energie & Versorgung",
+        "identity-personal-status": "Identität & Personenstand",
+        "housing-property": "Wohnen & Eigentum",
+        "health-medical": "Gesundheit & Medizin",
+        "work-education": "Arbeit & Bildung",
+        "law-administration": "Recht & Verwaltung"
+      },
+      
+      "group": {
+        "accounting": "Rechnungen",
+        "everyday-correspondence": "Alltagskorrespondenz",
+        "protocols": "Protokolle",
+        "digital-communication": "Digitale Kommunikation",
+        "banking": "Bankwesen",
+        "insurances": "Versicherungen",
+        "invoices": "Rechnungen",
+        "ids": "Ausweise",
+        "directives": "Verfügungen",
+        "civil-status-certificates": "Standesamtliche Urkunden",
+        "rental-docs": "Mietunterlagen",
+        "real-estate": "Immobilien",
+        "vehicles": "Fahrzeuge",
+        "medical-documents": "Medizinische Dokumente",
+        "health-care-support": "Pflege & Unterstützung",
+        "work-documents": "Arbeitsdokumente",
+        "education": "Bildung",
+        "application": "Bewerbung",
+        "court-documents": "Gerichtsdokumente",
+        "contracts-terms": "Vertragsunterlagen & Bedingungen"
+      },
+      
+      "type": {
+        "purchase-invoice": "Eingangsrechnung",
+        "receipt": "Quittung",
+        "general-correspondence": "Allgemeine Korrespondenz",
+        "greeting-card": "Grußkarte",
+        "thank-you-letter": "Dankesschreiben",
+        "invitation": "Einladung",
+        "meeting-minutes": "Besprechungsprotokoll",
+        "club-minutes": "Vereinsprotokoll",
+        "email-printout": "E-Mail Ausdruck",
+        "social-media-post": "Social-Media-Post",
+        "chat-log": "Chat-Verlauf",
+        "loan-contract": "Darlehensvertrag",
+        "invoice": "Rechnung",
+        "payment-proof": "Zahlungsbeleg",
+        "quotation": "Angebot",
+        "dunning-letter": "Mahnschreiben",
+        "account-statement": "Kontoauszug",
+        "credit-card-statement": "Kreditkartenabrechnung",
+        "sepa-mandate": "SEPA‑Mandat",
+        "insurance-policy": "Versicherungspolice",
+        "benefit-statement": "Leistungsabrechnung",
+        "claim-report": "Schadensmeldung",
+        
+        "electricity-bill": "Stromrechnung",
+        "gas-bill": "Gasrechnung",
+        "water-bill": "Wasserrechnung",
+        "internet-phone-bill": "Internet-/Telefon-Rechnung",
+        
+        "identity-card": "Personalausweis",
+        "passport": "Reisepass",
+        "drivers-license": "Führerschein",
+        "disability-id": "Schwerbehindertenausweis",
+        "residence-permit": "Aufenthaltstitel",
+        
+        "patient-directive": "Patientenverfügung",
+        "power-of-attorney": "Vorsorgevollmacht",
+        "will": "Testament",
+        
+        "birth-certificate": "Geburtsurkunde",
+        "marriage-certificate": "Heiratsurkunde",
+        "divorce-decree": "Scheidungsurteil",
+        
+        "rental-contract": "Mietvertrag",
+        "utility-bill": "Nebenkostenabrechnung",
+        "handover-report": "Übergabeprotokoll",
+        
+        "building-plan": "Bauplan",
+        "building-permit": "Baugenehmigung",
+        "purchase-contract-house": "Kaufvertrag (Haus)",
+        
+        "vehicle-title": "Fahrzeugbrief",
+        "vehicle-registration": "Fahrzeugschein",
+        "tuv-certificate": "TÜV‑Bescheinigung",
+        "maintenance-record": "Wartungsheft",
+        "workshop-invoice": "Werkstattrechnung",
+        
+        "medical-invoice": "Arztrechnung",
+        "medical-report": "Arztbrief/Befund",
+        "lab-result": "Laborergebnis",
+        "prescription": "Rezept",
+        "vaccination-card": "Impfpass",
+        "xray-images": "Röntgenbilder",
+        
+        "care-level-notice": "Pflegegradbescheid",
+        "guardianship-certificate": "Betreuerausweis",
+        
+        "warning": "Abmahnung",
+        "termination": "Kündigung",
+        "payslip": "Gehaltsabrechnung",
+        "income-tax-certificate": "Lohnsteuerbescheinigung",
+        "employment-contract": "Arbeitsvertrag",
+        
+        "certificate": "Zeugnis",
+        "final-certificate": "Abschlusszeugnis",
+        "intermediate-certificate": "Zwischenzeugnis",
+        "study-certificate": "Studienbescheinigung",
+        "university-degree": "Hochschulabschluss",
+        
+        "cv": "Lebenslauf",
+        "cover-letter": "Anschreiben",
+        "references": "Referenzen",
+        
+        "summons": "Ladung",
+        "penalty-order": "Strafbefehl",
+        "judgment": "Urteil",
+        "enforcement-order": "Vollstreckungsbescheid",
+        "privacy-notice": "Datenschutzhinweise",
+        "terms-and-conditions": "AGB",
+        "contract-terms": "Vertragsbedingungen"
+      }
+    }
+  },
+  "button": {
+    "back": "Zurück",
+    "continue": "Weiter",
+    "view": "Anzeigen",
+    "cancel": "Abbrechen",
+    "save": "Speichern"
+  }
+}

@@ -1,0 +1,57 @@
+
+@skipClient
+@paginate(pagination)
+@service(serviceClass)
+@filter
+entity RealEstate {
+  street String
+  streetNumber String
+  postalCode String
+  city String
+  state String
+  country String
+  propertyLength Double
+  propertyArea Double
+  area Double
+  noHouses Integer
+  constructionYear LocalDate
+  designType String
+  designTypeClass DesignTypeClass
+  builtUpArea Double
+  sealtArea Double
+  undevelopedArea Double
+  noUnits Integer
+  noFloors Integer
+  noPowerOutlets Integer
+  noNetworkSockets Integer
+  noLightSwitches Integer
+  noAntennas Integer
+  noShutterSwitches Integer
+  noRadiators Integer
+  noParkings Integer
+  noGarages Integer
+  noCarports Integer
+  noWindows Integer
+  windowArea Double
+  noElevators Integer
+  corridorArea Double
+  noBasementRooms Integer
+  monumentProtected Boolean
+  heatingType HeatingType
+  roofPitch Double
+  roofType RoofType
+  gableAlignment Direction
+  roofArea Double
+}
+enum DesignTypeClass {
+  BAK1, BAK2, BAK3, BAK4, BAK5
+}
+enum HeatingType {
+  GAS, PELLET, ELECTRICT, HEATPUMP
+}
+enum RoofType {
+  FLAT, HIPPED, CROSS, DITCH, CROOKED_HIPPED, MANSARD, MANSARD_WITH_HIPPED_FOOT, MANSARD_WITH_TUFT, MANSARD_HIPPED, ONLY_ROOF, PARALLEL, PENT, PENT_EXTENDED, PITCHED, GABLE_EXTENDED, SADDLE_HIP, SHEDDACH_SAW_TOOTH, CANOPY, BUTTERFLY, BARREL, HIP, HIP_THROAT, TENT, DWARF
+}
+enum Direction {
+  NORTH, EAST, SOUTH, WEST
+}

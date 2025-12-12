@@ -1,0 +1,65 @@
+{
+  "_comment": "Standard-Abschnitte für alle Vertrags-Form-Definitionen. Diese werden in spezifischen Vertrags-Definitionen referenziert.",
+  "general": {
+    "title": "jaynaApp.baseContract.general.title",
+    "fields": [
+      { "name": "label", "type": "text", "rules": "required" },
+      { "name": "description", "type": "text" },
+      { "name": "entityState", "type": "dropdown", "boxLabel": "global.menu.choose", "enumName": "entityState", "defaultValue": "ACTIVE" }
+    ]
+  },
+  "contractData": {
+    "title": "jaynaApp.baseContract.contractData.title",
+    "fields": [
+      { "name": "contractNumber", "type": "text" },
+      { "name": "startDate", "type": "date" },
+      { "name": "endDate", "type": "date" },
+      { "name": "contractType", "type": "dropdown", "boxLabel": "global.menu.choose", "enumName": "contractType" },
+      { "name": "provider", "type": "text" },
+      { "name": "contractor", "type": "text" },
+      { "name": "contractOwner", "type": "text" },
+      { "name": "contractUser", "type": "text" },
+      { "name": "applicationDate", "type": "date" },
+      { "name": "confirmationDate", "type": "date" }
+    ]
+  },
+  "payment": {
+    "title": "jaynaApp.baseContract.payment.title",
+    "fields": [
+      { "name": "amount", "type": "number" },
+      { "name": "payer", "type": "text" },
+      { "name": "paymentPattern", "type": "dropdown", "boxLabel": "global.menu.choose", "enumName": "paymentPattern" },
+      { "name": "paymentType", "type": "dropdown", "boxLabel": "global.menu.choose", "enumName": "paymentType" }
+    ]
+  },
+  "weiteres": {
+    "title": "jaynaApp.baseContract.weiteres.title",
+    "fields": [
+      { "name": "comment", "type": "textarea" },
+      { "name": "notes", "type": "textarea" }
+    ]
+  },
+  "relations": { "title": "jaynaApp.baseContract.relations.title" },
+  "organisation": {
+    "title": "jaynaApp.baseContract.organisation.title",
+    "fields": [
+      {
+        "name": "organisationTable",
+        "type": "organisation-table",
+        "label": "Kalender, Aufgaben & Notizen"
+      }
+    ]
+  },
+  "documents": {
+    "title": "jaynaApp.baseContract.documents.title",
+    "fields": [
+      {
+        "name": "documentsTable",
+        "type": "documents-table",
+        "label": "Verknüpfte Dokumente"
+      }
+    ]
+  }
+}
+
+

@@ -1,0 +1,25 @@
+ id |       name        |                         form_name                         
+----+-------------------+-----------------------------------------------------------
+ 12 | Vollzeit          | contract-employmentcontract-employee-fulltime
+ 13 | Aushilfe          | contract-employmentcontract-employee-fulltime
+ 14 | Praktikumsvertrag | contract-employmentcontract-employee-fulltime
+  3 | Mini              | contract-employmentcontract-employee-fulltime
+  4 | Teilzeit          | contract-employmentcontract-employee-fulltime
+  5 | Vollzeit          | contract-employmentcontract-employee-fulltime
+  6 | Aushilfe          | contract-employmentcontract-employee-fulltime
+  7 | Praktikumsvertrag | contract-employmentcontract-employee-fulltime
+  9 | Werkvertrag       | contract-employmentcontract-employee-fulltime
+ 10 | Mini              | contract-employmentcontract-employee-fulltime
+  8 | Aufhebungsvertrag | contract-employmentcontract-employee-terminationagreement
+ 15 | Aufhebungsvertrag | contract-employmentcontract-employee-terminationagreement
+ 11 | Teilzeit          | contract-employmentcontract-employee-fulltime
+ 16 | Werkvertrag       | contract-employmentcontract-employee-fulltime
+ 85 | Aufhebungsvertrag | contract-employmentcontract-employee-terminationagreement
+ 83 | Aushilfe          | contract-employmentcontract-employee-fulltime
+ 80 | Mini              | contract-employmentcontract-employee-fulltime
+ 81 | Teilzeit          | contract-employmentcontract-employee-fulltime
+ 82 | Vollzeit          | contract-employmentcontract-employee-fulltime
+ 84 | Praktikumsvertrag | contract-employmentcontract-employee-fulltime
+ 86 | Werkvertrag       | contract-employmentcontract-employee-fulltime
+(21 rows)
+

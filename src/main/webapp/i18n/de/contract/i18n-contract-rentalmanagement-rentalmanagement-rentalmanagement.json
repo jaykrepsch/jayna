@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.createTitle": "Mietverwaltung anlegen",
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.updateTitle": "Mietverwaltung bearbeiten",
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.viewTitle": "Mietverwaltung anzeigen",
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.specificData.title": "Mietverwaltung-spezifische Daten",
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.specificData.fields.specificField1": "Verwaltungsgebühr",
+  "jaynaApp.contract-rentalmanagement-rentalmanagement-rentalmanagement.specificData.fields.specificField2": "Serviceumfang"
+}

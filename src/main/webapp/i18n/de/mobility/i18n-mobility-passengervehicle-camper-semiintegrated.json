@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.createTitle": "Personenfahrzeug Wohnmobil semiintegrated anlegen",
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.updateTitle": "Personenfahrzeug Wohnmobil semiintegrated bearbeiten",
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.viewTitle": "Personenfahrzeug Wohnmobil semiintegrated anzeigen",
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.specificData.title": "Personenfahrzeug Wohnmobil semiintegrated-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-camper-semiintegrated.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

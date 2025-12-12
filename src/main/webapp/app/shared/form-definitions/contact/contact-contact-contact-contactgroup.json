@@ -1,0 +1,144 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseContact, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "Contact Contact Contact ContactGroup",
+  "parts": [
+    {
+      "title": "jaynaApp.baseContact.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contact-contact-contact-contactGroup.specificData.title",
+      "i18nSource": "contact-contact-contact-contactGroup",
+      "fields": [
+        {
+          "name": "specificField1",
+          "type": "text"
+        },
+        {
+          "name": "specificField2",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "contactContacts",
+      "relationConfig": {
+        "id": "contact-contact",
+        "sourceEntity": "contact",
+        "targetEntity": "contact",
+        "relationType": "RELATED_TO",
+        "displayName": "Kontakt - Kontakt",
+        "description": "Verknüpfung zwischen Kontakten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "contactContracts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "contactRealestates",
+      "relationConfig": {
+        "id": "contact-realestate",
+        "sourceEntity": "contact",
+        "targetEntity": "realestate",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Immobilie",
+        "description": "Verknüpfung zwischen Kontakten und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "contactFinanceAccounts",
+      "relationConfig": {
+        "id": "contact-financeaccount",
+        "sourceEntity": "contact",
+        "targetEntity": "financeaccount",
+        "relationType": "ACCOUNT_HOLDER",
+        "displayName": "Kontakt - Finanzkonto",
+        "description": "Verknüpfung zwischen Kontakten und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "contactMobilities",
+      "relationConfig": {
+        "id": "contact-mobility",
+        "sourceEntity": "contact",
+        "targetEntity": "mobility",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Mobilität",
+        "description": "Verknüpfung zwischen Kontakten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContact.relations.title",
+  "organisationTitle": "jaynaApp.baseContact.organisation.title",
+  "documentsTitle": "jaynaApp.baseContact.documents.title"
+}

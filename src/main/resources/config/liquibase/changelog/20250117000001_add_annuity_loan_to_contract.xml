@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    
+    <!-- Neue Sub-Kategorie für Annuitätendarlehen unter Verträge -->
+    <changeSet author="jayna" id="20250117000001-1">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">SELECT COUNT(*) FROM sub_category WHERE id = 19</sqlCheck>
+        </preConditions>
+        <insert tableName="sub_category">
+            <column name="id" value="19"/>
+            <column name="name" value="Annuitätendarlehen"/>
+            <column name="created_date" value="2025-01-17 00:00:00"/>
+            <column name="translation_key" value="jaynaApp.contract.sub-category.annuity-loan"/>
+            <column name="category_id" value="1"/>
+            <column name="created_by" value="system"/>
+            <column name="creation_type" value="STATIC"/>
+        </insert>
+    </changeSet>
+    
+    <!-- Neue Sub-Kategorie-Gruppe für Annuitätendarlehen -->
+    <changeSet author="jayna" id="20250117000001-2">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">SELECT COUNT(*) FROM sub_category_group WHERE id = 41</sqlCheck>
+        </preConditions>
+        <insert tableName="sub_category_group">
+            <column name="id" value="41"/>
+            <column name="name" value="Annuitätendarlehen"/>
+            <column name="created_date" value="2025-01-17 00:00:00"/>
+            <column name="translation_key" value="jaynaApp.contract.sub-category-group.annuity-loan"/>
+            <column name="sub_category_id" value="19"/>
+            <column name="created_by" value="system"/>
+            <column name="creation_type" value="STATIC"/>
+        </insert>
+    </changeSet>
+    
+    <!-- Neuer Gruppentyp für Annuitätendarlehen -->
+    <changeSet author="jayna" id="20250117000001-3">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">SELECT COUNT(*) FROM group_type WHERE id = 145</sqlCheck>
+        </preConditions>
+        <insert tableName="group_type">
+            <column name="id" value="145"/>
+            <column name="name" value="Annuitätendarlehen"/>
+            <column name="created_date" value="2025-01-17 00:00:00"/>
+            <column name="translation_key" value="jaynaApp.contract.group-type.annuity-loan"/>
+            <column name="sub_category_group_id" value="41"/>
+            <column name="entity_name" value="contract"/>
+            <column name="abbreviation" value="ANLD"/>
+            <column name="form_name" value="annuity-loan"/>
+        </insert>
+    </changeSet>
+    
+</databaseChangeLog> 

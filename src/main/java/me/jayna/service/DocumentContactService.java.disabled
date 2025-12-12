@@ -1,0 +1,105 @@
+package me.jayna.service;
+
+import java.util.List;
+import java.util.Optional;
+import me.jayna.domain.DocumentContact;
+// import me.jayna.repository.DocumentContactRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * Service Implementation for managing {@link DocumentContact}.
+ */
+// @Service
+// @Transactional
+public class DocumentContactService {
+
+    private final Logger log = LoggerFactory.getLogger(DocumentContactService.class);
+
+    // private final DocumentContactRepository documentContactRepository;
+
+    // public DocumentContactService(DocumentContactRepository documentContactRepository) {
+    //     this.documentContactRepository = documentContactRepository;
+    // }
+
+    /**
+     * Save a documentContact.
+     *
+     * @param documentContact the entity to save.
+     * @return the persisted entity.
+     */
+    // public DocumentContact save(DocumentContact documentContact) {
+    //     log.debug("Request to save DocumentContact : {}", documentContact);
+    //     return documentContactRepository.save(documentContact);
+    // }
+
+    /**
+     * Update a documentContact.
+     *
+     * @param documentContact the entity to save.
+     * @return the persisted entity.
+     */
+    // public DocumentContact update(DocumentContact documentContact) {
+    //     log.debug("Request to update DocumentContact : {}", documentContact);
+    //     return documentContactRepository.save(documentContact);
+    // }
+
+    /**
+     * Partially update a documentContact.
+     *
+     * @param documentContact the entity to update partially.
+     * @return the persisted entity.
+     */
+    // public Optional<DocumentContact> partialUpdate(DocumentContact documentContact) {
+    //     log.debug("Request to partially update DocumentContact : {}", documentContact);
+
+    //     return documentContactRepository
+    //         .findById(documentContact.getId())
+    //         .map(existingDocumentContact -> {
+    //             if (documentContact.getDocument() != null) {
+    //                 existingDocumentContact.setDocument(documentContact.getDocument());
+    //             }
+    //             if (documentContact.getContact() != null) {
+    //                 existingDocumentContact.setContact(documentContact.getContact());
+    //             }
+
+    //             return existingDocumentContact;
+    //         })
+    //         .map(documentContactRepository::save);
+    // }
+
+    /**
+     * Get all the documentContacts.
+     *
+     * @return the list of entities.
+     */
+    // @Transactional(readOnly = true)
+    // public List<DocumentContact> findAll() {
+    //     log.debug("Request to get all DocumentContacts");
+    //     return documentContactRepository.findAll();
+    // }
+
+    /**
+     * Get one documentContact by id.
+     *
+     * @param id the id of the entity.
+     * @return the entity.
+     */
+    // @Transactional(readOnly = true)
+    // public Optional<DocumentContact> findOne(Long id) {
+    //     log.debug("Request to get DocumentContact : {}", id);
+    //     return documentContactRepository.findById(id);
+    // }
+
+    /**
+     * Delete the documentContact by id.
+     *
+     * @param id the id of the entity.
+     */
+    // public void delete(Long id) {
+    //     log.debug("Request to delete DocumentContact : {}", id);
+    //     documentContactRepository.deleteById(id);
+    // }
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-convertible.createTitle": "Personenfahrzeug Auto convertible anlegen",
+  "jaynaApp.mobility-passengervehicle-car-convertible.updateTitle": "Personenfahrzeug Auto convertible bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-convertible.viewTitle": "Personenfahrzeug Auto convertible anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-convertible.specificData.title": "Personenfahrzeug Auto convertible-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-convertible.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-convertible.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

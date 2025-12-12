@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-psuv.createTitle": "Fahrrad pedelec psuv anlegen",
+  "jaynaApp.mobility-bike-pedelec-psuv.updateTitle": "Fahrrad pedelec psuv bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-psuv.viewTitle": "Fahrrad pedelec psuv anzeigen",
+  "jaynaApp.mobility-bike-pedelec-psuv.specificData.title": "Fahrrad pedelec psuv-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-psuv.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-psuv.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

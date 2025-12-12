@@ -1,0 +1,133 @@
+{
+  "propertyType": {
+    "RESIDENTIAL_BUILDING": "Wohngebäude",
+    "COMMERCIAL_BUILDING": "Gewerbegebäude",
+    "GROUND": "Grundstück",
+    "FARMLAND": "Landwirtschaft",
+    "GARDEN": "Garten",
+    "HALL": "Halle",
+    "PARKING_SPACE": "Parkfläche",
+    "COMMERCIAL_RESIDENTIAL_BUILDING": "Wohn- und Gewerbegebäude"
+  },
+  "designTypeClass": {
+    "BAK1": "BAK1",
+    "BAK2": "BAK2",
+    "BAK3": "BAK3",
+    "BAK4": "BAK4",
+    "BAK5": "BAK5"
+  },
+  "heatingType": {
+    "GAS": "Gas",
+    "PELLET": "Pellets",
+    "ELECTRIC": "Elektrisch",
+    "HEATPUMP": "Wärmepumpe"
+  },
+  "roofType": {
+    "FLAT": "Flachdach",
+    "HIPPED": "Walmdach",
+    "CROSS": "Kreuzdach",
+    "DITCH": "Grabendach",
+    "CROOKED_HIPPED": "Knickwalmdach",
+    "MANSARD": "Mansarddach",
+    "MANSARD_WITH_HIPPED_FOOT": "Mansarddach mit Walmfuß",
+    "MANSARD_WITH_TUFT": "Mansarddach mit Tuff",
+    "MANSARD_HIPPED": "Mansardwalmdach",
+    "ONLY_ROOF": "Nur Dach",
+    "PARALLEL": "Parallel",
+    "PENT": "Pultdach",
+    "PENT_EXTENDED": "Erweitertes Pultdach",
+    "PITCHED": "Satteldach",
+    "GABLE_EXTENDED": "Erweitertes Giebeldach",
+    "SADDLE_HIP": "Sattelwalmdach",
+    "SHEDDACH_SAW_TOOTH": "Sheddach Sägezahn",
+    "CANOPY": "Vordach",
+    "BUTTERFLY": "Schmetterlingsdach",
+    "BARREL": "Tonnendach",
+    "HIP": "Walm",
+    "HIP_THROAT": "Walmkehle",
+    "TENT": "Zeltdach",
+    "DWARF": "Zwergdach"
+  },
+  "direction": {
+    "NORTH": "Nord",
+    "EAST": "Ost",
+    "SOUTH": "Süd",
+    "WEST": "West"
+  },
+  "houseType": {
+    "DETACHED_HOUSE": "Einfamilienhaus",
+    "SEMIDETACHED_HOUSE": "Doppelhaus",
+    "TERRACED_HOUSE": "Reihenhaus",
+    "APARTMENT_BUILDING": "Mehrfamilienhaus",
+    "CARE_FACILITY": "Pflegeeinrichtung",
+    "VACATION_HOUSE": "Ferienhaus",
+    "TWO_FAMILY_HOUSE": "Zweifamilienhaus"
+  },
+  "ownershipType": {
+    "OWNER_OCCUPIED": "Eigennutzung",
+    "RENTAL": "Vermietet",
+    "PARTIAL_OWNERSHIP": "Teileigentum",
+    "COMMON_OWNERSHIP": "Gemeinschaftseigentum",
+    "LEASEHOLD": "Erbpacht",
+    "COOPERATIVE": "Genossenschaft"
+  },
+  "energyEfficiencyClass": {
+    "A_PLUS": "A+",
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D",
+    "E": "E",
+    "F": "F",
+    "G": "G",
+    "H": "H"
+  },
+  "heatingType": {
+    "GAS": "Gas",
+    "OIL": "Öl",
+    "ELECTRIC": "Elektrisch",
+    "WOOD": "Holz",
+    "PELLET": "Pellets",
+    "HEAT_PUMP": "Wärmepumpe",
+    "DISTRICT_HEATING": "Fernwärme",
+    "SOLAR": "Solar",
+    "COMBINED": "Kombination"
+  },
+  "plotType": {
+    "BUILDING_PLOT": "Bauland",
+    "MEADOW": "Wiese",
+    "FOREST": "Wald",
+    "FARMLAND": "Ackerland",
+    "PASTURE": "Weide",
+    "GARDEN": "Garten"
+  },
+  "zoningType": {
+    "RESIDENTIAL": "Wohngebiet",
+    "COMMERCIAL": "Gewerbegebiet",
+    "MIXED": "Mischgebiet",
+    "INDUSTRIAL": "Industriegebiet",
+    "AGRICULTURAL": "Landwirtschaft",
+    "RECREATION": "Erholungsgebiet"
+  },
+  "soilQuality": {
+    "EXCELLENT": "Sehr gut",
+    "GOOD": "Gut",
+    "AVERAGE": "Durchschnittlich",
+    "POOR": "Schlecht",
+    "VERY_POOR": "Sehr schlecht"
+  },
+  "officeType": {
+    "OFFICE": "Büro",
+    "OPEN_PLAN_OFFICE": "Großraumbüro",
+    "EXECUTIVE_OFFICE": "Chefbüro",
+    "MEETING_ROOM": "Besprechungsraum",
+    "RECEPTION": "Empfang",
+    "COWORKING": "Coworking-Space"
+  },
+  "tenantType": {
+    "PRIVATE": "Privat",
+    "COMMERCIAL": "Gewerblich",
+    "PUBLIC": "Öffentlich",
+    "NON_PROFIT": "Gemeinnützig"
+  }
+}

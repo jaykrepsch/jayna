@@ -1,0 +1,52 @@
+{
+  "jaynaApp": {
+    "realestate": {
+      "sub-category": {
+        "with-development": "mit Bebauung",
+        "without-development": "ohne Bebauung"
+      },
+      "sub-category-group": {
+        "farmland": "Bewirtschaftung",
+        "garden": "Garten",
+        "commercial-building": "Gewerbehaus",
+        "residential-building": "Wohngebäude",
+        "hall": "Halle",
+        "parking-space": "Parkfläche",
+        "commercial-residential-building": "Wohn + Gewerbehaus",
+        "ground": "Grund"
+      },
+      "group-type": {
+        "farmland": "Ackerland",
+        "forest": "Forst",
+        "fruit": "Frucht",
+        "pasture": "Weide",
+        "allotment-garden": "Schrebergarten",
+        "commercial-unit": "Gewerbeeinheit",
+        "commercial-building": "Gewerbehaus",
+        "office": "Büro",
+        "retail": "Einzelhandel",
+        "warehouse": "Lager",
+        "residential-building": "Wohngebäude",
+        "detached-house": "Einfamilienhaus",
+        "semidetached-house": "Doppelhaus",
+        "terraced-house": "Reihenhaus",
+        "apartment-building": "Mehrfamilienhaus",
+        "care-facility": "Pflegeeinrichtung",
+        "vacation-house": "Ferienhaus",
+        "two-family-house": "Zweifamilienhaus",
+        "hall": "Halle",
+        "carport": "Carport",
+        "garage": "Garage",
+        "parking-house": "Parkhaus",
+        "parking-space": "Parkplatz",
+        "apartments-commercial-mix": "Wohnungen & Gewerbe",
+        "building-plot": "Bebauungsgrundstück",
+        "meadow": "Wiese"
+      },
+      "title": "Immobilie",
+      "relations": {
+        "title": "Verknüpfungen"
+      }
+    }
+  }
+} 

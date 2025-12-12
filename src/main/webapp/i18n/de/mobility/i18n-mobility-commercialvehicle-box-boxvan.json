@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.createTitle": "Nutzfahrzeug Kastenwagen boxvan anlegen",
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.updateTitle": "Nutzfahrzeug Kastenwagen boxvan bearbeiten",
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.viewTitle": "Nutzfahrzeug Kastenwagen boxvan anzeigen",
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.specificData.title": "Nutzfahrzeug Kastenwagen boxvan-spezifische Daten",
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-commercialvehicle-box-boxvan.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

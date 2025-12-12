@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <changeSet id="20250117000000-1" author="system">
+        <comment>Korrigiere verbleibende fehlerhafte form_name-Einträge</comment>
+        
+        <!-- Motorrad, Wohnwagen, Wohnmobil, Traktor: contract-insurance-car-carcontract -> contract-insurance-automobile-automobilecontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-automobile-automobilecontract"/>
+            <where>id IN (56, 57, 58, 59)</where>
+        </update>
+        
+        <!-- Glas: contract-insurance-glass-glasscontract -> contract-insurance-fire-firecontract -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-insurance-fire-firecontract"/>
+            <where>id = 95</where>
+        </update>
+        
+    </changeSet>
+
+</databaseChangeLog> 

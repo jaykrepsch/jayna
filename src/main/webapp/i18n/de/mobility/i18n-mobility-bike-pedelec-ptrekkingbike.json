@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.createTitle": "Fahrrad pedelec ptrekkingbike anlegen",
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.updateTitle": "Fahrrad pedelec ptrekkingbike bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.viewTitle": "Fahrrad pedelec ptrekkingbike anzeigen",
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.specificData.title": "Fahrrad pedelec ptrekkingbike-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-ptrekkingbike.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

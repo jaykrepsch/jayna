@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1702286751500-1">
+        <createTable tableName="custom_form_input">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="custom_form_inputPK"/>
+            </column>
+            <column name="payload" type="BYTEA"/>
+            <column name="config_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1702286751500-2">
+        <addForeignKeyConstraint baseColumnNames="config_id" baseTableName="custom_form_input" constraintName="FKsg1o619h10j66ceifglpic70a" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="form_config" validate="true"/>
+    </changeSet>
+</databaseChangeLog>

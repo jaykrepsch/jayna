@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet author="system" id="20250702170000-fix-festgeldkonto-formname">
+        <comment>Korrigiere den form_name für das Festgeldkonto</comment>
+        
+        <!-- Korrigiere den form_name für das Festgeldkonto -->
+        <update tableName="group_type">
+            <column name="form_name" value="contract-savings-savings-fixedtermcontract"/>
+            <where>name = 'Festgeldkonto' AND form_name = 'financeaccount-bank-savingaccount-savingaccount'</where>
+        </update>
+        
+        <!-- Überprüfe das Ergebnis -->
+        <sql>
+            SELECT 'Festgeldkonto form_name korrigiert' as info;
+        </sql>
+    </changeSet>
+
+</databaseChangeLog> 

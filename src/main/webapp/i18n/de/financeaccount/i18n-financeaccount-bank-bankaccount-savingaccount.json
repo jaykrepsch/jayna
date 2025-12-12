@@ -1,0 +1,16 @@
+{
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.createTitle": "Sparkonto anlegen",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.updateTitle": "Sparkonto bearbeiten",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.viewTitle": "Sparkonto anzeigen",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.title": "Sparkonto-spezifische Daten",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.savingsType": "Sparkonto-Typ",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.interestCalculation": "Zinsberechnung",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.withdrawalLimit": "Auszahlungslimit",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.monthlyWithdrawals": "Monatliche Auszahlungen",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.freeWithdrawals": "Kostenlose Auszahlungen",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.minimumBalance": "Mindestguthaben",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.bonusInterest": "Bonus-Zinsen",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.onlineAccess": "Online-Zugang",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.mobileAccess": "Mobile Zugang",
+  "jaynaApp.financeaccount-bank-bankaccount-savingaccount.specificData.fields.automaticSavings": "Automatisches Sparen"
+}

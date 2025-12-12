@@ -1,0 +1,15 @@
+{
+  "entity": {
+    "detail": {
+      "lastModifiedDate": "Zuletzt geändert",
+      "lastModifiedBy": "Geändert von",
+      "createdDate": "Erstellt am"
+    },
+    "action": {
+      "back": "Zurück",
+      "edit": "Bearbeiten",
+      "save": "Speichern",
+      "delete": "Löschen"
+    }
+  }
+} 

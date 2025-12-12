@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-miniJob.createTitle": "Arbeitsvertrag Angestellter Mini-Job erstellen",
+  "jaynaApp.contract-employment-employee-miniJob.updateTitle": "Arbeitsvertrag Angestellter Mini-Job bearbeiten",
+  "jaynaApp.contract-employment-employee-miniJob.viewTitle": "Arbeitsvertrag Angestellter Mini-Job anzeigen",
+  "jaynaApp.contract-employment-employee-miniJob.specificData.title": "Mini-Job Daten",
+  "jaynaApp.contract-employment-employee-miniJob.specificData.fields.specificField1": "Arbeitsbereich",
+  "jaynaApp.contract-employment-employee-miniJob.specificData.fields.specificField2": "Stunden pro Woche"
+}

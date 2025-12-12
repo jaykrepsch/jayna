@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <!-- Vollständige Dokument-Taxonomie: Hauptkategorien, Gruppierungen, Dokumententypen -->
+    <changeSet id="20250901-doc-taxonomy-full" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <tableExists tableName="category"/>
+            <tableExists tableName="sub_category"/>
+            <tableExists tableName="sub_category_group"/>
+            <tableExists tableName="group_type"/>
+        </preConditions>
+
+        <sql dbms="postgresql">
+            -- Hole die Kategorie-ID für entity_name 'document'
+            WITH doc_cat AS (
+                SELECT id FROM category WHERE entity_name = 'document'
+            ),
+            -- Hilfsfunktion: upsert SubCategory
+            sc_comm AS (
+                SELECT id FROM sub_category WHERE name = 'Kommunikation' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Kommunikation', 'jaynaApp.document.main.communication', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Kommunikation' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_fin AS (
+                SELECT id FROM sub_category WHERE name = 'Finanzen & Versicherungen' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Finanzen & Versicherungen', 'jaynaApp.document.main.finances-insurance', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Finanzen & Versicherungen' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_energy AS (
+                SELECT id FROM sub_category WHERE name = 'Energie & Versorgung' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Energie & Versorgung', 'jaynaApp.document.main.energy-utilities', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Energie & Versorgung' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_identity AS (
+                SELECT id FROM sub_category WHERE name = 'Identität & Personenstand' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Identität & Personenstand', 'jaynaApp.document.main.identity-personal-status', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Identität & Personenstand' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_housing AS (
+                SELECT id FROM sub_category WHERE name = 'Wohnen & Eigentum' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Wohnen & Eigentum', 'jaynaApp.document.main.housing-property', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Wohnen & Eigentum' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_health AS (
+                SELECT id FROM sub_category WHERE name = 'Gesundheit & Medizin' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Gesundheit & Medizin', 'jaynaApp.document.main.health-medical', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Gesundheit & Medizin' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_work AS (
+                SELECT id FROM sub_category WHERE name = 'Arbeit & Bildung' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Arbeit & Bildung', 'jaynaApp.document.main.work-education', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Arbeit & Bildung' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_law AS (
+                SELECT id FROM sub_category WHERE name = 'Recht & Verwaltung' AND category_id = (SELECT id FROM doc_cat)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category (id, name, translation_key, category_id)
+                    SELECT nextval('sequence_generator'), 'Recht & Verwaltung', 'jaynaApp.document.main.law-administration', (SELECT id FROM doc_cat)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category WHERE name = 'Recht & Verwaltung' AND category_id = (SELECT id FROM doc_cat)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_invoice AS (
+                SELECT id FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_fin)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Rechnungen', 'jaynaApp.document.group.accounting', (SELECT id FROM sc_fin)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_fin)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_bank AS (
+                SELECT id FROM sub_category_group WHERE name = 'Bankwesen' AND sub_category_id = (SELECT id FROM sc_fin)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Bankwesen', 'jaynaApp.document.group.banking', (SELECT id FROM sc_fin)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Bankwesen' AND sub_category_id = (SELECT id FROM sc_fin)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_ins AS (
+                SELECT id FROM sub_category_group WHERE name = 'Versicherungen' AND sub_category_id = (SELECT id FROM sc_fin)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Versicherungen', 'jaynaApp.document.group.insurances', (SELECT id FROM sc_fin)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Versicherungen' AND sub_category_id = (SELECT id FROM sc_fin)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_energy_inv AS (
+                SELECT id FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_energy)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Rechnungen', 'jaynaApp.document.group.invoices', (SELECT id FROM sc_energy)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_energy)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_ids AS (
+                SELECT id FROM sub_category_group WHERE name = 'Ausweise' AND sub_category_id = (SELECT id FROM sc_identity)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Ausweise', 'jaynaApp.document.group.ids', (SELECT id FROM sc_identity)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Ausweise' AND sub_category_id = (SELECT id FROM sc_identity)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_directives AS (
+                SELECT id FROM sub_category_group WHERE name = 'Verfügungen' AND sub_category_id = (SELECT id FROM sc_identity)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Verfügungen', 'jaynaApp.document.group.directives', (SELECT id FROM sc_identity)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Verfügungen' AND sub_category_id = (SELECT id FROM sc_identity)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_civil AS (
+                SELECT id FROM sub_category_group WHERE name = 'Standesamtliche Urkunden' AND sub_category_id = (SELECT id FROM sc_identity)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Standesamtliche Urkunden', 'jaynaApp.document.group.civil-status-certificates', (SELECT id FROM sc_identity)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Standesamtliche Urkunden' AND sub_category_id = (SELECT id FROM sc_identity)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_rental AS (
+                SELECT id FROM sub_category_group WHERE name = 'Mietunterlagen' AND sub_category_id = (SELECT id FROM sc_housing)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Mietunterlagen', 'jaynaApp.document.group.rental-docs', (SELECT id FROM sc_housing)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Mietunterlagen' AND sub_category_id = (SELECT id FROM sc_housing)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_realestate AS (
+                SELECT id FROM sub_category_group WHERE name = 'Immobilien' AND sub_category_id = (SELECT id FROM sc_housing)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Immobilien', 'jaynaApp.document.group.real-estate', (SELECT id FROM sc_housing)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Immobilien' AND sub_category_id = (SELECT id FROM sc_housing)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_vehicles AS (
+                SELECT id FROM sub_category_group WHERE name = 'Fahrzeuge' AND sub_category_id = (SELECT id FROM sc_housing)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Fahrzeuge', 'jaynaApp.document.group.vehicles', (SELECT id FROM sc_housing)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Fahrzeuge' AND sub_category_id = (SELECT id FROM sc_housing)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_med AS (
+                SELECT id FROM sub_category_group WHERE name = 'Medizinische Dokumente' AND sub_category_id = (SELECT id FROM sc_health)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Medizinische Dokumente', 'jaynaApp.document.group.medical-documents', (SELECT id FROM sc_health)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Medizinische Dokumente' AND sub_category_id = (SELECT id FROM sc_health)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_care AS (
+                SELECT id FROM sub_category_group WHERE name = 'Pflege & Unterstützung' AND sub_category_id = (SELECT id FROM sc_health)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Pflege & Unterstützung', 'jaynaApp.document.group.health-care-support', (SELECT id FROM sc_health)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Pflege & Unterstützung' AND sub_category_id = (SELECT id FROM sc_health)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_workdocs AS (
+                SELECT id FROM sub_category_group WHERE name = 'Arbeitsdokumente' AND sub_category_id = (SELECT id FROM sc_work)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Arbeitsdokumente', 'jaynaApp.document.group.work-documents', (SELECT id FROM sc_work)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Arbeitsdokumente' AND sub_category_id = (SELECT id FROM sc_work)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_edu AS (
+                SELECT id FROM sub_category_group WHERE name = 'Bildung' AND sub_category_id = (SELECT id FROM sc_work)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Bildung', 'jaynaApp.document.group.education', (SELECT id FROM sc_work)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Bildung' AND sub_category_id = (SELECT id FROM sc_work)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_app AS (
+                SELECT id FROM sub_category_group WHERE name = 'Bewerbung' AND sub_category_id = (SELECT id FROM sc_work)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Bewerbung', 'jaynaApp.document.group.application', (SELECT id FROM sc_work)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Bewerbung' AND sub_category_id = (SELECT id FROM sc_work)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_court AS (
+                SELECT id FROM sub_category_group WHERE name = 'Gerichtsdokumente' AND sub_category_id = (SELECT id FROM sc_law)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Gerichtsdokumente', 'jaynaApp.document.group.court-documents', (SELECT id FROM sc_law)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Gerichtsdokumente' AND sub_category_id = (SELECT id FROM sc_law)
+                    )
+                    RETURNING id
+                ) i
+            ),
+            sc_terms AS (
+                SELECT id FROM sub_category_group WHERE name = 'Vertragsunterlagen & Bedingungen' AND sub_category_id = (SELECT id FROM sc_law)
+                UNION ALL
+                SELECT id FROM (
+                    INSERT INTO sub_category_group (id, name, translation_key, sub_category_id)
+                    SELECT nextval('sequence_generator'), 'Vertragsunterlagen & Bedingungen', 'jaynaApp.document.group.contracts-terms', (SELECT id FROM sc_law)
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM sub_category_group WHERE name = 'Vertragsunterlagen & Bedingungen' AND sub_category_id = (SELECT id FROM sc_law)
+                    )
+                    RETURNING id
+                ) i
+            )
+            INSERT INTO group_type (id, name, translation_key, sub_category_group_id)
+            -- Finanzen: Rechnungen / Bankwesen / Versicherungen
+            SELECT nextval('sequence_generator'), 'Rechnung', 'jaynaApp.document.type.invoice', (SELECT id FROM sc_invoice)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Rechnung' AND sub_category_group_id = (SELECT id FROM sc_invoice))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Zahlungsbeleg', 'jaynaApp.document.type.payment-proof', (SELECT id FROM sc_invoice)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Zahlungsbeleg' AND sub_category_group_id = (SELECT id FROM sc_invoice))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Angebot', 'jaynaApp.document.type.quotation', (SELECT id FROM sc_invoice)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Angebot' AND sub_category_group_id = (SELECT id FROM sc_invoice))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Mahnschreiben', 'jaynaApp.document.type.dunning-letter', (SELECT id FROM sc_invoice)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Mahnschreiben' AND sub_category_group_id = (SELECT id FROM sc_invoice))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Kontoauszug', 'jaynaApp.document.type.account-statement', (SELECT id FROM sc_bank)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Kontoauszug' AND sub_category_group_id = (SELECT id FROM sc_bank))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Kreditkartenabrechnung', 'jaynaApp.document.type.credit-card-statement', (SELECT id FROM sc_bank)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Kreditkartenabrechnung' AND sub_category_group_id = (SELECT id FROM sc_bank))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'SEPA-Mandat', 'jaynaApp.document.type.sepa-mandate', (SELECT id FROM sc_bank)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'SEPA-Mandat' AND sub_category_group_id = (SELECT id FROM sc_bank))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Versicherungspolice', 'jaynaApp.document.type.insurance-policy', (SELECT id FROM sc_ins)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Versicherungspolice' AND sub_category_group_id = (SELECT id FROM sc_ins))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Leistungsabrechnung', 'jaynaApp.document.type.benefit-statement', (SELECT id FROM sc_ins)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Leistungsabrechnung' AND sub_category_group_id = (SELECT id FROM sc_ins))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Schadensmeldung', 'jaynaApp.document.type.claim-report', (SELECT id FROM sc_ins)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Schadensmeldung' AND sub_category_group_id = (SELECT id FROM sc_ins))
+            -- Energie & Versorgung: Rechnungen
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Stromrechnung', 'jaynaApp.document.type.electricity-bill', (SELECT id FROM sc_energy_inv)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Stromrechnung' AND sub_category_group_id = (SELECT id FROM sc_energy_inv))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Gasrechnung', 'jaynaApp.document.type.gas-bill', (SELECT id FROM sc_energy_inv)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Gasrechnung' AND sub_category_group_id = (SELECT id FROM sc_energy_inv))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Wasserrechnung', 'jaynaApp.document.type.water-bill', (SELECT id FROM sc_energy_inv)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Wasserrechnung' AND sub_category_group_id = (SELECT id FROM sc_energy_inv))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Internet-/Telefon-Rechnung', 'jaynaApp.document.type.internet-phone-bill', (SELECT id FROM sc_energy_inv)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Internet-/Telefon-Rechnung' AND sub_category_group_id = (SELECT id FROM sc_energy_inv))
+            -- Identität & Personenstand
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Personalausweis', 'jaynaApp.document.type.identity-card', (SELECT id FROM sc_ids)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Personalausweis' AND sub_category_group_id = (SELECT id FROM sc_ids))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Reisepass', 'jaynaApp.document.type.passport', (SELECT id FROM sc_ids)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Reisepass' AND sub_category_group_id = (SELECT id FROM sc_ids))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Führerschein', 'jaynaApp.document.type.drivers-license', (SELECT id FROM sc_ids)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Führerschein' AND sub_category_group_id = (SELECT id FROM sc_ids))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Schwerbehindertenausweis', 'jaynaApp.document.type.disability-id', (SELECT id FROM sc_ids)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Schwerbehindertenausweis' AND sub_category_group_id = (SELECT id FROM sc_ids))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Aufenthaltstitel', 'jaynaApp.document.type.residence-permit', (SELECT id FROM sc_ids)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Aufenthaltstitel' AND sub_category_group_id = (SELECT id FROM sc_ids))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Patientenverfügung', 'jaynaApp.document.type.patient-directive', (SELECT id FROM sc_directives)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Patientenverfügung' AND sub_category_group_id = (SELECT id FROM sc_directives))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Vorsorgevollmacht', 'jaynaApp.document.type.power-of-attorney', (SELECT id FROM sc_directives)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Vorsorgevollmacht' AND sub_category_group_id = (SELECT id FROM sc_directives))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Testament', 'jaynaApp.document.type.will', (SELECT id FROM sc_directives)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Testament' AND sub_category_group_id = (SELECT id FROM sc_directives))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Geburtsurkunde', 'jaynaApp.document.type.birth-certificate', (SELECT id FROM sc_civil)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Geburtsurkunde' AND sub_category_group_id = (SELECT id FROM sc_civil))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Heiratsurkunde', 'jaynaApp.document.type.marriage-certificate', (SELECT id FROM sc_civil)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Heiratsurkunde' AND sub_category_group_id = (SELECT id FROM sc_civil))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Scheidungsurteil', 'jaynaApp.document.type.divorce-decree', (SELECT id FROM sc_civil)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Scheidungsurteil' AND sub_category_group_id = (SELECT id FROM sc_civil))
+            -- Wohnen & Eigentum
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Mietvertrag', 'jaynaApp.document.type.rental-contract', (SELECT id FROM sc_rental)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Mietvertrag' AND sub_category_group_id = (SELECT id FROM sc_rental))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Nebenkostenabrechnung', 'jaynaApp.document.type.utility-bill', (SELECT id FROM sc_rental)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Nebenkostenabrechnung' AND sub_category_group_id = (SELECT id FROM sc_rental))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Übergabeprotokoll', 'jaynaApp.document.type.handover-report', (SELECT id FROM sc_rental)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Übergabeprotokoll' AND sub_category_group_id = (SELECT id FROM sc_rental))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Bauplan', 'jaynaApp.document.type.building-plan', (SELECT id FROM sc_realestate)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Bauplan' AND sub_category_group_id = (SELECT id FROM sc_realestate))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Baugenehmigung', 'jaynaApp.document.type.building-permit', (SELECT id FROM sc_realestate)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Baugenehmigung' AND sub_category_group_id = (SELECT id FROM sc_realestate))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Kaufvertrag (Haus)', 'jaynaApp.document.type.purchase-contract-house', (SELECT id FROM sc_realestate)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Kaufvertrag (Haus)' AND sub_category_group_id = (SELECT id FROM sc_realestate))
+            -- Fahrzeuge unter Wohnen & Eigentum
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Fahrzeugbrief', 'jaynaApp.document.type.vehicle-title', (SELECT id FROM sc_vehicles)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Fahrzeugbrief' AND sub_category_group_id = (SELECT id FROM sc_vehicles))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Fahrzeugschein', 'jaynaApp.document.type.vehicle-registration', (SELECT id FROM sc_vehicles)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Fahrzeugschein' AND sub_category_group_id = (SELECT id FROM sc_vehicles))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'TÜV‑Bescheinigung', 'jaynaApp.document.type.tuv-certificate', (SELECT id FROM sc_vehicles)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'TÜV‑Bescheinigung' AND sub_category_group_id = (SELECT id FROM sc_vehicles))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Wartungsheft', 'jaynaApp.document.type.maintenance-record', (SELECT id FROM sc_vehicles)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Wartungsheft' AND sub_category_group_id = (SELECT id FROM sc_vehicles))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Werkstattrechnung', 'jaynaApp.document.type.workshop-invoice', (SELECT id FROM sc_vehicles)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Werkstattrechnung' AND sub_category_group_id = (SELECT id FROM sc_vehicles))
+            -- Gesundheit
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Arztrechnung', 'jaynaApp.document.type.medical-invoice', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Arztrechnung' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Arztbrief/Befund', 'jaynaApp.document.type.medical-report', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Arztbrief/Befund' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Laborergebnis', 'jaynaApp.document.type.lab-result', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Laborergebnis' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Rezept', 'jaynaApp.document.type.prescription', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Rezept' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Impfpass', 'jaynaApp.document.type.vaccination-card', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Impfpass' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Röntgenbilder', 'jaynaApp.document.type.xray-images', (SELECT id FROM sc_med)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Röntgenbilder' AND sub_category_group_id = (SELECT id FROM sc_med))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Pflegegradbescheid', 'jaynaApp.document.type.care-level-notice', (SELECT id FROM sc_care)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Pflegegradbescheid' AND sub_category_group_id = (SELECT id FROM sc_care))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Betreuerausweis', 'jaynaApp.document.type.guardianship-certificate', (SELECT id FROM sc_care)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Betreuerausweis' AND sub_category_group_id = (SELECT id FROM sc_care))
+            -- Arbeit & Bildung
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Abmahnung', 'jaynaApp.document.type.warning', (SELECT id FROM sc_workdocs)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Abmahnung' AND sub_category_group_id = (SELECT id FROM sc_workdocs))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Kündigung', 'jaynaApp.document.type.termination', (SELECT id FROM sc_workdocs)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Kündigung' AND sub_category_group_id = (SELECT id FROM sc_workdocs))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Gehaltsabrechnung', 'jaynaApp.document.type.payslip', (SELECT id FROM sc_workdocs)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Gehaltsabrechnung' AND sub_category_group_id = (SELECT id FROM sc_workdocs))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Lohnsteuerbescheinigung', 'jaynaApp.document.type.income-tax-certificate', (SELECT id FROM sc_workdocs)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Lohnsteuerbescheinigung' AND sub_category_group_id = (SELECT id FROM sc_workdocs))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Arbeitsvertrag', 'jaynaApp.document.type.employment-contract', (SELECT id FROM sc_workdocs)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Arbeitsvertrag' AND sub_category_group_id = (SELECT id FROM sc_workdocs))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Zeugnis', 'jaynaApp.document.type.certificate', (SELECT id FROM sc_edu)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Zeugnis' AND sub_category_group_id = (SELECT id FROM sc_edu))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Abschlusszeugnis', 'jaynaApp.document.type.final-certificate', (SELECT id FROM sc_edu)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Abschlusszeugnis' AND sub_category_group_id = (SELECT id FROM sc_edu))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Zwischenzeugnis', 'jaynaApp.document.type.intermediate-certificate', (SELECT id FROM sc_edu)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Zwischenzeugnis' AND sub_category_group_id = (SELECT id FROM sc_edu))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Studienbescheinigung', 'jaynaApp.document.type.study-certificate', (SELECT id FROM sc_edu)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Studienbescheinigung' AND sub_category_group_id = (SELECT id FROM sc_edu))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Hochschulabschluss', 'jaynaApp.document.type.university-degree', (SELECT id FROM sc_edu)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Hochschulabschluss' AND sub_category_group_id = (SELECT id FROM sc_edu))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Lebenslauf', 'jaynaApp.document.type.cv', (SELECT id FROM sc_app)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Lebenslauf' AND sub_category_group_id = (SELECT id FROM sc_app))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Anschreiben', 'jaynaApp.document.type.cover-letter', (SELECT id FROM sc_app)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Anschreiben' AND sub_category_group_id = (SELECT id FROM sc_app))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Referenzen', 'jaynaApp.document.type.references', (SELECT id FROM sc_app)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Referenzen' AND sub_category_group_id = (SELECT id FROM sc_app))
+            -- Recht & Verwaltung
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Ladung', 'jaynaApp.document.type.summons', (SELECT id FROM sc_court)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Ladung' AND sub_category_group_id = (SELECT id FROM sc_court))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Strafbefehl', 'jaynaApp.document.type.penalty-order', (SELECT id FROM sc_court)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Strafbefehl' AND sub_category_group_id = (SELECT id FROM sc_court))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Urteil', 'jaynaApp.document.type.judgment', (SELECT id FROM sc_court)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Urteil' AND sub_category_group_id = (SELECT id FROM sc_court))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Vollstreckungsbescheid', 'jaynaApp.document.type.enforcement-order', (SELECT id FROM sc_court)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Vollstreckungsbescheid' AND sub_category_group_id = (SELECT id FROM sc_court))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Datenschutzhinweise', 'jaynaApp.document.type.privacy-notice', (SELECT id FROM sc_terms)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Datenschutzhinweise' AND sub_category_group_id = (SELECT id FROM sc_terms))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'AGB', 'jaynaApp.document.type.terms-and-conditions', (SELECT id FROM sc_terms)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'AGB' AND sub_category_group_id = (SELECT id FROM sc_terms))
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Vertragsbedingungen', 'jaynaApp.document.type.contract-terms', (SELECT id FROM sc_terms)
+            WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Vertragsbedingungen' AND sub_category_group_id = (SELECT id FROM sc_terms));
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
+
+
+
+

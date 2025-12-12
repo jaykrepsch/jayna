@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1679047596844-3">
+        <addColumn tableName="group_type">
+            <column name="abbreviation" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    
+    <changeSet author="okieven" id="1679047596844-4">
+        <delete tableName="group_type">
+        	<where>id >= 118</where>
+        </delete>
+        
+        <delete tableName="sub_category_group">
+        	<where>id >= 32</where>
+        </delete>
+        
+        <delete tableName="sub_category">
+        	<where>id >= 16</where>
+        </delete>
+    </changeSet>
+    
+    <changeSet author="okieven" id="1679047596844-5">
+    	<loadData
+                  file="config/liquibase/data/sub_category_properties_update.csv"
+                  separator=";"
+                  tableName="sub_category"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+        <loadData
+                  file="config/liquibase/data/sub_category_group_properties_update.csv"
+                  separator=";"
+                  tableName="sub_category_group"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+        <loadData
+                  file="config/liquibase/data/group_type_properties_update.csv"
+                  separator=";"
+                  tableName="group_type"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

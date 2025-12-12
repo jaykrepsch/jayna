@@ -1,0 +1,26 @@
+{
+  "jaynaApp": {
+    "category": {
+      "contract": {
+        "title": "Verträge",
+        "notFound": "Keine Verträge gefunden"
+      },
+      "contact": {
+        "title": "Kontakte",
+        "notFound": "Keine Kontakte gefunden"
+      },
+      "mobility": {
+        "title": "Mobilität",
+        "notFound": "Keine Mobilitätsdaten gefunden"
+      },
+      "realestate": {
+        "title": "Immobilien",
+        "notFound": "Keine Immobilien gefunden"
+      },
+      "financeaccount": {
+        "title": "Finanzkonten",
+        "notFound": "Keine Finanzkonten gefunden"
+      }
+    }
+  }
+} 

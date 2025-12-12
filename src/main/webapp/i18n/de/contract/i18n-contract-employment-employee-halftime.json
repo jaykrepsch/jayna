@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-employee-halftime.createTitle": "Arbeitsvertrag Angestellter Teilzeit erstellen",
+  "jaynaApp.contract-employment-employee-halfTime.updateTitle": "Arbeitsvertrag Angestellter Teilzeit bearbeiten",
+  "jaynaApp.contract-employment-employee-halfTime.viewTitle": "Arbeitsvertrag Angestellter Teilzeit anzeigen",
+  "jaynaApp.contract-employment-employee-halfTime.specificData.title": "Teilzeit Daten",
+  "jaynaApp.contract-employment-employee-halfTime.specificData.fields.specificField1": "Arbeitsbereich",
+  "jaynaApp.contract-employment-employee-halfTime.specificData.fields.specificField2": "Stunden pro Woche"
+}

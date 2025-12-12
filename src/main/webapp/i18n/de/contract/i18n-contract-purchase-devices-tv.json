@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-purchase-devices-tv.createTitle": "TV-Kauf anlegen",
+  "jaynaApp.contract-purchase-devices-tv.updateTitle": "TV-Kauf bearbeiten",
+  "jaynaApp.contract-purchase-devices-tv.viewTitle": "TV-Kauf anzeigen",
+  "jaynaApp.contract-purchase-devices-tv.specificData.title": "TV-Kauf-spezifische Daten",
+  "jaynaApp.contract-purchase-devices-tv.specificData.fields.specificField1": "Kaufpreis",
+  "jaynaApp.contract-purchase-devices-tv.specificData.fields.specificField2": "Bildschirmgröße"
+}

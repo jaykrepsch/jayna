@@ -1,0 +1,21 @@
+{
+  "paymentPattern": {
+    "ONETIME": "Einmalig",
+    "WEEKLY": "Wöchentlich",
+    "DAILY": "Täglich",
+    "MONTHLY": "Monatlich",
+    "TWOMONTHLY": "Zweimonatlich",
+    "QUARTERLY": "Vierteljährlich",
+    "SEMIANNUAL": "Halbjährlich",
+    "ANNUAL": "Jährlich"
+  },
+  "paymentType": {
+    "TRANSFER": "Überweisung",
+    "SEPA_DEBIT": "SEPA-Lastschrift",
+    "CASH": "Bargeld"
+  },
+  "entityState": {
+    "ACTIVE": "Aktiv",
+    "ARCHIVE": "Archiviert"
+  }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20221105093323-1" author="jhipster">
+        <loadData
+                  file="config/liquibase/data/category.csv"
+                  separator=";"
+                  tableName="category"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+        <loadData
+                  file="config/liquibase/data/sub_category.csv"
+                  separator=";"
+                  tableName="sub_category"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+        <loadData
+                  file="config/liquibase/data/sub_category_group.csv"
+                  separator=";"
+                  tableName="sub_category_group"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+        <loadData
+                  file="config/liquibase/data/group_type.csv"
+                  separator=";"
+                  tableName="group_type"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

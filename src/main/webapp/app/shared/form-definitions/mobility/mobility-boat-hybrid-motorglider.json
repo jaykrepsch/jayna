@@ -1,0 +1,250 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseMobility, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.mobility-boat-hybrid-motorglider.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseMobility.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.vehicleData.title",
+      "fields": [
+        {
+          "name": "brand",
+          "type": "text"
+        },
+        {
+          "name": "type",
+          "type": "text"
+        },
+        {
+          "name": "tradeName",
+          "type": "text"
+        },
+        {
+          "name": "vehicleIdNumber",
+          "type": "text"
+        },
+        {
+          "name": "color",
+          "type": "text"
+        },
+        {
+          "name": "vehicleColour",
+          "type": "text"
+        },
+        {
+          "name": "mileage",
+          "type": "number"
+        },
+        {
+          "name": "mileageDate",
+          "type": "date"
+        },
+        {
+          "name": "typeFuelEnergySource",
+          "type": "text"
+        },
+        {
+          "name": "displacement",
+          "type": "number"
+        },
+        {
+          "name": "nominalPowerKwKg",
+          "type": "number"
+        },
+        {
+          "name": "horsepower",
+          "type": "number"
+        },
+        {
+          "name": "maximumSpeedKmh",
+          "type": "number"
+        },
+        {
+          "name": "noSeats",
+          "type": "number"
+        },
+        {
+          "name": "lengthMm",
+          "type": "number"
+        },
+        {
+          "name": "widthMm",
+          "type": "number"
+        },
+        {
+          "name": "heightMm",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.mobility-boat-hybrid-motorglider.specificData.title",
+      "i18nSource": "mobility-boat-hybrid-motorglider",
+      "fields": [
+        {
+          "name": "specificField1",
+          "type": "text"
+        },
+        {
+          "name": "specificField2",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.ownership.title",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "text"
+        },
+        {
+          "name": "dateFirstRegistration",
+          "type": "date"
+        },
+        {
+          "name": "approvalDate",
+          "type": "date"
+        },
+        {
+          "name": "lastGeneralInspection",
+          "type": "date"
+        },
+        {
+          "name": "nextGeneralInspection",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.financial.title",
+      "fields": [
+        {
+          "name": "status",
+          "type": "text"
+        },
+        {
+          "name": "periodValidity",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "mobilityContacts",
+      "relationConfig": {
+        "id": "contact-mobility",
+        "sourceEntity": "contact",
+        "targetEntity": "mobility",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Mobilität",
+        "description": "Verknüpfung zwischen Kontakten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "mobilityContracts",
+      "relationConfig": {
+        "id": "contract-mobility",
+        "sourceEntity": "contract",
+        "targetEntity": "mobility",
+        "relationType": "INSURES",
+        "displayName": "Vertrag - Mobilität",
+        "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "mobilityRealestates",
+      "relationConfig": {
+        "id": "realestate-mobility",
+        "sourceEntity": "realestate",
+        "targetEntity": "mobility",
+        "relationType": "STORES",
+        "displayName": "Immobilie - Mobilität",
+        "description": "Verknüpfung zwischen Immobilien und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "mobilityFinanceAccounts",
+      "relationConfig": {
+        "id": "financeaccount-mobility",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "mobility",
+        "relationType": "FINANCES",
+        "displayName": "Finanzkonto - Mobilität",
+        "description": "Verknüpfung zwischen Finanzkonten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "mobilityMobilities",
+      "relationConfig": {
+        "id": "mobility-mobility",
+        "sourceEntity": "mobility",
+        "targetEntity": "mobility",
+        "relationType": "RELATED_TO",
+        "displayName": "Mobilität - Mobilität",
+        "description": "Verknüpfung zwischen Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseMobility.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseMobility.documentRelations.title"
+}

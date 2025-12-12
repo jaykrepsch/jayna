@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-fees-realestatetax.createTitle": "Grundsteuer anlegen",
+  "jaynaApp.contract-service-fees-realestatetax.updateTitle": "Grundsteuer bearbeiten",
+  "jaynaApp.contract-service-fees-realestatetax.viewTitle": "Grundsteuer anzeigen",
+  "jaynaApp.contract-service-fees-realestatetax.specificData.title": "Grundsteuer-spezifische Daten",
+  "jaynaApp.contract-service-fees-realestatetax.specificData.fields.specificField1": "Steuersatz",
+  "jaynaApp.contract-service-fees-realestatetax.specificData.fields.specificField2": "Zahlungsfrequenz"
+}

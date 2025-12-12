@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1688994468151-1">
+        <createTable tableName="bank_account">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="bank_accountPK"/>
+            </column>
+            <column name="created_date" type="varchar(255)"/>
+            <column name="entity_state" type="VARCHAR(255)"/>
+            <column name="label" type="VARCHAR(255)"/>
+            <column name="last_modified_by" type="VARCHAR(255)"/>
+            <column name="last_modified_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="account_giver" type="VARCHAR(255)"/>
+            <column name="account_maintenance_fee" type="FLOAT8"/>
+            <column name="account_number" type="VARCHAR(255)"/>
+            <column name="account_user" type="VARCHAR(255)"/>
+            <column name="bank_number" type="VARCHAR(255)"/>
+            <column name="bic" type="VARCHAR(255)"/>
+            <column name="card_fee" type="FLOAT8"/>
+            <column name="comment" type="BYTEA"/>
+            <column name="comment_content_type" type="VARCHAR(255)"/>
+            <column name="current_account" type="VARCHAR(255)"/>
+            <column name="end_date" type="date"/>
+            <column name="iban" type="VARCHAR(255)"/>
+            <column name="jhi_limit" type="FLOAT8"/>
+            <column name="loan_interest" type="FLOAT8"/>
+            <column name="overdraft_interest" type="FLOAT8"/>
+            <column name="payment_until" type="date"/>
+            <column name="start_date" type="date"/>
+            <column name="application_user_id" type="BIGINT"/>
+            <column name="group_type_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-2">
+        <createTable tableName="contact_bank_account">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contact_bank_accountPK"/>
+            </column>
+            <column name="bank_account_id" type="BIGINT"/>
+            <column name="contact_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-3">
+        <addColumn tableName="real_estate">
+            <column name="latitude" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-4">
+        <addColumn tableName="real_estate">
+            <column name="longitude" type="varchar(255)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-5">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="bank_account" constraintName="FK3x645n358lse9f3l5xl7xb7aq" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-6">
+        <addForeignKeyConstraint baseColumnNames="bank_account_id" baseTableName="contact_bank_account" constraintName="FK4fkbtwr62ewuitbqpuiw3ae90" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="bank_account" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-7">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="bank_account" constraintName="FK4s6802lw6ij2kyecpo58wtq2c" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-8">
+        <addForeignKeyConstraint baseColumnNames="contact_id" baseTableName="contact_bank_account" constraintName="FKojc8e1841d16mhst9xaawguc5" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contact" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1688994468151-9">
+        <loadUpdateData
+                file="config/liquibase/data/category-Tabelle 1.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="category"
+                usePreparedStatements="true">
+      </loadUpdateData>
+      <loadUpdateData
+                file="config/liquibase/data/sub-category-Tabelle 1.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="sub_category"
+                usePreparedStatements="true">
+      </loadUpdateData>
+      <loadUpdateData
+                file="config/liquibase/data/sub-category-group-Tabelle 1.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="sub_category_group"
+                usePreparedStatements="true">
+      </loadUpdateData>
+      <loadUpdateData
+                file="config/liquibase/data/group-type-Tabelle 1.csv"
+                primaryKey="id"
+                separator=";"
+                tableName="group_type"
+                usePreparedStatements="true">
+      </loadUpdateData>
+    </changeSet>
+</databaseChangeLog>

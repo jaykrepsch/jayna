@@ -1,0 +1,249 @@
+{
+  "_comment": "Standard-Kontakt-Formulardefinition als Fallback für generische Kontakt-Erstellung",
+  "formTitle": "Contact",
+  "parts": [
+    {
+      "title": "jaynaApp.baseContact.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.personalData.title",
+      "fields": [
+        {
+          "name": "title",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "title"
+        },
+        {
+          "name": "salutation",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "salutation"
+        },
+        {
+          "name": "rank",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "rank"
+        },
+        {
+          "name": "firstName",
+          "type": "text"
+        },
+        {
+          "name": "otherFirstNames",
+          "type": "text"
+        },
+        {
+          "name": "surName",
+          "type": "text"
+        },
+        {
+          "name": "birthName",
+          "type": "text"
+        },
+        {
+          "name": "nickName",
+          "type": "text"
+        },
+        {
+          "name": "birthDate",
+          "type": "date",
+          "enableTimePicker": false,
+          "autoApply": true,
+          "textInput": true,
+          "format": "dd.MM.yyyy"
+        },
+        {
+          "name": "birthCity",
+          "type": "text"
+        },
+        {
+          "name": "birthCountry",
+          "type": "text"
+        },
+        {
+          "name": "nationality",
+          "type": "text"
+        },
+        {
+          "name": "gender",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "gender"
+        },
+        {
+          "name": "maritalStatus",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "maritalStatus"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.contactData.title",
+      "fields": [
+        {
+          "name": "communicationType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "communicationType"
+        },
+        {
+          "name": "phoneCountryCode",
+          "type": "number"
+        },
+        {
+          "name": "phonePrefix",
+          "type": "number"
+        },
+        {
+          "name": "phoneNumber",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.address.title",
+      "fields": [
+        {
+          "name": "addressType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "addressType"
+        },
+        {
+          "name": "street",
+          "type": "text"
+        },
+        {
+          "name": "streetNumber",
+          "type": "text"
+        },
+        {
+          "name": "postalCode",
+          "type": "text"
+        },
+        {
+          "name": "city",
+          "type": "text"
+        },
+        {
+          "name": "additionalAddressField1",
+          "type": "text"
+        },
+        {
+          "name": "additionalAddressField2",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContact.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contract",
+      "relationName": "contactContracts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "contactRealestates",
+      "relationConfig": {
+        "id": "contact-realestate",
+        "sourceEntity": "contact",
+        "targetEntity": "realestate",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Immobilie",
+        "description": "Verknüpfung zwischen Kontakten und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "contactFinanceAccounts",
+      "relationConfig": {
+        "id": "contact-financeaccount",
+        "sourceEntity": "contact",
+        "targetEntity": "financeaccount",
+        "relationType": "ACCOUNT_HOLDER",
+        "displayName": "Kontakt - Finanzkonto",
+        "description": "Verknüpfung zwischen Kontakten und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "contactMobilities",
+      "relationConfig": {
+        "id": "contact-mobility",
+        "sourceEntity": "contact",
+        "targetEntity": "mobility",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Mobilität",
+        "description": "Verknüpfung zwischen Kontakten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContact.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseContact.documentRelations.title"
+}

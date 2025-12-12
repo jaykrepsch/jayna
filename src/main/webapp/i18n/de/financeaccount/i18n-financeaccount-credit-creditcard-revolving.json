@@ -1,0 +1,19 @@
+{
+  "jaynaApp.financeaccount-credit-creditcard-revolving.createTitle": "Revolving Credit Card anlegen",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.updateTitle": "Revolving Credit Card bearbeiten",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.viewTitle": "Revolving Credit Card anzeigen",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.title": "Revolving Credit Card-spezifische Daten",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.creditCardType": "Kreditkarten-Typ",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.cardNumber": "Kartennummer",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.expiryDate": "Ablaufdatum",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.cvv": "CVV",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.cardHolder": "Karteninhaber",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.cardNetwork": "Kartennetzwerk",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.contactless": "Kontaktlos",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.chipCard": "Chip-Karte",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.onlineShopping": "Online-Shopping",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.balanceTransfer": "Saldo-Übertragung",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.cashAdvance": "Bargeldabhebung",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.gracePeriod": "Kulanzzeitraum (Tage)",
+  "jaynaApp.financeaccount-credit-creditcard-revolving.specificData.fields.minimumPayment": "Mindestzahlung (%)"
+}

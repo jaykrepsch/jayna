@@ -1,0 +1,86 @@
+{
+  "accountType": {
+    "CHECKING": "Girokonto",
+    "SAVINGS": "Sparkonto",
+    "CREDIT": "Kreditkonto",
+    "INVESTMENT": "Anlagekonto",
+    "BUSINESS": "Geschäftskonto",
+    "STUDENT": "Studentenkonto",
+    "SENIOR": "Seniorenkonto",
+    "PAYMENT_SYSTEM": "Bezahlsystem"
+  },
+  "checkingType": {
+    "STANDARD": "Standard",
+    "PREMIUM": "Premium",
+    "STUDENT": "Student",
+    "SENIOR": "Senior",
+    "BUSINESS": "Geschäft",
+    "BASIC": "Basis"
+  },
+  "savingsType": {
+    "REGULAR": "Regulär",
+    "HIGH_YIELD": "Hochverzinslich",
+    "FIXED_TERM": "Festgeld",
+    "ONLINE": "Online",
+    "STUDENT": "Student",
+    "SENIOR": "Senior"
+  },
+  "creditCardType": {
+    "CHARGE": "Charge Card",
+    "DEBIT": "Debit Card",
+    "REVOLVING": "Revolving Credit",
+    "PREPAID": "Prepaid",
+    "ONLINE_VIRTUAL": "Online Virtuell",
+    "SAMSUNG": "Samsung Pay"
+  },
+  "paymentSystemType": {
+    "PAYPAL": "PayPal",
+    "GOOGLE_PAY": "Google Pay",
+    "APPLE_PAY": "Apple Pay",
+    "SKRILL": "Skrill",
+    "STRIPE": "Stripe",
+    "KLARNA": "Klarna"
+  },
+  "interestCalculation": {
+    "DAILY": "Täglich",
+    "MONTHLY": "Monatlich",
+    "QUARTERLY": "Vierteljährlich",
+    "ANNUALLY": "Jährlich"
+  },
+  "cardNetwork": {
+    "VISA": "Visa",
+    "MASTERCARD": "Mastercard",
+    "AMEX": "American Express",
+    "DISCOVER": "Discover",
+    "JCB": "JCB",
+    "UNIONPAY": "UnionPay"
+  },
+  "accountStatus": {
+    "ACTIVE": "Aktiv",
+    "SUSPENDED": "Gesperrt",
+    "LIMITED": "Eingeschränkt",
+    "CLOSED": "Geschlossen",
+    "PENDING": "Ausstehend"
+  },
+  "verificationStatus": {
+    "UNVERIFIED": "Nicht verifiziert",
+    "VERIFIED": "Verifiziert",
+    "LIMITED": "Eingeschränkt verifiziert",
+    "BUSINESS": "Geschäft verifiziert"
+  },
+  "currency": {
+    "EUR": "Euro (EUR)",
+    "USD": "US-Dollar (USD)",
+    "GBP": "Britische Pfund (GBP)",
+    "CHF": "Schweizer Franken (CHF)",
+    "JPY": "Japanische Yen (JPY)",
+    "CNY": "Chinesische Yuan (CNY)"
+  },
+  "entityState": {
+    "ACTIVE": "Aktiv",
+    "INACTIVE": "Inaktiv",
+    "SUSPENDED": "Gesperrt",
+    "CLOSED": "Geschlossen",
+    "PENDING": "Ausstehend"
+  }
+}

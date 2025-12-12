@@ -1,0 +1,143 @@
+{
+  "formTitle": "jaynaApp.document-work-education-education-final-certificate.viewTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseDocument.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documentData.title",
+      "fields": [
+        {
+          "name": "documentNumber",
+          "type": "text"
+        },
+        {
+          "name": "customerNumber",
+          "type": "text"
+        },
+        {
+          "name": "partner",
+          "type": "text"
+        },
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "realEstateNumber",
+          "type": "text"
+        },
+        {
+          "name": "financeAccountNumber",
+          "type": "text"
+        },
+        {
+          "name": "mobilityNumber",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "documentStatus",
+          "defaultValue": "DRAFT"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.document-work-education-education-final-certificate.specificData.title",
+      "i18nSource": "document-work-education-education-final-certificate",
+      "fields": []
+    },
+    {
+      "title": "jaynaApp.baseDocument.weiteres.title",
+      "fields": [
+        {
+          "name": "tags",
+          "type": "textarea"
+        },
+        {
+          "name": "keywords",
+          "type": "textarea"
+        },
+        {
+          "name": "isPublic",
+          "type": "checkbox"
+        },
+        {
+          "name": "expiryDate",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.fileInfo.title",
+      "fields": [
+        {
+          "name": "fileName",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileType",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileSize",
+          "type": "number",
+          "readonly": true
+        },
+        {
+          "name": "uploadDate",
+          "type": "datetime",
+          "readonly": true
+        },
+        {
+          "name": "lastModified",
+          "type": "datetime",
+          "readonly": true
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseDocument.relations.title"
+}

@@ -1,0 +1,406 @@
+{
+  "_comment": "formControl-Konzept: Allgemeine Abschnitte über baseContract, spezifische Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "Hausmeisterservicevertrag",
+  "parts": [
+    {
+      "title": "jaynaApp.baseContract.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contractData.title",
+      "fields": [
+        {
+          "name": "contractor",
+          "type": "text"
+        },
+        {
+          "name": "contractOwner",
+          "type": "text"
+        },
+        {
+          "name": "contractUser",
+          "type": "text"
+        },
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "startDate",
+          "type": "date",
+          "enableTimePicker": false,
+          "autoApply": true,
+          "textInput": true,
+          "format": "dd.MM.yyyy"
+        },
+        {
+          "name": "endDate",
+          "type": "date",
+          "enableTimePicker": false,
+          "autoApply": true,
+          "textInput": true,
+          "format": "dd.MM.yyyy"
+        },
+        {
+          "name": "applicationDate",
+          "type": "date",
+          "enableTimePicker": false,
+          "autoApply": true,
+          "textInput": true,
+          "format": "dd.MM.yyyy"
+        },
+        {
+          "name": "confirmationDate",
+          "type": "date",
+          "enableTimePicker": false,
+          "autoApply": true,
+          "textInput": true,
+          "format": "dd.MM.yyyy"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.payment.title",
+      "fields": [
+        {
+          "name": "payer",
+          "type": "text"
+        },
+        {
+          "name": "paymentPattern",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "paymentPattern"
+        },
+        {
+          "name": "paymentType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "paymentType"
+        },
+        {
+          "name": "amount",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contract-service-service-caretakerservice.parties.title",
+      "i18nSource": "contract-service-service-caretakerservice",
+      "fields": [
+        {
+          "name": "serviceProviderName",
+          "type": "text"
+        },
+        {
+          "name": "serviceProviderAddress",
+          "type": "text"
+        },
+        {
+          "name": "serviceProviderPhone",
+          "type": "text"
+        },
+        {
+          "name": "serviceProviderEmail",
+          "type": "text"
+        },
+        {
+          "name": "customerName",
+          "type": "text"
+        },
+        {
+          "name": "customerAddress",
+          "type": "text"
+        },
+        {
+          "name": "customerPhone",
+          "type": "text"
+        },
+        {
+          "name": "customerEmail",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contract-service-service-caretakerservice.propertyData.title",
+      "i18nSource": "contract-service-service-caretakerservice",
+      "fields": [
+        {
+          "name": "propertyAddress",
+          "type": "text"
+        },
+        {
+          "name": "propertyType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "propertyType"
+        },
+        {
+          "name": "propertySize",
+          "type": "number"
+        },
+        {
+          "name": "propertyUnit",
+          "type": "text"
+        },
+        {
+          "name": "apartmentCount",
+          "type": "number"
+        },
+        {
+          "name": "floorCount",
+          "type": "number"
+        },
+        {
+          "name": "elevatorCount",
+          "type": "number"
+        },
+        {
+          "name": "parkingSpaces",
+          "type": "number"
+        },
+        {
+          "name": "gardenArea",
+          "type": "number"
+        },
+        {
+          "name": "basement",
+          "type": "checkbox"
+        },
+        {
+          "name": "heatingSystem",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "heatingSystem"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contract-service-service-caretakerservice.serviceData.title",
+      "i18nSource": "contract-service-service-caretakerservice",
+      "fields": [
+        {
+          "name": "serviceType",
+          "type": "select",
+          "label": "Hausmeisterservice-Typ",
+          "required": true,
+          "options": [
+            {
+              "value": "full",
+              "label": "Vollservice"
+            },
+            {
+              "value": "partial",
+              "label": "Teilservice"
+            },
+            {
+              "value": "emergency",
+              "label": "Notdienst"
+            }
+          ]
+        },
+        {
+          "name": "serviceArea",
+          "type": "text",
+          "label": "Servicebereich",
+          "required": true
+        },
+        {
+          "name": "serviceHours",
+          "type": "text",
+          "label": "Servicezeiten",
+          "required": true
+        },
+        {
+          "name": "contactPerson",
+          "type": "text",
+          "label": "Ansprechpartner",
+          "required": true
+        },
+        {
+          "name": "phoneNumber",
+          "type": "text",
+          "label": "Telefonnummer",
+          "required": true
+        },
+        {
+          "name": "emergencyContact",
+          "type": "text",
+          "label": "Notfallkontakt",
+          "required": false
+        },
+        {
+          "name": "monthlyFee",
+          "type": "number",
+          "label": "Monatliche Gebühr (€)",
+          "required": true,
+          "validation": {
+            "min": 0
+          }
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.contract-service-service-caretakerservice.pricing.title",
+      "i18nSource": "contract-service-service-caretakerservice",
+      "fields": [
+        {
+          "name": "monthlyFee",
+          "type": "number"
+        },
+        {
+          "name": "hourlyRate",
+          "type": "number"
+        },
+        {
+          "name": "overtimeRate",
+          "type": "number"
+        },
+        {
+          "name": "emergencyRate",
+          "type": "number"
+        },
+        {
+          "name": "materialCosts",
+          "type": "number"
+        },
+        {
+          "name": "materialIncluded",
+          "type": "checkbox"
+        },
+        {
+          "name": "travelCosts",
+          "type": "number"
+        },
+        {
+          "name": "travelIncluded",
+          "type": "checkbox"
+        },
+        {
+          "name": "discount",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "contactContracts",
+      "relationConfig": {
+        "id": "contact-contract",
+        "sourceEntity": "contact",
+        "targetEntity": "contract",
+        "relationType": "CONTRACTOR",
+        "displayName": "Kontakt - Vertrag",
+        "description": "Verknüpfung zwischen Kontakten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "contractRealestates",
+      "relationConfig": {
+        "id": "contract-realestate",
+        "sourceEntity": "contract",
+        "targetEntity": "realestate",
+        "relationType": "COVERS",
+        "displayName": "Vertrag - Immobilie",
+        "description": "Verknüpfung zwischen Verträgen und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "contractFinanceAccounts",
+      "relationConfig": {
+        "id": "contract-financeaccount",
+        "sourceEntity": "contract",
+        "targetEntity": "financeaccount",
+        "relationType": "PAYMENT_ACCOUNT",
+        "displayName": "Vertrag - Finanzkonto",
+        "description": "Verknüpfung zwischen Verträgen und Finanzkonten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "contractMobilities",
+      "relationConfig": {
+        "id": "contract-mobility",
+        "sourceEntity": "contract",
+        "targetEntity": "mobility",
+        "relationType": "INSURES",
+        "displayName": "Vertrag - Mobilität",
+        "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "contractContracts",
+      "relationConfig": {
+        "id": "contract-contract",
+        "sourceEntity": "contract",
+        "targetEntity": "contract",
+        "relationType": "RELATED_TO",
+        "displayName": "Vertrag - Vertrag",
+        "description": "Verknüpfung zwischen Verträgen",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseContract.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseContract.documentRelations.title"
+}

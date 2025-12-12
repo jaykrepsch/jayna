@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.createTitle": "Bankaccount anlegen",
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.updateTitle": "Bankaccount bearbeiten",
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.viewTitle": "Bankaccount anzeigen",
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.specificData.title": "Bankaccount-spezifische Daten",
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-bankaccount-overnightaccount-overnightaccount.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

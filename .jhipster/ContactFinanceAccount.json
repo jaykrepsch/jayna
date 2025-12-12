@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20230710133431",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contact_finance_account",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ContactFinanceAccount",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "contact",
+      "otherEntityRelationshipName": "contactFinanceAccount",
+      "relationshipName": "contact",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "financeAccount",
+      "otherEntityRelationshipName": "contactFinanceAccount",
+      "relationshipName": "financeAccount",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

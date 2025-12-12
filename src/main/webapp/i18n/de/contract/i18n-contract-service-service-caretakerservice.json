@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-caretakerservice.createTitle": "Hausmeisterservice anlegen",
+  "jaynaApp.contract-service-service-caretakerservice.updateTitle": "Hausmeisterservice bearbeiten",
+  "jaynaApp.contract-service-service-caretakerservice.viewTitle": "Hausmeisterservice anzeigen",
+  "jaynaApp.contract-service-service-caretakerservice.specificData.title": "Hausmeisterservice-spezifische Daten",
+  "jaynaApp.contract-service-service-caretakerservice.specificData.fields.specificField1": "Serviceumfang",
+  "jaynaApp.contract-service-service-caretakerservice.specificData.fields.specificField2": "Reaktionszeit"
+}

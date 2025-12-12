@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-employment-publicservice-terminationagreement.createTitle": "Kündigungsvereinbarung Öffentlicher Dienst erstellen",
+  "jaynaApp.contract-employment-publicservice-terminationagreement.updateTitle": "Kündigungsvereinbarung Öffentlicher Dienst bearbeiten",
+  "jaynaApp.contract-employment-publicservice-terminationagreement.viewTitle": "Kündigungsvereinbarung Öffentlicher Dienst anzeigen",
+  "jaynaApp.contract-employment-publicservice-terminationagreement.specificData.title": "Spezifische Daten",
+  "jaynaApp.contract-employment-publicservice-terminationagreement.specificData.fields.specificField1": "Kündigungsgrund",
+  "jaynaApp.contract-employment-publicservice-terminationagreement.specificData.fields.specificField2": "Kündigungsfrist (Tage)"
+}

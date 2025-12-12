@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-car-roadstar.createTitle": "Personenfahrzeug Auto roadstar anlegen",
+  "jaynaApp.mobility-passengervehicle-car-roadstar.updateTitle": "Personenfahrzeug Auto roadstar bearbeiten",
+  "jaynaApp.mobility-passengervehicle-car-roadstar.viewTitle": "Personenfahrzeug Auto roadstar anzeigen",
+  "jaynaApp.mobility-passengervehicle-car-roadstar.specificData.title": "Personenfahrzeug Auto roadstar-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-car-roadstar.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-car-roadstar.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

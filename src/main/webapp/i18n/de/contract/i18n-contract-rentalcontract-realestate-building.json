@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-rentalcontract-realestate-building.createTitle": "Gebäudevermietung anlegen",
+  "jaynaApp.contract-rentalcontract-realestate-building.updateTitle": "Gebäudevermietung bearbeiten",
+  "jaynaApp.contract-rentalcontract-realestate-building.viewTitle": "Gebäudevermietung anzeigen",
+  "jaynaApp.contract-rentalcontract-realestate-building.specificData.title": "Gebäudevermietung-spezifische Daten",
+  "jaynaApp.contract-rentalcontract-realestate-building.specificData.fields.specificField1": "Mietzins",
+  "jaynaApp.contract-rentalcontract-realestate-building.specificData.fields.specificField2": "Nutzungsart"
+}

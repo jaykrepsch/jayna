@@ -1,0 +1,229 @@
+{
+  "formTitle": "jaynaApp.document-finances-insurance-accounting-invoice.viewTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseDocument.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documentData.title",
+      "fields": [
+        {
+          "name": "documentNumber",
+          "type": "text"
+        },
+        {
+          "name": "customerNumber",
+          "type": "text",
+          "label": "jaynaApp.document.customerNumber"
+        },
+        {
+          "name": "partner",
+          "type": "text",
+          "label": "jaynaApp.document.partner"
+        },
+        {
+          "name": "contractNumber",
+          "type": "text",
+          "label": "jaynaApp.document.contractNumber"
+        },
+        {
+          "name": "realEstateNumber",
+          "type": "text",
+          "label": "jaynaApp.document.realEstateNumber"
+        },
+        {
+          "name": "financeAccountNumber",
+          "type": "text",
+          "label": "jaynaApp.document.financeAccountNumber"
+        },
+        {
+          "name": "mobilityNumber",
+          "type": "text",
+          "label": "jaynaApp.document.mobilityNumber"
+        },
+        {
+          "name": "status",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "documentStatus",
+          "defaultValue": "DRAFT"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.document-finances-insurance-accounting-invoice.specificData.title",
+      "i18nSource": "document-finances-insurance-accounting-invoice",
+      "fields": [
+        {
+          "name": "invoiceNumber",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "invoiceDate",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "dueDate",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "step": "0.01",
+          "min": "0",
+          "required": true
+        },
+        {
+          "name": "currency",
+          "type": "text",
+          "default": "EUR",
+          "readonly": true
+        },
+        {
+          "name": "taxAmount",
+          "type": "number",
+          "step": "0.01",
+          "min": "0"
+        },
+        {
+          "name": "taxRate",
+          "type": "number",
+          "step": "0.01",
+          "min": "0",
+          "max": "100"
+        },
+        {
+          "name": "supplierName",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "supplierNumber",
+          "type": "text"
+        },
+        {
+          "name": "paymentReference",
+          "type": "text"
+        },
+        {
+          "name": "paymentMethod",
+          "type": "select",
+          "options": [
+            {
+              "value": "bank-transfer",
+              "label": "Banküberweisung"
+            },
+            {
+              "value": "direct-debit",
+              "label": "Lastschrift"
+            },
+            {
+              "value": "cash",
+              "label": "Bar"
+            },
+            {
+              "value": "credit-card",
+              "label": "Kreditkarte"
+            },
+            {
+              "value": "check",
+              "label": "Scheck"
+            }
+          ]
+        },
+        {
+          "name": "paymentStatus",
+          "type": "select",
+          "options": [
+            {
+              "value": "unpaid",
+              "label": "Unbezahlt"
+            },
+            {
+              "value": "partially-paid",
+              "label": "Teilweise bezahlt"
+            },
+            {
+              "value": "paid",
+              "label": "Bezahlt"
+            },
+            {
+              "value": "overdue",
+              "label": "Überfällig"
+            }
+          ],
+          "default": "unpaid"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.weiteres.title",
+      "fields": [
+        {
+          "name": "tags",
+          "type": "textarea"
+        },
+        {
+          "name": "keywords",
+          "type": "textarea"
+        },
+        {
+          "name": "isPublic",
+          "type": "checkbox"
+        },
+        {
+          "name": "expiryDate",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "relationName": "relations",
+      "title": "jaynaApp.baseDocument.relations.title",
+      "entityType": "document"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Ich bearbeite jetzt systematisch alle contract-i18n-Dateien. Bisher korrigiert:
+- i18n-contract-employment-employee-mini-job.json
+- i18n-contract-employment-employee-internship.json
+- i18n-contract-employment-employee-part-time.json
+- i18n-contract-employment-employee-work-contract.json
+- i18n-contract-employment-employee-fulltime.json
+- i18n-contract-employment-employee-terminationcontract.json
+Bearbeite jetzt: i18n-contract-employment-official-internship.json
+- i18n-contract-employment-official-internship.json
+Bearbeite jetzt: i18n-contract-employment-official-mini-job.json
+- i18n-contract-employment-official-mini-job.json
+Bearbeite jetzt: i18n-contract-employment-official-part-time.json
+- i18n-contract-employment-official-part-time.json

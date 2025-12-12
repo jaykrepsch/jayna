@@ -1,0 +1,269 @@
+package me.jayna.service;
+
+import java.util.List;
+import java.util.Optional;
+import me.jayna.domain.Document;
+// import me.jayna.repository.DocumentRepository;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import java.lang.RuntimeException;
+
+/**
+ * Service Implementation for managing {@link Document}.
+ */
+// @Service
+// @Transactional
+public class DocumentService {
+
+    private final Logger log = LoggerFactory.getLogger(DocumentService.class);
+
+    // private final DocumentRepository documentRepository;
+
+    // public DocumentService(DocumentRepository documentRepository) {
+    //     this.documentRepository = documentRepository;
+    // }
+
+    /**
+     * Save a document.
+     *
+     * @param document the entity to save.
+     * @return the persisted entity.
+     */
+    // public Document save(Document document) {
+    //     log.debug("Request to save Document : {}", document);
+        
+    //     // Setze Standardwerte für Dokumente
+    //     if (document.getIsPublic() == null) {
+    //         document.setIsPublic(false);
+    //     }
+        
+    //     // Wenn groupType nur eine ID hat, lade das komplette groupType Objekt
+    //     if (document.getGroupType() != null && document.getGroupType().getId() != null) {
+    //         log.debug("Loading groupType with ID: {}", document.getGroupType().getId());
+    //         // Das groupType wird automatisch durch JPA geladen
+    //     }
+        
+    //     return documentRepository.save(document);
+    // }
+
+    /**
+     * Update a document.
+     *
+     * @param document the entity to update.
+     * @return the persisted entity.
+     */
+    public Document update(Document document) {
+        log.debug("Request to update Document : {}", document);
+        return documentRepository.save(document);
+    }
+
+    /**
+     * Partially update a document.
+     *
+     * @param document the entity to update partially.
+     * @return the persisted entity.
+     */
+    public Optional<Document> partialUpdate(Document document) {
+        log.debug("Request to partially update Document : {}", document);
+
+        return documentRepository
+            .findById(document.getId())
+            .map(existingDocument -> {
+                if (document.getTitle() != null) {
+                    existingDocument.setTitle(document.getTitle());
+                }
+                if (document.getDescription() != null) {
+                    existingDocument.setDescription(document.getDescription());
+                }
+                if (document.getFileName() != null) {
+                    existingDocument.setFileName(document.getFileName());
+                }
+                if (document.getFilePath() != null) {
+                    existingDocument.setFilePath(document.getFilePath());
+                }
+                if (document.getFileType() != null) {
+                    existingDocument.setFileType(document.getFileType());
+                }
+                if (document.getFileSize() != null) {
+                    existingDocument.setFileSize(document.getFileSize());
+                }
+                if (document.getUploadDate() != null) {
+                    existingDocument.setUploadDate(document.getUploadDate());
+                }
+                if (document.getLastModified() != null) {
+                    existingDocument.setLastModified(document.getLastModified());
+                }
+                if (document.getVersion() != null) {
+                    existingDocument.setVersion(document.getVersion());
+                }
+                if (document.getStatus() != null) {
+                    existingDocument.setStatus(document.getStatus());
+                }
+                if (document.getTags() != null) {
+                    existingDocument.setTags(document.getTags());
+                }
+                if (document.getKeywords() != null) {
+                    existingDocument.setKeywords(document.getKeywords());
+                }
+                if (document.getContentHash() != null) {
+                    existingDocument.setContentHash(document.getContentHash());
+                }
+                if (document.getMimeType() != null) {
+                    existingDocument.setMimeType(document.getMimeType());
+                }
+                if (document.getIsPublic() != null) {
+                    existingDocument.setIsPublic(document.getIsPublic());
+                }
+                if (document.getExpiryDate() != null) {
+                    existingDocument.setExpiryDate(document.getExpiryDate());
+                }
+                if (document.getDocumentNumber() != null) {
+                    existingDocument.setDocumentNumber(document.getDocumentNumber());
+                }
+                if (document.getCustomerNumber() != null) {
+                    existingDocument.setCustomerNumber(document.getCustomerNumber());
+                }
+                if (document.getPartner() != null) {
+                    existingDocument.setPartner(document.getPartner());
+                }
+                if (document.getContractNumber() != null) {
+                    existingDocument.setContractNumber(document.getContractNumber());
+                }
+                if (document.getRealEstateNumber() != null) {
+                    existingDocument.setRealEstateNumber(document.getRealEstateNumber());
+                }
+                if (document.getFinanceAccountNumber() != null) {
+                    existingDocument.setFinanceAccountNumber(document.getFinanceAccountNumber());
+                }
+                if (document.getMobilityNumber() != null) {
+                    existingDocument.setMobilityNumber(document.getMobilityNumber());
+                }
+                
+                // Aktualisiere groupType wenn vorhanden
+                if (document.getGroupType() != null) {
+                    existingDocument.setGroupType(document.getGroupType());
+                }
+
+                return existingDocument;
+            })
+            .map(documentRepository::save);
+    }
+
+    /**
+     * Get all the documents.
+     *
+     * @return the list of entities.
+     */
+    @Transactional(readOnly = true)
+    public List<Document> findAll() {
+        log.debug("Request to get all Documents");
+        return documentRepository.findAll();
+    }
+
+    /**
+     * Get all the documents with pagination.
+     *
+     * @param pageable the pagination information.
+     * @return the list of entities.
+     */
+    @Transactional(readOnly = true)
+    public Page<Document> findAll(Pageable pageable) {
+        log.debug("Request to get a page of Documents");
+        return documentRepository.findAll(pageable);
+    }
+
+    /**
+     * Get all the documents with pagination and optional relations.
+     *
+     * @param pageable the pagination information.
+     * @param loadRelations whether to load relations.
+     * @return the list of entities.
+     */
+    @Transactional(readOnly = true)
+    public Page<Document> findAll(Pageable pageable, boolean loadRelations) {
+        log.debug("Request to get a page of Documents with relations: {}", loadRelations);
+        Page<Document> page = documentRepository.findAll(pageable);
+        
+        if (loadRelations) {
+            // Die groupType wird bereits durch @ManyToOne(fetch = FetchType.EAGER) geladen
+            // Hier könnten weitere Relations geladen werden falls nötig
+            page.getContent().forEach(document -> {
+                if (document.getGroupType() != null) {
+                    log.debug("Document {} has groupType: {}", document.getId(), document.getGroupType().getName());
+                }
+            });
+        }
+        
+        return page;
+    }
+
+    /**
+     * Get one document by id.
+     *
+     * @param id the id of the entity.
+     * @return the entity.
+     */
+    @Transactional(readOnly = true)
+    public Optional<Document> findOne(Long id) {
+        log.debug("Request to get Document : {}", id);
+        return documentRepository.findById(id);
+    }
+
+    /**
+     * Get one document by id with relations.
+     *
+     * @param id the id of the entity.
+     * @param loadRelations whether to load relations.
+     * @return the entity.
+     */
+    @Transactional(readOnly = true)
+    public Optional<Document> findOne(Long id, boolean loadRelations) {
+        log.debug("Request to get Document : {} with relations: {}", id, loadRelations);
+        
+        if (loadRelations) {
+            try {
+                Document document = documentRepository.findByIdWithFullHierarchy(id);
+                if (document != null) {
+                    log.debug("Document loaded with full hierarchy. GroupType: {}", 
+                        document.getGroupType() != null ? document.getGroupType().getName() : "null");
+                    return Optional.of(document);
+                }
+            } catch (Exception e) {
+                log.warn("Error loading document with full hierarchy, falling back to simple load: {}", e.getMessage());
+            }
+        }
+        
+        return documentRepository.findById(id);
+    }
+
+    /**
+     * Delete the document by id.
+     *
+     * @param id the id of the entity.
+     */
+    @Transactional
+    public void delete(Long id) {
+        log.debug("Request to delete Document : {}", id);
+        
+        try {
+            // Prüfe zuerst, ob das Dokument existiert
+            if (!documentRepository.existsById(id)) {
+                log.warn("Document with id {} not found", id);
+                return;
+            }
+            
+            // Lösche das Dokument direkt - die Cascade-Operationen werden automatisch gehandhabt
+            documentRepository.deleteById(id);
+            log.debug("Document with id {} deleted successfully", id);
+            
+        } catch (Exception e) {
+            log.error("Error deleting document with id {}: {}", id, e.getMessage());
+            throw e;
+        }
+    }
+}

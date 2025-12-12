@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-bike-pedelec-pxxl.createTitle": "Fahrrad pedelec pxxl anlegen",
+  "jaynaApp.mobility-bike-pedelec-pxxl.updateTitle": "Fahrrad pedelec pxxl bearbeiten",
+  "jaynaApp.mobility-bike-pedelec-pxxl.viewTitle": "Fahrrad pedelec pxxl anzeigen",
+  "jaynaApp.mobility-bike-pedelec-pxxl.specificData.title": "Fahrrad pedelec pxxl-spezifische Daten",
+  "jaynaApp.mobility-bike-pedelec-pxxl.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-bike-pedelec-pxxl.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

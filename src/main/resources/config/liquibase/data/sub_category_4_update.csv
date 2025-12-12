@@ -1,0 +1,16 @@
+id;name;translation_key
+1;Arbeitsvertrag;jaynaApp.sub-category.employment-contract
+2;Bankkonto;jaynaApp.sub-category.bank-account
+3;Kreditkarte;jaynaApp.sub-category.credit-card
+4;Darlehen;jaynaApp.sub-category.loan
+5;Dienstleistung;jaynaApp.sub-category.service
+6;Energie;jaynaApp.sub-category.energy
+7;Kaufvertrag;jaynaApp.sub-category.purchase-contract
+8;Kredit;jaynaApp.sub-category.credit
+9;Leasing;jaynaApp.sub-category.leasing
+10;Leihvertrag;jaynaApp.sub-category.loan-agreement
+11;Medien;jaynaApp.sub-category.media
+12;Mietvertrag;jaynaApp.sub-category.rental-contract
+13;Versicherung;jaynaApp.sub-category.insurance
+14;Hausverwaltung;jaynaApp.sub-category.property-management
+15;Mietverwaltung;jaynaApp.sub-category.rental-management

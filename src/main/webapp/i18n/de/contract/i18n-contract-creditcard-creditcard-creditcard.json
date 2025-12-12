@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-creditcard-creditcard-creditcard.createTitle": "Creditcard anlegen",
+  "jaynaApp.contract-creditcard-creditcard-creditcard.updateTitle": "Creditcard bearbeiten",
+  "jaynaApp.contract-creditcard-creditcard-creditcard.viewTitle": "Creditcard anzeigen",
+  "jaynaApp.contract-creditcard-creditcard-creditcard.specificData.title": "Creditcard-spezifische Daten",
+  "jaynaApp.contract-creditcard-creditcard-creditcard.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.contract-creditcard-creditcard-creditcard.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

@@ -1,0 +1,8 @@
+{
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.createTitle": "Personenfahrzeug Quad quadrace anlegen",
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.updateTitle": "Personenfahrzeug Quad quadrace bearbeiten",
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.viewTitle": "Personenfahrzeug Quad quadrace anzeigen",
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.specificData.title": "Personenfahrzeug Quad quadrace-spezifische Daten",
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.specificData.fields.specificField1": "Spezifisches Feld 1",
+  "jaynaApp.mobility-passengervehicle-quad-quadrace.specificData.fields.specificField2": "Spezifisches Feld 2"
+}

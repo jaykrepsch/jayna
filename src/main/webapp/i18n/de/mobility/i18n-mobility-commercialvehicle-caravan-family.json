@@ -1,0 +1,18 @@
+{
+  "jaynaApp.mobility-commercialvehicle-caravan-family.createTitle": "Familien-Wohnwagen anlegen",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.updateTitle": "Familien-Wohnwagen bearbeiten",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.viewTitle": "Familien-Wohnwagen anzeigen",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.title": "Familien-Wohnwagen-spezifische Daten",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.caravanType": "Wohnwagen-Typ",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.length": "Länge (m)",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.width": "Breite (m)",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.height": "Höhe (m)",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.weight": "Gewicht (kg)",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.sleepingPlaces": "Schlafplätze",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.beds": "Betten",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.bathroom": "Badezimmer",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.kitchen": "Küche",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.heating": "Heizung",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.airConditioning": "Klimaanlage",
+  "jaynaApp.mobility-commercialvehicle-caravan-family.specificData.fields.awning": "Markise"
+}

@@ -1,0 +1,141 @@
+{
+  "jaynaApp": {
+    "contract": {
+      "sub-category": {
+        "employment-contract": "Arbeitsvertrag",
+        "bank-account": "Bankkonto",
+        "credit-card": "Kreditkarte",
+        "loan": "Darlehen",
+        "service": "Dienstleistung",
+        "energy": "Energie",
+        "purchase-contract": "Kaufvertrag",
+        "insurance": "Versicherung",
+        "telecommunications": "Telekommunikation",
+        "parking": "Parken",
+        "residence": "Wohnen",
+        "health": "Gesundheit",
+        "life": "Leben",
+        "object": "Objekt",
+        "business": "Geschäft",
+        "lease": "Mietvertrag",
+        "sale": "Kaufvertrag",
+        "credit": "Kredit",
+        "media": "Medien"
+      },
+      "sub-category-group": {
+        "employee": "Angestellter",
+        "official": "Beamter",
+        "public-service": "Öffentlicher Dienst",
+        "bank-account": "Bankkonto",
+        "credit-card": "Kreditkarte",
+        "payment-systems": "Bezahlsysteme",
+        "loan": "Darlehen",
+        "service": "Dienstleistung",
+        "energy": "Energie",
+        "purchase": "Kauf",
+        "insurance": "Versicherung",
+        "telecommunications": "Telekommunikation",
+        "parking": "Parken",
+        "residence": "Wohnen",
+        "health": "Gesundheit",
+        "life": "Leben",
+        "object": "Objekt",
+        "business": "Geschäft",
+        "parking-space": "Abstellplatz",
+        "real-estate": "Immobilie",
+        "devices": "Geräte",
+        "items": "Gegenstände",
+        "vehicle": "KFZ",
+        "streaming": "Streaming"
+      },
+      "group-type": {
+        "mini-job": "Mini-Job",
+        "half-time": "Teilzeit",
+        "full-time": "Vollzeit",
+        "help": "Aushilfe",
+        "internship": "Praktikum",
+        "termination-agreement": "Aufhebungsvertrag",
+        "work-contract": "Werkvertrag",
+        "checking-account": "Girokonto",
+        "savings-account": "Sparkonto",
+        "credit-account": "Kreditkonto",
+        "investment-account": "Anlagekonto",
+        "online-virtual": "Online Virtuell",
+        "samsung": "Samsung",
+        "paypal": "Paypal",
+        "google-pay": "Google Pay",
+        "apple-pay": "Apple Pay",
+        "skrill": "Skrill",
+        "stripe": "Stripe",
+        "klarna": "Klarna",
+        "loan": "Darlehen",
+        "service": "Dienstleistung",
+        "energy": "Energie",
+        "purchase": "Kauf",
+        "insurance": "Versicherung",
+        "telecommunications": "Telekommunikation",
+        "parking": "Parken",
+        "residence": "Wohnen",
+        "health": "Gesundheit",
+        "life": "Leben",
+        "object": "Objekt",
+        "business": "Geschäft",
+        "garage": "Garage",
+        "parking-lot": "Parkplatz",
+        "holiday-apartment": "Ferienwohnung",
+        "holiday-house": "Ferienhaus",
+        "room": "Raum",
+        "building": "Gebäude",
+        "tv": "Fernseher",
+        "coffee-table": "Couch",
+        "table": "Tisch",
+        "apartment": "Wohnung",
+        "house": "Haus",
+        "real-estate-tax": "Grunderwerbssteuer",
+        "car": "Auto",
+        "music": "Musik"
+      },
+
+      "contractor": "Vertragspartner",
+      "contractOwner": "Vertragseigentümer",
+      "contractUser": "Vertragsnutzer",
+      "contractNumber": "Vertragsnummer",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "applicationDate": "Antragsdatum",
+      "confirmationDate": "Bestätigungsdatum",
+      "amount": "Betrag",
+      "paymentPattern": "Zahlungsintervall",
+      "paymentType": "Zahlungsart",
+      "payer": "Zahler",
+      "comment": "Kommentar",
+      "description": "Beschreibung",
+      "title": "Vertrag",
+      "relations": {
+        "title": "Verknüpfungen"
+      }
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "realestate": {
+      "title": "Immobilie"
+    },
+    "mobility": {
+      "title": "Fahrzeug"
+    },
+    "financeaccount": {
+      "title": "Konto"
+    },
+    "form-builder": {
+      "messages": {
+        "no-entities-available": "Keine Entitäten verfügbar",
+        "no-relationships": "Keine Verknüpfungen vorhanden",
+        "delete-relationship": "Sind Sie sicher, dass Sie diese Verknüpfung löschen möchten?"
+      },
+      "titles": {
+        "delete-relationship": "Verknüpfung löschen"
+      }
+    }
+  }
+} 

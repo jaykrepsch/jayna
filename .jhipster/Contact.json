@@ -1,0 +1,145 @@
+{
+  "applications": "*",
+  "changelogDate": "20230623154944",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "contact",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "Title",
+      "fieldValues": "DR,PROF,DR_MED"
+    },
+    {
+      "fieldName": "salutation",
+      "fieldType": "Salutation",
+      "fieldValues": "MR,MRS"
+    },
+    {
+      "fieldName": "rank",
+      "fieldType": "Rank",
+      "fieldValues": "COLONEL,LIEUTENANT"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValues": "MALE,FEMALE,DIVERS"
+    },
+    {
+      "fieldName": "surName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherFirstNames",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "maritalStatus",
+      "fieldType": "MaritalStatus",
+      "fieldValues": "SINGLE,MARRIED,DIVORCED,WIDOWED,PARTNERSHIP"
+    },
+    {
+      "fieldName": "nickName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "birthCity",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthCountry",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nationality",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressType",
+      "fieldType": "AddressType",
+      "fieldValues": "PRIVATE,BUSINESS"
+    },
+    {
+      "fieldName": "street",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "streetNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "additionalAddressField1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "additionalAddressField2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "communicationType",
+      "fieldType": "CommunicationType",
+      "fieldValues": "PHONE,FAX,MOBILE,PAGER,EMAIL,CHAT,HOMEPAGE,SOCIAL_MEDIA"
+    },
+    {
+      "fieldName": "phoneCountryCode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "phonePrefix",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Contact",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "applicationUser",
+      "relationshipName": "applicationUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "groupType",
+      "relationshipName": "groupType",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "contactFinanceAccount",
+      "otherEntityRelationshipName": "contact",
+      "relationshipName": "contactFinanceAccount",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": true
+}

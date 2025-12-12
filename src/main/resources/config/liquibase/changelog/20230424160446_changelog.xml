@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1682352322520-3">
+        <createTable tableName="entity_relationship">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="entity_relationshipPK"/>
+            </column>
+            <column name="contract_id" type="BIGINT"/>
+            <column name="real_estate_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1682352322520-4">
+        <addForeignKeyConstraint baseColumnNames="contract_id" baseTableName="entity_relationship" constraintName="FKi662vnla1m42v3qeui2waa0r3" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="contract" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1682352322520-5">
+        <addForeignKeyConstraint baseColumnNames="real_estate_id" baseTableName="entity_relationship" constraintName="FKphk5jy3lo1pvu43mpklldmn88" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="real_estate" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1682352322520-6">
+        <dropForeignKeyConstraint baseTableName="entity_relationships" constraintName="FKb7igvc2wo8ncdvo7atj7m0joc"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1682352322520-7">
+        <dropForeignKeyConstraint baseTableName="entity_relationships" constraintName="FKppclo8qy44ni27ccqruh14at7"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1682352322520-8">
+        <dropTable tableName="entity_relationships"/>
+    </changeSet>
+</databaseChangeLog>

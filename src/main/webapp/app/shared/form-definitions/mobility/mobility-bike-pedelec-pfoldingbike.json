@@ -1,0 +1,251 @@
+{
+  "_comment": "formControl-Konzept: Standard-Abschnitte aus baseMobility, spezielle Abschnitte mit i18nSource Migriert auf zentrale Verknüpfungsstruktur.",
+  "formTitle": "jaynaApp.mobility-bike-pedelec-pfoldingbike.createTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseMobility.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "rules": "required"
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.vehicleData.title",
+      "fields": [
+        {
+          "name": "BIKE",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "BIKE",
+          "defaultValue": "BIKE"
+        },
+        {
+          "name": "brand",
+          "type": "text"
+        },
+        {
+          "name": "model",
+          "type": "text"
+        },
+        {
+          "name": "yearOfManufacture",
+          "type": "number"
+        },
+        {
+          "name": "licensePlate",
+          "type": "text"
+        },
+        {
+          "name": "vin",
+          "type": "text"
+        },
+        {
+          "name": "color",
+          "type": "text"
+        },
+        {
+          "name": "mileage",
+          "type": "number"
+        },
+        {
+          "name": "fuelType",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "fuelType"
+        },
+        {
+          "name": "engineSize",
+          "type": "number"
+        },
+        {
+          "name": "power",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.mobility-bike-pedelec-pfoldingbike.specificData.title",
+      "i18nSource": "mobility-bike-pedelec-pfoldingbike",
+      "fields": [
+        {
+          "name": "specificField1",
+          "type": "text"
+        },
+        {
+          "name": "specificField2",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.ownership.title",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "text"
+        },
+        {
+          "name": "purchaseDate",
+          "type": "date"
+        },
+        {
+          "name": "purchasePrice",
+          "type": "number"
+        },
+        {
+          "name": "currentValue",
+          "type": "number"
+        },
+        {
+          "name": "registrationDate",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.financial.title",
+      "fields": [
+        {
+          "name": "monthlyCosts",
+          "type": "number"
+        },
+        {
+          "name": "annualCosts",
+          "type": "number"
+        },
+        {
+          "name": "fuelCosts",
+          "type": "number"
+        },
+        {
+          "name": "maintenanceCosts",
+          "type": "number"
+        },
+        {
+          "name": "insuranceCosts",
+          "type": "number"
+        },
+        {
+          "name": "taxCosts",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseMobility.weiteres.title",
+      "fields": [
+        {
+          "name": "comment",
+          "type": "textarea"
+        },
+        {
+          "name": "notes",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseContract.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contact",
+      "relationName": "mobilityContacts",
+      "relationConfig": {
+        "id": "contact-mobility",
+        "sourceEntity": "contact",
+        "targetEntity": "mobility",
+        "relationType": "OWNER",
+        "displayName": "Kontakt - Mobilität",
+        "description": "Verknüpfung zwischen Kontakten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "contract",
+      "relationName": "mobilityContracts",
+      "relationConfig": {
+        "id": "contract-mobility",
+        "sourceEntity": "contract",
+        "targetEntity": "mobility",
+        "relationType": "INSURES",
+        "displayName": "Vertrag - Mobilität",
+        "description": "Verknüpfung zwischen Verträgen und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "mobilityRealestates",
+      "relationConfig": {
+        "id": "realestate-mobility",
+        "sourceEntity": "realestate",
+        "targetEntity": "mobility",
+        "relationType": "STORES",
+        "displayName": "Immobilie - Mobilität",
+        "description": "Verknüpfung zwischen Immobilien und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "mobilityFinanceAccounts",
+      "relationConfig": {
+        "id": "financeaccount-mobility",
+        "sourceEntity": "financeaccount",
+        "targetEntity": "mobility",
+        "relationType": "FINANCES",
+        "displayName": "Finanzkonto - Mobilität",
+        "description": "Verknüpfung zwischen Finanzkonten und Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "mobility",
+      "relationName": "mobilityMobilities",
+      "relationConfig": {
+        "id": "mobility-mobility",
+        "sourceEntity": "mobility",
+        "targetEntity": "mobility",
+        "relationType": "RELATED_TO",
+        "displayName": "Mobilität - Mobilität",
+        "description": "Verknüpfung zwischen Mobilitätsobjekten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseMobility.relations.title",
+  "documentRelationsTitle": "jaynaApp.baseMobility.documentRelations.title"
+}

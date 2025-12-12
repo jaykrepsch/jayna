@@ -1,0 +1,8 @@
+{
+  "jaynaApp.contract-service-service-insurancebroker.createTitle": "Versicherungsmakler anlegen",
+  "jaynaApp.contract-service-service-insurancebroker.updateTitle": "Versicherungsmakler bearbeiten",
+  "jaynaApp.contract-service-service-insurancebroker.viewTitle": "Versicherungsmakler anzeigen",
+  "jaynaApp.contract-service-service-insurancebroker.specificData.title": "Versicherungsmakler-spezifische Daten",
+  "jaynaApp.contract-service-service-insurancebroker.specificData.fields.specificField1": "Provision",
+  "jaynaApp.contract-service-service-insurancebroker.specificData.fields.specificField2": "Versicherungsart"
+}

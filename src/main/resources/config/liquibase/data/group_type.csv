@@ -1,0 +1,118 @@
+id;name;sub_category_group_id
+1;Garage;22
+2;Parkplatz;22
+3;Mini;1
+4;Teilzeit;1
+5;Vollzeit;1
+6;Aushilfe;1
+7;Praktikumsvertrag;1
+8;Aufhebungsvertrag;1
+9;Werkvertrag;1
+10;Mini;3
+11;Teilzeit;3
+12;Vollzeit;3
+13;Aushilfe;3
+14;Praktikumsvertrag;3
+15;Aufhebungsvertrag;3
+16;Werkvertrag;3
+17;Strom;7
+18;Kabelfernsehen;18
+19;Satellitenfernsehen;18
+20;Bafög;31
+21;Couch;12
+22;Tisch;12
+23;Handy;11
+24;Fernseher;11
+25;Gebäude;30
+26;D&O Managerhaftpflicht;30
+27;Rechtsschutz;30
+28;Gas;9
+29;Fernwärme;9
+30;Öl;9
+31;Annuitätendarlehen;4
+32;Modernisierung;4
+33;Tilgungsdarlehen;4
+34;Laufzeitzinsdarlehen;4
+35;Partiarische Darlehen;4
+36;Abrufdarlehen;4
+37;Rollierende Geldmarktdarlehen;4
+38;Endfällige Darlehen;4
+39;Wohnung;13
+40;Haus;13
+41;Ferienwohnung;23
+42;Ferienhaus;23
+43;Raum;23
+44;Gebäude;23
+45;DSL;19
+46;Glasfaser;19
+47;Auto;10
+48;Motorrad;10
+49;Auto;14
+50;Wohnwagen;14
+51;Motorboot;14
+52;Auto;16
+53;Auto;24
+54;Wohnmobil;24
+55;Motorrad;26
+56;Wohnwagen;26
+57;Wohnmobil;26
+58;Traktor;26
+59;gesetzliche Krankenversicherung;27
+60;Ausland;27
+61;Privat Zusatz Zahn;27
+62;Privat Zusatz stationär;27
+63;Privat Zusatz ambulant;27
+64;Privat Kranken voll;27
+65;Krankentagegeld;27
+66;Krankenhaustagegeld;27
+67;Umschuldung;15
+68;Modernisierung;15
+69;freie Verwendung;15
+70;Risiko Lebensversicherung;28
+71;Rentenversicherung Fonds;28
+72;Berufsunfähigkeit;28
+73;Pflegeversicherung;28
+74;Rentenversicherung klassisch;28
+75;Pflegetagegeld;28
+76;Autotelefon;20
+77;Handy;20
+78;Tablet;20
+79;Mini;2
+80;Teilzeit;2
+81;Vollzeit;2
+82;Aushilfe;2
+83;Praktikumsvertrag;2
+84;Aufhebungsvertrag;2
+85;Werkvertrag;2
+86;Strom;8
+87;Unfall;29
+88;Hausrat;29
+89;Wohngebäude;29
+90;Rechtsscutz;29
+91;Privathaftpflicht;29
+92;Bauherrenhaftpflicht;29
+93;E-Bike & Pedeleg;29
+94;Glas;29
+95;Feuer;29
+96;Haus- und Grundbesitzerhaftpflicht;29
+97;Kunst;29
+98;Mietausfall;29
+99;Photovoltaik;29
+100;Tier OP;29
+101;Tierhalterhaftpflicht;29
+102;Umweltschadenhaftpflicht;29
+103;Elementar (Wohngebäude);29
+104;Versicherungsmakler;5
+105;Hausmeisterservice;5
+106;Reinigung;5
+107;Immobilienmakler;5
+108;Gärtner;5
+109;KFZ-Inspektion;5
+110;Filme / Serien;21
+111;Musik;21
+112;Heizung;6
+113;Wärmepumpe;6
+114;Schornsteinfeger;6
+115;Aufzug;6
+116;Wohnungsmietvertrag;25
+117;Hausmietvertrag;25

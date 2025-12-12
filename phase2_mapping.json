@@ -1,0 +1,1663 @@
+{
+  "financeaccount": {
+    "formDefinitions": [
+      {
+        "oldName": "financeaccount-bank-charge-charge",
+        "newName": "financeaccount-bank-charge-charge",
+        "fileName": "financeaccount-bank-charge-charge.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-checkingaccount-checkingaccount",
+        "newName": "financeaccount-bank-checkingaccount-checkingaccount",
+        "fileName": "financeaccount-bank-checkingaccount-checkingaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-debit-debit",
+        "newName": "financeaccount-bank-debit-debit",
+        "fileName": "financeaccount-bank-debit-debit.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-prepaid-prepaid",
+        "newName": "financeaccount-bank-prepaid-prepaid",
+        "fileName": "financeaccount-bank-prepaid-prepaid.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-revolving-revolving",
+        "newName": "financeaccount-bank-revolving-revolving",
+        "fileName": "financeaccount-bank-revolving-revolving.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-savingaccount-savingaccount",
+        "newName": "financeaccount-bank-savingaccount-savingaccount",
+        "fileName": "financeaccount-bank-savingaccount-savingaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-applepay-applepay",
+        "newName": "financeaccount-systems-applepay-applepay",
+        "fileName": "financeaccount-systems-applepay-applepay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-googlepay-googlepay",
+        "newName": "financeaccount-systems-googlepay-googlepay",
+        "fileName": "financeaccount-systems-googlepay-googlepay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-klarna-klarna",
+        "newName": "financeaccount-systems-klarna-klarna",
+        "fileName": "financeaccount-systems-klarna-klarna.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-onlinevirtual-onlinevirtual",
+        "newName": "financeaccount-systems-onlinevirtual-onlinevirtual",
+        "fileName": "financeaccount-systems-onlinevirtual-onlinevirtual.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-paypal-paypal",
+        "newName": "financeaccount-systems-paypal-paypal",
+        "fileName": "financeaccount-systems-paypal-paypal.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-samsungpay-samsungpay",
+        "newName": "financeaccount-systems-samsungpay-samsungpay",
+        "fileName": "financeaccount-systems-samsungpay-samsungpay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-skrill-skrill",
+        "newName": "financeaccount-systems-skrill-skrill",
+        "fileName": "financeaccount-systems-skrill-skrill.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-stripe-stripe",
+        "newName": "financeaccount-systems-stripe-stripe",
+        "fileName": "financeaccount-systems-stripe-stripe.json",
+        "needsRename": false
+      }
+    ],
+    "i18nFiles": [
+      {
+        "oldName": "financeaccount-bank-charge-charge",
+        "newName": "financeaccount-bank-charge-charge",
+        "fileName": "i18n-financeaccount-bank-charge-charge.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-checkingaccount-checkingaccount",
+        "newName": "financeaccount-bank-checkingaccount-checkingaccount",
+        "fileName": "i18n-financeaccount-bank-checkingaccount-checkingaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-debit-debit",
+        "newName": "financeaccount-bank-debit-debit",
+        "fileName": "i18n-financeaccount-bank-debit-debit.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-prepaid-prepaid",
+        "newName": "financeaccount-bank-prepaid-prepaid",
+        "fileName": "i18n-financeaccount-bank-prepaid-prepaid.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-revolving-revolving",
+        "newName": "financeaccount-bank-revolving-revolving",
+        "fileName": "i18n-financeaccount-bank-revolving-revolving.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-bank-savingaccount-savingaccount",
+        "newName": "financeaccount-bank-savingaccount-savingaccount",
+        "fileName": "i18n-financeaccount-bank-savingaccount-savingaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-applepay-applepay",
+        "newName": "financeaccount-systems-applepay-applepay",
+        "fileName": "i18n-financeaccount-systems-applepay-applepay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-googlepay-googlepay",
+        "newName": "financeaccount-systems-googlepay-googlepay",
+        "fileName": "i18n-financeaccount-systems-googlepay-googlepay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-klarna-klarna",
+        "newName": "financeaccount-systems-klarna-klarna",
+        "fileName": "i18n-financeaccount-systems-klarna-klarna.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-onlinevirtual-onlinevirtual",
+        "newName": "financeaccount-systems-onlinevirtual-onlinevirtual",
+        "fileName": "i18n-financeaccount-systems-onlinevirtual-onlinevirtual.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-paypal-paypal",
+        "newName": "financeaccount-systems-paypal-paypal",
+        "fileName": "i18n-financeaccount-systems-paypal-paypal.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-samsungpay-samsungpay",
+        "newName": "financeaccount-systems-samsungpay-samsungpay",
+        "fileName": "i18n-financeaccount-systems-samsungpay-samsungpay.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-skrill-skrill",
+        "newName": "financeaccount-systems-skrill-skrill",
+        "fileName": "i18n-financeaccount-systems-skrill-skrill.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "financeaccount-systems-stripe-stripe",
+        "newName": "financeaccount-systems-stripe-stripe",
+        "fileName": "i18n-financeaccount-systems-stripe-stripe.json",
+        "needsRename": false
+      }
+    ]
+  },
+  "realestate": {
+    "formDefinitions": [
+      {
+        "oldName": "realestate-parking-carport-carport",
+        "newName": "realestate-parking-carport-carport",
+        "fileName": "realestate-parking-carport-carport.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-garage-garage",
+        "newName": "realestate-parking-garage-garage",
+        "fileName": "realestate-parking-garage-garage.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-parkinghouse-parkinghouse",
+        "newName": "realestate-parking-parkinghouse-parkinghouse",
+        "fileName": "realestate-parking-parkinghouse-parkinghouse.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-parkingspace-parkingspace",
+        "newName": "realestate-parking-parkingspace-parkingspace",
+        "fileName": "realestate-parking-parkingspace-parkingspace.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-allotmentgarden-allotmentgarden",
+        "newName": "realestate-plot-allotmentgarden-allotmentgarden",
+        "fileName": "realestate-plot-allotmentgarden-allotmentgarden.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-buildingplot-buildingplot",
+        "newName": "realestate-plot-buildingplot-buildingplot",
+        "fileName": "realestate-plot-buildingplot-buildingplot.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-farmland-farmland",
+        "newName": "realestate-plot-farmland-farmland",
+        "fileName": "realestate-plot-farmland-farmland.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-forest-forest",
+        "newName": "realestate-plot-forest-forest",
+        "fileName": "realestate-plot-forest-forest.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-fruit-fruit",
+        "newName": "realestate-plot-fruit-fruit",
+        "fileName": "realestate-plot-fruit-fruit.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-meadow-meadow",
+        "newName": "realestate-plot-meadow-meadow",
+        "fileName": "realestate-plot-meadow-meadow.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-pasture-pasture",
+        "newName": "realestate-plot-pasture-pasture",
+        "fileName": "realestate-plot-pasture-pasture.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-property-commercialresidential-commercialresidentialproperty",
+        "newName": "realestate-property-commercialresidential-commercialresidentialproperty",
+        "fileName": "realestate-property-commercialresidential-commercialresidentialproperty.json",
+        "needsRename": false
+      }
+    ],
+    "i18nFiles": [
+      {
+        "oldName": "realestate-parking-carport-carport",
+        "newName": "realestate-parking-carport-carport",
+        "fileName": "i18n-realestate-parking-carport-carport.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-garage-garage",
+        "newName": "realestate-parking-garage-garage",
+        "fileName": "i18n-realestate-parking-garage-garage.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-parkinghouse-parkinghouse",
+        "newName": "realestate-parking-parkinghouse-parkinghouse",
+        "fileName": "i18n-realestate-parking-parkinghouse-parkinghouse.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-parking-parkingspace-parkingspace",
+        "newName": "realestate-parking-parkingspace-parkingspace",
+        "fileName": "i18n-realestate-parking-parkingspace-parkingspace.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-allotmentgarden-allotmentgarden",
+        "newName": "realestate-plot-allotmentgarden-allotmentgarden",
+        "fileName": "i18n-realestate-plot-allotmentgarden-allotmentgarden.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-buildingplot-buildingplot",
+        "newName": "realestate-plot-buildingplot-buildingplot",
+        "fileName": "i18n-realestate-plot-buildingplot-buildingplot.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-farmland-farmland",
+        "newName": "realestate-plot-farmland-farmland",
+        "fileName": "i18n-realestate-plot-farmland-farmland.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-forest-forest",
+        "newName": "realestate-plot-forest-forest",
+        "fileName": "i18n-realestate-plot-forest-forest.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-fruit-fruit",
+        "newName": "realestate-plot-fruit-fruit",
+        "fileName": "i18n-realestate-plot-fruit-fruit.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-meadow-meadow",
+        "newName": "realestate-plot-meadow-meadow",
+        "fileName": "i18n-realestate-plot-meadow-meadow.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-plot-pasture-pasture",
+        "newName": "realestate-plot-pasture-pasture",
+        "fileName": "i18n-realestate-plot-pasture-pasture.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "realestate-property-commercialresidential-commercialresidentialproperty",
+        "newName": "realestate-property-commercialresidential-commercialresidentialproperty",
+        "fileName": "i18n-realestate-property-commercialresidential-commercialresidentialproperty.json",
+        "needsRename": false
+      }
+    ]
+  },
+  "mobility": {
+    "formDefinitions": [
+      {
+        "oldName": "mobility-passenger-car-car",
+        "newName": "mobility-passenger-car-car",
+        "fileName": "mobility-passenger-car-car.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "mobility-single-single-singlemobility",
+        "newName": "mobility-single-single-singlemobility",
+        "fileName": "mobility-single-single-singlemobility.json",
+        "needsRename": false
+      }
+    ],
+    "i18nFiles": [
+      {
+        "oldName": "mobility-passenger-car-car",
+        "newName": "mobility-passenger-car-car",
+        "fileName": "i18n-mobility-passenger-car-car.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "mobility-single-single-singlemobility",
+        "newName": "mobility-single-single-singlemobility",
+        "fileName": "i18n-mobility-single-single-singlemobility.json",
+        "needsRename": false
+      }
+    ]
+  },
+  "contract": {
+    "formDefinitions": [
+      {
+        "oldName": "contract-bankaccount-bank-bankaccount",
+        "newName": "contract-bankaccount-bank-bankaccount",
+        "fileName": "contract-bankaccount-bank-bankaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-creditcard-credit-creditcard",
+        "newName": "contract-creditcard-credit-creditcard",
+        "fileName": "contract-creditcard-credit-creditcard.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-creditcard-credit-creditcardcontract",
+        "newName": "contract-creditcard-credit-creditcardcontract",
+        "fileName": "contract-creditcard-credit-creditcardcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-fulltime",
+        "newName": "contract-employment-employee-fulltime",
+        "fileName": "contract-employment-employee-fulltime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-internship",
+        "newName": "contract-employment-employee-internship",
+        "fileName": "contract-employment-employee-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-mini-job",
+        "newName": "contract-employment-employee-mini",
+        "fileName": "contract-employment-employee-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-employee-part-time",
+        "newName": "contract-employment-employee-part",
+        "fileName": "contract-employment-employee-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employmentContract-employee-terminationAgreement",
+        "newName": "contract-employmentContract-employee-terminationAgreement",
+        "fileName": "contract-employmentContract-employee-terminationAgreement.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-work-contract",
+        "newName": "contract-employment-employee-work",
+        "fileName": "contract-employment-employee-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-employment-employmentcontract",
+        "newName": "contract-employment-employment-employmentcontract",
+        "fileName": "contract-employment-employment-employmentcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-fulltime",
+        "newName": "contract-employment-official-fulltime",
+        "fileName": "contract-employment-official-fulltime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-internship",
+        "newName": "contract-employment-official-internship",
+        "fileName": "contract-employment-official-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-mini-job",
+        "newName": "contract-employment-official-mini",
+        "fileName": "contract-employment-official-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-official-part-time",
+        "newName": "contract-employment-official-part",
+        "fileName": "contract-employment-official-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-official-work-contract",
+        "newName": "contract-employment-official-work",
+        "fileName": "contract-employment-official-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-fulltime",
+        "newName": "contract-employment-public-service",
+        "fileName": "contract-employment-public-service-fulltime.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-mini-job",
+        "newName": "contract-employment-public-service",
+        "fileName": "contract-employment-public-service-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-part-time",
+        "newName": "contract-employment-public-service",
+        "fileName": "contract-employment-public-service-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-work-contract",
+        "newName": "contract-employment-public-service",
+        "fileName": "contract-employment-public-service-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-publicservice-internship",
+        "newName": "contract-employment-publicservice-internship",
+        "fileName": "contract-employment-publicservice-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-electric-stromcontract",
+        "newName": "contract-energy-electric-stromcontract",
+        "fileName": "contract-energy-electric-stromcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-energy-energycontract",
+        "newName": "contract-energy-energy-energycontract",
+        "fileName": "contract-energy-energy-energycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-energy-energycontract2",
+        "newName": "contract-energy-energy-energycontract2",
+        "fileName": "contract-energy-energy-energycontract2.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-fees-municipal-municipalcontract",
+        "newName": "contract-fees-municipal-municipalcontract",
+        "fileName": "contract-fees-municipal-municipalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-accident-accidentcontract",
+        "newName": "contract-insurance-accident-accidentcontract",
+        "fileName": "contract-insurance-accident-accidentcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-automobile-automobilecontract",
+        "newName": "contract-insurance-automobile-automobilecontract",
+        "fileName": "contract-insurance-automobile-automobilecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-bicycle-bicyclecontract",
+        "newName": "contract-insurance-bicycle-bicyclecontract",
+        "fileName": "contract-insurance-bicycle-bicyclecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-bike-bikecontract",
+        "newName": "contract-insurance-bike-bikecontract",
+        "fileName": "contract-insurance-bike-bikecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-broker-brokercontract",
+        "newName": "contract-insurance-broker-brokercontract",
+        "fileName": "contract-insurance-broker-brokercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-builderliability-builderliabilitycontract",
+        "newName": "contract-insurance-builderliability-builderliabilitycontract",
+        "fileName": "contract-insurance-builderliability-builderliabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-classicpension-classicpensioncontract",
+        "newName": "contract-insurance-classicpension-classicpensioncontract",
+        "fileName": "contract-insurance-classicpension-classicpensioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+        "newName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+        "fileName": "contract-insurance-dailyhospital-dailyhospitalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-dailysickness-dailysicknesscontract",
+        "newName": "contract-insurance-dailysickness-dailysicknesscontract",
+        "fileName": "contract-insurance-dailysickness-dailysicknesscontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-disability-disabilitycontract",
+        "newName": "contract-insurance-disability-disabilitycontract",
+        "fileName": "contract-insurance-disability-disabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-domanager-domanagercontract",
+        "newName": "contract-insurance-domanager-domanagercontract",
+        "fileName": "contract-insurance-domanager-domanagercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+        "newName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+        "fileName": "contract-insurance-environmentaldamage-environmentaldamagecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-expatriates-expatriatescontract",
+        "newName": "contract-insurance-expatriates-expatriatescontract",
+        "fileName": "contract-insurance-expatriates-expatriatescontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-fire-firecontract",
+        "newName": "contract-insurance-fire-firecontract",
+        "fileName": "contract-insurance-fire-firecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-furniture-furniturecontract",
+        "newName": "contract-insurance-furniture-furniturecontract",
+        "fileName": "contract-insurance-furniture-furniturecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-health-healthcontract",
+        "newName": "contract-insurance-health-healthcontract",
+        "fileName": "contract-insurance-health-healthcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-health-prisickfullcontract",
+        "newName": "contract-insurance-health-prisickfullcontract",
+        "fileName": "contract-insurance-health-prisickfullcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-inthealth-inthealthcontract",
+        "newName": "contract-insurance-inthealth-inthealthcontract",
+        "fileName": "contract-insurance-inthealth-inthealthcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-legal-legalcontract",
+        "newName": "contract-insurance-legal-legalcontract",
+        "fileName": "contract-insurance-legal-legalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "newName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "fileName": "contract-insurance-legalprotection-legalprotectioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-liability-liabilitycontract",
+        "newName": "contract-insurance-liability-liabilitycontract",
+        "fileName": "contract-insurance-liability-liabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-liabilitypet-liabilitypetcontract",
+        "newName": "contract-insurance-liabilitypet-liabilitypetcontract",
+        "fileName": "contract-insurance-liabilitypet-liabilitypetcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-longtermcare-longtermcarecontract",
+        "newName": "contract-insurance-longtermcare-longtermcarecontract",
+        "fileName": "contract-insurance-longtermcare-longtermcarecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+        "newName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+        "fileName": "contract-insurance-longtermcaredaily-longtermcaredailycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-pensionfund-pensionfundcontract",
+        "newName": "contract-insurance-pensionfund-pensionfundcontract",
+        "fileName": "contract-insurance-pensionfund-pensionfundcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-pet-petcontract",
+        "newName": "contract-insurance-pet-petcontract",
+        "fileName": "contract-insurance-pet-petcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-photovoltaic-photovoltaiccontract",
+        "newName": "contract-insurance-photovoltaic-photovoltaiccontract",
+        "fileName": "contract-insurance-photovoltaic-photovoltaiccontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddout-priaddoutcontract",
+        "newName": "contract-insurance-priaddout-priaddoutcontract",
+        "fileName": "contract-insurance-priaddout-priaddoutcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddstat-priaddstatcontract",
+        "newName": "contract-insurance-priaddstat-priaddstatcontract",
+        "fileName": "contract-insurance-priaddstat-priaddstatcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddtooth-priaddtoothcontract",
+        "newName": "contract-insurance-priaddtooth-priaddtoothcontract",
+        "fileName": "contract-insurance-priaddtooth-priaddtoothcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-rental-rentalcontract",
+        "newName": "contract-insurance-rental-rentalcontract",
+        "fileName": "contract-insurance-rental-rentalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-residential-residentialcontract",
+        "newName": "contract-insurance-residential-residentialcontract",
+        "fileName": "contract-insurance-residential-residentialcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-risklife-risklifecontract",
+        "newName": "contract-insurance-risklife-risklifecontract",
+        "fileName": "contract-insurance-risklife-risklifecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-travel-travelcontract",
+        "newName": "contract-insurance-travel-travelcontract",
+        "fileName": "contract-insurance-travel-travelcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-lease-lease-leasecontract",
+        "newName": "contract-lease-lease-leasecontract",
+        "fileName": "contract-lease-lease-leasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-lease-realestate-leasecontract",
+        "newName": "contract-lease-realestate-leasecontract",
+        "fileName": "contract-lease-realestate-leasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-annuityloan-annuityloan",
+        "newName": "contract-loan-annuityloan-annuityloan",
+        "fileName": "contract-loan-annuityloan-annuityloan.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-credit-creditcontract",
+        "newName": "contract-loan-credit-creditcontract",
+        "fileName": "contract-loan-credit-creditcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-loan-loanagreementcontract",
+        "newName": "contract-loan-loan-loanagreementcontract",
+        "fileName": "contract-loan-loan-loanagreementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-loan-loancontract",
+        "newName": "contract-loan-loan-loancontract",
+        "fileName": "contract-loan-loan-loancontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-realestate-annuityloan",
+        "newName": "contract-loan-realestate-annuityloan",
+        "fileName": "contract-loan-realestate-annuityloan.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-media-media-mediacontract",
+        "newName": "contract-media-media-mediacontract",
+        "fileName": "contract-media-media-mediacontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-media-streaming-streamingcontract",
+        "newName": "contract-media-streaming-streamingcontract",
+        "fileName": "contract-media-streaming-streamingcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-mobility-car-inspection",
+        "newName": "contract-mobility-car-inspection",
+        "fileName": "contract-mobility-car-inspection.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "newName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "fileName": "contract-propertymanagement-propertymanagement-propertymanagementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-purchase-realestate-purchasecontract",
+        "newName": "contract-purchase-realestate-purchasecontract",
+        "fileName": "contract-purchase-realestate-purchasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-rental-rental-rentalcontract",
+        "newName": "contract-rental-rental-rentalcontract",
+        "fileName": "contract-rental-rental-rentalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "newName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "fileName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-sale-sale-salecontract",
+        "newName": "contract-sale-sale-salecontract",
+        "fileName": "contract-sale-sale-salecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-realestate-buildingsavings",
+        "newName": "contract-savings-realestate-buildingsavings",
+        "fileName": "contract-savings-realestate-buildingsavings.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-depositcontract",
+        "newName": "contract-savings-savings-depositcontract",
+        "fileName": "contract-savings-savings-depositcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-fixedtermcontract",
+        "newName": "contract-savings-savings-fixedtermcontract",
+        "fileName": "contract-savings-savings-fixedtermcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-overnightcontract",
+        "newName": "contract-savings-savings-overnightcontract",
+        "fileName": "contract-savings-savings-overnightcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-savingscontract",
+        "newName": "contract-savings-savings-savingscontract",
+        "fileName": "contract-savings-savings-savingscontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-broker-insurancebroker",
+        "newName": "contract-service-broker-insurancebroker",
+        "fileName": "contract-service-broker-insurancebroker.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-broker-realestateagent",
+        "newName": "contract-service-broker-realestateagent",
+        "fileName": "contract-service-broker-realestateagent.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-caretaker-service",
+        "newName": "contract-service-caretaker-service",
+        "fileName": "contract-service-caretaker-service.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-chimney-sweeper",
+        "newName": "contract-service-chimney-sweeper",
+        "fileName": "contract-service-chimney-sweeper.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-cleaning-cleaningcontract",
+        "newName": "contract-service-cleaning-cleaningcontract",
+        "fileName": "contract-service-cleaning-cleaningcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-consulting-consultingcontract",
+        "newName": "contract-service-consulting-consultingcontract",
+        "fileName": "contract-service-consulting-consultingcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-distribution-distributioncontract",
+        "newName": "contract-service-distribution-distributioncontract",
+        "fileName": "contract-service-distribution-distributioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-franchise-franchisecontract",
+        "newName": "contract-service-franchise-franchisecontract",
+        "fileName": "contract-service-franchise-franchisecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-gardener-gardenercontract",
+        "newName": "contract-service-gardener-gardenercontract",
+        "fileName": "contract-service-gardener-gardenercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-gardener-gardenercontract2",
+        "newName": "contract-service-gardener-gardenercontract2",
+        "fileName": "contract-service-gardener-gardenercontract2.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-maintenance-maintenancecontract",
+        "newName": "contract-service-maintenance-maintenancecontract",
+        "fileName": "contract-service-maintenance-maintenancecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-notary-notarycontract",
+        "newName": "contract-service-notary-notarycontract",
+        "fileName": "contract-service-notary-notarycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-security-securitycontract",
+        "newName": "contract-service-security-securitycontract",
+        "fileName": "contract-service-security-securitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-caretakerservice",
+        "newName": "contract-service-service-caretakerservice",
+        "fileName": "contract-service-service-caretakerservice.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-chimneysweeper",
+        "newName": "contract-service-service-chimneysweeper",
+        "fileName": "contract-service-service-chimneysweeper.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-servicecontract",
+        "newName": "contract-service-service-servicecontract",
+        "fileName": "contract-service-service-servicecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-software-softwarecontract",
+        "newName": "contract-service-software-softwarecontract",
+        "fileName": "contract-service-software-softwarecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-tax-realestate-realestatetaxcontract",
+        "newName": "contract-tax-realestate-realestatetaxcontract",
+        "fileName": "contract-tax-realestate-realestatetaxcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+        "newName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+        "fileName": "contract-telecommunication-telecommunication-telecommunicationcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+        "newName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+        "fileName": "contract-telecommunication-telecommunication-telecommunicationcontract2.json",
+        "needsRename": false
+      }
+    ],
+    "i18nFiles": [
+      {
+        "oldName": "contract-bankaccount-bank-bankaccount",
+        "newName": "contract-bankaccount-bank-bankaccount",
+        "fileName": "i18n-contract-bankaccount-bank-bankaccount.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-creditcard-credit-creditcard",
+        "newName": "contract-creditcard-credit-creditcard",
+        "fileName": "i18n-contract-creditcard-credit-creditcard.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-creditcard-credit-creditcardcontract",
+        "newName": "contract-creditcard-credit-creditcardcontract",
+        "fileName": "i18n-contract-creditcard-credit-creditcardcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-fulltime",
+        "newName": "contract-employment-employee-fulltime",
+        "fileName": "i18n-contract-employment-employee-fulltime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-help",
+        "newName": "contract-employment-employee-help",
+        "fileName": "i18n-contract-employment-employee-help.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-internship",
+        "newName": "contract-employment-employee-internship",
+        "fileName": "i18n-contract-employment-employee-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-mini-job",
+        "newName": "contract-employment-employee-mini",
+        "fileName": "i18n-contract-employment-employee-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-employee-minijob",
+        "newName": "contract-employment-employee-minijob",
+        "fileName": "i18n-contract-employment-employee-minijob.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-part-time",
+        "newName": "contract-employment-employee-part",
+        "fileName": "i18n-contract-employment-employee-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-employee-parttime",
+        "newName": "contract-employment-employee-parttime",
+        "fileName": "i18n-contract-employment-employee-parttime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-terminationcontract",
+        "newName": "contract-employment-employee-terminationcontract",
+        "fileName": "i18n-contract-employment-employee-terminationcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employee-work-contract",
+        "newName": "contract-employment-employee-work",
+        "fileName": "i18n-contract-employment-employee-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-employee-work",
+        "newName": "contract-employment-employee-work",
+        "fileName": "i18n-contract-employment-employee-work.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-employment-employmentcontract",
+        "newName": "contract-employment-employment-employmentcontract",
+        "fileName": "i18n-contract-employment-employment-employmentcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-fulltime",
+        "newName": "contract-employment-official-fulltime",
+        "fileName": "i18n-contract-employment-official-fulltime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-help",
+        "newName": "contract-employment-official-help",
+        "fileName": "i18n-contract-employment-official-help.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-internship",
+        "newName": "contract-employment-official-internship",
+        "fileName": "i18n-contract-employment-official-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-mini-job",
+        "newName": "contract-employment-official-mini",
+        "fileName": "i18n-contract-employment-official-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-official-minijob",
+        "newName": "contract-employment-official-minijob",
+        "fileName": "i18n-contract-employment-official-minijob.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-part-time",
+        "newName": "contract-employment-official-part",
+        "fileName": "i18n-contract-employment-official-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-official-parttime",
+        "newName": "contract-employment-official-parttime",
+        "fileName": "i18n-contract-employment-official-parttime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-official-work-contract",
+        "newName": "contract-employment-official-work",
+        "fileName": "i18n-contract-employment-official-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-official-work",
+        "newName": "contract-employment-official-work",
+        "fileName": "i18n-contract-employment-official-work.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-public-service-fulltime",
+        "newName": "contract-employment-public-service",
+        "fileName": "i18n-contract-employment-public-service-fulltime.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-mini-job",
+        "newName": "contract-employment-public-service",
+        "fileName": "i18n-contract-employment-public-service-mini-job.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-part-time",
+        "newName": "contract-employment-public-service",
+        "fileName": "i18n-contract-employment-public-service-part-time.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-public-service-work-contract",
+        "newName": "contract-employment-public-service",
+        "fileName": "i18n-contract-employment-public-service-work-contract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-employment-publicservice-fulltime",
+        "newName": "contract-employment-publicservice-fulltime",
+        "fileName": "i18n-contract-employment-publicservice-fulltime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-publicservice-help",
+        "newName": "contract-employment-publicservice-help",
+        "fileName": "i18n-contract-employment-publicservice-help.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-publicservice-internship",
+        "newName": "contract-employment-publicservice-internship",
+        "fileName": "i18n-contract-employment-publicservice-internship.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-publicservice-minijob",
+        "newName": "contract-employment-publicservice-minijob",
+        "fileName": "i18n-contract-employment-publicservice-minijob.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-publicservice-parttime",
+        "newName": "contract-employment-publicservice-parttime",
+        "fileName": "i18n-contract-employment-publicservice-parttime.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-employment-publicservice-work",
+        "newName": "contract-employment-publicservice-work",
+        "fileName": "i18n-contract-employment-publicservice-work.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-electric-stromcontract",
+        "newName": "contract-energy-electric-stromcontract",
+        "fileName": "i18n-contract-energy-electric-stromcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-energy-energycontract",
+        "newName": "contract-energy-energy-energycontract",
+        "fileName": "i18n-contract-energy-energy-energycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-energy-energy-energycontract2",
+        "newName": "contract-energy-energy-energycontract2",
+        "fileName": "i18n-contract-energy-energy-energycontract2.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-fees-municipal-municipalcontract",
+        "newName": "contract-fees-municipal-municipalcontract",
+        "fileName": "i18n-contract-fees-municipal-municipalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-accident-accidentcontract",
+        "newName": "contract-insurance-accident-accidentcontract",
+        "fileName": "i18n-contract-insurance-accident-accidentcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-animal-surgery-animalsurgerycontract",
+        "newName": "contract-insurance-animal-surgery",
+        "fileName": "i18n-contract-insurance-animal-surgery-animalsurgerycontract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-insurance-art-artcontract",
+        "newName": "contract-insurance-art-artcontract",
+        "fileName": "i18n-contract-insurance-art-artcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-automobile-automobilecontract",
+        "newName": "contract-insurance-automobile-automobilecontract",
+        "fileName": "i18n-contract-insurance-automobile-automobilecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-bicycle-bicyclecontract",
+        "newName": "contract-insurance-bicycle-bicyclecontract",
+        "fileName": "i18n-contract-insurance-bicycle-bicyclecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-bike-bikecontract",
+        "newName": "contract-insurance-bike-bikecontract",
+        "fileName": "i18n-contract-insurance-bike-bikecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-broker-brokercontract",
+        "newName": "contract-insurance-broker-brokercontract",
+        "fileName": "i18n-contract-insurance-broker-brokercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-builderliability-builderliabilitycontract",
+        "newName": "contract-insurance-builderliability-builderliabilitycontract",
+        "fileName": "i18n-contract-insurance-builderliability-builderliabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-classicpension-classicpensioncontract",
+        "newName": "contract-insurance-classicpension-classicpensioncontract",
+        "fileName": "i18n-contract-insurance-classicpension-classicpensioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+        "newName": "contract-insurance-dailyhospital-dailyhospitalcontract",
+        "fileName": "i18n-contract-insurance-dailyhospital-dailyhospitalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-dailysickness-dailysicknesscontract",
+        "newName": "contract-insurance-dailysickness-dailysicknesscontract",
+        "fileName": "i18n-contract-insurance-dailysickness-dailysicknesscontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-disability-disabilitycontract",
+        "newName": "contract-insurance-disability-disabilitycontract",
+        "fileName": "i18n-contract-insurance-disability-disabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-domanager-domanagercontract",
+        "newName": "contract-insurance-domanager-domanagercontract",
+        "fileName": "i18n-contract-insurance-domanager-domanagercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+        "newName": "contract-insurance-environmentaldamage-environmentaldamagecontract",
+        "fileName": "i18n-contract-insurance-environmentaldamage-environmentaldamagecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-expatriates-expatriatescontract",
+        "newName": "contract-insurance-expatriates-expatriatescontract",
+        "fileName": "i18n-contract-insurance-expatriates-expatriatescontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-fire-firecontract",
+        "newName": "contract-insurance-fire-firecontract",
+        "fileName": "i18n-contract-insurance-fire-firecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-furniture-furniturecontract",
+        "newName": "contract-insurance-furniture-furniturecontract",
+        "fileName": "i18n-contract-insurance-furniture-furniturecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-health-healthcontract",
+        "newName": "contract-insurance-health-healthcontract",
+        "fileName": "i18n-contract-insurance-health-healthcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-health-prisickfullcontract",
+        "newName": "contract-insurance-health-prisickfullcontract",
+        "fileName": "i18n-contract-insurance-health-prisickfullcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-inthealth-inthealthcontract",
+        "newName": "contract-insurance-inthealth-inthealthcontract",
+        "fileName": "i18n-contract-insurance-inthealth-inthealthcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-legal-legalcontract",
+        "newName": "contract-insurance-legal-legalcontract",
+        "fileName": "i18n-contract-insurance-legal-legalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "newName": "contract-insurance-legalprotection-legalprotectioncontract",
+        "fileName": "i18n-contract-insurance-legalprotection-legalprotectioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-liability-liabilitycontract",
+        "newName": "contract-insurance-liability-liabilitycontract",
+        "fileName": "i18n-contract-insurance-liability-liabilitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-liabilitypet-liabilitypetcontract",
+        "newName": "contract-insurance-liabilitypet-liabilitypetcontract",
+        "fileName": "i18n-contract-insurance-liabilitypet-liabilitypetcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-longtermcare-longtermcarecontract",
+        "newName": "contract-insurance-longtermcare-longtermcarecontract",
+        "fileName": "i18n-contract-insurance-longtermcare-longtermcarecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+        "newName": "contract-insurance-longtermcaredaily-longtermcaredailycontract",
+        "fileName": "i18n-contract-insurance-longtermcaredaily-longtermcaredailycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-loss-rent-lossofrentcontract",
+        "newName": "contract-insurance-loss-rent",
+        "fileName": "i18n-contract-insurance-loss-rent-lossofrentcontract.json",
+        "needsRename": true
+      },
+      {
+        "oldName": "contract-insurance-pensionfund-pensionfundcontract",
+        "newName": "contract-insurance-pensionfund-pensionfundcontract",
+        "fileName": "i18n-contract-insurance-pensionfund-pensionfundcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-pet-petcontract",
+        "newName": "contract-insurance-pet-petcontract",
+        "fileName": "i18n-contract-insurance-pet-petcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-photovoltaic-photovoltaiccontract",
+        "newName": "contract-insurance-photovoltaic-photovoltaiccontract",
+        "fileName": "i18n-contract-insurance-photovoltaic-photovoltaiccontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddout-priaddoutcontract",
+        "newName": "contract-insurance-priaddout-priaddoutcontract",
+        "fileName": "i18n-contract-insurance-priaddout-priaddoutcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddstat-priaddstatcontract",
+        "newName": "contract-insurance-priaddstat-priaddstatcontract",
+        "fileName": "i18n-contract-insurance-priaddstat-priaddstatcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-priaddtooth-priaddtoothcontract",
+        "newName": "contract-insurance-priaddtooth-priaddtoothcontract",
+        "fileName": "i18n-contract-insurance-priaddtooth-priaddtoothcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-rental-rentalcontract",
+        "newName": "contract-insurance-rental-rentalcontract",
+        "fileName": "i18n-contract-insurance-rental-rentalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-residential-residentialcontract",
+        "newName": "contract-insurance-residential-residentialcontract",
+        "fileName": "i18n-contract-insurance-residential-residentialcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-risklife-risklifecontract",
+        "newName": "contract-insurance-risklife-risklifecontract",
+        "fileName": "i18n-contract-insurance-risklife-risklifecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-insurance-travel-travelcontract",
+        "newName": "contract-insurance-travel-travelcontract",
+        "fileName": "i18n-contract-insurance-travel-travelcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-lease-lease-leasecontract",
+        "newName": "contract-lease-lease-leasecontract",
+        "fileName": "i18n-contract-lease-lease-leasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-lease-realestate-leasecontract",
+        "newName": "contract-lease-realestate-leasecontract",
+        "fileName": "i18n-contract-lease-realestate-leasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-annuityloan-annuityloan",
+        "newName": "contract-loan-annuityloan-annuityloan",
+        "fileName": "i18n-contract-loan-annuityloan-annuityloan.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-credit-creditcontract",
+        "newName": "contract-loan-credit-creditcontract",
+        "fileName": "i18n-contract-loan-credit-creditcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-loan-loanagreementcontract",
+        "newName": "contract-loan-loan-loanagreementcontract",
+        "fileName": "i18n-contract-loan-loan-loanagreementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-loan-loancontract",
+        "newName": "contract-loan-loan-loancontract",
+        "fileName": "i18n-contract-loan-loan-loancontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-loan-realestate-annuityloan",
+        "newName": "contract-loan-realestate-annuityloan",
+        "fileName": "i18n-contract-loan-realestate-annuityloan.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-media-media-mediacontract",
+        "newName": "contract-media-media-mediacontract",
+        "fileName": "i18n-contract-media-media-mediacontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-media-streaming-streamingcontract",
+        "newName": "contract-media-streaming-streamingcontract",
+        "fileName": "i18n-contract-media-streaming-streamingcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "newName": "contract-propertymanagement-propertymanagement-propertymanagementcontract",
+        "fileName": "i18n-contract-propertymanagement-propertymanagement-propertymanagementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-purchase-realestate-purchasecontract",
+        "newName": "contract-purchase-realestate-purchasecontract",
+        "fileName": "i18n-contract-purchase-realestate-purchasecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-rental-rental-rentalcontract",
+        "newName": "contract-rental-rental-rentalcontract",
+        "fileName": "i18n-contract-rental-rental-rentalcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "newName": "contract-rentalmanagement-rentalmanagement-rentalmanagementcontract",
+        "fileName": "i18n-contract-rentalmanagement-rentalmanagement-rentalmanagementcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-sale-sale-salecontract",
+        "newName": "contract-sale-sale-salecontract",
+        "fileName": "i18n-contract-sale-sale-salecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-realestate-buildingsavings",
+        "newName": "contract-savings-realestate-buildingsavings",
+        "fileName": "i18n-contract-savings-realestate-buildingsavings.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-depositcontract",
+        "newName": "contract-savings-savings-depositcontract",
+        "fileName": "i18n-contract-savings-savings-depositcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-fixedtermcontract",
+        "newName": "contract-savings-savings-fixedtermcontract",
+        "fileName": "i18n-contract-savings-savings-fixedtermcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-overnightcontract",
+        "newName": "contract-savings-savings-overnightcontract",
+        "fileName": "i18n-contract-savings-savings-overnightcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-savings-savings-savingscontract",
+        "newName": "contract-savings-savings-savingscontract",
+        "fileName": "i18n-contract-savings-savings-savingscontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-broker-insurancebroker",
+        "newName": "contract-service-broker-insurancebroker",
+        "fileName": "i18n-contract-service-broker-insurancebroker.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-broker-realestateagent",
+        "newName": "contract-service-broker-realestateagent",
+        "fileName": "i18n-contract-service-broker-realestateagent.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-cleaning-cleaningcontract",
+        "newName": "contract-service-cleaning-cleaningcontract",
+        "fileName": "i18n-contract-service-cleaning-cleaningcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-consulting-consultingcontract",
+        "newName": "contract-service-consulting-consultingcontract",
+        "fileName": "i18n-contract-service-consulting-consultingcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-distribution-distributioncontract",
+        "newName": "contract-service-distribution-distributioncontract",
+        "fileName": "i18n-contract-service-distribution-distributioncontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-franchise-franchisecontract",
+        "newName": "contract-service-franchise-franchisecontract",
+        "fileName": "i18n-contract-service-franchise-franchisecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-gardener-gardenercontract",
+        "newName": "contract-service-gardener-gardenercontract",
+        "fileName": "i18n-contract-service-gardener-gardenercontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-gardener-gardenercontract2",
+        "newName": "contract-service-gardener-gardenercontract2",
+        "fileName": "i18n-contract-service-gardener-gardenercontract2.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-maintenance-maintenancecontract",
+        "newName": "contract-service-maintenance-maintenancecontract",
+        "fileName": "i18n-contract-service-maintenance-maintenancecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-notary-notarycontract",
+        "newName": "contract-service-notary-notarycontract",
+        "fileName": "i18n-contract-service-notary-notarycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-security-securitycontract",
+        "newName": "contract-service-security-securitycontract",
+        "fileName": "i18n-contract-service-security-securitycontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-caretakerservice",
+        "newName": "contract-service-service-caretakerservice",
+        "fileName": "i18n-contract-service-service-caretakerservice.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-chimneysweeper",
+        "newName": "contract-service-service-chimneysweeper",
+        "fileName": "i18n-contract-service-service-chimneysweeper.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-service-servicecontract",
+        "newName": "contract-service-service-servicecontract",
+        "fileName": "i18n-contract-service-service-servicecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-service-software-softwarecontract",
+        "newName": "contract-service-software-softwarecontract",
+        "fileName": "i18n-contract-service-software-softwarecontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-tax-realestate-realestatetaxcontract",
+        "newName": "contract-tax-realestate-realestatetaxcontract",
+        "fileName": "i18n-contract-tax-realestate-realestatetaxcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+        "newName": "contract-telecommunication-telecommunication-telecommunicationcontract",
+        "fileName": "i18n-contract-telecommunication-telecommunication-telecommunicationcontract.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+        "newName": "contract-telecommunication-telecommunication-telecommunicationcontract2",
+        "fileName": "i18n-contract-telecommunication-telecommunication-telecommunicationcontract2.json",
+        "needsRename": false
+      }
+    ]
+  },
+  "contact": {
+    "formDefinitions": [
+      {
+        "oldName": "contact-company-business-businesscontact",
+        "newName": "contact-company-business-businesscontact",
+        "fileName": "contact-company-business-businesscontact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-group-extended-extendedcontact",
+        "newName": "contact-group-extended-extendedcontact",
+        "fileName": "contact-group-extended-extendedcontact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-group-group-groupcontact",
+        "newName": "contact-group-group-groupcontact",
+        "fileName": "contact-group-group-groupcontact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-single-contact-contact",
+        "newName": "contact-single-contact-contact",
+        "fileName": "contact-single-contact-contact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-single-family-familycontact",
+        "newName": "contact-single-family-familycontact",
+        "fileName": "contact-single-family-familycontact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-single-simple-simplecontact",
+        "newName": "contact-single-simple-simplecontact",
+        "fileName": "contact-single-simple-simplecontact.json",
+        "needsRename": false
+      },
+      {
+        "oldName": "contact-single-single-singlecontact",
+        "newName": "contact-single-single-singlecontact",
+        "fileName": "contact-single-single-singlecontact.json",
+        "needsRename": false
+      }
+    ],
+    "i18nFiles": []
+  }
+}

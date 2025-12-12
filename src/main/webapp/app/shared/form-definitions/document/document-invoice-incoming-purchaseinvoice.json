@@ -1,0 +1,201 @@
+{
+  "formTitle": "jaynaApp.document-invoice-incoming-purchaseinvoice.viewTitle",
+  "parts": [
+    {
+      "title": "jaynaApp.baseDocument.general.title",
+      "fields": [
+        {
+          "name": "label",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "text"
+        },
+        {
+          "name": "entityState",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "entityState",
+          "defaultValue": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documentData.title",
+      "fields": [
+        {
+          "name": "documentNumber",
+          "type": "text"
+        },
+        {
+          "name": "customerNumber",
+          "type": "text"
+        },
+        {
+          "name": "partner",
+          "type": "text"
+        },
+        {
+          "name": "contractNumber",
+          "type": "text"
+        },
+        {
+          "name": "realEstateNumber",
+          "type": "text"
+        },
+        {
+          "name": "financeAccountNumber",
+          "type": "text"
+        },
+        {
+          "name": "mobilityNumber",
+          "type": "text"
+        },
+        {
+          "name": "status",
+          "type": "dropdown",
+          "boxLabel": "global.menu.choose",
+          "enumName": "documentStatus",
+          "defaultValue": "DRAFT"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.document-invoice-incoming-purchaseinvoice.specificData.title",
+      "i18nSource": "document-invoice-incoming-purchaseinvoice",
+      "fields": [
+        {
+          "name": "supplierName",
+          "type": "text"
+        },
+        {
+          "name": "supplierNumber",
+          "type": "text"
+        },
+        {
+          "name": "dueDate",
+          "type": "date"
+        },
+        {
+          "name": "paymentReference",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.weiteres.title",
+      "fields": [
+        {
+          "name": "tags",
+          "type": "textarea"
+        },
+        {
+          "name": "keywords",
+          "type": "textarea"
+        },
+        {
+          "name": "isPublic",
+          "type": "checkbox"
+        },
+        {
+          "name": "expiryDate",
+          "type": "datetime"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.fileInfo.title",
+      "fields": [
+        {
+          "name": "fileName",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileType",
+          "type": "text",
+          "readonly": true
+        },
+        {
+          "name": "fileSize",
+          "type": "number",
+          "readonly": true
+        },
+        {
+          "name": "uploadDate",
+          "type": "datetime",
+          "readonly": true
+        },
+        {
+          "name": "lastModified",
+          "type": "datetime",
+          "readonly": true
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.organisation.title",
+      "fields": [
+        {
+          "name": "organisationTable",
+          "type": "organisation-table",
+          "label": "Kalender, Aufgaben & Notizen"
+        }
+      ]
+    },
+    {
+      "title": "jaynaApp.baseDocument.documents.title",
+      "fields": [
+        {
+          "name": "documentsTable",
+          "type": "documents-table",
+          "label": "Verknüpfte Dokumente"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "entityName": "contract",
+      "relationName": "documentContracts",
+      "relationConfig": {
+        "id": "document-contract",
+        "sourceEntity": "document",
+        "targetEntity": "contract",
+        "relationType": "RELATED_TO",
+        "displayName": "Dokument - Vertrag",
+        "description": "Verknüpfung zwischen Dokumenten und Verträgen",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "realestate",
+      "relationName": "documentRealestates",
+      "relationConfig": {
+        "id": "document-realestate",
+        "sourceEntity": "document",
+        "targetEntity": "realestate",
+        "relationType": "RELATED_TO",
+        "displayName": "Dokument - Immobilie",
+        "description": "Verknüpfung zwischen Dokumenten und Immobilien",
+        "bidirectional": true
+      }
+    },
+    {
+      "entityName": "financeaccount",
+      "relationName": "documentFinanceaccounts",
+      "relationConfig": {
+        "id": "document-financeaccount",
+        "sourceEntity": "document",
+        "targetEntity": "financeaccount",
+        "relationType": "RELATED_TO",
+        "displayName": "Dokument - Finanzkonto",
+        "description": "Verknüpfung zwischen Dokumenten und Finanzkonten",
+        "bidirectional": true
+      }
+    }
+  ],
+  "relationsTitle": "jaynaApp.baseDocument.relations.title"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.12.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author="okieven (generated)" id="1681758162643-0">
+      <addColumn tableName="group_type">
+        <column name="form_name" type="varchar(255)"/> 
+      </addColumn> 
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-3">
+        <createTable tableName="contract">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="contractPK"/>
+            </column>
+            <column name="created_date" type="varchar(255)"/>
+            <column name="last_modified_by" type="VARCHAR(255)"/>
+            <column name="last_modified_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="application_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="comment" type="VARCHAR(2000)"/>
+            <column name="confirmation_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="contract_number" type="VARCHAR(255)"/>
+            <column name="contract_owner" type="VARCHAR(255)"/>
+            <column name="contract_user" type="VARCHAR(255)"/>
+            <column name="contractor" type="VARCHAR(255)"/>
+            <column name="end_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="payer" type="VARCHAR(255)"/>
+            <column name="payment_pattern" type="INTEGER"/>
+            <column name="payment_type" type="INTEGER"/>
+            <column name="start_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="state" type="INTEGER"/>
+            <column name="activities" type="VARCHAR(255)"/>
+            <column name="amortization_rate_currency" type="FLOAT8"/>
+            <column name="amortization_rate_percent" type="FLOAT8"/>
+            <column name="interest_rate_currency" type="FLOAT8"/>
+            <column name="interest_rate_percent" type="FLOAT8"/>
+            <column name="loan_value" type="FLOAT8"/>
+            <column name="occupation" type="VARCHAR(255)"/>
+            <column name="salary" type="FLOAT8"/>
+            <column name="vacation_days" type="INTEGER"/>
+            <column name="application_user_id" type="BIGINT"/>
+            <column name="group_type_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-4">
+        <createTable tableName="real_estate">
+            <column name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="propertyPK"/>
+            </column>
+            <column name="created_date" type="varchar(255)"/>
+            <column name="last_modified_by" type="VARCHAR(255)"/>
+            <column name="last_modified_date" type="TIMESTAMP WITHOUT TIME ZONE"/>
+            <column name="city" type="VARCHAR(255)"/>
+            <column name="comment" type="VARCHAR(2000)"/>
+            <column name="country" type="VARCHAR(255)"/>
+            <column name="postal_code" type="VARCHAR(255)"/>
+            <column name="property_area" type="FLOAT8"/>
+            <column name="property_length" type="FLOAT8"/>
+            <column name="property_width" type="FLOAT8"/>
+            <column name="state" type="VARCHAR(255)"/>
+            <column name="street" type="VARCHAR(255)"/>
+            <column name="area" type="FLOAT8"/>
+            <column name="built_up_area" type="FLOAT8"/>
+            <column name="construction_year" type="date"/>
+            <column name="corridor_area" type="FLOAT8"/>
+            <column name="design_type" type="VARCHAR(255)"/>
+            <column name="design_type_class" type="VARCHAR(255)"/>
+            <column name="gable_alignment" type="VARCHAR(255)"/>
+            <column name="heating_type" type="VARCHAR(255)"/>
+            <column name="monument_protected" type="BOOLEAN"/>
+            <column name="no_antennas" type="INTEGER"/>
+            <column name="no_basement_rooms" type="INTEGER"/>
+            <column name="no_carports" type="INTEGER"/>
+            <column name="no_elevators" type="INTEGER"/>
+            <column name="no_floors" type="INTEGER"/>
+            <column name="no_garages" type="INTEGER"/>
+            <column name="no_houses" type="INTEGER"/>
+            <column name="no_light_switches" type="INTEGER"/>
+            <column name="no_network_sockets" type="INTEGER"/>
+            <column name="no_parkings" type="INTEGER"/>
+            <column name="no_power_outlets" type="INTEGER"/>
+            <column name="no_radiators" type="INTEGER"/>
+            <column name="no_shutter_switches" type="INTEGER"/>
+            <column name="no_units" type="INTEGER"/>
+            <column name="no_windows" type="INTEGER"/>
+            <column name="roof_area" type="FLOAT8"/>
+            <column name="roof_pitch" type="FLOAT8"/>
+            <column name="roof_type" type="VARCHAR(255)"/>
+            <column name="sealt_area" type="FLOAT8"/>
+            <column name="undeveloped_area" type="FLOAT8"/>
+            <column name="window_area" type="FLOAT8"/>
+            <column name="application_user_id" type="BIGINT"/>
+            <column name="group_type_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-5">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="real_estate" constraintName="FK4g08a5457r4r7hj8gnsdywpq2" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-6">
+        <addForeignKeyConstraint baseColumnNames="application_user_id" baseTableName="contract" constraintName="FKdr72lu3opdvwqipycjphtwipk" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="application_user" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-7">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="contract" constraintName="FKg4cl9i16ovryi6q94dbm44gn8" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-8">
+        <addForeignKeyConstraint baseColumnNames="group_type_id" baseTableName="real_estate" constraintName="FKo5dows917b6hlt8w3c4y7n760" deferrable="false" initiallyDeferred="false" referencedColumnNames="id" referencedTableName="group_type" validate="true"/>
+    </changeSet>
+    <changeSet author="okieven (generated)" id="1681758162643-9">
+        <update tableName="group_type">
+          <column name="form_name" value="commercial-residential-property" />
+          <where>entity_name = 'commercial-residential-property'</where>
+        </update>
+        <update tableName="group_type">
+          <column name="entity_name" value="real-estate" />
+          <where>entity_name = 'commercial-residential-property'</where>
+        </update>
+        <update tableName="group_type">
+          <column name="form_name" value="loan-credit-contract" />
+          <where>entity_name = 'loan-credit-contract'</where>
+        </update>
+        <update tableName="group_type">
+          <column name="entity_name" value="contract" />
+          <where>entity_name = 'loan-credit-contract'</where>
+        </update>
+        <update tableName="group_type">
+          <column name="form_name" value="employment-contract" />
+          <where>entity_name = 'employment-contract'</where>
+        </update>
+        <update tableName="group_type">
+          <column name="entity_name" value="contract" />
+          <where>entity_name = 'employment-contract'</where>
+        </update>
+    </changeSet>
+
+    <changeSet author="okieven (generated)" id="1681758162643-10">
+
+    </changeSet>
+</databaseChangeLog>

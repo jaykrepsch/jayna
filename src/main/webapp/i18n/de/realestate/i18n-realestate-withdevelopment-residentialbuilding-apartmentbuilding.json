@@ -1,0 +1,16 @@
+{
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.createTitle": "Mehrfamilienhaus anlegen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.updateTitle": "Mehrfamilienhaus bearbeiten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.viewTitle": "Mehrfamilienhaus anzeigen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.title": "Mehrfamilienhaus-spezifische Daten",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.houseType": "Haustyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.numberOfApartments": "Anzahl Wohnungen",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.totalLivingSpace": "Gesamtwohnfläche (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.averageApartmentSize": "Durchschnittliche Wohnungsgröße (m²)",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.elevator": "Aufzug",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.basement": "Keller",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.attic": "Dachboden",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.parkingSpaces": "Stellplätze",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.heatingType": "Heizungstyp",
+  "jaynaApp.realestate-withdevelopment-residentialbuilding-apartmentbuilding.specificData.fields.renovationYear": "Renovierungsjahr"
+}

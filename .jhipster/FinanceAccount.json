@@ -1,0 +1,98 @@
+{
+  "applications": "*",
+  "changelogDate": "20230710133430",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "finance_account",
+  "fields": [
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "accountGiver",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "accountUser",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "iban",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "currentAccount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "overdraftInterest",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "limit",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "paymentUntil",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "cardFee",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "loanInterest",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "accountMaintenanceFee",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "accountNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bankNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "FinanceAccount",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "applicationUser",
+      "relationshipName": "applicationUser",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "groupType",
+      "relationshipName": "groupType",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "contactFinanceAccount",
+      "otherEntityRelationshipName": "financeAccount",
+      "relationshipName": "contactFinanceAccount",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": true
+}
