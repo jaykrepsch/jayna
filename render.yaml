@@ -40,11 +40,13 @@ services:
         generateValue: true
       - key: STORAGE_LOCAL_PATH
         value: /tmp/jayna/documents
+      - key: PORT
+        value: 10000
 
   - type: web
     name: jayna-frontend
     runtime: static
-    buildCommand: "npm install --include=dev && npm run webapp:prod"
+    buildCommand: "npm install && npm run webapp:prod"
     staticPublishPath: target/classes/static
     envVars:
       - key: NODE_VERSION
