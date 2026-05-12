@@ -51,81 +51,81 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="20241130-2" author="jhipster">
+    <changeSet id="20250105-2" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseTableName="document" baseColumnNames="application_user_id" constraintName="fk_document_application_user_id" referencedTableName="application_user" referencedColumnNames="id"/>
     </changeSet>
 
-    <changeSet id="20241130-3" author="jhipster">
+    <changeSet id="20250105-3" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseTableName="document" baseColumnNames="group_type_id" constraintName="fk_document_group_type_id" referencedTableName="group_type" referencedColumnNames="id"/>
     </changeSet>
 
-    <changeSet id="20241130-4" author="jhipster">
+    <changeSet id="20250105-4" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_application_user_id">
             <column name="application_user_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-5" author="jhipster">
+    <changeSet id="20250105-5" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_group_type_id">
             <column name="group_type_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-6" author="jhipster">
+    <changeSet id="20250105-6" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_title">
             <column name="title"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-7" author="jhipster">
+    <changeSet id="20250105-7" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_file_name">
             <column name="file_name"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-8" author="jhipster">
+    <changeSet id="20250105-8" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_upload_date">
             <column name="upload_date"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-9" author="jhipster">
+    <changeSet id="20250105-9" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_status">
             <column name="status"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-10" author="jhipster">
+    <changeSet id="20250105-10" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_document_number">
             <column name="document_number"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-11" author="jhipster">
+    <changeSet id="20250105-11" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_customer_number">
             <column name="customer_number"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-12" author="jhipster">
+    <changeSet id="20250105-12" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_contract_number">
             <column name="contract_number"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-13" author="jhipster">
+    <changeSet id="20250105-13" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_real_estate_number">
             <column name="real_estate_number"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-14" author="jhipster">
+    <changeSet id="20250105-14" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_finance_account_number">
             <column name="finance_account_number"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241130-15" author="jhipster">
+    <changeSet id="20250105-15" author="jhipster" failOnError="false">
         <createIndex tableName="document" indexName="idx_document_mobility_number">
             <column name="mobility_number"/>
         </createIndex>

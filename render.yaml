@@ -44,7 +44,7 @@ services:
   - type: web
     name: jayna-frontend
     runtime: static
-    buildCommand: "npm install --no-audit --no-fund && npm run webapp:prod"
+    buildCommand: "npm install --include=dev && npm run webapp:prod"
     staticPublishPath: target/classes/static
     envVars:
       - key: NODE_VERSION
