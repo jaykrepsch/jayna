@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd
                         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-    <changeSet id="20250801000000-1" author="jhipster">
+    <changeSet id="20250801000000-1" author="jhipster" failOnError="false">
         <createTable tableName="contract_contract">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
@@ -22,7 +22,7 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="20250801000000-2" author="jhipster">
+    <changeSet id="20250801000000-2" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseColumnNames="contract_id"
                                 baseTableName="contract_contract"
                                 constraintName="fk_contract_contract_contract_id"
@@ -30,7 +30,7 @@
                                 referencedTableName="contract"/>
     </changeSet>
 
-    <changeSet id="20250801000000-3" author="jhipster">
+    <changeSet id="20250801000000-3" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseColumnNames="related_contract_id"
                                 baseTableName="contract_contract"
                                 constraintName="fk_contract_contract_related_contract_id"

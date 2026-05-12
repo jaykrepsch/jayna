@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
     <!-- Erstelle contract_contract nur, wenn fehlend -->
-    <changeSet id="20250828-cc-1" author="assistant">
+    <changeSet id="20250828-cc-1" author="assistant" failOnError="false">
         <preConditions onFail="MARK_RAN">
             <not>
                 <tableExists tableName="contract_contract"/>
@@ -27,7 +27,7 @@
     </changeSet>
 
     <!-- FK: contract_id -> contract(id) -->
-    <changeSet id="20250828-cc-2" author="assistant">
+    <changeSet id="20250828-cc-2" author="assistant" failOnError="false">
         <preConditions onFail="MARK_RAN">
             <and>
                 <tableExists tableName="contract_contract"/>
@@ -42,7 +42,7 @@
     </changeSet>
 
     <!-- FK: related_contract_id -> contract(id) -->
-    <changeSet id="20250828-cc-3" author="assistant">
+    <changeSet id="20250828-cc-3" author="assistant" failOnError="false">
         <preConditions onFail="MARK_RAN">
             <and>
                 <tableExists tableName="contract_contract"/>

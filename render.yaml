@@ -46,7 +46,7 @@ services:
   - type: web
     name: jayna-frontend
     runtime: static
-    buildCommand: "npm install && npm run webapp:prod"
+    buildCommand: "npm install && npm install webpack-merge && npm run webapp:prod"
     staticPublishPath: target/classes/static
     envVars:
       - key: NODE_VERSION

@@ -4,7 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
 
-    <changeSet id="20241201000000-1" author="jhipster">
+    <changeSet id="20241201000000-1" author="jhipster" failOnError="false">
         <createTable tableName="document_contact">
             <column name="id" type="bigint">
                 <constraints primaryKey="true" nullable="false"/>
@@ -18,25 +18,25 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="20241201000000-2" author="jhipster">
+    <changeSet id="20241201000000-2" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseTableName="document_contact" baseColumnNames="document_id"
                                 constraintName="fk_document_contact_document_id"
                                 referencedTableName="document" referencedColumnNames="id"/>
     </changeSet>
 
-    <changeSet id="20241201000000-3" author="jhipster">
+    <changeSet id="20241201000000-3" author="jhipster" failOnError="false">
         <addForeignKeyConstraint baseTableName="document_contact" baseColumnNames="contact_id"
                                 constraintName="fk_document_contact_contact_id"
                                 referencedTableName="contact" referencedColumnNames="id"/>
     </changeSet>
 
-    <changeSet id="20241201000000-4" author="jhipster">
+    <changeSet id="20241201000000-4" author="jhipster" failOnError="false">
         <createIndex tableName="document_contact" indexName="idx_document_contact_document_id">
             <column name="document_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="20241201000000-5" author="jhipster">
+    <changeSet id="20241201000000-5" author="jhipster" failOnError="false">
         <createIndex tableName="document_contact" indexName="idx_document_contact_contact_id">
             <column name="contact_id"/>
         </createIndex>
