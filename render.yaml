@@ -43,7 +43,7 @@ services:
       - key: PORT
         value: 10000
       - key: JAVA_OPTS
-        value: "-Xmx1g -Xms512m"
+        value: "-Xmx300m -Xms128m -XX:MaxMetaspaceSize=100m -XX:+UseG1GC -XX:+UseContainerSupport -XX:MaxRAMPercentage=60.0"
       - key: JHIPSTER_CLIENTAPP_NAME
         value: jayna
 
