@@ -40,3 +40,20 @@ services:
         generateValue: true
       - key: STORAGE_LOCAL_PATH
         value: /tmp/jayna/documents
+
+  - type: web
+    name: jayna-frontend
+    plan: free
+    runtime: static
+    buildCommand: "npm install && npm run webapp:prod"
+    staticPublishPath: target/classes/static
+    envVars:
+      - key: SERVER_API_URL
+        fromService:
+          name: jayna-backend
+          type: web
+          property: host
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
