@@ -58,10 +58,7 @@ services:
       - key: NODE_PATH
         value: "./node_modules"
       - key: SERVER_API_URL
-        fromService:
-          name: jayna-backend
-          type: web
-          property: host
+        value: "jayna-backend.onrender.com"
     routes:
       - type: rewrite
         source: /*
