@@ -6,7 +6,12 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
                         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-    <changeSet id="20241130-1" author="jhipster">
+    <changeSet id="20250105-1" author="jhipster">
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <tableExists tableName="document"/>
+            </not>
+        </preConditions>
         <createTable tableName="document">
             <column name="id" type="bigint">
                 <constraints primaryKey="true" nullable="false"/>
