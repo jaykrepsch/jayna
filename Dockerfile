@@ -14,9 +14,9 @@ RUN chmod +x mvnw
 RUN ./mvnw dependency:go-offline -q
 RUN npm install
 
-COPY src ./src
-COPY webpack ./webpack
-COPY postcss.config.js tailwind.config.js .postcssrc.js .eslintrc.js ./
+# Copy the rest of the application code
+COPY . .
+
 # Build the application
 RUN ./mvnw package -DskipTests -Pprod -q
 
