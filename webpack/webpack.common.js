@@ -1,6 +1,6 @@
 "use strict";
 const path = require("path");
-const { merge } = require("webpack-merge");
+const { merge } = require(path.resolve(__dirname, "../node_modules/webpack-merge"));
 const { VueLoaderPlugin } = require("vue-loader");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -29,8 +29,8 @@ module.exports = async (env, options) => {
   return merge(
     {
           // Minimiere Dev-Logging von webpack intern
-          infrastructureLogging: { level: 'error' },
-          stats: 'errors-only',
+          infrastructureLogging: { level: 'info' },
+          stats: 'normal',
       // transpileDependencies: ["vuex-persist"],
       mode: options.mode,
       context: resolve(),
