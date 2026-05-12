@@ -1,6 +1,6 @@
 "use strict";
 const path = require("path");
-const { merge } = require(path.resolve(__dirname, "../node_modules/webpack-merge"));
+const { merge } = require("webpack-merge");
 const { VueLoaderPlugin } = require("vue-loader");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");

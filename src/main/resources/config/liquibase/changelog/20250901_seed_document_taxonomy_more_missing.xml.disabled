@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <!-- Ergänzungen: Quittung, Dankesschreiben, Darlehensvertrag -->
+    <changeSet id="20250901-doc-taxonomy-missing-receipt-thanks-loan" author="assistant">
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">SELECT 0</sqlCheck>
+        </preConditions>
+        <sql dbms="postgresql"><![CDATA[
+
+            WITH doc_cat AS (
+                SELECT id FROM category WHERE entity_name = 'document'
+            ),
+            sc_fin AS (
+                SELECT id FROM sub_category WHERE name = 'Finanzen & Versicherungen' AND category_id = (SELECT id FROM doc_cat)
+            ),
+            scg_invoice AS (
+                SELECT id FROM sub_category_group WHERE name = 'Rechnungen' AND sub_category_id = (SELECT id FROM sc_fin)
+            ),
+            scg_bank AS (
+                SELECT id FROM sub_category_group WHERE name = 'Bankwesen' AND sub_category_id = (SELECT id FROM sc_fin)
+            ),
+            sc_comm AS (
+                SELECT id FROM sub_category WHERE name = 'Kommunikation' AND category_id = (SELECT id FROM doc_cat)
+            ),
+            scg_corr AS (
+                SELECT id FROM sub_category_group WHERE name = 'Alltagskorrespondenz' AND sub_category_id = (SELECT id FROM sc_comm)
+            )
+            INSERT INTO group_type (id, name, translation_key, sub_category_group_id)
+            -- Quittung
+            SELECT nextval('sequence_generator'), 'Quittung', 'jaynaApp.document.type.receipt', (SELECT id FROM scg_invoice)
+            WHERE EXISTS (SELECT 1 FROM scg_invoice)
+              AND NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Quittung' AND sub_category_group_id = (SELECT id FROM scg_invoice))
+            -- Dankesschreiben
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Dankesschreiben', 'jaynaApp.document.type.thank-you-letter', (SELECT id FROM scg_corr)
+            WHERE EXISTS (SELECT 1 FROM scg_corr)
+              AND NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Dankesschreiben' AND sub_category_group_id = (SELECT id FROM scg_corr))
+            -- Darlehensvertrag
+            UNION ALL
+            SELECT nextval('sequence_generator'), 'Darlehensvertrag', 'jaynaApp.document.type.loan-contract', (SELECT id FROM scg_bank)
+            WHERE EXISTS (SELECT 1 FROM scg_bank)
+              AND NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Darlehensvertrag' AND sub_category_group_id = (SELECT id FROM scg_bank));
+        ]]></sql>
+    </changeSet>
+
+</databaseChangeLog>
+
+
+
+
