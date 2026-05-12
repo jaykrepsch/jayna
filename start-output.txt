@@ -1,0 +1,43 @@
+
+> jayna@0.0.1-SNAPSHOT start
+> webpack serve --config webpack/webpack.common.js --mode development
+
+<i> [webpack-dev-server] [HPM] Proxy created: /api,/services,/management,/v3/api-docs,/h2-console,/auth  -> http://127.0.0.1:8080
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: [36mhttp://localhost:9000/[39m
+<i> [webpack-dev-server] On Your Network (IPv4): [36mhttp://10.0.31.123:9000/[39m
+<i> [webpack-dev-server] Content not from webpack is served from '[36m./target/classes/static/[39m' directory
+<i> [webpack-dev-server] 404s will fallback to '[36m/index.html[39m'
+[1m[33m[@vue/compiler-sfc][0m[33m `defineProps` is a compiler macro and no longer needs to be imported.[0m
+
+[1m[33m[@vue/compiler-sfc][0m[33m `defineEmits` is a compiler macro and no longer needs to be imported.[0m
+
+[1m[33m[@vue/compiler-sfc][0m[33m `defineExpose` is a compiler macro and no longer needs to be imported.[0m
+
+assets by path [1m[32mapp/*.js[39m[22m 10.1 MiB
+  assets by chunk 1010 KiB (id hint: vendors) 6 assets
+  + 420 assets
+assets by path [1m[32mcontent/[39m[22m 498 KiB
+  assets by path [1m[32mcontent/images/[39m[22m 435 KiB 22 assets
+  assets by path [1m[32mcontent/scss/*.scss[39m[22m 4.31 KiB 3 assets
+  assets by path [1m[32mcontent/css/*.css[39m[22m 58.5 KiB 2 assets
+assets by path [1m[32mswagger-ui/[39m[22m 3.16 MiB 16 assets
+asset [1m[32mfavicon.ico[39m[22m 1.54 KiB [1m[32m[emitted][39m[22m [from: src/main/webapp/favicon.ico] [1m[32m[copied][39m[22m
+asset [1m[32mindex.html[39m[22m 820 bytes [1m[32m[emitted][39m[22m
+asset [1m[32mmanifest.webapp[39m[22m 776 bytes [1m[32m[emitted][39m[22m [from: src/main/webapp/manifest.webapp] [1m[32m[copied][39m[22m
+asset [1m[32mrobots.txt[39m[22m 226 bytes [1m[32m[emitted][39m[22m [from: src/main/webapp/robots.txt] [1m[32m[copied][39m[22m
+orphan modules 824 KiB [1m[33m[orphan][39m[22m 753 modules
+runtime modules 31.8 KiB 15 modules
+modules by path [1m./src/main/webapp/[39m[22m 2.99 MiB
+  modules by path [1m./src/main/webapp/app/[39m[22m 2.53 MiB
+    javascript modules 1.42 MiB 596 modules
+    json modules 1.11 MiB
+      optional modules 1.1 MiB [1m[33m[optional][39m[22m 347 modules
+      + 3 modules
+  modules by path [1m./src/main/webapp/i18n/de/[39m[22m 470 KiB
+    optional modules 446 KiB [1m[33m[optional][39m[22m 362 modules
+    [1m./src/main/webapp/i18n/de/ sync \.json$[39m[22m 23.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/main/webapp/i18n/de/mobility/i18n-mobility-boat-hybrid-motorglider.json[39m[22m 592 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+modules by path [1m./node_modules/[39m[22m 2.83 MiB 317 modules
+webpack 5.74.0 compiled [1m[32msuccessfully[39m[22m in 10968 ms
+AggregateError

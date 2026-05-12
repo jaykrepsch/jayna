@@ -33,32 +33,25 @@ module.exports = (env, options) => {
     plugins: [],
   };
   if (!options.env.WEBPACK_SERVE) return devConfig;
-  devConfig.plugins.push(
-    new BrowserSyncPlugin(
-      {
-        host: "localhost",
-        port: 9000,
-        proxy: {
-          target: `http://localhost:8080`,
-          ws: true,
-        },
-        socket: {
-          clients: {
-            heartbeatTimeout: 60000,
-          },
-        },
-        /*
-        ,ghostMode: { // uncomment this part to disable BrowserSync ghostMode; https://github.com/jhipster/generator-jhipster/issues/11116
-          clicks: false,
-          location: false,
-          forms: false,
-          scroll: false
-        } */
-      },
-      {
-        reload: true,
-      }
-    )
-  );
+  // devConfig.plugins.push(
+  //   new BrowserSyncPlugin(
+  //     {
+  //       host: "localhost",
+  //       port: 9000,
+  //       proxy: {
+  //         target: `http://localhost:9060`,
+  //         ws: true,
+  //       },
+  //       socket: {
+  //         clients: {
+  //           heartbeatTimeout: 60000,
+  //         },
+  //       },
+  //     },
+  //     {
+  //       reload: true,
+  //     }
+  //   )
+  // );
   return devConfig;
 };
