@@ -44,6 +44,8 @@ services:
         value: 10000
       - key: JAVA_OPTS
         value: "-Xmx1g -Xms512m"
+      - key: JHIPSTER_CLIENTAPP_NAME
+        value: jayna
 
   - type: web
     name: jayna-frontend
@@ -53,6 +55,8 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 18.16.0
+      - key: NODE_PATH
+        value: "./node_modules"
       - key: SERVER_API_URL
         fromService:
           name: jayna-backend
