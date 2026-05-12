@@ -11,6 +11,7 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile
     healthCheckPath: /management/health
+    healthCheckTimeoutX: 30
     envVars:
       - key: SPRING_DATASOURCE_URL
         value: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
@@ -56,4 +57,7 @@ services:
     routes:
       - type: rewrite
         source: /*
+        destination: /index.html
+      - type: redirect
+        source: /index.html/
         destination: /index.html
