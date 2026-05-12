@@ -41,9 +41,10 @@ services:
       - key: STORAGE_LOCAL_PATH
         value: /tmp/jayna/documents
 
-staticSites:
-  - name: jayna-frontend
+  - type: web
+    name: jayna-frontend
     plan: free
+    runtime: static
     buildCommand: "npm install && npm run webapp:prod"
     staticPublishPath: target/classes/static
     envVars:
