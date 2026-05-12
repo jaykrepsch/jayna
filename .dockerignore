@@ -1,0 +1,10 @@
+node_modules
+target
+.git
+.mvn/wrapper/*.jar
+*.log
+.idea
+.vscode
+.devcontainer
+coverage
+dist
