@@ -4,14 +4,9 @@ WORKDIR /app
 
 ENV MAVEN_OPTS="-Xmx512m -XX:MaxMetaspaceSize=256m"
 
-COPY .mvn/ .mvn/
-COPY mvnw pom.xml ./
-RUN chmod +x mvnw
-# Cache dependencies
-RUN ./mvnw dependency:go-offline -q
-
 # Copy the rest of the application code (including sonar-project.properties, package.json, etc.)
 COPY . .
+RUN chmod +x mvnw
 
 # Build the application (Maven will run npm install and webpack build via frontend-maven-plugin)
 RUN ./mvnw package -DskipTests -Pprod -q
