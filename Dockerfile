@@ -2,8 +2,13 @@
 FROM eclipse-temurin:17-jdk-alpine AS build
 WORKDIR /app
 
+# Optimize for memory-limited environments
+ENV MAVEN_OPTS="-Xmx512m"
+ENV NODE_OPTIONS="--max-old-space-size=512"
+
 # Install Node.js for frontend build
 RUN apk add --no-cache nodejs npm
+
 
 COPY .mvn/ .mvn/
 COPY mvnw pom.xml package*.json ./
