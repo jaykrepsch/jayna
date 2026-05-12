@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-  serverApiUrl: '',  // Leerer String, da der Proxy die Basis-URL handhabt
+  serverApiUrl: process.env.SERVER_API_URL ? `https://${process.env.SERVER_API_URL}` : '',  // In Prod: Render Backend URL; in Dev: Proxy handhabt die Basis-URL
   // APP_VERSION is passed as an environment variable from the Gradle / Maven build tasks.
   version: process.env.hasOwnProperty('APP_VERSION') ? process.env.APP_VERSION : 'UNKNOWN',
 
