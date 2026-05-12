@@ -350,7 +350,7 @@ public class RealEstateResource {
 
     // Prüfe Berechtigung
     if (realEstateOpt.isPresent()) {
-      RealEstate realEstate = realEstateOpt.get();
+      RealEstate realEstate = realEstateOpt.orElseThrow();
       if (!realEstate.getApplicationUser().getId().equals(applicationUser.getId())) {
         throw new BadRequestAlertException("Not allowed", ENTITY_NAME, "notallowed");
       }

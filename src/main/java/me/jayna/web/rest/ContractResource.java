@@ -375,7 +375,7 @@ public class ContractResource {
         }
 
         if (contractOpt.isPresent() && relations) {
-            Contract contract = contractOpt.get();
+            Contract contract = contractOpt.orElseThrow();
             try {
                 // Lade Verknüpfungen mit vollständigen Entitätsdaten
                 Set<ContractRealestate> contractRealestates = contractRealestateService.findAllByContract(contract);

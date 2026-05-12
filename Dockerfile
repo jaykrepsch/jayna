@@ -15,7 +15,7 @@ COPY . .
 RUN chmod +x mvnw
 
 # Build the application - SKIP NPM/FRONTEND to save memory
-RUN ./mvnw package -DskipTests -Pprod -Dskip.npm=true -q
+RUN ./mvnw package -DskipTests -Pprod -Dskip.npm=true -Dmodernizer.skip=true -q
 
 # Stage 2: Run
 FROM eclipse-temurin:17-jre
