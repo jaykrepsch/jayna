@@ -19,7 +19,7 @@ RUN ./mvnw package -DskipTests -Pprod -q
 # Stage 2: Run
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
-COPY --from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/jayna-*.jar app.jar
 
 EXPOSE 8080
 ENTRYPOINT ["java", "-Xmx512m", "-jar", "app.jar", "--spring.profiles.active=prod"]
