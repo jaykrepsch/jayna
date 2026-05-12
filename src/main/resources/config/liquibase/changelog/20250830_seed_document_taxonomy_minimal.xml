@@ -13,7 +13,8 @@
             <tableExists tableName="group_type"/>
         </preConditions>
 
-        <sql dbms="postgresql">
+        <sql dbms="postgresql"><![CDATA[
+
             -- Ermittele document-Kategorie
             WITH doc_cat AS (
                 SELECT id FROM category WHERE entity_name = 'document'
@@ -174,7 +175,7 @@
             WHERE NOT EXISTS (
                 SELECT 1 FROM group_type WHERE name = 'Werkstattrechnung' AND sub_category_group_id = (SELECT id FROM scg_fzg)
             );
-        </sql>
+        ]]></sql>
     </changeSet>
 </databaseChangeLog>
 

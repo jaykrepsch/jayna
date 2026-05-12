@@ -16,7 +16,10 @@
 <script setup>
 
 defineProps({
-  showLogoText: true
+  showLogoText: {
+    type: Boolean,
+    default: true
+  }
 });
 
 </script>

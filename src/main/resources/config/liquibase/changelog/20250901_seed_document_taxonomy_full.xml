@@ -13,7 +13,8 @@
             <tableExists tableName="group_type"/>
         </preConditions>
 
-        <sql dbms="postgresql">
+        <sql dbms="postgresql"><![CDATA[
+
             -- Hole die Kategorie-ID für entity_name 'document'
             WITH doc_cat AS (
                 SELECT id FROM category WHERE entity_name = 'document'
@@ -519,7 +520,7 @@
             UNION ALL
             SELECT nextval('sequence_generator'), 'Vertragsbedingungen', 'jaynaApp.document.type.contract-terms', (SELECT id FROM sc_terms)
             WHERE NOT EXISTS (SELECT 1 FROM group_type WHERE name = 'Vertragsbedingungen' AND sub_category_group_id = (SELECT id FROM sc_terms));
-        </sql>
+        ]]></sql>
     </changeSet>
 
 </databaseChangeLog>

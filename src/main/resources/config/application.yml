@@ -181,7 +181,7 @@ spring:
     activate:
       on-profile: dev
   liquibase:
-    enabled: false
+    enabled: true
 
 server:
   servlet:

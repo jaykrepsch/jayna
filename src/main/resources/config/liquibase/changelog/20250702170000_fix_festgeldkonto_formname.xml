@@ -14,9 +14,10 @@
         </update>
         
         <!-- Überprüfe das Ergebnis -->
-        <sql>
+        <sql><![CDATA[
+
             SELECT 'Festgeldkonto form_name korrigiert' as info;
-        </sql>
+        ]]></sql>
     </changeSet>
 
 </databaseChangeLog> 

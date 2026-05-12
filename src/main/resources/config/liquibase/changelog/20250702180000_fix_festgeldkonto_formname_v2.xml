@@ -8,10 +8,11 @@
         <comment>Korrigiere den form_name für das Festgeldkonto - Version 2</comment>
         
         <!-- Zeige den aktuellen Zustand -->
-        <sql>
+        <sql><![CDATA[
+
             SELECT 'Festgeldkonto vor der Korrektur:' as info;
             SELECT id, name, form_name FROM group_type WHERE name = 'Festgeldkonto';
-        </sql>
+        ]]></sql>
         
         <!-- Korrigiere den form_name für das Festgeldkonto -->
         <update tableName="group_type">
@@ -20,10 +21,11 @@
         </update>
         
         <!-- Zeige das Ergebnis -->
-        <sql>
+        <sql><![CDATA[
+
             SELECT 'Festgeldkonto nach der Korrektur:' as info;
             SELECT id, name, form_name FROM group_type WHERE name = 'Festgeldkonto';
-        </sql>
+        ]]></sql>
         
     </changeSet>
 

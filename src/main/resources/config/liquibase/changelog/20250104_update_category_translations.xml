@@ -9,28 +9,32 @@
         </update>
         
         <!-- Aktualisiere oder füge fehlende Kategorien hinzu (nur wenn sie nicht existieren) -->
-        <sql>
+        <sql><![CDATA[
+
             INSERT INTO category (id, name, translation_key, entity_name, created_date)
             SELECT 2, 'Immobilien', 'realestate', 'realestate', '2025-01-04'
             WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 2);
-        </sql>
+        ]]></sql>
         
-        <sql>
+        <sql><![CDATA[
+
             INSERT INTO category (id, name, translation_key, entity_name, created_date)
             SELECT 3, 'Kontakte', 'contact', 'contact', '2025-01-04'
             WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 3);
-        </sql>
+        ]]></sql>
         
-        <sql>
+        <sql><![CDATA[
+
             INSERT INTO category (id, name, translation_key, entity_name, created_date)
             SELECT 4, 'Finanzkonten', 'financeaccount', 'financeaccount', '2025-01-04'
             WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 4);
-        </sql>
+        ]]></sql>
         
-        <sql>
+        <sql><![CDATA[
+
             INSERT INTO category (id, name, translation_key, entity_name, created_date)
             SELECT 5, 'Mobilität', 'mobility', 'mobility', '2025-01-04'
             WHERE NOT EXISTS (SELECT 1 FROM category WHERE id = 5);
-        </sql>
+        ]]></sql>
     </changeSet>
 </databaseChangeLog> 
