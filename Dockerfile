@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=build /app/target/jayna-*.jar app.jar
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-Xmx512m", "-jar", "app.jar", "--spring.profiles.active=prod"]
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]
 
 
 

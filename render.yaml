@@ -42,11 +42,13 @@ services:
         value: /tmp/jayna/documents
       - key: PORT
         value: 10000
+      - key: JAVA_OPTS
+        value: "-Xmx1g -Xms512m"
 
   - type: web
     name: jayna-frontend
     runtime: static
-    buildCommand: "npm install && npm install webpack-merge && npm run webapp:prod"
+    buildCommand: "npm install && npm install webpack-merge webpack-cli webpack --save-dev && npm run build"
     staticPublishPath: target/classes/static
     envVars:
       - key: NODE_VERSION
