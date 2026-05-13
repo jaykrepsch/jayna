@@ -1,4 +1,5 @@
 "use strict";
+const { merge } = require("webpack-merge");
 const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");

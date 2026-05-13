@@ -169,10 +169,10 @@ const loadGroupTypes = () => {
 
 const routeNext = (routeName, groupType) => {
   let params = {
-    id: category.value.id,
-    subid: groupType.subCategoryGroup.subCategory.id,
-    subgrpid: groupType.subCategoryGroup.id,
-    grptpid: groupType.id
+    id: category.value?.id,
+    subid: selectedSubCategory.value?.id,
+    subgrpid: selectedSubCategoryGroup.value?.id,
+    grptpid: groupType?.id
   };
   
   router.push({
@@ -194,12 +194,9 @@ const continueProcess = () => {
           routeNext('CreateForm', selectedGroupType.value);
         });
     } else {
-      // Wenn eine Form-Definition vorhanden ist, zur CreateForm weiterleiten
-      if (selectedGroupType.value.formName) {
-        routeNext('CreateForm', selectedGroupType.value);
-      } else {
-        routeNext('CategoryCreateWithGroupType', selectedGroupType.value);
-      }
+      // Immer zur CreateForm (common-create-form.vue) weiterleiten, 
+      // da diese jetzt dynamisch Fallbacks lädt
+      routeNext('CreateForm', selectedGroupType.value);
     }
   } else {
     if (selectedSubCategoryGroup.value && selectedSubCategoryGroup.value.id) {

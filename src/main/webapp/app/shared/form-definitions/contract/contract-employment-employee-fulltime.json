@@ -24,16 +24,32 @@
       ]
     },
     {
-      "title": "jaynaApp.contract-employment-employee-fullTime.specificData.title",
-      "i18nSource": "contract-employment-employee-fullTime",
+      "title": "Arbeitsvertrags-Details",
       "fields": [
         {
-          "name": "specificField1",
-          "type": "text"
+          "name": "position",
+          "type": "text",
+          "label": "Position / Tätigkeit"
         },
         {
-          "name": "specificField2",
-          "type": "number"
+          "name": "salary",
+          "type": "number",
+          "label": "Bruttogehalt (monatlich)"
+        },
+        {
+          "name": "weeklyHours",
+          "type": "number",
+          "label": "Wochenstunden"
+        },
+        {
+          "name": "probationPeriod",
+          "type": "number",
+          "label": "Probezeit (Monate)"
+        },
+        {
+          "name": "vacationDays",
+          "type": "number",
+          "label": "Urlaubstage (pro Jahr)"
         }
       ]
     },

@@ -148,7 +148,201 @@
       },
       "relations": {
         "title": "Verknüpfungen"
+      },
+      "organisation": {
+        "title": "Organisation"
+      },
+      "documents": {
+        "title": "Dokumente"
       }
+    },
+    "baseRealestate": {
+      "general": {
+        "title": "Allgemein",
+        "fields": {
+          "label": "Bezeichnung",
+          "description": "Beschreibung",
+          "entityState": "Status"
+        }
+      },
+      "realestateData": {
+        "title": "Immobiliendaten",
+        "fields": {
+          "propertyNumber": "Objektnummer",
+          "acquisitionDate": "Erwerbsdatum",
+          "propertyType": "Objektart",
+          "address": "Straße / Nr.",
+          "postalCode": "PLZ",
+          "city": "Stadt",
+          "country": "Land",
+          "purchasePrice": "Kaufpreis",
+          "currentValue": "Aktueller Wert",
+          "squareMeters": "Wohnfläche (m²)",
+          "rooms": "Zimmer",
+          "constructionYear": "Baujahr",
+          "energyEfficiencyClass": "Energieeffizienzklasse"
+        }
+      },
+      "specificData": {
+        "title": "Spezifische Daten",
+        "fields": {
+          "houseType": "Haustyp",
+          "plotSize": "Grundstücksgröße (m²)",
+          "gardenSize": "Gartenanteil (m²)",
+          "basement": "Unterkellert",
+          "attic": "Dachboden",
+          "garage": "Garage vorhanden",
+          "parkingSpaces": "Stellplätze",
+          "heatingType": "Heizungsart",
+          "renovationYear": "Letzte Renovierung"
+        }
+      },
+      "ownership": {
+        "title": "Besitzverhältnisse",
+        "fields": {
+          "owner": "Eigentümer",
+          "ownershipType": "Besitzart",
+          "ownershipShare": "Anteil (%)",
+          "registrationDate": "Eintragungsdatum"
+        }
+      },
+      "financial": {
+        "title": "Finanzielle Details",
+        "fields": {
+          "monthlyRent": "Kaltmiete (monatlich)",
+          "annualRent": "Kaltmiete (jährlich)",
+          "operatingCosts": "Nebenkosten",
+          "propertyTax": "Grundsteuer",
+          "insuranceCosts": "Versicherungskosten",
+          "maintenanceReserve": "Instandhaltungsrücklage"
+        }
+      },
+      "weiteres": {
+        "title": "Weiteres",
+        "fields": {
+          "comment": "Bemerkungen",
+          "notes": "Notizen"
+        }
+      },
+      "organisation": { "title": "Organisation" },
+      "documents": { "title": "Dokumente" },
+      "relations": { "title": "Verknüpfungen" }
+    },
+    "baseFinanceaccount": {
+      "general": {
+        "title": "Allgemein",
+        "fields": {
+          "label": "Bezeichnung",
+          "description": "Beschreibung",
+          "entityState": "Status"
+        }
+      },
+      "accountData": {
+        "title": "Kontodaten",
+        "fields": {
+          "accountNumber": "Kontonummer / IBAN",
+          "bankCode": "BLZ / BIC",
+          "bankName": "Bankname",
+          "accountOwner": "Kontoinhaber",
+          "currency": "Währung",
+          "openingDate": "Eröffnungsdatum",
+          "balance": "Aktueller Kontostand",
+          "creditLimit": "Kreditlimit / Dispo"
+        }
+      },
+      "weiteres": {
+        "title": "Weiteres",
+        "fields": {
+          "comment": "Bemerkungen",
+          "notes": "Notizen"
+        }
+      },
+      "organisation": { "title": "Organisation" },
+      "documents": { "title": "Dokumente" },
+      "relations": { "title": "Verknüpfungen" }
+    },
+    "baseMobility": {
+      "general": {
+        "title": "Allgemein",
+        "fields": {
+          "label": "Bezeichnung",
+          "description": "Beschreibung",
+          "entityState": "Status"
+        }
+      },
+      "vehicleData": {
+        "title": "Fahrzeugdaten",
+        "fields": {
+          "make": "Marke",
+          "model": "Modell",
+          "vin": "Fahrgestellnummer (VIN)",
+          "licensePlate": "Kennzeichen",
+          "firstRegistration": "Erstzulassung",
+          "purchaseDate": "Kaufdatum",
+          "mileage": "Kilometerstand",
+          "fuelType": "Kraftstoffart",
+          "power": "Leistung (kW/PS)",
+          "color": "Farbe"
+        }
+      },
+      "weiteres": {
+        "title": "Weiteres",
+        "fields": {
+          "comment": "Bemerkungen",
+          "notes": "Notizen"
+        }
+      },
+      "organisation": { "title": "Organisation" },
+      "documents": { "title": "Dokumente" },
+      "relations": { "title": "Verknüpfungen" }
+    },
+    "baseContact": {
+      "general": {
+        "title": "Allgemein",
+        "fields": {
+          "label": "Name / Bezeichnung",
+          "description": "Beschreibung",
+          "entityState": "Status"
+        }
+      },
+      "personalData": {
+        "title": "Persönliche Daten",
+        "fields": {
+          "firstName": "Vorname",
+          "lastName": "Nachname",
+          "birthDate": "Geburtsdatum",
+          "gender": "Geschlecht",
+          "title": "Titel"
+        }
+      },
+      "address": {
+        "title": "Anschrift",
+        "fields": {
+          "street": "Straße / Nr.",
+          "postalCode": "PLZ",
+          "city": "Stadt",
+          "country": "Land"
+        }
+      },
+      "contactInfo": {
+        "title": "Kontaktdaten",
+        "fields": {
+          "email": "E-Mail Adresse",
+          "phone": "Telefon",
+          "mobile": "Mobiltelefon",
+          "website": "Webseite"
+        }
+      },
+      "weiteres": {
+        "title": "Weiteres",
+        "fields": {
+          "comment": "Bemerkungen",
+          "notes": "Notizen"
+        }
+      },
+      "organisation": { "title": "Organisation" },
+      "documents": { "title": "Dokumente" },
+      "relations": { "title": "Verknüpfungen" }
     },
     "tiles": {
       "my-space": {

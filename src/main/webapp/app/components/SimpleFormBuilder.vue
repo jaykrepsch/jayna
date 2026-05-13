@@ -11,7 +11,7 @@
     <div
       v-else
       v-for="(field, index) in fields"
-      v-show="field.dependsOnField ? v$[field.dependsOnField].$model === field.dependsOnValue : true"
+      v-show="isFieldVisible(field)"
       :key="index"
       :class="[field.class]"
     >
@@ -125,409 +125,207 @@
     </div>
 
   </div>
-
 </template>
 
 <script setup>
-
+import { reactive, computed, ref, watch, onMounted } from 'vue';
+import { useStore } from 'vuex';
+import { useI18n } from 'vue-i18n';
+import useVuelidate from '@vuelidate/core';
 import DatePicker from '@vuepic/vue-datepicker';
+
 import SInput from '@/components/forms/input.vue';
 import STextarea from '@/components/forms/textarea.vue';
 import Dropdown from '@/components/forms/dropdown.vue';
 import Checkbox from '@/components/forms/checkbox.vue';
-// import FileUpload from '@/components/FileUpload.vue';
 import RadioGroup from '@/components/forms/RadioGroup.vue';
 import RelationDropdown from '@/components/forms/RelationDropdown.vue';
 
-
 import { required, email } from '@/shared/config/validators';
 
-import useVuelidate from '@vuelidate/core';
-import { useStore } from 'vuex';
-import { reactive, computed, ref, watch } from 'vue';
-import { useGetLabel } from '@/composables/utils';
-import { useI18n } from 'vue-i18n';
-
-const store = useStore();
-const fileData = ref(null);
-const { t, te } = useI18n();
-
-// Validierungsstatus für jedes Feld
-const fieldValidationStatus = reactive({});
-
 const props = defineProps({
-  fields: {
-    type: Array,
-    required: true
-  },
-  data: {
-    type: Object,
-    default: null
-  },
-  scoped: {
-    type: Boolean,
-    default: false
-  },
+  fields: { type: Array, required: true },
+  data: { type: Object, default: null },
+  scoped: { type: Boolean, default: false },
   formName: String,
-  editable: {
-    type: Boolean,
-    default: false
-  },
-  sectionConfig: {
-    type: Object,
-    default: null
-  }
+  editable: { type: Boolean, default: false },
+  sectionConfig: { type: Object, default: null }
 });
 
-const tmpState = {};
-const tmpRules = {};
-const dropdownItems = reactive({});
+const emit = defineEmits(['deleteField']);
+const store = useStore();
+const { t, te } = useI18n();
 
+const state = reactive({});
+const fieldValidationStatus = reactive({});
+
+// Hilfsfunktion für Validierungsregeln
 const getValidationRules = (ruleNames) => {
   const rules = {};
-
-  ruleNames?.split(',').forEach((ruleName) => {
-    if (ruleName === 'required') {
+  if (!ruleNames) return rules;
+  
+  const names = typeof ruleNames === 'string' ? ruleNames.split(',') : (Array.isArray(ruleNames) ? ruleNames : []);
+  
+  names.forEach((ruleName) => {
+    if (ruleName.trim() === 'required') {
       rules['required'] = required;
-    } else if (ruleName === 'email') {
+    } else if (ruleName.trim() === 'email') {
       rules['email'] = email;
     }
   });
-
   return rules;
 };
 
-// Reaktive Dropdown-Items mit Computed Properties
+// Hilfsfunktion zur Prüfung der Sichtbarkeit eines Feldes
+const isFieldVisible = (field) => {
+  if (!field.dependsOnField) return true;
+  const dependsOnValue = state[field.dependsOnField];
+  return dependsOnValue === field.dependsOnValue;
+};
+
+// Computed Rules für Vuelidate (wichtig für asynchron geladene Felder)
+const validationRules = computed(() => {
+  const rules = {};
+  props.fields.forEach(field => {
+    // Nur Regeln für sichtbare Felder hinzufügen
+    if (field.type !== 'info' && field.type !== 'file' && isFieldVisible(field)) {
+      rules[field.name] = getValidationRules(field.rules);
+    }
+  });
+  return rules;
+});
+
+const v$ = useVuelidate(validationRules, state);
+
 const getDropdownItemsForField = (field) => {
   if (field.enumName) {
-    return computed(() => {
-      return store?.getters?.[`config/${field.enumName}`] || [];
-    });
+    return computed(() => store?.getters?.[`config/${field.enumName}`] || []);
   }
   return field.items || [];
 };
 
-for (const field of props.fields) {
-  if (field.type === 'info' || field.type === 'file') continue;
-  tmpRules[field.name] = getValidationRules(field.rules);
-  if (field.type === 'dropdown') {
-    // Erstelle reaktive Dropdown-Items
-    dropdownItems[field.name] = getDropdownItemsForField(field);
+const initForm = () => {
+  props.fields.forEach(field => {
+    if (field.type === 'info' || field.type === 'file') return;
     
-    // Initialisiere den State basierend auf verfügbaren Items
-    const items = field.enumName ? 
-      computed(() => store?.getters?.[`config/${field.enumName}`] || []) : 
-      field.items || [];
-
-    if (props.data && props.data[field.name]) {
-      tmpState[field.name] = items.value?.find(i => i.name === props.data[field.name]) || null;
-    } else if (field.defaultValue) {
-      tmpState[field.name] = items.value?.find(i => i.name === field.defaultValue) || null;
-    } else {
-      tmpState[field.name] = null;
+    if (state[field.name] === undefined) {
+      if (field.type === 'dropdown') {
+        const items = field.enumName ? (store?.getters?.[`config/${field.enumName}`] || []) : (field.items || []);
+        if (props.data && props.data[field.name]) {
+          state[field.name] = items.find(i => i.name === props.data[field.name]) || null;
+        } else if (field.defaultValue) {
+          state[field.name] = items.find(i => i.name === field.defaultValue) || null;
+        } else {
+          state[field.name] = null;
+        }
+      } else if (field.type === 'checkbox') {
+        state[field.name] = props.data ? props.data[field.name] : (field.defaultValue || false);
+      } else if (field.type === 'relation-dropdown') {
+        state[field.name] = props.data && props.data[field.relationName] && props.data[field.relationName][0] ? props.data[field.relationName][0][field.entityName] : null;
+      } else {
+        state[field.name] = props.data ? props.data[field.name] : (field.defaultValue || null);
+      }
     }
-  } else if (field.type === 'checkbox') {
-    tmpState[field.name] = props.data ? props.data[field.name] : (field.defaultValue || false);
-  } else if (field.type === 'relation-dropdown') {
-    tmpState[field.name] = props.data && props.data[field.relationName] && props.data[field.relationName][0] ? props.data[field.relationName][0][field.entityName] : null;
-  } else {
-    tmpState[field.name] = props.data ? props.data[field.name] : (field.defaultValue || null);
-  }
-}
-
-const processFormInternalRelations = (data) => {
-  const formInternalRelations = [];
-
-  props.fields.forEach(f => {
-    if (f.type === 'relation-dropdown') {
-      formInternalRelations.push(f);
-    }
-  });
-
-  formInternalRelations.forEach(r => {
-    const relationObject = {};
-    relationObject[r.entityName] = data[r.name];
-    data[r.relationName] = [relationObject];
-    delete data[r.name];
   });
 };
 
-const state = reactive(tmpState);
-const rules = computed(() => (tmpRules));
-const v$ = useVuelidate(rules, state);
+watch(() => props.fields, () => {
+  initForm();
+}, { immediate: true, deep: true });
 
-// Validierungsfunktionen
 const isFieldRequired = (field) => {
-  // Prüfe zuerst field.required (Boolean)
-  if (field.required === true) {
-    return true;
-  }
-  
-  // Prüfe dann field.rules (String oder Array)
+  if (field.required === true) return true;
   if (!field.rules) return false;
-  
-  // Falls rules ein String ist
-  if (typeof field.rules === 'string') {
-    return field.rules.includes('required');
-  }
-  
-  // Falls rules ein Array ist
-  if (Array.isArray(field.rules)) {
-    return field.rules.includes('required');
-  }
-  
-  return false;
+  return typeof field.rules === 'string' ? field.rules.includes('required') : (Array.isArray(field.rules) && field.rules.includes('required'));
 };
 
 const isFieldEmpty = (field) => {
   const value = state[field.name];
-  
-  if (field.type === 'dropdown') {
-    return value === null || value === undefined || value === '';
-  } else if (field.type === 'checkbox') {
-    return value === false;
-  } else {
-    return value === null || value === undefined || value === '' || (Array.isArray(value) && value.length === 0);
-  }
+  if (field.type === 'dropdown') return value === null || value === undefined;
+  if (field.type === 'checkbox') return value === false;
+  return value === null || value === undefined || value === '' || (Array.isArray(value) && value.length === 0);
 };
 
 const isFieldValid = (field) => {
-  if (!isFieldRequired(field)) {
-    return true; // Nicht-required Felder sind immer gültig
-  }
-  
+  if (!isFieldRequired(field)) return true;
   return !isFieldEmpty(field);
 };
 
 const getFieldValidationClass = (field) => {
-  if (!isFieldRequired(field)) {
-    return '';
+  if (!isFieldRequired(field)) return '';
+  const hasBeenTouched = fieldValidationStatus[field.name]?.touched || fieldValidationStatus[field.name]?.shouldValidate;
+  if (hasBeenTouched) {
+    return isFieldValid(field) ? '' : 'field-invalid';
   }
-  
-  const isValid = isFieldValid(field);
-  const hasBeenTouched = fieldValidationStatus[field.name]?.touched || false;
-  
-  // Wenn das Feld berührt wurde oder beim Speichern-Klick validiert werden soll
-  if (hasBeenTouched || fieldValidationStatus[field.name]?.shouldValidate) {
-    return isValid ? '' : 'field-invalid';
-  }
-  
-  return ''; // Keine Validierung vor der ersten Berührung
+  return '';
 };
 
-const getDatePickerValidationClass = (field) => {
-  const baseClass = 'date-picker';
-  const validationClass = getFieldValidationClass(field);
-  return `${baseClass} ${validationClass}`;
-};
+const getDatePickerValidationClass = (field) => `date-picker ${getFieldValidationClass(field)}`;
 
 const onFieldInput = (field) => {
-  // Markiere das Feld als berührt
-  if (!fieldValidationStatus[field.name]) {
-    fieldValidationStatus[field.name] = {};
-  }
+  if (!fieldValidationStatus[field.name]) fieldValidationStatus[field.name] = {};
   fieldValidationStatus[field.name].touched = true;
-  
-  // Validiere das Feld sofort
-  const isValid = isFieldValid(field);
-  fieldValidationStatus[field.name].valid = isValid;
-  
-  // Trigger Vuelidate validation
   v$.value.$touch();
 };
 
-// Neue Funktion: Markiere alle required Felder für Validierung
 const markAllRequiredFieldsForValidation = () => {
   props.fields.forEach(field => {
     if (isFieldRequired(field)) {
-      if (!fieldValidationStatus[field.name]) {
-        fieldValidationStatus[field.name] = {};
-      }
+      if (!fieldValidationStatus[field.name]) fieldValidationStatus[field.name] = {};
       fieldValidationStatus[field.name].shouldValidate = true;
     }
   });
 };
 
 const getData = () => {
-  try {
-    const data = Object.assign({}, state);
-
-    processFormInternalRelations(data);
-
-    props.fields.forEach(field => {
-      if (field.enumName !== undefined) {
-        data[field.name] = state[field.name]?.name;
-      }
-      if (field.type === 'number' && state[field.name] !== null) {
-        if (Number.isInteger(state[field.name])) {
-          data[field.name] = parseInt(state[field.name]);
-        } else {
-          data[field.name] = parseFloat(state[field.name]);
-        }
-      }
-    });
-
-    console.log('SimpleFormBuilder getData result:', data);
-    return data;
-  } catch (error) {
-    console.error('Error in SimpleFormBuilder getData:', error);
-    return {};
-  }
+  const data = { ...state };
+  props.fields.forEach(f => {
+    if (f.type === 'relation-dropdown') {
+      const relObj = { [f.entityName]: data[f.name] };
+      data[f.relationName] = [relObj];
+      delete data[f.name];
+    }
+    if (f.enumName !== undefined) data[f.name] = state[f.name]?.name;
+    if (f.type === 'number' && state[f.name] !== null) {
+      data[f.name] = Number.isInteger(state[f.name]) ? parseInt(state[f.name]) : parseFloat(state[f.name]);
+    }
+  });
+  return data;
 };
 
 const isValid = () => {
-  try {
-    // Markiere alle required Felder für Validierung beim ersten Aufruf
-    markAllRequiredFieldsForValidation();
-    
-    // Prüfe alle Validierungsregeln von Vuelidate
-    if (v$.value.$invalid) {
-      console.log('Vuelidate validation failed:', v$.value.$errors);
-      return false;
-    }
-    
-    // Prüfe required Felder
-    for (const field of props.fields) {
-      if (isFieldRequired(field)) {
-        if (isFieldEmpty(field)) {
-          console.log(`Required field '${field.name}' is empty`);
-          return false;
-        }
-      }
-    }
-    
-    console.log('Form validation passed');
-    return true;
-  } catch (error) {
-    console.error('Error in form validation:', error);
-    return false;
+  markAllRequiredFieldsForValidation();
+  if (v$.value.$invalid) return false;
+  for (const field of props.fields) {
+    if (isFieldVisible(field) && isFieldRequired(field) && isFieldEmpty(field)) return false;
   }
+  return true;
 };
 
 const getPlaceHolder = (field) => {
-  // Für Dokumente: Keine Placeholder verwenden
-  if (props.formName && (props.formName.includes('document') || props.formName.includes('Document'))) {
-    return '';
-  }
-  
-  if (field.placeholder && te(field.placeholder)) {
-    return t(field.placeholder);
-  }
-  
-  // Prüfe i18nSource aus dem Abschnitt (falls verfügbar)
-  if (props.sectionConfig?.i18nSource) {
-    const i18nSourceKey = `jaynaApp.${props.sectionConfig.i18nSource}.fields.${field.name}`;
-    if (te(i18nSourceKey)) {
-      return t(i18nSourceKey);
-    }
-  }
-  
-  // Prüfe form-spezifische Übersetzung
-  if (te(`jaynaApp.${props.formName}.fields.${field.name}`)) {
-    return t(`jaynaApp.${props.formName}.fields.${field.name}`)
-  }
-  
-  // Prüfe Base-Übersetzungen für alle Entitäten
-  const baseKeys = [
-    `jaynaApp.baseContract.fields.${field.name}`,
-    `jaynaApp.baseContact.fields.${field.name}`,
-    `jaynaApp.baseRealestate.fields.${field.name}`,
-    `jaynaApp.baseMobility.fields.${field.name}`,
-    `jaynaApp.baseFinanceaccount.fields.${field.name}`
-  ];
-  
-  for (const baseKey of baseKeys) {
-    if (te(baseKey)) {
-      return t(baseKey);
-    }
-  }
-  
-  return field.placeholder;
+  if (props.formName?.toLowerCase().includes('document')) return '';
+  if (field.placeholder && te(field.placeholder)) return t(field.placeholder);
+  const baseKeys = [`jaynaApp.baseContract.fields.${field.name}`, `jaynaApp.baseContact.fields.${field.name}`, `jaynaApp.baseRealestate.fields.${field.name}`];
+  for (const key of baseKeys) { if (te(key)) return t(key); }
+  return field.placeholder || '';
 };
 
-const getLabel = (field, formName, sectionConfig = null) => {
-  // SYSTEMATISCHE FELD-ÜBERSETZUNGSLOGIK (wie im DetailViewBuilder)
-
-  // 1. Direkte Übersetzung (falls field.label ein Übersetzungsschlüssel ist)
-  if (field.label) {
-    const labelTranslation = t(field.label);
-    if (labelTranslation !== field.label) {
-      return labelTranslation;
-    }
-  }
-
-  // 2. Spezifische Form-Übersetzung (für spezifische Abschnitte)
-  const sectionName = getSectionName(sectionConfig?.title);
+const getLabel = (field, formName, sectionConfig) => {
+  if (field.label && te(field.label)) return t(field.label);
+  const sectionName = sectionConfig?.title?.match(/jaynaApp\.[^.]+\.([^.]+)\.title/)?.[1];
   if (formName && sectionName) {
-    const specificKey = `jaynaApp.${formName}.${sectionName}.fields.${field.name}`;
-    const specificTranslation = t(specificKey);
-    if (specificTranslation !== specificKey) {
-      return specificTranslation;
-    }
+    const specKey = `jaynaApp.${formName}.${sectionName}.fields.${field.name}`;
+    if (te(specKey)) return t(specKey);
   }
-
-  // 3. Base-Entity-Übersetzung (für allgemeine Abschnitte)
   if (sectionName) {
-    const entityType = getEntityTypeFromFormName(formName);
+    const entityType = formName?.startsWith('contract') ? 'Contract' : (formName?.startsWith('realestate') ? 'Realestate' : 'Contract');
     const baseKey = `jaynaApp.base${entityType}.${sectionName}.fields.${field.name}`;
-    const baseTranslation = t(baseKey);
-    if (baseTranslation !== baseKey) {
-      return baseTranslation;
-    }
+    if (te(baseKey)) return t(baseKey);
   }
-
-  // 4. Fallback: Verwende field.label oder field.name
   return field.label || field.name;
 };
 
-
-// Hilfsfunktion zum Extrahieren des Abschnittsnamens aus dem Formular-Titel
-const getSectionName = (title) => {
-  if (!title) return null;
-  
-  // Extrahiere den Abschnittsnamen direkt aus dem Übersetzungsschlüssel
-  const match = title.match(/jaynaApp\.[^.]+\.([^.]+)\.title/);
-  if (match) {
-    return match[1];
-  }
-  
-  return null;
-};
-
-// Hilfsfunktion um Entity-Typ aus Form-Namen zu extrahieren
-const getEntityTypeFromFormName = (formName) => {
-  if (formName.startsWith('contract-')) return 'Contract';
-  if (formName.startsWith('contact-')) return 'Contact';
-  if (formName.startsWith('mobility-')) return 'Mobility';
-  if (formName.startsWith('realestate-')) return 'Realestate';
-  if (formName.startsWith('financeaccount-')) return 'Financeaccount';
-  if (formName.startsWith('document-')) return 'Document';
-  if (formName === 'contact') return 'Contact';
-  if (formName === 'contract') return 'Contract';
-  if (formName === 'mobility') return 'Mobility';
-  if (formName === 'realestate') return 'Realestate';
-  if (formName === 'financeaccount') return 'Financeaccount';
-  if (formName === 'document') return 'Document';
-  return 'Contract'; // Fallback
-};
-
-// Spezielle Feldtypen werden ignoriert
-
 defineExpose({ getData, isValid });
-
-// Reaktiver Watcher für Validierung
-watch(() => state, () => {
-  // Trigger validation check when state changes
-  v$.value.$touch();
-}, { deep: true });
-
-// Zusätzlicher Watcher für v$ Änderungen
-watch(v$, () => {
-  // Validation state changed
-}, { deep: true });
-
-defineEmits(['deleteField']);
-
 </script>
 
 <style>

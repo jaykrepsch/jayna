@@ -12,7 +12,7 @@
       >
         <template v-slot:content>
           <SimpleFormBuilder
-            ref="el => formRefs[index] = el"
+            ref="formRefs"
             :fields="form.fields"
             :data="data"
             :form-name="effectiveFormName"

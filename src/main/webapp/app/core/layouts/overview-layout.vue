@@ -1,4 +1,4 @@
-Dropdown<template>
+<template>
   <div>
     <div v-if="category">
       <div class="sm:flex sm:items-center">
@@ -78,13 +78,19 @@ const service = ref(null);
 const path = ref(route.path.substring(1));
 
 /** methods */
-watch(path, () => {
-  init();
-});
-
 watch(() => route.path, (newPath) => {
-  path.value = newPath.substring(1);
+  const cleanPath = newPath.substring(1);
+  // Nur reagieren, wenn der Pfad kein Sub-Pfad ist (enthält keinen Slash)
+  if (cleanPath && !cleanPath.includes('/')) {
+    path.value = cleanPath;
+  }
 }, { immediate: true });
+
+watch(path, (newPath) => {
+  if (newPath) {
+    init();
+  }
+});
 
 const init = () => { 
   store.commit('app/enableLoading');
