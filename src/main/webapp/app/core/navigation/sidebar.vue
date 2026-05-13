@@ -342,7 +342,7 @@ const open = ref(true);
 const isAdmin = computed(() => {
   const account = store && store.getters ? store.getters['account/account'] : null;
   const authorities = account && account.authorities ? account.authorities : [];
-  return Array.isArray(authorities) && authorities.includes(Authority.ADMIN);
+  return Array.isArray(authorities) && (authorities.includes(Authority.ADMIN) || authorities.includes('ROLE_USER_LIGHT'));
 });
 
 const retrieveCategories = () => {
